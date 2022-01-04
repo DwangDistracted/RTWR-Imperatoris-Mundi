@@ -1,0 +1,593 @@
+Hibernia_Septentrionalis
+	Eblania
+	britons
+	Hibernians
+	175 43 30
+	none
+	5
+	2
+
+Hibernia_Orientalis
+	Coriondia
+	britons
+	Hibernians
+	28 84 45
+	none
+	5
+	6
+
+Hibernia_Meridionalis
+	Usdia
+	britons
+	Hibernians
+	14 41 75
+	none
+	5
+	3
+
+Hibernia_Occidentalis
+	Autenia
+	britons
+	Hibernians
+	108 113 86
+	none
+	5
+	9
+
+Caledonia
+	Caledonii
+	britons
+	Brigantes
+	166 94 46
+	none
+	5
+	0
+
+Taexalia
+	Veluniate
+	britons
+	Brigantes
+	127 181 181
+	none
+	5
+	3
+
+Votadinia
+	Fanum_Cocidi
+	britons
+	Brigantes
+	228 160 16
+	none
+	5
+	5
+
+Brigantia
+	Brocavum
+	britons
+	Brigantes
+	108 59 42
+	none
+	5
+	1
+
+Coritania
+	Isurium
+	britons
+	Iceni
+	236 124 38
+	none
+	5
+	3
+
+Cornovia
+	Deva
+	britons
+	Brigantes
+	49 127 67
+	none
+	5
+	8
+
+Icenia
+	Venta_Icenorum
+	britons
+	Iceni
+	6 57 113
+	none
+	5
+	7
+
+Trinovantia
+	Camulodunum
+	britons
+	Trinovantes
+	237 20 91
+	none
+	5
+	6
+
+Cantiacia
+	Durovernum
+	britons
+	Trinovantes
+	234 137 154
+	none
+	5
+	3
+
+Durotrigia
+	Venta
+	britons
+	Trinovantes
+	73 126 118
+	none
+	5
+	10
+
+Dumnonia
+	Isca_Dumnoniorum
+	britons
+	Silures
+	220 157 0
+	none
+	5
+	6
+
+Dobunnia
+	Corinium
+	britons
+	Iceni
+	106 95 49
+	none
+	5
+	13
+
+Ordovicia
+	Levobrinta
+	britons
+	Silures
+	161 35 18
+	none
+	5
+	4
+
+Demetia
+	Glevum
+	britons
+	Silures
+	150 153 146
+	none
+	5
+	2
+
+Osisimia
+	Tregoritum
+	gauls
+	Veneti
+	207 52 118
+	none
+	5
+	6
+
+Armorica
+	Condate_Redonum
+	gauls
+	Veneti
+	164 58 210
+	none
+	5
+	10
+
+Venellia
+	Crouciaconnum
+	gauls
+	Veneti
+	107 245 255
+	none
+	5
+	9
+
+Eburovicia
+	Lexoviorum
+	gauls
+	Carnutes
+	37 40 80
+	none
+	5
+	9
+
+Veliocassia
+	Samarobriva
+	gauls
+	Belgae
+	220 53 34
+	none
+	5
+	9
+
+Morinia
+	Tarvenna
+	gauls
+	Belgae
+	6 41 56
+	none
+	5
+	9
+
+Namnetia
+	Namnetum
+	gauls
+	Pictones
+	96 219 15
+	none
+	5
+	9
+
+Pictonia
+	Limonum
+	gauls
+	Pictones
+	86 10 58
+	none
+	5
+	8
+
+Turonia
+	Caesarodunum
+	gauls
+	Carnutes
+	124 150 138
+	none
+	5
+	12
+
+Carnutia
+	Cenabum
+	gauls
+	Carnutes
+	32 65 71
+	none
+	5
+	10
+
+Parisia
+	Lutetia
+	gauls
+	Senones
+	227 217 247
+	none
+	5
+	13
+
+Bellovacia
+	Bagacum
+	gauls
+	Belgae
+	185 124 204
+	none
+	5
+	3
+
+Suaeuconia
+	Durocortorum
+	gauls
+	Belgae
+	140 175 79
+	none
+	5
+	0
+
+Aquitania
+	Burdigala
+	gauls
+	Ausci
+	158 109 141
+	none
+	5
+	4
+
+Santonia
+	Mediolanum_Santonum
+	gauls
+	Pictones
+	124 150 85
+	none
+	5
+	12
+
+Nitrobrogia
+	Aginnum
+	gauls
+	Ausci
+	191 4 224
+	none
+	5
+	11
+
+Auscia
+	Elimberrum
+	gauls
+	Ausci
+	119 103 45
+	none
+	5
+	8
+
+Biggeronia
+	Lugdunum_Convenarum
+	gauls
+	Volcae
+	41 3 68
+	none
+	5
+	10
+
+Volcatia
+	Tolosa
+	gauls
+	Volcae
+	66 85 170
+	none
+	5
+	7
+
+Celtica
+	Andecamulum
+	gauls
+	Arverni
+	107 112 196
+	none
+	5
+	3
+
+Biturigia
+	Avaricum
+	gauls
+	Senones
+	45 36 28
+	none
+	5
+	13
+
+Senonia
+	Bibracte
+	gauls
+	Senones
+	172 181 226
+	none
+	5
+	9
+
+Haeduia
+	Alesia
+	gauls
+	Aedui
+	181 1 91
+	none
+	5
+	6
+
+Treveria_Salutaris
+	Verodunum
+	gauls
+	Nervii
+	88 137 81
+	none
+	5
+	0
+
+Tempr0
+	Temp0
+	romans_julii
+	Latins
+	255 0 0
+	none
+	5
+	5
+
+Tempr2
+	Temp2
+	romans_julii
+	Latins
+	255 255 0
+	none
+	5
+	5
+
+Tempr3
+	Temp3
+	romans_julii
+	Latins
+	244 70 17
+	none
+	5
+	5
+
+Tempr4
+	Temp4
+	romans_julii
+	Latins
+	237 28 36
+	none
+	5
+	5
+
+Tempr5
+	Temp5
+	romans_julii
+	Latins
+	101 124 0
+	none
+	5
+	5
+
+Tempr6
+	Temp6
+	romans_julii
+	Latins
+	242 101 34
+	none
+	5
+	5
+
+Tempr7
+	Temp7
+	romans_julii
+	Latins
+	225 198 152
+	none
+	5
+	5
+
+Tempr8
+	Temp8
+	romans_julii
+	Latins
+	146 39 143
+	none
+	5
+	5
+
+Tempr9
+	Temp9
+	romans_julii
+	Latins
+	0 64 0
+	none
+	5
+	5
+
+Tempr10
+	Temp10
+	romans_julii
+	Latins
+	98 65 65
+	none
+	5
+	5
+
+Tempr11
+	Temp11
+	romans_julii
+	Latins
+	0 128 128
+	none
+	5
+	5
+
+Tempr12
+	Temp12
+	romans_julii
+	Latins
+	138 102 66
+	none
+	5
+	5
+
+Tempr13
+	Temp13
+	romans_julii
+	Latins
+	169 131 7
+	none
+	5
+	5
+
+Tempr14
+	Temp14
+	romans_julii
+	Latins
+	236 0 140
+	none
+	5
+	5
+
+Tempr15
+	Temp15
+	romans_julii
+	Latins
+	124 11 72
+	none
+	5
+	5
+
+Tempr16
+	Temp16
+	romans_julii
+	Latins
+	96 160 64
+	none
+	5
+	5
+
+Tempr17
+	Temp17
+	romans_julii
+	Latins
+	0 255 255
+	none
+	5
+	5
+
+Tempr18
+	Temp18
+	romans_julii
+	Latins
+	0 128 0
+	none
+	5
+	5
+
+Tempr19
+	Temp19
+	romans_julii
+	Latins
+	180 76 67
+	none
+	5
+	5
+
+Tempr20
+	Temp20
+	romans_julii
+	Latins
+	250 210 1
+	none
+	5
+	5
+
+Tempr21
+	Temp21
+	romans_julii
+	Latins
+	89 53 31
+	none
+	5
+	5
+
+Tempr22
+	Temp22
+	romans_julii
+	Latins
+	165 165 165
+	none
+	5
+	5
+
+Tempr23
+	Temp23
+	romans_julii
+	Latins
+	102 45 145
+	none
+	5
+	5
+
+Tempr24
+	Temp24
+	romans_julii
+	Latins
+	132 195 190
+	none
+	5
+	5

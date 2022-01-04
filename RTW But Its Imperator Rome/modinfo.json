@@ -1,0 +1,12 @@
+{
+	"Description": "Rome Total War But its using the massive Imperator Rome Map.",
+	"Mod Name": "Rome Total War But Its Imperator Rome",
+	"Preview Image": "Imperator_Rome_Map.png",
+	"Supports Alex": false,
+	"Supports BI": false,
+	"Supports Rome": true,
+	"Tags": [
+		"Campaign"
+	],
+	"Visibility": 0
+}
