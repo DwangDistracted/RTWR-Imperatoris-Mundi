@@ -40,6 +40,18 @@ Biturigia
 Senonia
 Haeduia
 Treveria_Salutaris
+Cubia
+Arvernia
+Lemovicia
+Ambarria
+Sequania
+Allobrogia
+Vocontia
+Narbonensis
+Alpes_Cottiae
+Verbogenia
+Leucia
+Nervia
 
 Eblania
 Coriondia
@@ -83,9 +95,20 @@ Avaricum
 Bibracte
 Alesia
 Verodunum
+Ricomagus
+Gergovia
+Vesunna
+Decetia
+Vesontio
+Vienna
+Nemausus
+Narbo
+Vologatae
+Lausonna
+Divodurum
+Momalle
 
 Tempr0
-Tempr2
 Tempr3
 Tempr4
 Tempr5
@@ -109,7 +132,6 @@ Tempr22
 Tempr23
 Tempr24
 Temp0
-Temp2
 Temp3
 Temp4
 Temp5

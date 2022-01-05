@@ -255,7 +255,7 @@ resource olive_oil, 2, 71, 138
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of factions section <<<<
-faction	romans_julii, comfortable_caesar
+faction	romans_julii, comfortable_stalin
 denari	5000
 settlement
 {
@@ -277,33 +277,6 @@ settlement
 	building
 	{
 		type port_buildings port
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr2
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
 	}
 	building
 	{
@@ -973,7 +946,7 @@ relative 	Lucius Julius, 	Poppaea,		Fadia,	Decius Julius,	Marcus Julius,	end
 relative 	Quintus Julius, 	Alypia,		Amulius Julius,	end
 relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
 
-faction	britons, trader_henry
+faction	britons, trader_napoleon
 denari	5000
 settlement
 {
@@ -1263,7 +1236,7 @@ settlement
 	region Senonia
 
 	year_founded 0
-	population 3400
+	population 3350
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -1274,9 +1247,20 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+}
+
+settlement
+{
+	level large_town
+	region Sequania
+
+	year_founded 0
+	population 3350
+	plan_set default_set
+	faction_creator gauls
 	building
 	{
-		type hinterland_farms farms
+		type core_building governors_villa
 	}
 }
 
@@ -1345,7 +1329,7 @@ unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 
-character	Casticos of Vesontio, general, age 20, , x 46, y 113
+character	Casticos of Vesontio, general, age 20, , x 81, y 164
 
 army
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
@@ -1365,7 +1349,6 @@ traits GoodDiplomat 3
 
 character	Ivomagus of Lemonum, spy, age 20, , x 101, y 159
 traits GoodSpy 3
-
 
 character_record		Belenus, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
 character_record		Lucco, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
@@ -2106,6 +2089,251 @@ settlement
 
 	year_founded 0
 	population 3250
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cubia
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arvernia
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Lemovicia
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Ambarria
+
+	year_founded 0
+	population 3250
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Allobrogia
+
+	year_founded 0
+	population 3350
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Vocontia
+
+	year_founded 0
+	population 4250
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Narbonensis
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Alpes_Cottiae
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Verbogenia
+
+	year_founded 0
+	population 2450
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Leucia
+
+	year_founded 0
+	population 3300
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Nervia
+
+	year_founded 0
+	population 3800
 	plan_set default_set
 	faction_creator gauls
 	building

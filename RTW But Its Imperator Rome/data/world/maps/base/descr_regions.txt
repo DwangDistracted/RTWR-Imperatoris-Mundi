@@ -1,3 +1,4 @@
+;Britain
 Hibernia_Septentrionalis
 	Eblania
 	britons
@@ -160,6 +161,7 @@ Demetia
 	5
 	2
 
+;Gauls
 Osisimia
 	Tregoritum
 	gauls
@@ -376,20 +378,119 @@ Treveria_Salutaris
 	5
 	0
 
+Cubia
+	Ricomagus
+	gauls
+	Arverni
+	99 88 99
+	none
+	5
+	9
+
+Arvernia
+	Gergovia
+	gauls
+	Arverni
+	255 255 0
+	none
+	5
+	1
+
+Lemovicia
+	Vesunna
+	gauls
+	Arverni
+	211 35 68
+	none
+	5
+	2
+
+Ambarria
+	Decetia
+	gauls
+	Aedui
+	43 19 20
+	none
+	5
+	8
+
+Sequania
+	Vesontio
+	gauls
+	Sequani
+	204 186 53
+	none
+	5
+	6
+
+Allobrogia
+	Vienna
+	gauls
+	Allobroges
+	133 178 134
+	none
+	5
+	10
+
+Vocontia
+	Nemausus
+	gauls
+	Vocontii
+	28 13 30
+	none
+	5
+	13
+
+Narbonensis
+	Narbo
+	gauls
+	Vocontii
+	165 255 185
+	none
+	5
+	8
+
+Alpes_Cottiae
+	Vologatae
+	gauls
+	Vocontii
+	150 155 94
+	none
+	5
+	4
+
+Verbogenia
+	Lausonna
+	gauls
+	Allobroges
+	71 70 107
+	none
+	5
+	0
+
+Leucia
+	Divodurum
+	gauls
+	Sequani
+	20 34 107
+	none
+	5
+	3
+
+Nervia
+	Momalle
+	gauls
+	Nervii
+	62 124 113
+	none
+	5
+	5
+
 Tempr0
 	Temp0
 	romans_julii
 	Latins
 	255 0 0
-	none
-	5
-	5
-
-Tempr2
-	Temp2
-	romans_julii
-	Latins
-	255 255 0
 	none
 	5
 	5
