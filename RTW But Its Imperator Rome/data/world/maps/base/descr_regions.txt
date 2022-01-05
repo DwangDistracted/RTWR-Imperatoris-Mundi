@@ -486,6 +486,16 @@ Nervia
 	5
 	5
 
+;Western Greek Colonies
+Alpes_Maritimae
+	Massalia
+	greek_cities
+	Massaliote
+	23 102 102
+	none
+	5
+	4
+
 Tempr0
 	Temp0
 	romans_julii

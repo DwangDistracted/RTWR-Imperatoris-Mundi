@@ -1648,10 +1648,6 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
 		type equestrian stables
 	}
 	building
@@ -1699,10 +1695,6 @@ settlement
 	building
 	{
 		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 	building
 	{
@@ -2343,6 +2335,53 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level city
+	region Alpes_Maritimae
+
+	year_founded 0
+	population 5650
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads paved_roads
 	}
 }
 

@@ -1080,7 +1080,7 @@ unit				merc cretan archers
 unit				merc cretan archers
 unit				merc cilician pirate
 unit				generic rebel general					
-					
+
 rebel_type 			Judaeans	//parthia
 category			peasant_revolt 
 chance				6					
@@ -1126,6 +1126,21 @@ unit				merc illyrian
 unit				merc illyrian	
 unit				generic rebel general					
 					
+rebel_type 			Massaliote		//macedon
+category			peasant_revolt 
+chance				0
+description			Massaliote
+unit				barb cavalry slave
+unit				barb noble cavalry slave
+unit				greek peasant
+unit				greek peasant
+unit				barb archer slave
+unit				barb archer slave
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				generic rebel general
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
