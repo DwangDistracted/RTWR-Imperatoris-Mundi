@@ -247,6 +247,70 @@ resource marble, 2, 72, 141
 resource gold, 1, 73, 142
 resource olive_oil, 2, 71, 138
 
+;Lemovicia
+resource slaves, 1, 63, 148
+resource pottery, 2, 65, 151
+resource textiles, 2, 66, 148
+
+;Arvernia
+resource slaves, 1, 73, 155
+resource iron, 2, 75, 151
+resource gold, 3, 72, 149
+resource marble, 4, 76, 154
+
+;Cubia
+resource slaves, 1, 70, 157
+resource textiles, 3, 69, 159
+resource hides, 2, 72, 160
+
+;Ambarria
+resource slaves, 1, 76, 160
+resource marble, 2, 77, 159
+
+;Sequania
+resource slaves, 1, 82, 165
+resource wine, 2, 80, 162
+resource grain, 2, 79, 165
+
+;Verbogenia
+resource slaves, 1, 83, 159
+resource marble, 4, 86, 159
+resource iron, 2, 82, 159
+resource lead, 3, 83, 156
+
+;Allobrogia
+resource slaves, 1, 80, 156
+resource copper, 2, 79, 151
+
+;Narbonensis
+resource slaves, 1, 74, 139
+resource tin, 2, 76, 144
+
+;Vocontia
+resource slaves, 1, 79, 145
+resource copper, 2, 78, 149
+resource grain, 2, 81, 147
+
+; Alpes_Maritimae
+resource slaves, 1, 88, 145
+resource wine, 3, 85, 146
+resource grain, 4, 91, 147
+
+; Alpes_Cottiae
+resource slaves, 1, 82, 148
+resource marble, 2, 86, 148
+
+;Leucia
+resource slaves, 1, 78, 177
+resource timber, 2, 79, 173
+resource furs, 2, 79, 170
+
+;Nervia
+resource slaves, 1, 70, 184
+resource timber, 3, 73, 187
+resource furs, 4, 67, 184
+resource purple_dye, 1, 74, 184
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -1275,7 +1339,7 @@ unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb druids gaul				exp 2 armour 0 weapon_lvl 0
 
-character	Eporedorix, named character, heir, age 36, , x 84, y 92
+character	Eporedorix, named character, heir, age 36, , x 95, y 159
 traits NaturalMilitarySkill 3 , Intelligent 2 , Energetic 1 , Drink 2
 ancillaries drunken_uncle, drinking_companion
 army
@@ -1284,7 +1348,7 @@ unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 
-character	Rianorix, named character, age 35, , x 26, y 75
+character	Rianorix, named character, age 35, , x 95, y 158
 traits NaturalMilitarySkill 2 , Intelligent 1 , Energetic 1 , Drink 1
 ancillaries beastmaster
 army
@@ -1295,7 +1359,7 @@ unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 1 armour 0 weapon_lvl 0
 
-character	Vindex, named character, age 32, , x 58, y 82
+character	Vindex, named character, age 32, , x 76, y 161
 traits NaturalMilitarySkill 2 , Drink 1 , Bloodthirsty 1
 ancillaries galloper
 army
@@ -2053,6 +2117,10 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+	building
+	{
+		type hinterland_mines mines
+	}
 }
 
 settlement
@@ -2136,6 +2204,10 @@ settlement
 	building
 	{
 		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_mines mines
 	}
 }
 
@@ -2338,15 +2410,16 @@ settlement
 	}
 }
 
+; WESTERN GREEK COLONIES
 settlement
 {
 	level city
 	region Alpes_Maritimae
 
 	year_founded 0
-	population 5650
+	population 6050
 	plan_set default_set
-	faction_creator greek_cities
+	faction_creator romans_julii
 	building
 	{
 		type core_building governors_palace
@@ -2755,6 +2828,172 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Tasciovanus, general, age 20, , x 72, y 185
+army
+unit		barb chieftain cavalry early slave				exp 4 armour 0 weapon_lvl 0
+unit		barb druids slave				exp 4 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 4 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 4 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 4 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 4 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 4 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 4 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 4 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 4 armour 0 weapon_lvl 0
+unit		barb chariot heavy slave				exp 4 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 4 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Galienus, general, age 20, , x 79, y 176
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb druids slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Ariogaisus, general, age 20, , x 71, y 157
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 1 weapon_lvl 1
+unit		barb druids slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+
+character	sub_faction gauls, Ambiorix, general, age 20, , x 72, y 154
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 1 weapon_lvl 1
+unit		barb druids slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+
+character	sub_faction gauls, Cottius, general, age 20, , x 64, y 148
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb druids slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Duva, general, age 20, , x 75, y 160
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb druids slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Prasutagus, general, age 20, , x 80, y 155
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb druids slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Carvilius, general, age 20, , x 85, y 160
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb druids slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Carinus, general, age 20, , x 84, y 150
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb druids slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Galba, general, age 20, , x 80, y 145
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Krateros, general, age 20, , x 75, y 139
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Pythias, general, age 20, , x 86, y 144
+army
+unit		generic rebel general				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<

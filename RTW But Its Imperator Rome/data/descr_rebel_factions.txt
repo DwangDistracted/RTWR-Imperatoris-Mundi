@@ -1126,7 +1126,7 @@ unit				merc illyrian
 unit				merc illyrian	
 unit				generic rebel general					
 					
-rebel_type 			Massaliote		//macedon
+rebel_type 			Massaliote		//greek_cities
 category			peasant_revolt 
 chance				0
 description			Massaliote

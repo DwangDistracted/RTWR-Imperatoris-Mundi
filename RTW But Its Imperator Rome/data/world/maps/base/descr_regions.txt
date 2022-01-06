@@ -478,7 +478,7 @@ Leucia
 	3
 
 Nervia
-	Momalle
+	Aduatuca
 	gauls
 	Nervii
 	62 124 113
@@ -489,13 +489,14 @@ Nervia
 ;Western Greek Colonies
 Alpes_Maritimae
 	Massalia
-	greek_cities
+	romans_julii
 	Massaliote
 	23 102 102
 	none
 	5
 	4
 
+;Temporary
 Tempr0
 	Temp0
 	romans_julii
