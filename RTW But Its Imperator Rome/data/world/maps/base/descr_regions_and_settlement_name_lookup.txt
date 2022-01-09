@@ -53,6 +53,22 @@ Verbogenia
 Leucia
 Nervia
 Alpes_Maritimae
+Eburonia
+Treveria
+Mediomatricia
+Tribocia
+Frisia
+Chasuaria
+Chaucia
+Anglia
+Cimbrica
+Scandia_Insula
+Herulia
+East_Gothia
+West_Gothia
+Ultima_Thule
+Bructeria
+Sicambria
 
 Eblania
 Coriondia
@@ -109,9 +125,24 @@ Lausonna
 Divodurum
 Aduatuca
 Massalia
+Asciburgium
+Treveria
+Rouphiniana
+Brocomagus
+Flevum
+Corbulonis
+Treva
+Avionia
+Teutonia
+Reudingia
+Uppakra
+Theustia
+Konghelle
+Lingum
+Dulgia
+Aquae_Mattiacorum
 
 Tempr0
-Tempr3
 Tempr4
 Tempr5
 Tempr6
@@ -134,7 +165,6 @@ Tempr22
 Tempr23
 Tempr24
 Temp0
-Temp3
 Temp4
 Temp5
 Temp6

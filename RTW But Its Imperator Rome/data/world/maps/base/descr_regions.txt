@@ -198,24 +198,6 @@ Eburovicia
 	5
 	9
 
-Veliocassia
-	Samarobriva
-	gauls
-	Belgae
-	220 53 34
-	none
-	5
-	9
-
-Morinia
-	Tarvenna
-	gauls
-	Belgae
-	6 41 56
-	none
-	5
-	9
-
 Namnetia
 	Namnetum
 	gauls
@@ -260,24 +242,6 @@ Parisia
 	none
 	5
 	13
-
-Bellovacia
-	Bagacum
-	gauls
-	Belgae
-	185 124 204
-	none
-	5
-	3
-
-Suaeuconia
-	Durocortorum
-	gauls
-	Belgae
-	140 175 79
-	none
-	5
-	0
 
 Aquitania
 	Burdigala
@@ -368,15 +332,6 @@ Haeduia
 	none
 	5
 	6
-
-Treveria_Salutaris
-	Verodunum
-	gauls
-	Nervii
-	88 137 81
-	none
-	5
-	0
 
 Cubia
 	Ricomagus
@@ -477,6 +432,61 @@ Leucia
 	5
 	3
 
+Tribocia
+	Brocomagus
+	gauls
+	Helvetii
+	63 83 99
+	none
+	5
+	0
+
+;Belgae
+Veliocassia
+	Samarobriva
+	gauls
+	Belgae
+	220 53 34
+	none
+	5
+	9
+
+Morinia
+	Tarvenna
+	gauls
+	Belgae
+	6 41 56
+	none
+	5
+	9
+
+Bellovacia
+	Bagacum
+	gauls
+	Belgae
+	185 124 204
+	none
+	5
+	3
+
+Suaeuconia
+	Durocortorum
+	gauls
+	Belgae
+	140 175 79
+	none
+	5
+	0
+
+Treveria_Salutaris
+	Verodunum
+	gauls
+	Nervii
+	88 137 81
+	none
+	5
+	0
+
 Nervia
 	Aduatuca
 	gauls
@@ -486,10 +496,146 @@ Nervia
 	5
 	5
 
+Eburonia
+	Asciburgium
+	gauls
+	Treveri
+	10 110 204
+	none
+	5
+	7
+
+Treveria
+	Treveria
+	gauls
+	Treveri
+	214 137 122
+	none
+	5
+	10
+
+Mediomatricia
+	Rouphiniana
+	gauls
+	Treveri
+	48 3 6
+	none
+	5
+	7
+
+;Germania
+Frisia
+	Flevum
+	germans
+	Batavi
+	58 17 23
+	none
+	5
+	6
+
+Chasuaria
+	Corbulonis
+	germans
+	Batavi
+	24 0 45
+	none
+	5
+	5
+
+Bructeria
+	Dulgia
+	germans
+	Batavi
+	165 132 150
+	none
+	5
+	5
+
+Sicambria
+	Aquae_Mattiacorum
+	germans
+	Chatti
+	184 216 173
+	none
+	5
+	5
+
+Chaucia
+	Treva
+	germans
+	Saxones
+	244 70 17
+	none
+	5
+	5
+
+Anglia
+	Avionia
+	germans
+	Saxones
+	192 69 204
+	none
+	5
+	5
+
+Cimbrica
+	Teutonia
+	germans
+	Saxones
+	6 66 59
+	none
+	5
+	3
+
+Scandia_Insula
+	Reudingia
+	germans
+	Goths
+	196 190 196
+	none
+	5
+	7
+
+Herulia
+	Uppakra
+	germans
+	Goths
+	102 44 21
+	none
+	5
+	5
+
+East_Gothia
+	Theustia
+	germans
+	Goths
+	178 178 178
+	none
+	5
+	1
+
+West_Gothia
+	Konghelle
+	germans
+	Goths
+	99 255 221
+	none
+	5
+	0
+
+Ultima_Thule
+	Lingum
+	germans
+	Goths
+	160 153 123
+	none
+	5
+	0
+
 ;Western Greek Colonies
 Alpes_Maritimae
 	Massalia
-	romans_julii
+	greek_cities
 	Massaliote
 	23 102 102
 	none
@@ -502,15 +648,6 @@ Tempr0
 	romans_julii
 	Latins
 	255 0 0
-	none
-	5
-	5
-
-Tempr3
-	Temp3
-	romans_julii
-	Latins
-	244 70 17
 	none
 	5
 	5

@@ -7,6 +7,8 @@ end
 unlockable
 	britons
 	gauls
+	germans
+	greek_cities
 end
 nonplayable
 	slave
@@ -17,7 +19,7 @@ start_date	-272 summer
 end_date	14 summer
 
 brigand_spawn_value 10
-pirate_spawn_value 28
+pirate_spawn_value 20
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -291,12 +293,12 @@ resource slaves, 1, 79, 145
 resource copper, 2, 78, 149
 resource grain, 2, 81, 147
 
-; Alpes_Maritimae
+;Alpes_Maritimae
 resource slaves, 1, 88, 145
 resource wine, 3, 85, 146
 resource grain, 4, 91, 147
 
-; Alpes_Cottiae
+;Alpes_Cottiae
 resource slaves, 1, 82, 148
 resource marble, 2, 86, 148
 
@@ -310,6 +312,89 @@ resource slaves, 1, 70, 184
 resource timber, 3, 73, 187
 resource furs, 4, 67, 184
 resource purple_dye, 1, 74, 184
+
+;Eburonia
+resource slaves, 1, 76, 191
+resource furs, 2, 73, 191
+resource purple_dye, 1, 76, 186
+
+;Treveria
+resource slaves, 1, 80, 184
+resource timber, 3, 77, 183
+resource marble, 1, 80, 186
+
+;Mediomatricia
+resource slaves, 1, 84, 182
+resource wine, 1, 84, 184
+resource dogs, 1, 81, 180
+
+;Tribocia
+resource slaves, 1, 86, 177
+resource grain, 3, 84, 175
+resource purple_dye, 1, 85, 169
+
+;Frisia
+resource slaves, 1, 69, 194
+
+;Chasuaria
+resource slaves, 1, 71, 201
+resource purple_dye, 1, 75, 203
+resource hides, 3, 76, 199
+
+;Chaucia
+resource slaves, 1, 82, 208
+resource amber, 2, 82, 211
+resource timber, 3, 85, 205
+resource dogs, 1, 82, 203
+
+;Bructeria
+resource slaves, 1, 81, 198
+resource timber, 2, 76, 194
+resource pottery, 1, 78, 197
+resource purple_dye, 2, 85, 195
+
+;Sicambria
+resource slaves, 1, 86, 188
+resource furs, 3, 83, 190
+resource textiles, 2, 81, 192
+resource purple_dye, 1, 82, 188
+
+;Anglia
+resource slaves, 1, 83, 215
+resource amber, 2, 77, 221
+resource timber, 3, 80, 221
+
+;Cimbrica
+resource slaves, 1, 80, 227
+resource amber, 2, 74, 226
+resource furs, 1, 79, 233
+
+;Scandia_Insula
+resource slaves, 1, 83, 221
+resource amber, 2, 90, 218
+resource furs, 1, 90, 222
+
+;Herulia
+resource slaves, 1, 95, 227
+resource timber, 4, 101, 236
+resource wild_animals, 2, 95, 232
+
+;East_Gothia
+resource slaves, 1, 103, 242
+resource purple_dye, 2, 97, 250
+resource furs, 3, 98, 241
+resource wild_animals, 1, 97, 245
+
+;West_Gothia
+resource slaves, 1, 89, 236
+resource furs, 2, 85, 248
+resource timber, 3, 91, 244
+resource wild_animals, 1, 94, 248
+
+;Ultima_Thule
+resource slaves, 1, 76, 247
+resource wild_animals, 2, 73, 253
+resource purple_dye, 2, 71, 241
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -356,611 +441,17 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_city
-	region Tempr3
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr4
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr5
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr6
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr7
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr8
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr9
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr10
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr11
-	year_founded 0
-	population 10
-
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr12
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr13
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr14
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr15
-	year_founded 0
-	population 10
-
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr16
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr17
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr18
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr19
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr20
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr21
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr22
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr23
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_city
-	region Tempr24
-
-	year_founded 0
-	population 10
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-character	Flavius Julius, named character, leader, command 0, influence 0, management 0, subterfuge 0, age 47, , x 170, y 101 
+character	Flavius Julius, named character, leader, command 0, influence 0, management 0, subterfuge 0, age 47, , x 199, y 154 
 traits GoodCommander 2, NaturalMilitarySkill 1, GoodDefender 1, PoliticsSkill 3, GoodAdministrator 2, Austere 1
 ;ancillaries aged_retainer
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman triarii				exp 1 armour 0 weapon_lvl 0
+unit		roman triarii				exp 1 armour 0 weapon_lvl 0`
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 
-character	Lucius Julius, named character, heir, command 0, influence 0, management 0, subterfuge 0, age 31, , x 170, y 102 
+character	Lucius Julius, named character, heir, command 0, influence 0, management 0, subterfuge 0, age 31, , x 206, y 141 
 traits GoodCommander 1, PoliticsSkill 2, GoodAdministrator 3, Energetic 2
 ;ancillaries freeman_clerk 
 army
@@ -968,7 +459,7 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 
-character	Quintus Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 29, , x 169, y 101 
+character	Quintus Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 29, , x 210, y 159 
 traits NaturalMilitarySkill 3, GoodAttacker 1, Energetic 1
 ;ancillaries drillmaster
 army
@@ -976,17 +467,7 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Sextus Antio, diplomat, command 0, influence 0, management 0, subterfuge 0, age 29, , x 169, y 102
-traits GoodDiplomat  3
-
-character	Decius Curtius, spy, command 0, influence 0, management 0, subterfuge 0, age 29, , x 168, y 101
-traits GoodSpy 4
-
-character	Oppius Clausus, admiral, command 0, influence 0, management 0, subterfuge 0, age 29, , x 170, y 103 
-army
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-
-character	Vibius Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 28, , x 88, y 137 
+character	Vibius Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 28, , x 198, y 154 
 traits GoodCommander 1, PoliticsSkill 2, GoodAdministrator 2, MathematicsSkill 1
 ;ancillaries merchant 
 army
@@ -994,6 +475,16 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
+
+character	Sextus Antio, diplomat, command 0, influence 0, management 0, subterfuge 0, age 29, , x 199, y 154 
+traits GoodDiplomat  3
+
+character	Decius Curtius, spy, command 0, influence 0, management 0, subterfuge 0, age 29, , x 199, y 154 
+traits GoodSpy 4
+
+character	Oppius Clausus, admiral, command 0, influence 0, management 0, subterfuge 0, age 29, , x 206, y 139 
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 character_record		Amulius Julius, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
 character_record		Manius Julius, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
@@ -1180,7 +671,7 @@ relative 	Belenus, 	Cartimandua,		Calpornus,	end
 relative 	Prasutagus, 	Esselt,		Iseult,	Verica,	Wotecorix,	end
 relative 	Cynfawr, 	Eudaf,		Sennianus,	Drustan,	end
 
-faction	gauls, religious_napoleon
+faction	gauls, bureaucrat_napoleon
 denari	5000
 settlement
 {
@@ -1429,6 +920,259 @@ relative 	Brennus, 	Huctia,		Eporedorix,	Rianorix,	Vindex,	Lugotorix,	end
 relative 	Eporedorix, 	Cartimandua,		Belenus,	Verctissa,	Virssuccius,	end
 relative 	Rianorix, 	Esselt,		Lucco,	end
 relative 	Vindex, 	Keyne,		Meriadoc,	Verica,	end
+
+
+faction	germans, religious_mao
+denari	5000
+settlement
+{
+	level town
+	region Chaucia
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Chasuaria
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Bructeria
+
+	year_founded 0
+	population 1900
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+character	Arminius, named character, leader, age 60, , x 85, y 210
+traits GoodCommander 2 , Intelligent 2 , PublicFaith 1
+ancillaries bodyguard, civilized_slave
+army
+unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
+unit		barb cavalry german				exp 2 armour 0 weapon_lvl 0
+unit		warband spear german				exp 1 armour 0 weapon_lvl 0
+unit		warband spear german				exp 1 armour 0 weapon_lvl 0
+unit		warband spear german				exp 1 armour 0 weapon_lvl 0
+unit		barb screeching women german				exp 0 armour 0 weapon_lvl 0
+
+character	Ariogaisus, named character, heir, age 40, , x 86, y 210
+traits GoodCommander 2 , Intelligent 1 , Energetic 1 , GoodAmbusher 1 , NightBattleCapable 1
+ancillaries bard, beastmaster
+army
+unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry german				exp 0 armour 0 weapon_lvl 0
+unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
+unit		barb screeching women german				exp 0 armour 0 weapon_lvl 0
+
+character	Hariulfus, named character, age 30, , x 84, y 210
+traits Intelligent 2 , Austere 1
+ancillaries civilized_slave
+army
+unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+
+character	Ricburgis, named character, age 25, , x 83, y 198
+traits NaturalMilitarySkill 2 , Energetic 1 , GoodAmbusher 1 , NightBattleCapable 1
+ancillaries armourer
+army
+unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
+unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
+
+character	Malorix, general, age 20, , x 72, y 200
+
+army
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+
+character	Ariovistus, spy, age 20, , x 86, y 211
+traits GoodSpy 1
+
+character	Ricgard, diplomat, age 20, , x 77, y 196
+traits GoodDiplomat 1
+
+character_record		Vannius, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Sesithacus, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Othelhildis, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Carolus, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Herlinda, 	female, command 0, influence 0, management 0, subterfuge 0, age 58, alive, never_a_leader
+character_record		Thusnelda, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Aurinia, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+character_record		Amalberga, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Biua, 	female, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+
+relative 	Arminius, 	Herlinda,		Ariogaisus,	Hariulfus,	Ricburgis,	end
+relative 	Ariogaisus, 	Thusnelda,		Vannius,	Amalberga,	Othelhildis,	end
+relative 	Hariulfus, 	Aurinia,		Sesithacus,	Biua,	Carolus,	end
+
+faction	greek_cities, sailor_stalin
+denari	5000
+settlement
+{
+	level city
+	region Tempr9
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Kleomenes of Sparta, named character, leader, age 56, , x 454, y 82
+traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 2 , Intelligent 1
+ancillaries wrestler
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite spartan				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
+unit		greek peasant				exp 1 armour 0 weapon_lvl 0
+unit		greek peasant				exp 1 armour 0 weapon_lvl 0
+
+character	Dionysios of Sparta, named character, age 34, , x 453, y 82
+traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2
+ancillaries brilliant_inventor, playwright
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+
+character	Antigonos of Sparta, named character, age 33, , x 455, y 82
+traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1
+ancillaries mentor, poet
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+
+character	Eumenes of Sparta, named character, age 31, , x 452, y 83
+traits Intelligent 1 , GoodAdministrator 3
+ancillaries mentor, comedian
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+character	Memnon of Sparta, named character, age 29, , x 452, y 82
+traits Intelligent 2 , GoodAdministrator 2 , GoodTrader 2 , Drink 1
+ancillaries merchant, mentor
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
+
+character	Polydoros of Rhodes, admiral, age 36, , x 472, y 60
+
+army
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+
+character	Castor of Elis, diplomat, age 30, , x 451, y 82
+traits GoodDiplomat 3
+
+character	Charax of Gythium, spy, age 30, , x 451, y 81
+traits GoodSpy 2
+ancillaries networker
+
+character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 53, alive, never_a_leader
+character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+character_record		Eunice, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Kyra, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
+character_record		Cleon of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Doros of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Eugenius of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+character_record		Nicanor of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		Hermine of Sparta, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+
+relative 	Kleomenes of Sparta, 	Clymene,		Dionysios of Sparta,	Antigonos of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
+relative 	Dionysios of Sparta, 	Harmonia,		Cleon of Sparta,	Hermine of Sparta,	end
+relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
+relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 
 faction	slave, fortified_mao
 denari	10000
@@ -2410,6 +2154,78 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Eburonia
+
+	year_founded 0
+	population 3350
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Treveria
+
+	year_founded 0
+	population 2250
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mediomatricia
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tribocia
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; WESTERN GREEK COLONIES
 settlement
 {
@@ -2419,7 +2235,7 @@ settlement
 	year_founded 0
 	population 6050
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator greek_cities
 	building
 	{
 		type core_building governors_palace
@@ -2456,6 +2272,364 @@ settlement
 	{
 		type hinterland_roads paved_roads
 	}
+}
+
+; GERMANS
+settlement
+{
+	level town
+	region Frisia
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sicambria
+
+	year_founded 0
+	population 2750
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+}
+
+settlement
+{
+	level town
+	region Anglia
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Cimbrica
+
+	year_founded 0
+	population 1950
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Scandia_Insula
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Herulia
+
+	year_founded 0
+	population 1950
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region East_Gothia
+
+	year_founded 0
+	population 1750
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region West_Gothia
+
+	year_founded 0
+	population 1700
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Ultima_Thule
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator germans
+}
+
+; TEMP
+settlement
+{
+	level village
+	region Tempr4
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr5
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr6
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr7
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr8
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr10
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr11
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr12
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr13
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr14
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr15
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr16
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr17
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr18
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr19
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr20
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr21
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr22
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr23
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr24
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
 }
 
 ;BRITANNIA
@@ -2976,6 +3150,153 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+; GERMANIA
+character	sub_faction germans, Arrianus, general, age 20, , x 77, y 190
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Sigimer, general, age 20, , x 80, y 183
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Budic, general, age 20, , x 85, y 181
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Budic, general, age 20, , x 85, y 177
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 1 weapon_lvl 1
+unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
+unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
+
+character	sub_faction germans, Adgandestrius, general, age 20, , x 68, y 196
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Ariogaisus, general, age 20, , x 85, y 187
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Adalwolf, general, age 20, , x 80, y 216
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Sigimer, general, age 20, , x 77, y 228
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Gaiseric, general, age 20, , x 85, y 221
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Segimerus, general, age 20, , x 96, y 226
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Amalric, general, age 20, , x 85, y 239
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Suetonius, general, age 20, , x 75, y 245
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Meriadoc, general, age 20, , x 103, y 244
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+; HELLENES
 character	sub_faction greek_cities, Pythias, general, age 20, , x 86, y 144
 army
 unit		generic rebel general				exp 2 armour 1 weapon_lvl 1
@@ -3005,12 +3326,20 @@ unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 
 core_attitudes	romans_julii,	100		gauls
 core_attitudes	romans_julii,	600		slave
+core_attitudes	britons,	100		germans
 core_attitudes	britons,	600		slave
 core_attitudes	gauls,	100		romans_julii
+core_attitudes	gauls,	200		germans
 core_attitudes	gauls,	600		slave
-core_attitudes	slave,		600		romans_julii, britons, gauls
+core_attitudes	germans,	100		britons
+core_attitudes	germans,	200		gauls
+core_attitudes	germans,	600		slave
+core_attitudes	greek_cities,	600		slave
+core_attitudes	slave,		600		romans_julii, britons, gauls, germans, greek_cities
 
 faction_relationships	romans_julii, 		600		slave
 faction_relationships	britons, 		600		slave
 faction_relationships	gauls, 		600		slave
+faction_relationships	germans, 		600		slave
+faction_relationships	greek_cities, 		600		slave
 faction_relationships	slave,			600		romans_julii, britons, gauls
