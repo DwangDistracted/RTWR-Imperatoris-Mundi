@@ -1141,6 +1141,18 @@ unit				greek hoplite militia
 unit				greek hoplite
 unit				generic rebel general
 
+rebel_type 			Lugians		//Germans
+category			peasant_revolt 
+chance				0					
+description			Lugians	
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb peasant slave
+unit				barb peasant slave
+unit				barb naked fanatics slave
+unit				barb cavalry slave
+unit				barbarian rebel general
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

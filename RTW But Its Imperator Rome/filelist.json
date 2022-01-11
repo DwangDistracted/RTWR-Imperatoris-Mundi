@@ -13,7 +13,11 @@
 	},
 	{
 		"filename": "data\/descr_rebel_factions.txt",
-		"checksum": 1238212895
+		"checksum": 2141788273
+	},
+	{
+		"filename": "data\/descr_unit_variation.txt",
+		"checksum": 800117491
 	},
 	{
 		"filename": "data\/terrain\/aerial_map\/tile_models\/river_a\/river_a.cas",
@@ -1489,303 +1493,303 @@
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/046_lod0.bin",
-		"checksum": 877375062
+		"checksum": 1398404553
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/047_lod0.bin",
-		"checksum": 252157979
+		"checksum": 2368752433
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/048_lod0.bin",
-		"checksum": 3078946752
+		"checksum": 2675783546
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/049_lod0.bin",
-		"checksum": 602323354
+		"checksum": 1790299229
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/050_lod0.bin",
-		"checksum": 577756483
+		"checksum": 3561282250
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/051_lod0.bin",
-		"checksum": 3929127178
+		"checksum": 2416723484
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/052_lod0.bin",
-		"checksum": 3336528153
+		"checksum": 1828465468
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/053_lod0.bin",
-		"checksum": 1744314723
+		"checksum": 1620453949
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/054_lod0.bin",
-		"checksum": 1150322102
+		"checksum": 3629729608
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/055_lod0.bin",
-		"checksum": 1328184198
+		"checksum": 4088511585
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/056_lod0.bin",
-		"checksum": 1332498747
+		"checksum": 495699833
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/057_lod0.bin",
-		"checksum": 2752036755
+		"checksum": 20762665
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/058_lod0.bin",
-		"checksum": 583039624
+		"checksum": 288542018
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/059_lod0.bin",
-		"checksum": 4282311271
+		"checksum": 3330156326
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/060_lod0.bin",
-		"checksum": 2347526069
+		"checksum": 902454391
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/061_lod0.bin",
-		"checksum": 3031052144
+		"checksum": 609224343
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/062_lod0.bin",
-		"checksum": 1973380377
+		"checksum": 308148812
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/063_lod0.bin",
-		"checksum": 282552395
+		"checksum": 4022116471
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/064_lod0.bin",
-		"checksum": 4173176710
+		"checksum": 125759307
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/065_lod0.bin",
-		"checksum": 2343354353
+		"checksum": 1369245713
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/066_lod0.bin",
-		"checksum": 468752138
+		"checksum": 1359160281
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/067_lod0.bin",
-		"checksum": 189900183
+		"checksum": 418890413
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/068_lod0.bin",
-		"checksum": 1998165622
+		"checksum": 272551697
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/069_lod0.bin",
-		"checksum": 1551829756
+		"checksum": 4282944575
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/070_lod0.bin",
-		"checksum": 4046599044
+		"checksum": 2489865870
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/071_lod0.bin",
-		"checksum": 1027009809
+		"checksum": 3755703929
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/072_lod0.bin",
-		"checksum": 3400407462
+		"checksum": 2936703697
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/073_lod0.bin",
-		"checksum": 740333025
+		"checksum": 1387382304
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/074_lod0.bin",
-		"checksum": 522748411
+		"checksum": 3961766766
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/075_lod0.bin",
-		"checksum": 3745627846
+		"checksum": 1889782477
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/076_lod0.bin",
-		"checksum": 3263457244
+		"checksum": 733337382
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/077_lod0.bin",
-		"checksum": 808827503
+		"checksum": 3481613940
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/078_lod0.bin",
-		"checksum": 3465461531
+		"checksum": 4109443763
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/079_lod0.bin",
-		"checksum": 3488993044
+		"checksum": 1714380789
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/080_lod0.bin",
-		"checksum": 2878990232
+		"checksum": 2984600805
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/081_lod0.bin",
-		"checksum": 2801416440
+		"checksum": 1779324835
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/082_lod0.bin",
-		"checksum": 2642010413
+		"checksum": 590129508
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/083_lod0.bin",
-		"checksum": 2375116304
+		"checksum": 1388756221
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/084_lod0.bin",
-		"checksum": 2743399782
+		"checksum": 1046359185
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/085_lod0.bin",
-		"checksum": 2502293851
+		"checksum": 609471468
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/086_lod0.bin",
-		"checksum": 525535905
+		"checksum": 2161315653
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/087_lod0.bin",
-		"checksum": 99884526
+		"checksum": 1708175811
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/088_lod0.bin",
-		"checksum": 2382349765
+		"checksum": 2260866810
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/089_lod0.bin",
-		"checksum": 2121613793
+		"checksum": 3502568142
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/090_lod0.bin",
-		"checksum": 3641296648
+		"checksum": 3833874796
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/091_lod0.bin",
-		"checksum": 1065898333
+		"checksum": 3954040066
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/092_lod0.bin",
-		"checksum": 1668920564
+		"checksum": 994831846
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/093_lod0.bin",
-		"checksum": 753851431
+		"checksum": 2698303829
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/094_lod0.bin",
-		"checksum": 1233915192
+		"checksum": 124398013
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/095_lod0.bin",
-		"checksum": 3172665571
+		"checksum": 1583665030
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/096_lod0.bin",
-		"checksum": 2849322019
+		"checksum": 3087239761
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/097_lod0.bin",
-		"checksum": 3592093765
+		"checksum": 3705911143
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/098_lod0.bin",
-		"checksum": 3312508708
+		"checksum": 1072238003
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/099_lod0.bin",
-		"checksum": 810595039
+		"checksum": 171059808
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/100_lod0.bin",
-		"checksum": 1162591775
+		"checksum": 2099505068
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/101_lod0.bin",
-		"checksum": 4042451625
+		"checksum": 984458319
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/102_lod0.bin",
-		"checksum": 859797141
+		"checksum": 1811624802
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/103_lod0.bin",
-		"checksum": 85128498
+		"checksum": 2232455765
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/104_lod0.bin",
-		"checksum": 3279890334
+		"checksum": 766450225
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/105_lod0.bin",
-		"checksum": 4017230383
+		"checksum": 3668776899
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/106_lod0.bin",
-		"checksum": 1356337531
+		"checksum": 4269521867
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/107_lod0.bin",
-		"checksum": 771715512
+		"checksum": 1053104220
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/108_lod0.bin",
-		"checksum": 3863324210
+		"checksum": 643415643
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/109_lod0.bin",
-		"checksum": 1216462512
+		"checksum": 2718694317
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/110_lod0.bin",
-		"checksum": 846922929
+		"checksum": 3535624146
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/111_lod0.bin",
-		"checksum": 1520730244
+		"checksum": 1806666938
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/112_lod0.bin",
-		"checksum": 261771268
+		"checksum": 2570698635
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/113_lod0.bin",
-		"checksum": 3127669683
+		"checksum": 1127489678
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/114_lod0.bin",
-		"checksum": 1328019305
+		"checksum": 1891572947
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/115_lod0.bin",
-		"checksum": 3025354263
+		"checksum": 35055802
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/116_lod0.bin",
-		"checksum": 2884712287
+		"checksum": 4152811502
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/117_lod0.bin",
-		"checksum": 706814003
+		"checksum": 660705333
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/118_lod0.bin",
-		"checksum": 2171119740
+		"checksum": 246320516
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/119_lod0.bin",
-		"checksum": 3972740074
+		"checksum": 4121294070
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/heightmap\/120_lod0.bin",
-		"checksum": 1958617799
+		"checksum": 3092733444
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/001_material.tga.tga",
@@ -2753,7 +2757,11 @@
 	},
 	{
 		"filename": "data\/text\/imperial_campaign_regions_and_settlement_names.txt",
-		"checksum": 3789216910
+		"checksum": 2530887326
+	},
+	{
+		"filename": "data\/text\/rebel_faction_descr.txt",
+		"checksum": 3124730520
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_disasters.txt",
@@ -2761,11 +2769,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 2155707225
+		"checksum": 3465936750
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 3438254507
+		"checksum": 3058951428
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
@@ -2817,7 +2825,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 162632605
+		"checksum": 3299561795
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",

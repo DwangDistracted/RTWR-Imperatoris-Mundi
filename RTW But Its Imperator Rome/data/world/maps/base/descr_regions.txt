@@ -578,6 +578,15 @@ Anglia
 	5
 	5
 
+Langobardia
+	Leuphana
+	germans
+	Saxones
+	32 216 176
+	none
+	5
+	9
+
 Cimbrica
 	Teutonia
 	germans
@@ -631,6 +640,96 @@ Ultima_Thule
 	none
 	5
 	0
+
+Chamavia
+	Tulisurgium
+	germans
+	Chatti
+	14 186 32
+	none
+	5
+	7
+
+Baluconia
+	Galaegia
+	germans
+	Marcomanni
+	211 88 127
+	none
+	5
+	11
+
+Semnonia
+	Calancorum
+	germans
+	Suebi
+	154 244 102
+	none
+	5
+	6
+
+Pharodenia
+	Virunum
+	germans
+	Suebi
+	214 57 99
+	none
+	5
+	10
+
+Buria
+	Stragona
+	germans
+	Suebi
+	111 217 252
+	none
+	5
+	7
+
+Marsignia
+	Srevinta
+	germans
+	Suebi
+	93 170 20
+	none
+	5
+	7
+
+Rugia
+	Rhugium
+	germans
+	Lugians
+	194 206 86
+	none
+	5
+	6
+
+Helveconia
+	Scurgum
+	germans
+	Lugians
+	173 24 69
+	none
+	5
+	5
+
+Elysia
+	Setidava
+	germans
+	Lugians
+	252 54 40
+	none
+	5
+	4
+
+Lugia
+	Calisia
+	germans
+	Lugians
+	100 224 179
+	none
+	5
+	1
 
 ;Western Greek Colonies
 Alpes_Maritimae

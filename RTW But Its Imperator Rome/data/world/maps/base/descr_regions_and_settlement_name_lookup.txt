@@ -69,6 +69,16 @@ West_Gothia
 Ultima_Thule
 Bructeria
 Sicambria
+Langobardia
+Chamavia
+Baluconia
+Pharodenia
+Buria
+Marsignia
+Rugia
+Helveconia
+Elysia
+Lugia
 
 Eblania
 Coriondia
@@ -141,6 +151,16 @@ Konghelle
 Lingum
 Dulgia
 Aquae_Mattiacorum
+Leuphana
+Tulisurgium
+Calancorum
+Virunum
+Stragona
+Srevinta
+Rhugium
+Scurgum
+Setidava
+Calisia
 
 Tempr0
 Tempr4

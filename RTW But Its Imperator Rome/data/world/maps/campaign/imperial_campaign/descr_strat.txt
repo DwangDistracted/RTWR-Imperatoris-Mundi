@@ -993,6 +993,82 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Langobardia
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Chamavia
+
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+}
+
+settlement
+{
+	level town
+	region Baluconia
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Semnonia
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
 character	Arminius, named character, leader, age 60, , x 85, y 210
 traits GoodCommander 2 , Intelligent 2 , PublicFaith 1
 ancillaries bodyguard, civilized_slave
@@ -1004,7 +1080,7 @@ unit		warband spear german				exp 1 armour 0 weapon_lvl 0
 unit		warband spear german				exp 1 armour 0 weapon_lvl 0
 unit		barb screeching women german				exp 0 armour 0 weapon_lvl 0
 
-character	Ariogaisus, named character, heir, age 40, , x 86, y 210
+character	Ariogaisus, named character, heir, age 40, , x 101, y 203
 traits GoodCommander 2 , Intelligent 1 , Energetic 1 , GoodAmbusher 1 , NightBattleCapable 1
 ancillaries bard, beastmaster
 army
@@ -1036,6 +1112,22 @@ character	Malorix, general, age 20, , x 72, y 200
 
 army
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+
+character	Gunderic, general, age 20, , x 89, y 199
+
+army
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
+
+character	Gunderic, general, age 20, , x 90, y 207
+
+army
+unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+
+character	Gunderic, general, age 20, , x 98, y 195
+
+army
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 
 character	Ariovistus, spy, age 20, , x 86, y 211
@@ -2428,6 +2520,123 @@ settlement
 	population 1400
 	plan_set default_set
 	faction_creator germans
+}
+
+settlement
+{
+	level town
+	region Pharodenia
+
+	year_founded 0
+	population 1950
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level village
+	region Buria
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator germans
+}
+
+settlement
+{
+	level town
+	region Marsignia
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Rugia
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Helveconia
+
+	year_founded 0
+	population 1650
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Elysia
+
+	year_founded 0
+	population 1250
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Lugia
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
 }
 
 ; TEMP
