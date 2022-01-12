@@ -396,7 +396,65 @@ resource slaves, 1, 76, 247
 resource wild_animals, 2, 73, 253
 resource purple_dye, 2, 71, 241
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Chamavia
+resource slaves, 1, 91, 198
+resource pigs, 1, 87, 200
+resource grain, 2, 93, 195
+
+;Langobardia
+resource slaves, 1, 88, 207
+resource timber, 3, 92, 210
+resource grain, 2, 88, 211
+resource purple_dye, 2, 93, 206
+
+;Pharodenia
+resource slaves, 1, 97, 213
+resource purple_dye, 2, 101, 212
+resource amber, 3, 97, 216
+
+;Semnonia
+resource slaves, 1, 102, 204
+resource timber, 4, 98, 202
+resource amber, 1, 103, 207
+resource hides, 2, 98, 205
+
+;Baluconia
+resource slaves, 1, 100, 196
+resource timber, 4, 96, 196
+resource marble, 2, 103, 193
+
+;Buria
+resource slaves, 1, 106, 200
+resource furs, 3, 106, 203
+
+;Marsignia
+resource slaves, 1, 125, 197
+resource furs, 2, 118, 200
+resource grain, 2, 121, 200
+
+;Rugia
+resource slaves, 1, 106, 216
+resource amber, 5, 118, 222
+
+;Helveconia
+resource slaves, 1, 120, 219
+resource amber, 1, 108, 210
+resource grain, 2, 112, 213
+resource purple_dye, 2, 116, 212
+resource furs, 3, 115, 217
+
+;Elysia
+resource slaves, 1, 122, 207
+resource timber, 2, 113, 207
+resource furs, 2, 123, 204
+resource purple_dye, 1, 120, 203
+
+;Lugia
+resource slaves, 1, 130, 208
+resource grain, 2, 133, 205
+resource tin, 1, 129, 199
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1038,25 +1096,6 @@ settlement
 settlement
 {
 	level town
-	region Baluconia
-
-	year_founded 0
-	population 1800
-	plan_set default_set
-	faction_creator germans
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
 	region Semnonia
 
 	year_founded 0
@@ -1121,11 +1160,6 @@ unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 
 character	Gunderic, general, age 20, , x 90, y 207
-
-army
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-
-character	Gunderic, general, age 20, , x 98, y 195
 
 army
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
@@ -2639,6 +2673,21 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Baluconia
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
 ; TEMP
 settlement
 {
@@ -3502,6 +3551,87 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Suetonius, general, age 20, , x 97, y 212
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Imbrus, general, age 20, , x 98, y 195
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Inguiomerus, general, age 20, , x 108, y 200
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Odovacar, general, age 20, , x 124, y 197
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Manawyddan, general, age 20, , x 108, y 217
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Theodoric, general, age 20, , x 118, y 218
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Waradsin, general, age 20, , x 124, y 207
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Sigimer, general, age 20, , x 129, y 206
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 
