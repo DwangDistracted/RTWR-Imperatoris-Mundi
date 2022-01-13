@@ -1153,6 +1153,21 @@ unit				barb naked fanatics slave
 unit				barb cavalry slave
 unit				barbarian rebel general
 
+rebel_type 			Boii		//Gauls
+category			peasant_revolt 
+chance				0					
+description			Boii
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb peasant slave
+unit				barb peasant slave
+unit				barb naked fanatics slave
+unit				barb naked fanatics slave
+unit				barb archer slave
+unit				barb archer slave
+unit				barb cavalry slave
+unit				barb chieftain cavalry early slave
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

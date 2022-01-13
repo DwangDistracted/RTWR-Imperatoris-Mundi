@@ -38,7 +38,7 @@ resource slaves, 1, 16, 194
 resource hides, 3, 16, 200
 resource timber, 2, 13, 196
 
-;Hibernia_Orientalis
+;Hibernia_Occidentalis
 resource slaves, 1, 9, 191
 resource furs, 1, 7, 189
 resource hides, 3, 11, 186
@@ -453,6 +453,43 @@ resource purple_dye, 1, 120, 203
 resource slaves, 1, 130, 208
 resource grain, 2, 133, 205
 resource tin, 1, 129, 199
+
+;Vangionia
+resource slaves, 1, 92, 180
+resource lead, 2, 88, 184
+resource purple_dye, 1, 93, 176
+
+;Chattia
+resource slaves, 1, 93, 186
+resource timber, 4, 92, 183
+resource furs, 2, 98, 181
+resource purple_dye, 3, 93, 190
+
+;Hermunduria
+resource slaves, 1, 104, 188
+resource timber, 2, 101, 186
+resource furs, 3, 106, 185
+
+;Marcomannia
+resource slaves, 1, 109, 187
+resource timber, 3, 109, 194
+resource textiles, 1, 106, 191
+resource pottery, 1, 112, 184
+
+;Naharvalia
+resource slaves, 1, 114, 197
+resource furs, 2, 111, 196
+resource textiles, 2, 116, 194
+
+;Boioa
+resource slaves, 1, 118, 191
+resource grain, 3, 115, 192
+resource timber, 4, 122, 190
+
+;Naristia
+resource slaves, 1, 118, 184
+resource furs, 2, 114, 188
+resource dogs, 1, 120, 185
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -913,9 +950,16 @@ traits NaturalMilitarySkill 2 , Drink 1 , Bloodthirsty 1
 ancillaries galloper
 army
 unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb peltast gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 
 character	Lugotorix, named character, age 18, , x 67, y 161
 traits Intelligent 2 , Austere 1
@@ -1362,7 +1406,7 @@ settlement
 	region Hibernia_Occidentalis
 	
 	year_founded 0
-	population 1600
+	population 300
 	plan_set default_set
 	faction_creator britons
 }
@@ -2688,6 +2732,120 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Vangionia
+	
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Chattia
+	
+	year_founded 0
+	population 1650
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Hermunduria
+	
+	year_founded 0
+	population 2050
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Marcomannia
+	
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+; BOIHAEMIA
+settlement
+{
+	level large_town
+	region Naharvalia
+	
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Boioa
+	
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Naristia
+	
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
 ; TEMP
 settlement
 {
@@ -3634,6 +3792,88 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Budic, general, age 20, , x 90, y 180
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Longinus, general, age 20, , x 96, y 186
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Rodulf, general, age 20, , x 102, y 184
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Carolus, general, age 20, , x 112, y 187
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+; BOIHAEMIA
+character	sub_faction germans, Catavignus, general, age 20, , x 113, y 195
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Ceraunus, general, age 20, , x 117, y 191
+army
+unit		barbarian rebel general				exp 2 armour 1 weapon_lvl 1
+unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
+unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
+
+character	sub_faction germans, Catulus, general, age 20, , x 117, y 184
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; HELLENES
 character	sub_faction greek_cities, Pythias, general, age 20, , x 86, y 144

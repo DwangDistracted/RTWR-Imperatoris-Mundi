@@ -698,7 +698,7 @@ Marsignia
 Rugia
 	Rhugium
 	germans
-	Lugians
+	Suebi
 	194 206 86
 	none
 	5
@@ -730,6 +730,70 @@ Lugia
 	none
 	5
 	1
+
+Vangionia
+	Lopodunum
+	germans
+	Chatti
+	188 30 43
+	none
+	5
+	4
+
+Chattia
+	Bergium
+	germans
+	Chatti
+	206 121 24
+	none
+	5
+	5
+
+Hermunduria
+	Bibacum
+	germans
+	Marcomanni
+	232 223 99
+	none
+	5
+	7
+
+Marcomannia
+	Setuacatum
+	germans
+	Marcomanni
+	226 161 63
+	none
+	5
+	5
+
+;Boihaemia
+Naharvalia
+	Nomisterium
+	gauls
+	Boii
+	183 69 49
+	none
+	5
+	4
+
+Boioa
+	Budorgis
+	gauls
+	Boii
+	11 127 229
+	none
+	5
+	2
+
+Naristia
+	Abilunum
+	gauls
+	Boii
+	42 191 74
+	none
+	5
+	2
 
 ;Western Greek Colonies
 Alpes_Maritimae

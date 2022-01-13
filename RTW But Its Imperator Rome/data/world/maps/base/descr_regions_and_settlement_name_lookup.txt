@@ -79,6 +79,13 @@ Rugia
 Helveconia
 Elysia
 Lugia
+Vangionia
+Chattia
+Hermunduria
+Marcomannia
+Naharvalia
+Boioa
+Naristia
 
 Eblania
 Coriondia
@@ -161,6 +168,13 @@ Rhugium
 Scurgum
 Setidava
 Calisia
+Lopodunum
+Bergium
+Bibacum
+Setuacatum
+Nomisterium
+Budorgis
+Abilunum
 
 Tempr0
 Tempr4
