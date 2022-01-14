@@ -117,7 +117,7 @@ Cantiacia
 	3
 
 Durotrigia
-	Venta
+	Calleva_Atrebatum
 	britons
 	Trinovantes
 	73 126 118
