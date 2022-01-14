@@ -795,6 +795,52 @@ Naristia
 	5
 	2
 
+;Raetia et Noricum
+Noricum
+	Artobriga
+	gauls
+	Boii
+	133 76 186
+	none
+	5
+	10
+
+Vindelicia
+	Augusta_Vindelicorum
+	gauls
+	Helvetii
+	252 100 189
+	none
+	5
+	9
+
+Latobrigia
+	Sumelocenna
+	gauls
+	Helvetii
+	43 188 41
+	none
+	5
+	7
+
+Breunia
+	Cambobunum
+	gauls
+	Helvetii
+	179 209 83
+	none
+	5
+	8
+
+Helvetia
+	Vindonissa
+	gauls
+	Helvetii
+	86 65 204
+	none
+	5
+	0
+
 ;Western Greek Colonies
 Alpes_Maritimae
 	Massalia

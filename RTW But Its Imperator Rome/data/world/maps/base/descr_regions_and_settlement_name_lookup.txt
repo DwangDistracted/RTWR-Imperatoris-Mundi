@@ -86,6 +86,11 @@ Marcomannia
 Naharvalia
 Boioa
 Naristia
+Noricum
+Vindelicia
+Latobrigia
+Breunia
+Helvetia
 
 Eblania
 Coriondia
@@ -175,6 +180,11 @@ Setuacatum
 Nomisterium
 Budorgis
 Abilunum
+Artobriga
+Augusta_Vindelicorum
+Sumelocenna
+Cambobunum
+Vindonissa
 
 Tempr0
 Tempr4

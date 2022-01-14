@@ -335,6 +335,7 @@ resource purple_dye, 1, 85, 169
 
 ;Frisia
 resource slaves, 1, 69, 194
+resource timber, 1, 73, 195
 
 ;Chasuaria
 resource slaves, 1, 71, 201
@@ -490,6 +491,32 @@ resource timber, 4, 122, 190
 resource slaves, 1, 118, 184
 resource furs, 2, 114, 188
 resource dogs, 1, 120, 185
+
+;Latobrigia
+resource slaves, 1, 88, 173
+resource lead, 2, 88, 175
+resource textiles, 1, 93, 174
+
+;Helvetia
+resource slaves, 1, 93, 171
+resource marble, 2, 90, 167
+resource grain, 2, 88, 168
+
+;Vindelicia
+resource slaves, 1, 103, 179
+resource purple_dye, 2, 98, 175
+resource timber, 3, 103, 176
+
+;Cambobunum
+resource slaves, 1, 97, 172
+resource furs, 3, 98, 169
+resource marble, 4, 102, 174
+
+;Noricum
+resource slaves, 1, 109, 179
+resource iron, 3, 112, 176
+resource marble, 5, 109, 176
+resource grain, 3, 107, 181
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -2846,6 +2873,110 @@ settlement
 	}
 }
 
+; RAETIA ET NORICUM
+settlement
+{
+	level large_town
+	region Noricum
+	
+	year_founded 0
+	population 3550
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Vindelicia
+	
+	year_founded 0
+	population 2900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Latobrigia
+	
+	year_founded 0
+	population 2650
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Breunia
+	
+	year_founded 0
+	population 3050
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Helvetia
+	
+	year_founded 0
+	population 2600
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ; TEMP
 settlement
 {
@@ -3840,9 +3971,9 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 
 ; BOIHAEMIA
-character	sub_faction germans, Catavignus, general, age 20, , x 113, y 195
+character	sub_faction gauls, Catavignus, general, age 20, , x 113, y 195
 army
-unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -3851,9 +3982,9 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction germans, Ceraunus, general, age 20, , x 117, y 191
+character	sub_faction gauls, Ceraunus, general, age 20, , x 117, y 191
 army
-unit		barbarian rebel general				exp 2 armour 1 weapon_lvl 1
+unit		barb chieftain cavalry early slave				exp 2 armour 1 weapon_lvl 1
 unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
 unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
 unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
@@ -3864,15 +3995,83 @@ unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
 unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
 unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
 
-character	sub_faction germans, Catulus, general, age 20, , x 117, y 184
+character	sub_faction gauls, Catulus, general, age 20, , x 117, y 184
 army
-unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+; RAETIA ET NORICUM
+character	sub_faction gauls, Orgetorix, general, age 20, , x 90, y 173
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Mandubracius, general, age 20, , x 92, y 169
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Alcaeos, general, age 20, , x 98, y 172
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Idaeus, general, age 20, , x 101, y 177
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Brennus, general, age 20, , x 109, y 177
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; HELLENES
