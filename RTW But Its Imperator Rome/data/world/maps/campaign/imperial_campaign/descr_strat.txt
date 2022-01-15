@@ -518,6 +518,12 @@ resource iron, 3, 112, 176
 resource marble, 5, 109, 176
 resource grain, 3, 107, 181
 
+;Ciscarpathia
+resource slaves, 1, 136, 196
+resource silver, 1, 137, 193
+resource purple_dye, 2, 141, 198
+resource lead, 1, 130, 194
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -2819,6 +2825,17 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Ciscarpathia
+	
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator germans
+}
+
 ; BOIHAEMIA
 settlement
 {
@@ -2982,16 +2999,6 @@ settlement
 {
 	level village
 	region Tempr4
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr5
 
 	year_founded 0
 	population 400
@@ -3965,6 +3972,14 @@ unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Gaiseric, general, age 20, , x 133, y 196
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0

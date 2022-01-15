@@ -91,6 +91,7 @@ Vindelicia
 Latobrigia
 Breunia
 Helvetia
+Ciscarpathia
 
 Eblania
 Coriondia
@@ -185,10 +186,10 @@ Augusta_Vindelicorum
 Sumelocenna
 Cambobunum
 Vindonissa
+Asanca
 
 Tempr0
 Tempr4
-Tempr5
 Tempr6
 Tempr7
 Tempr8
@@ -210,7 +211,6 @@ Tempr23
 Tempr24
 Temp0
 Temp4
-Temp5
 Temp6
 Temp7
 Temp8

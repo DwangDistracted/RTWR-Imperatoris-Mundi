@@ -731,6 +731,15 @@ Lugia
 	5
 	1
 
+Ciscarpathia
+	Asanca
+	germans
+	Lugians
+	101 124 0
+	none
+	5
+	8
+
 Vangionia
 	Lopodunum
 	germans
@@ -866,15 +875,6 @@ Tempr4
 	romans_julii
 	Latins
 	237 28 36
-	none
-	5
-	5
-
-Tempr5
-	Temp5
-	romans_julii
-	Latins
-	101 124 0
 	none
 	5
 	5
