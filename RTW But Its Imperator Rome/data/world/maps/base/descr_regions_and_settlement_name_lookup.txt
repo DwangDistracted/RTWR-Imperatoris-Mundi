@@ -92,6 +92,13 @@ Latobrigia
 Breunia
 Helvetia
 Ciscarpathia
+Sciria
+Chrononia
+Turuntia
+Venedia_Inferior
+Ossioia
+Vistulia
+Hyperboria
 
 Eblania
 Coriondia
@@ -187,12 +194,18 @@ Sumelocenna
 Cambobunum
 Vindonissa
 Asanca
+Anacureta
+Venedia
+Veltaea
+Kunegria
+Sentia
+Gorideva
+Themiskyra
 
 Tempr0
 Tempr4
 Tempr6
 Tempr7
-Tempr8
 Tempr9
 Tempr10
 Tempr11
@@ -213,7 +226,6 @@ Temp0
 Temp4
 Temp6
 Temp7
-Temp8
 Temp9
 Temp10
 Temp11

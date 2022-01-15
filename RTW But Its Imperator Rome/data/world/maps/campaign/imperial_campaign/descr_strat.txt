@@ -28,6 +28,19 @@ pirate_spawn_value 20
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of resources section <<<<   ! sorted alphabetically !
 
+;Hyperboria
+resource slaves, 1, 189, 250
+resource grain, 2, 183, 253
+resource furs, 3, 142, 248
+resource wild_animals, 4, 148, 242
+resource timber, 6, 219, 245
+resource incense, 2, 176, 254
+resource silk, 2, 181, 250
+resource purple_dye, 2, 178, 241
+resource pottery, 2, 180, 254
+resource gold, 4, 190, 253
+resource silver, 4, 189, 247
+
 ;Hibernia_Orientalis
 resource slaves, 1, 15, 183
 resource furs, 3, 20, 188
@@ -523,6 +536,35 @@ resource slaves, 1, 136, 196
 resource silver, 1, 137, 193
 resource purple_dye, 2, 141, 198
 resource lead, 1, 130, 194
+
+;Turuntia
+resource slaves, 1, 125, 242
+resource wild_animals, 2, 131, 239
+resource timber, 4, 133, 234
+
+;Chrononia
+resource slaves, 1, 134, 222
+resource amber, 2, 128, 228
+resource grain, 2, 131, 223
+
+;Sciria
+resource slaves, 1, 126, 219
+resource purple_dye, 2, 123, 217
+
+;Venedia_Inferior
+resource slaves, 1, 131, 212
+resource wild_animals, 2, 138, 215
+resource grain, 4, 134, 209
+
+;Ossioia
+resource slaves, 1, 146, 219
+resource grain, 2, 146, 221
+resource furs, 3, 151, 216
+
+;Vistulia
+resource slaves, 1, 137, 204
+resource furs, 3, 142, 207
+resource wild_animals, 3, 145, 201
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -1379,6 +1421,67 @@ relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 
 faction	slave, fortified_mao
 denari	10000
+
+;AMAZONS
+settlement
+{
+	level huge_city
+	region Hyperboria
+
+	year_founded 0
+	population 24000
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building imperial_palace
+	}
+	building
+	{
+		type defenses epic_stone_wall
+	}
+	building
+	{
+		type barracks army_barracks
+	}
+	building
+	{
+		type equestrian hippodrome
+	}
+	building
+	{
+		type missiles siege_engineer
+	}
+	building
+	{
+		type smith foundry
+	}
+	building
+	{
+		type market curia
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type theatres theatre
+	}
+	building
+	{
+		type hinterland_farms farms+4
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
+	building
+	{
+		type health aqueduct
+	}
+}
+
 ;BRITANNIA
 settlement
 {
@@ -1439,7 +1542,7 @@ settlement
 	region Hibernia_Occidentalis
 	
 	year_founded 0
-	population 300
+	population 1600
 	plan_set default_set
 	faction_creator britons
 }
@@ -2994,6 +3097,81 @@ settlement
 	}
 }
 
+; VENEDIA
+settlement
+{
+	level village
+	region Sciria
+	
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator germans
+}
+
+settlement
+{
+	level town
+	region Chrononia
+	
+	year_founded 0
+	population 1700
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level village
+	region Turuntia
+	
+	year_founded 0
+	population 650
+	plan_set default_set
+	faction_creator germans
+}
+
+settlement
+{
+	level village
+	region Venedia_Inferior
+	
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator germans
+}
+
+settlement
+{
+	level village
+	region Ossioia
+	
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator germans
+}
+
+settlement
+{
+	level village
+	region Vistulia
+	
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator germans
+}
+
 ; TEMP
 settlement
 {
@@ -3019,16 +3197,6 @@ settlement
 {
 	level village
 	region Tempr7
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr8
 
 	year_founded 0
 	population 400
@@ -3185,6 +3353,30 @@ settlement
 	plan_set default_set
 	faction_creator romans_julii
 }
+
+;AMAZONS
+character	sub_faction greek_cities, Eudokia, general, age 20, , x 187, y 251
+army
+unit		greek general's guard cavalry early				exp 9 armour 3 weapon_lvl 3
+unit		greek hoplite				exp 9 armour 3 weapon_lvl 3
+unit		greek hoplite				exp 9 armour 3 weapon_lvl 3
+unit		greek hoplite				exp 9 armour 3 weapon_lvl 3
+unit		greek hoplite				exp 9 armour 3 weapon_lvl 3
+unit		greek hoplite				exp 9 armour 3 weapon_lvl 3
+unit		greek heavy peltast				exp 9 armour 3 weapon_lvl 3
+unit		greek heavy peltast				exp 9 armour 3 weapon_lvl 3
+unit		greek heavy peltast				exp 9 armour 3 weapon_lvl 3
+unit		greek heavy peltast				exp 9 armour 3 weapon_lvl 3
+unit		greek heavy peltast				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
+unit		rebel amazon chariots				exp 9 armour 3 weapon_lvl 3
 
 ;BRITANNIA
 character	sub_faction britons, Brigomaglos, general, age 20, , x 17, y 183
@@ -4088,6 +4280,59 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+; VENEDIA
+character	sub_faction germans, Wotecorix, general, age 20, , x 127, y 242
+army
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Danaus, general, age 20, , x 131, y 226
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Wotecorix, general, age 20, , x 125, y 219
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Wotecorix, general, age 20, , x 134, y 212
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Ludwiga, general, age 20, , x 149, y 219
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Luscinus, general, age 20, , x 139, y 205
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 
 ; HELLENES
 character	sub_faction greek_cities, Pythias, general, age 20, , x 86, y 144
