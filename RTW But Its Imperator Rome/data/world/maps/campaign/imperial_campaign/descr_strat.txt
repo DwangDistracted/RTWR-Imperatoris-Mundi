@@ -19,7 +19,7 @@ start_date	-272 summer
 end_date	14 summer
 
 brigand_spawn_value 10
-pirate_spawn_value 20
+pirate_spawn_value 10
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -558,7 +558,7 @@ resource grain, 4, 134, 209
 
 ;Ossioia
 resource slaves, 1, 146, 219
-resource grain, 2, 146, 221
+resource grain, 2, 145, 223
 resource furs, 3, 151, 216
 
 ;Vistulia
@@ -1099,7 +1099,7 @@ relative 	Rianorix, 	Esselt,		Lucco,	end
 relative 	Vindex, 	Keyne,		Meriadoc,	Verica,	end
 
 
-faction	germans, religious_mao
+faction	germans, balanced_mao
 denari	5000
 settlement
 {
@@ -1125,25 +1125,6 @@ settlement
 	building
 	{
 		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level town
-	region Chasuaria
-
-	year_founded 0
-	population 1600
-	plan_set default_set
-	faction_creator germans
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 }
 
@@ -1212,21 +1193,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level town
-	region Semnonia
-
-	year_founded 0
-	population 1450
-	plan_set default_set
-	faction_creator germans
-	building
-	{
-		type core_building governors_house
-	}
-}
-
 character	Arminius, named character, leader, age 60, , x 85, y 210
 traits GoodCommander 2 , Intelligent 2 , PublicFaith 1
 ancillaries bodyguard, civilized_slave
@@ -1238,7 +1204,7 @@ unit		warband spear german				exp 1 armour 0 weapon_lvl 0
 unit		warband spear german				exp 1 armour 0 weapon_lvl 0
 unit		barb screeching women german				exp 0 armour 0 weapon_lvl 0
 
-character	Ariogaisus, named character, heir, age 40, , x 101, y 203
+character	Ariogaisus, named character, heir, age 40, , x 90, y 207
 traits GoodCommander 2 , Intelligent 1 , Energetic 1 , GoodAmbusher 1 , NightBattleCapable 1
 ancillaries bard, beastmaster
 army
@@ -1266,22 +1232,11 @@ unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 
-character	Malorix, general, age 20, , x 72, y 200
-
-army
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-
 character	Gunderic, general, age 20, , x 89, y 199
 
 army
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
-
-character	Gunderic, general, age 20, , x 90, y 207
-
-army
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 
 character	Ariovistus, spy, age 20, , x 86, y 211
 traits GoodSpy 1
@@ -1429,7 +1384,7 @@ settlement
 	region Hyperboria
 
 	year_founded 0
-	population 24000
+	population 6000
 	plan_set default_set
 	faction_creator greek_cities
 	building
@@ -2939,6 +2894,40 @@ settlement
 	faction_creator germans
 }
 
+settlement
+{
+	level town
+	region Chasuaria
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Semnonia
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator germans
+	building
+	{
+		type core_building governors_house
+	}
+}
+
 ; BOIHAEMIA
 settlement
 {
@@ -4172,6 +4161,26 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 character	sub_faction germans, Gaiseric, general, age 20, , x 133, y 196
 army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Malorix, general, age 20, , x 72, y 200
+
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction germans, Gunderic, general, age 20, , x 101, y 203
+
+army
+unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0

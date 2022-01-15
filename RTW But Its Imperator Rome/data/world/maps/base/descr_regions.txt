@@ -83,7 +83,7 @@ Coritania
 Cornovia
 	Deva
 	britons
-	Brigantes
+	Silures
 	49 127 67
 	none
 	5
@@ -128,7 +128,7 @@ Durotrigia
 Dumnonia
 	Isca_Dumnoniorum
 	britons
-	Silures
+	Trinovantes
 	220 157 0
 	none
 	5
