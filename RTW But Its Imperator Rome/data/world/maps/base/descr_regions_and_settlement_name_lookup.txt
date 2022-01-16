@@ -118,6 +118,10 @@ Campania
 Lucania
 Tarentum
 Bruttium
+Siculia
+Syracuse
+Sicania
+Elimia
 
 Eblania
 Coriondia
@@ -239,6 +243,10 @@ Capua
 Metapontum
 Taras
 Croton
+Messana
+Syrakousai
+Akragas
+Lilybaeum
 
 Tempr0
 Tempr4

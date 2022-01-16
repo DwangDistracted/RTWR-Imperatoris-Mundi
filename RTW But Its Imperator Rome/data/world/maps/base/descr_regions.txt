@@ -1091,11 +1091,47 @@ Bruttium
 Tarentum
 	Taras
 	greek_cities
-	Calabrians
+	Tarantine
 	198 88 33
 	italy
 	5
 	12
+
+Siculia
+	Messana
+	greek_cities
+	Mamertine
+	2 127 56
+	italy
+	5
+	2
+
+Syracuse
+	Syrakousai
+	greek_cities
+	Syracusans
+	13 32 145
+	italy
+	5
+	8
+
+Sicania
+	Akragas
+	greek_cities
+	Sicani
+	178 105 8
+	italy
+	5
+	4
+
+Elimia
+	Lilybaeum
+	greek_cities
+	Sicani
+	49 109 1
+	italy
+	5
+	3
 
 ;Temporary
 Tempr0

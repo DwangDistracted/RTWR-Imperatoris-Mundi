@@ -836,7 +836,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -1031,7 +1031,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -1160,7 +1160,7 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 0 armour 0 weapon_lvl 0
 unit		roman velite				exp 0 armour 0 weapon_lvl 0
 
-character	Marcus Attius, admiral, age 29, , x 132, y 148
+character	Marcus Attius, admiral, age 29, , x 133, y 146
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
@@ -1232,7 +1232,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -1314,7 +1314,7 @@ settlement
 	}
 }
 
-character	Cornelius Scipio, named character, leader, age 54, , x 134, y 124
+character	Cornelius Scipio, named character, leader, age 54, , x 138, y 128
 traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
 ancillaries aged_retainer
 army
@@ -2008,6 +2008,7 @@ relative 	Hariulfus, 	Aurinia,		Sesithacus,	Biua,	Carolus,	end
 
 faction	greek_cities, sailor_stalin
 denari	5000
+
 settlement
 {
 	level city
@@ -2036,6 +2037,49 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Syracuse
+
+	year_founded 0
+	population 7150
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
 	}
 	building
 	{
@@ -3283,49 +3327,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level city
-	region Tarentum
-
-	year_founded 0
-	population 8400
-	plan_set default_set
-	faction_creator greek_cities
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type port_buildings shipwright
-	}
-	building
-	{
-		type barracks militia_barracks
-	}
-	building
-	{
-		type equestrian cavalry_barracks
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
-}
-
 ; GERMANS
 settlement
 {
@@ -4152,6 +4153,144 @@ settlement
 	population 5900
 	plan_set default_set
 	faction_creator romans_julii
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; MAGNA GRAECIA
+settlement
+{
+	level city
+	region Tarentum
+
+	year_founded 0
+	population 8400
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+; SICILY
+settlement
+{
+	level large_town
+	region Siculia
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sicania
+
+	year_founded 0
+	population 5400
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Elimia
+
+	year_founded 0
+	population 3250
+	plan_set default_set
+	faction_creator greek_cities
 	building
 	{
 		type core_building governors_villa
