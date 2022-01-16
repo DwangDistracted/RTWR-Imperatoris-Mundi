@@ -107,6 +107,17 @@ Cenomannia
 Olana
 Venetia
 Vallis_Arni
+Dodecapolis
+Umbria
+Tuscia
+Latium
+Picenum
+Aternum
+Apulia
+Campania
+Lucania
+Tarentum
+Bruttium
 
 Eblania
 Coriondia
@@ -217,11 +228,21 @@ Verona
 Patavium
 Altinum
 Pisna
+Arretium
+Ariminum
+Spoletium
+Roma
+Ankon
+Corfinium
+Canusium
+Capua
+Metapontum
+Taras
+Croton
 
 Tempr0
 Tempr4
 Tempr6
-Tempr7
 Tempr9
 Tempr10
 Tempr11
@@ -241,7 +262,6 @@ Tempr24
 Temp0
 Temp4
 Temp6
-Temp7
 Temp9
 Temp10
 Temp11

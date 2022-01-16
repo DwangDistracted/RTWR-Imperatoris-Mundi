@@ -3,6 +3,8 @@
 campaign		imperator_map
 playable
 	romans_julii
+	romans_brutii
+	romans_scipii
 end 
 unlockable
 	britons
@@ -11,6 +13,7 @@ unlockable
 	greek_cities
 end
 nonplayable
+	romans_senate
 	slave
 end
 
@@ -566,6 +569,104 @@ resource slaves, 1, 137, 204
 resource furs, 3, 142, 207
 resource wild_animals, 3, 145, 201
 
+;Transpadana
+resource slaves, 1, 92, 158
+resource silver, 1, 90, 155
+resource lead, 1, 94, 154
+
+;Liguria
+resource slaves, 1, 94, 150
+resource olive_oil, 3, 97, 156
+resource wine, 1, 100, 154
+
+;Insubria
+resource slaves, 1, 97,160
+resource grain, 5, 97, 158
+resource dogs, 1, 94, 160
+
+;Cenomannia
+resource slaves, 1, 105, 162
+resource silver, 1, 101, 163
+resource olive_oil, 3, 103, 160
+
+;Olana
+resource slaves, 1, 110, 164
+resource pigs, 1, 108, 165
+resource grain, 3, 108, 162
+
+;Venetia
+resource slaves, 1, 115, 168
+resource wine, 2, 111, 168
+resource olive_oil, 2, 110, 167
+
+;Aemilla
+resource slaves, 1, 108, 157
+resource olive_oil, 2, 104, 157
+resource wine, 3, 108, 160
+
+;Vallis_Arni
+resource slaves, 1, 107, 152
+resource silver, 1, 104, 154
+resource iron, 2, 109, 155
+
+;Umbria
+resource slaves, 1, 117, 154
+resource olive_oil, 2, 114, 153
+resource wine, 2, 112, 155
+
+;Dodecapolis
+resource slaves, 1, 111, 149
+resource grain, 2, 110, 151
+resource lead, 2, 107, 147
+resource marble, 4, 110, 154
+
+;Tuscia
+resource slaves, 1, 114, 149
+resource wine, 2, 112, 147
+resource olive_oil, 2, 115, 146
+
+;Latium
+resource slaves, 1, 120, 143
+resource grain, 2, 118, 145
+resource textiles, 2, 122, 144
+resource wine, 3, 123, 143
+
+;Picenum
+resource slaves, 1, 120, 153
+resource purple_dye, 2, 117, 153
+resource iron, 3, 116, 148
+
+;Aternum
+resource slaves, 1, 123, 149
+resource olive_oil, 3, 129, 146
+resource wine, 3, 127, 146
+
+;Apulia
+resource slaves, 1, 136, 144
+resource wine, 2, 134, 143
+resource pottery, 1, 131, 146
+
+;Campania
+resource slaves, 1, 125, 144
+resource dogs, 1, 129, 144
+resource wine, 3, 128, 142
+resource glass, 1, 130, 141
+
+;Lucania
+resource slaves, 1, 136, 141
+resource olive_oil, 4, 133, 141
+resource wine, 2, 135, 138
+
+;Bruttium
+resource slaves, 1, 141, 134
+resource glass, 1, 139, 129
+resource pottery, 2, 138, 134
+
+;Tarentum
+resource slaves, 1, 142, 143
+resource olives, 3, 139, 142
+resource pottery, 1, 144, 142
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -574,32 +675,160 @@ resource wild_animals, 3, 145, 201
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of factions section <<<<
+
+faction	romans_senate, comfortable_stalin
+denari	10000
+settlement
+{
+	level large_city
+	region Latium
+
+	year_founded 0
+	population 12200
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building proconsuls_palace
+	}
+	building
+	{
+		type defenses large_stone_wall
+	}
+	building
+	{
+		type barracks army_barracks
+	}
+	building
+	{
+		type equestrian hippodrome
+	}
+	building
+	{
+		type missiles catapult_range
+	}
+	building
+	{
+		type smith smiths_workshop
+	}
+	building
+	{
+		type market great_forum
+	}
+	building
+	{
+		type amphitheatres urban_amphitheatre
+	}
+	building
+	{
+		type academic scriptorium
+	}
+	building
+	{
+		type health aqueduct
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+3
+	}
+	building
+	{
+		type hinterland_roads highways
+	}
+}
+
+character	Decius Maxentius, named character, leader, age 60, , x 120, y 144
+traits GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1
+ancillaries doctor
+army
+unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman triarii				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+
+character	Marcus Maxentius, named character, heir, age 30, , x 117, y 144
+traits GoodCommander 2 , NaturalMilitarySkill 2 , PoliticsSkill 1 , GoodAdministrator 1 , Intelligent 1
+ancillaries bodyguard
+army
+unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman triarii				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+
+character	Servius Maxentius, named character, age 36, , x 123, y 143
+traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 1 , Intelligent 1
+ancillaries scribe_ancillary
+army
+unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman hastati				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman princeps				exp 3 armour 1 weapon_lvl 0
+unit		roman triarii				exp 3 armour 1 weapon_lvl 0
+unit		roman velite				exp 3 armour 1 weapon_lvl 0
+
+character	Flavius Nepos, diplomat, age 30, , x 122, y 145
+traits GoodDiplomat 5
+
+character_record		Gaius Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Lentulus Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+character_record		Publius Maxentius, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
+character_record		Honoria, 	female, command 0, influence 0, management 0, subterfuge 0, age 50, alive, never_a_leader
+character_record		Licinia, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
+character_record		Marciana, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
+character_record		Papiria, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+character_record		Prisca, 	female, command 0, influence 0, management 0, subterfuge 0, age 19, alive, never_a_leader
+
+relative 	Decius Maxentius, 	Honoria,		Servius Maxentius,	Marcus Maxentius,	Prisca,	end
+relative 	Marcus Maxentius, 	Licinia,		Publius Maxentius,	Gaius Maxentius,	end
+relative 	Servius Maxentius, 	Marciana,		Lentulus Maxentius,	Papiria,	end
+
 faction	romans_julii, comfortable_stalin
+superfaction romans_senate
 denari	5000
+
 settlement
 {
 	level city
-	region Tempr0
+	region Dodecapolis
 
 	year_founded 0
-	population 6000
+	population 8400
 	plan_set default_set
 	faction_creator romans_julii
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
 	building
 	{
 		type barracks militia_barracks
 	}
 	building
 	{
-		type core_building governors_villa
+		type missiles practice_field
+	}
+	building
+	{
+		type academic academy
 	}
 	building
 	{
 		type port_buildings port
-	}
-	building
-	{
-		type defenses wooden_pallisade
 	}
 	building
 	{
@@ -611,17 +840,109 @@ settlement
 	}
 }
 
-character	Flavius Julius, named character, leader, command 0, influence 0, management 0, subterfuge 0, age 47, , x 199, y 154 
+settlement
+{
+	level large_town
+	region Umbria
+
+	year_founded 0
+	population 5700
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Tuscia
+
+	year_founded 0
+	population 7650
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type health sewers
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Flavius Julius, named character, leader, command 0, influence 0, management 0, subterfuge 0, age 47, , x 109, y 152 
 traits GoodCommander 2, NaturalMilitarySkill 1, GoodDefender 1, PoliticsSkill 3, GoodAdministrator 2, Austere 1
 ;ancillaries aged_retainer
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman triarii				exp 1 armour 0 weapon_lvl 0`
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman triarii				exp 1 armour 0 weapon_lvl 0
+unit		roman triarii				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman light cavalry				exp 1 armour 0 weapon_lvl 0
 
-character	Lucius Julius, named character, heir, command 0, influence 0, management 0, subterfuge 0, age 31, , x 206, y 141 
+character	Lucius Julius, named character, heir, command 0, influence 0, management 0, subterfuge 0, age 31, , x 111, y 152
 traits GoodCommander 1, PoliticsSkill 2, GoodAdministrator 3, Energetic 2
 ;ancillaries freeman_clerk 
 army
@@ -629,7 +950,7 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 
-character	Quintus Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 29, , x 210, y 159 
+character	Quintus Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 29, , x 114, y 155
 traits NaturalMilitarySkill 3, GoodAttacker 1, Energetic 1
 ;ancillaries drillmaster
 army
@@ -637,7 +958,7 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Vibius Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 28, , x 198, y 154 
+character	Vibius Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 28, , x 115, y 150
 traits GoodCommander 1, PoliticsSkill 2, GoodAdministrator 2, MathematicsSkill 1
 ;ancillaries merchant 
 army
@@ -646,13 +967,13 @@ unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 
-character	Sextus Antio, diplomat, command 0, influence 0, management 0, subterfuge 0, age 29, , x 199, y 154 
+character	Sextus Antio, diplomat, command 0, influence 0, management 0, subterfuge 0, age 29, , x 113, y 148
 traits GoodDiplomat  3
 
-character	Decius Curtius, spy, command 0, influence 0, management 0, subterfuge 0, age 29, , x 199, y 154 
+character	Decius Curtius, spy, command 0, influence 0, management 0, subterfuge 0, age 29, , x 107, y 156
 traits GoodSpy 4
 
-character	Oppius Clausus, admiral, command 0, influence 0, management 0, subterfuge 0, age 29, , x 206, y 139 
+character	Oppius Clausus, admiral, command 0, influence 0, management 0, subterfuge 0, age 29, , x 113, y 145
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
@@ -670,6 +991,394 @@ relative 	Flavius Julius, 	Faustina,		Lucius Julius,	Quintus Julius,	Vibius Juli
 relative 	Lucius Julius, 	Poppaea,		Fadia,	Decius Julius,	Marcus Julius,	end
 relative 	Quintus Julius, 	Alypia,		Amulius Julius,	end
 relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
+
+faction	romans_brutii, balanced_stalin
+superfaction romans_senate
+denari	5000
+
+settlement
+{
+	level city
+	region Apulia
+
+	year_founded 0
+	population 8250
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Picenum
+
+	year_founded 0
+	population 5950
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Aternum
+
+	year_founded 0
+	population 6800
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Tiberius Brutus, named character, leader, age 52, , x 138, y 144
+traits GoodCommander 1 , NaturalMilitarySkill 1 , GoodAttacker 1 , PoliticsSkill 2 , Intelligent 1
+ancillaries drillmaster
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman princeps				exp 1 armour 0 weapon_lvl 0
+unit		roman triarii				exp 1 armour 0 weapon_lvl 0
+unit		roman triarii				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+unit		roman light cavalry				exp 1 armour 0 weapon_lvl 0
+
+character	Aulus Brutus, named character, heir, age 34, , x 134, y 145
+traits GoodCommander 1 , PoliticsSkill 2 , Rabblerouser 2 , GoodAdministrator 2
+ancillaries quartermaster
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 0 armour 0 weapon_lvl 0
+
+character	Amulius Brutus, named character, age 31, , x 123, y 147
+traits GoodCommander 1 , NaturalMilitarySkill 2 , PoliticsSkill 1 , Intelligent 2
+ancillaries doctor
+army
+unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman velite				exp 1 armour 0 weapon_lvl 0
+
+character	Vibius Brutus, named character, age 30, , x 119, y 153
+traits GoodCommander 1 , GoodAdministrator 2 , PoliticsSkill 1 , Intelligent 2 , MathematicsSkill 2
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		roman hastati				exp 0 armour 0 weapon_lvl 0
+unit		roman velite				exp 0 armour 0 weapon_lvl 0
+
+character	Marcus Attius, admiral, age 29, , x 132, y 148
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character	Luca Antonius, spy, age 23, , x 141, y 143
+traits GoodSpy 4
+
+character	Caius Flaminius, diplomat, age 23, , x 132, y 143
+traits GoodDiplomat 3
+
+character_record		Cassius Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Titus Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Cornelius Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+character_record		Oppius Brutus, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		Galla, 	female, command 0, influence 0, management 0, subterfuge 0, age 50, alive, never_a_leader
+character_record		Hostia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Lucilla, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+character_record		Paulina, 	female, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+
+relative 	Tiberius Brutus, 	Galla,		Aulus Brutus,	Amulius Brutus,	Vibius Brutus,	end
+relative 	Aulus Brutus, 	Hostia,		Paulina,	Titus Brutus,	Oppius Brutus,	end
+relative 	Amulius Brutus, 	Lucilla,		Cassius Brutus,	Cornelius Brutus,	end
+
+faction	romans_scipii, bureaucrat_caesar
+superfaction romans_senate
+denari	5000
+
+settlement
+{
+	level city
+	region Campania
+
+	year_founded 0
+	population 8700
+	plan_set default_set
+	faction_creator romans_scipii
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Lucania
+
+	year_founded 0
+	population 8450
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Bruttium
+
+	year_founded 0
+	population 8350
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Cornelius Scipio, named character, leader, age 54, , x 134, y 124
+traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
+ancillaries aged_retainer
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman princeps				exp 1 armour 0 weapon_lvl 1
+unit		roman princeps				exp 1 armour 0 weapon_lvl 1
+unit		roman princeps				exp 1 armour 0 weapon_lvl 1
+unit		roman princeps				exp 1 armour 0 weapon_lvl 1
+unit		roman triarii				exp 1 armour 0 weapon_lvl 1
+unit		roman triarii				exp 1 armour 0 weapon_lvl 1
+unit		roman velite				exp 1 armour 0 weapon_lvl 1
+unit		roman velite				exp 1 armour 0 weapon_lvl 1
+unit		roman light cavalry				exp 1 armour 0 weapon_lvl 1
+
+character	Julianus Scipio, named character, heir, age 36, , x 126, y 142
+traits GoodCommander 1 , NaturalMilitarySkill 3 , PoliticsSkill 1 , GoodRiskyAttacker 1
+ancillaries drillmaster
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+
+character	Quintus Scipio, named character, age 35, , x 137, y 140
+traits NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Generous 1
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 2 armour 0 weapon_lvl 1
+unit		roman archer				exp 2 armour 0 weapon_lvl 1
+unit		roman velite				exp 0 armour 0 weapon_lvl 1
+
+character	Gaius Scipio, named character, age 29, , x 141, y 136
+traits NaturalMilitarySkill 3 , PoliticsSkill 1 , Intelligent 1 , Generous 1 , AuthoritarianRomanVirtue 2
+army
+unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 1
+unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+
+character	Aulus Volesus, admiral, age 22, , x 137, y 129
+army
+unit		naval biremes				exp 1 armour 0 weapon_lvl 1
+unit		naval biremes				exp 0 armour 0 weapon_lvl 1
+
+character	Quintus Caecus, diplomat, age 26, , x 133, y 140
+traits GoodDiplomat 2
+
+character	Aulus Ovidius, spy, age 20, , x 133, y 124
+traits GoodSpy 3
+
+character_record		Aulus Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Flavius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Lucius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Publius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Metella, 	female, command 0, influence 0, management 0, subterfuge 0, age 52, alive, never_a_leader
+character_record		Antistia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Crispina, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Placidia, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+
+relative 	Cornelius Scipio, 	Metella,		Julianus Scipio,	Quintus Scipio,	Gaius Scipio,	Aulus Scipio,	end
+relative 	Julianus Scipio, 	Antistia,		Flavius Scipio,	Lucius Scipio,	end
+relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
 
 faction	britons, trader_napoleon
 denari	5000
@@ -1002,6 +1711,22 @@ settlement
 	{
 		type core_building governors_villa
 	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 character	Brennus, named character, leader, age 52, , x 64, y 166
@@ -1024,17 +1749,16 @@ unit		barb warguard gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb warguard gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb naked fanatics gauls				exp 1 armour 0 weapon_lvl 0
 unit		barb naked fanatics gauls				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
-unit		warband huntsman gaul				exp 1 armour 0 weapon_lvl 0
 unit		warband huntsman gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb noble cavalry gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb wardogs gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb wardogs gaul				exp 1 armour 0 weapon_lvl 0
 
 character	Rianorix, named character, age 35, , x 91, y 157
 traits NaturalMilitarySkill 2 , Intelligent 1 , Energetic 1 , Drink 1
@@ -1100,10 +1824,10 @@ character	Bolgios of Lemonum, admiral, age 30, , x 53, y 151
 army
 unit		naval boats				exp 0 armour 0 weapon_lvl 0
 
-character	Senaculus of Sabis, diplomat, age 28, , x 100, y 159
+character	Senaculus of Sabis, diplomat, age 28, , x 95, y 158
 traits GoodDiplomat 3
 
-character	Ivomagus of Lemonum, spy, age 20, , x 101, y 159
+character	Ivomagus of Lemonum, spy, age 20, , x 98, y 161
 traits GoodSpy 3
 
 character_record		Belenus, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
@@ -2559,6 +3283,49 @@ settlement
 	}
 }
 
+settlement
+{
+	level city
+	region Tarentum
+
+	year_founded 0
+	population 8400
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
 ; GERMANS
 settlement
 {
@@ -3205,7 +3972,15 @@ settlement
 	}
 	building
 	{
+		type barracks muster_field
+	}
+	building
+	{
 		type port_buildings port
+	}
+	building
+	{
+		type market trader
 	}
 }
 
@@ -3226,6 +4001,30 @@ settlement
 	{
 		type defenses wooden_wall
 	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type taverns tavern
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -3244,6 +4043,22 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type taverns tavern
 	}
 }
 
@@ -3264,6 +4079,14 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
 }
 
 settlement
@@ -3278,6 +4101,18 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -3294,6 +4129,18 @@ settlement
 	{
 		type core_building governors_villa
 	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
@@ -3304,7 +4151,7 @@ settlement
 	year_founded 0
 	population 5900
 	plan_set default_set
-	faction_creator gauls
+	faction_creator romans_julii
 	building
 	{
 		type core_building governors_villa
@@ -3313,9 +4160,31 @@ settlement
 	{
 		type defenses wooden_wall
 	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 ; TEMP
+settlement
+{
+	level village
+	region Tempr0
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
 settlement
 {
 	level village
@@ -3330,16 +4199,6 @@ settlement
 {
 	level village
 	region Tempr6
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr7
 
 	year_founded 0
 	population 400
@@ -4497,10 +5356,117 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 
+; NORTHERN ITALY
+character	sub_faction gauls, Mandubracius, general, age 20, , x 98, y 155
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Adeimanthos, general, age 20, , x 97, y 161
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Prasutagus, general, age 20, , x 105, y 163
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Inguiomerus, general, age 20, , x 110, y 163
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Marcus, general, age 20, , x 112, y 166
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Diviciacus, general, age 20, , x 106, y 158
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction romans_julii, Elatreus, general, age 20, , x 106, y 153
+army
+unit		generic rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 2 armour 0 weapon_lvl 0
+unit		roman light cavalry				exp 2 armour 0 weapon_lvl 0
+
 ; HELLENES
 character	sub_faction greek_cities, Pythias, general, age 20, , x 86, y 144
 army
-unit		generic rebel general				exp 2 armour 1 weapon_lvl 1
+unit		greek general's guard cavalry early				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
@@ -4517,6 +5483,20 @@ unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 
+character	sub_faction greek_cities, Archilochus, general, age 20, , x 141, y 142
+army
+unit		greek general's guard cavalry early				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
+unit		merc samnite				exp 2 armour 1 weapon_lvl 1
+unit		merc samnite				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
+unit		greek medium cavalry				exp 2 armour 1 weapon_lvl 1
+unit		greek cavalry				exp 6 armour 1 weapon_lvl 1
+unit		greek cavalry				exp 6 armour 1 weapon_lvl 1
+unit		greek cavalry				exp 6 armour 1 weapon_lvl 1
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<
 ;DS_ALLIED			= 0	
@@ -4525,22 +5505,58 @@ unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 ;DS_HOSTILE			= 400
 ;DS_AT_WAR			= 600
 
+core_attitudes	romans_julii,	-10		romans_senate, romans_brutii, romans_scipii
 core_attitudes	romans_julii,	100		gauls
 core_attitudes	romans_julii,	600		slave
+
+core_attitudes	romans_brutii,	-10		romans_senate, romans_julii, romans_scipii
+core_attitudes	romans_brutii,	600		slave
+
+core_attitudes	romans_scipii,	-10		romans_senate, romans_julii, romans_brutii
+core_attitudes	romans_scipii,	600		slave
+
+core_attitudes	romans_senate, 	-10		romans_julii, romans_brutii, romans_scipii, romans_senate
+core_attitudes	romans_senate,	100		gauls
+core_attitudes	romans_senate,	600		slave
+
 core_attitudes	britons,	100		germans
 core_attitudes	britons,	600		slave
-core_attitudes	gauls,	100		romans_julii
+
+core_attitudes	gauls,	100		romans_julii, romans_senate
 core_attitudes	gauls,	200		germans
 core_attitudes	gauls,	600		slave
+
 core_attitudes	germans,	100		britons
 core_attitudes	germans,	200		gauls
 core_attitudes	germans,	600		slave
-core_attitudes	greek_cities,	600		slave
-core_attitudes	slave,		600		romans_julii, britons, gauls, germans, greek_cities
 
+core_attitudes	greek_cities,	600		slave
+
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities
+
+; Diplomatic Standing
+faction_relationships	romans_julii,		100		romans_brutii
+faction_relationships	romans_julii,		100		romans_scipii
+faction_relationships	romans_julii,		100		romans_senate
 faction_relationships	romans_julii, 		600		slave
+
+faction_relationships	romans_brutii,		100		romans_brutii
+faction_relationships	romans_brutii,		100		romans_scipii
+faction_relationships	romans_brutii,		100		romans_senate
+faction_relationships	romans_brutii, 		600		slave
+
+faction_relationships	romans_scipii,		100		romans_julii
+faction_relationships	romans_scipii,		100		romans_brutii
+faction_relationships	romans_scipii,		100		romans_senate
+faction_relationships	romans_scipii, 		600		slave
+
+faction_relationships	romans_senate, 		100		romans_julii
+faction_relationships	romans_senate,		100		romans_brutii
+faction_relationships	romans_senate,		100		romans_scipii
+faction_relationships	romans_senate, 		600		slave
+
 faction_relationships	britons, 		600		slave
 faction_relationships	gauls, 		600		slave
 faction_relationships	germans, 		600		slave
 faction_relationships	greek_cities, 		600		slave
-faction_relationships	slave,			600		romans_julii, britons, gauls
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, gauls

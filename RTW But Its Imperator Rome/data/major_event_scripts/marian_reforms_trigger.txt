@@ -5,7 +5,7 @@ script
 		if		HasResource italy						;;has the italy hidden resource
 			&&	I_SettlementLevel local >= huge_city	;;is a huge city
 			&&	I_SettlementOwnerCulture local == roman	;;the owner is roman
-			&&	not SettlementName Rome					;;the settlement isn't rome
+			&&	not SettlementName Roma					;;the settlement isn't rome
 				inc_counter HUGE_ITALIC_CITIES 1
 		end_if
 	end_for

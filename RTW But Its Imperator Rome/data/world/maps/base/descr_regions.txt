@@ -998,6 +998,105 @@ Vallis_Arni
 	5
 	7
 
+Dodecapolis
+	Arretium
+	romans_julii
+	Etruscans
+	75 221 17
+	italy
+	5
+	10
+
+Umbria
+	Ariminum
+	romans_julii
+	Umbrians
+	39 221 167
+	italy
+	5
+	6
+
+Tuscia
+	Spoletium
+	romans_julii
+	Etruscans
+	252 108 178
+	italy
+	5
+	9
+
+Latium
+	Roma
+	romans_senate
+	Latins
+	242 101 34
+	italy, rome
+	5
+	11
+
+Picenum
+	Ankon
+	romans_brutii
+	Umbrians
+	122 55 173
+	italy
+	5
+	7
+
+Aternum
+	Corfinium
+	romans_brutii
+	Campanians
+	115 244 51
+	italy
+	5
+	7
+
+Apulia
+	Canusium
+	romans_brutii
+	Calabrians
+	205 224 65
+	italy
+	5
+	13
+
+Campania
+	Capua
+	romans_scipii
+	Campanians
+	140 11 4
+	italy
+	5
+	9
+
+Lucania
+	Metapontum
+	romans_scipii
+	Lucanians
+	131 242 58
+	italy
+	5
+	4
+
+Bruttium
+	Croton
+	romans_scipii
+	Calabrians
+	232 189 71
+	italy
+	5
+	4
+
+Tarentum
+	Taras
+	greek_cities
+	Calabrians
+	198 88 33
+	italy
+	5
+	12
+
 ;Temporary
 Tempr0
 	Temp0
@@ -1019,15 +1118,6 @@ Tempr4
 
 Tempr6
 	Temp6
-	romans_julii
-	Latins
-	242 101 34
-	none
-	5
-	5
-
-Tempr7
-	Temp7
 	romans_julii
 	Latins
 	225 198 152
