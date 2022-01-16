@@ -99,6 +99,14 @@ Venedia_Inferior
 Ossioia
 Vistulia
 Hyperboria
+Liguria
+Aemilla
+Transpadana
+Insubria
+Cenomannia
+Olana
+Venetia
+Vallis_Arni
 
 Eblania
 Coriondia
@@ -201,6 +209,14 @@ Kunegria
 Sentia
 Gorideva
 Themiskyra
+Genua
+Mutina
+Taurasia
+Mediolanum
+Verona
+Patavium
+Altinum
+Pisna
 
 Tempr0
 Tempr4

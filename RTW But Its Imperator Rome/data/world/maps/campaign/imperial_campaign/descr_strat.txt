@@ -989,6 +989,21 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Transpadana
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
 character	Brennus, named character, leader, age 52, , x 64, y 166
 traits GoodCommander 2 , Intelligent 2 , Austere 1 , PublicFaith 1
 ancillaries bard, civilized_slave
@@ -1005,20 +1020,29 @@ traits NaturalMilitarySkill 3 , Intelligent 2 , Energetic 1 , Drink 2
 ancillaries drunken_uncle, drinking_companion
 army
 unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb warguard gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb warguard gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb naked fanatics gauls				exp 1 armour 0 weapon_lvl 0
+unit		barb naked fanatics gauls				exp 1 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband huntsman gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband huntsman gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb noble cavalry gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb wardogs gaul				exp 0 armour 0 weapon_lvl 0
 
-character	Rianorix, named character, age 35, , x 95, y 158
+character	Rianorix, named character, age 35, , x 91, y 157
 traits NaturalMilitarySkill 2 , Intelligent 1 , Energetic 1 , Drink 1
 ancillaries beastmaster
 army
 unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry gaul				exp 1 armour 0 weapon_lvl 0
 
 character	Vindex, named character, age 32, , x 76, y 161
 traits NaturalMilitarySkill 2 , Drink 1 , Bloodthirsty 1
@@ -3159,6 +3183,136 @@ settlement
 	population 1300
 	plan_set default_set
 	faction_creator germans
+}
+
+; NORTHERN ITALY
+settlement
+{
+	level large_town
+	region Liguria
+	
+	year_founded 0
+	population 4900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level city
+	region Aemilla
+	
+	year_founded 0
+	population 6400
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Insubria
+	
+	year_founded 0
+	population 4750
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cenomannia
+	
+	year_founded 0
+	population 5750
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Olana
+	
+	year_founded 0
+	population 5800
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Venetia
+	
+	year_founded 0
+	population 5900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Vallis_Arni
+	
+	year_founded 0
+	population 5900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
 }
 
 ; TEMP
