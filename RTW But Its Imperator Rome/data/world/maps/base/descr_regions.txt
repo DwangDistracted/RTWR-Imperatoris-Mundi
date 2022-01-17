@@ -1052,6 +1052,7 @@ Aternum
 	5
 	7
 
+;Magna Graecia
 Apulia
 	Canusium
 	romans_brutii
@@ -1097,6 +1098,7 @@ Tarentum
 	5
 	12
 
+;Sicily
 Siculia
 	Messana
 	greek_cities
@@ -1126,7 +1128,7 @@ Sicania
 
 Elimia
 	Lilybaeum
-	greek_cities
+	carthage
 	Sicani
 	49 109 1
 	italy

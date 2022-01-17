@@ -8,6 +8,7 @@ playable
 end 
 unlockable
 	britons
+	carthage
 	gauls
 	germans
 	greek_cities
@@ -667,6 +668,24 @@ resource slaves, 1, 142, 143
 resource olives, 3, 139, 142
 resource pottery, 1, 144, 142
 
+;Siculia
+resource slaves, 1, 136, 127
+resource glass, 2, 136, 125
+
+;Syracuse
+resource slaves, 1, 136, 122
+resource grain, 4, 134, 123
+resource wine, 2, 135, 121
+
+;Sicania
+resource slaves, 1, 131, 122
+resource wine, 2, 130, 124
+resource marble, 3, 130, 123
+
+;Elimia
+resource slaves, 1, 126, 122
+resource grain, 2, 126, 124
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -793,7 +812,7 @@ relative 	Decius Maxentius, 	Honoria,		Servius Maxentius,	Marcus Maxentius,	Pris
 relative 	Marcus Maxentius, 	Licinia,		Publius Maxentius,	Gaius Maxentius,	end
 relative 	Servius Maxentius, 	Marciana,		Lentulus Maxentius,	Papiria,	end
 
-faction	romans_julii, comfortable_stalin
+faction	romans_julii, craftsman_stalin
 superfaction romans_senate
 denari	5000
 
@@ -992,7 +1011,7 @@ relative 	Lucius Julius, 	Poppaea,		Fadia,	Decius Julius,	Marcus Julius,	end
 relative 	Quintus Julius, 	Alypia,		Amulius Julius,	end
 relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
 
-faction	romans_brutii, balanced_stalin
+faction	romans_brutii, craftsman_stalin
 superfaction romans_senate
 denari	5000
 
@@ -2067,6 +2086,10 @@ settlement
 	}
 	building
 	{
+		type missiles archery_range
+	}
+	building
+	{
 		type equestrian stables
 	}
 	building
@@ -2098,17 +2121,20 @@ unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
 
-character	Dionysios of Sparta, named character, age 34, , x 453, y 82
+character	Hiero of Sparta, named character, age 34, , x 137, y 121
 traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2
 ancillaries brilliant_inventor, playwright
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek archer				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Antigonos of Sparta, named character, age 33, , x 455, y 82
 traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1
@@ -2138,7 +2164,12 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
 
 character	Polydoros of Rhodes, admiral, age 36, , x 472, y 60
+army
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 
+character	Gelo of Syracuse, admiral, age 36, , x 136, y 119
 army
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
@@ -2161,10 +2192,158 @@ character_record		Eugenius of Sparta, 	male, command 0, influence 0, management 
 character_record		Nicanor of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
 character_record		Hermine of Sparta, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
 
-relative 	Kleomenes of Sparta, 	Clymene,		Dionysios of Sparta,	Antigonos of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
-relative 	Dionysios of Sparta, 	Harmonia,		Cleon of Sparta,	Hermine of Sparta,	end
+relative 	Kleomenes of Sparta, 	Clymene,		Hiero of Sparta,	Antigonos of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
+relative 	Hiero of Sparta, 	Harmonia,		Cleon of Sparta,	Hermine of Sparta,	end
 relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
 relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
+
+faction	carthage, sailor_napoleon
+denari	7000
+
+settlement
+{
+	level village
+	region Tempr22
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator carthage
+}
+
+settlement
+{
+	level large_town
+	region Elimia
+
+	year_founded 0
+	population 3250
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	Hanno, named character, leader, age 65, , x 127, y 124
+traits GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , GoodTrader 1
+ancillaries spymaster
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian elephant forest				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+
+character	Hasdrubal, named character, heir, age 45, , x 82, y 45
+traits NaturalMilitarySkill 3 , GoodDefender 1 , Intelligent 1 , Energetic 1 , GoodAmbusher 2
+ancillaries Herald
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+
+character	Theophanes, named character, age 21, , x 17, y 58
+traits NaturalMilitarySkill 1 , StrategicSkill 1 , Intelligent 1 , PublicFaith 1
+ancillaries famous_warrior, merchant
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 1 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+
+character	Burrhus, named character, age 41, , x 83, y 34
+traits GoodAdministrator 2 , Intelligent 1 , PublicFaith 1 , GoodTrader 2
+ancillaries priest_of_Tanit, merchant
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+
+character	Theages, named character, age 23, , x 125, y 123
+traits GoodAdministrator 2 , PublicFaith 2
+ancillaries freeman_clerk, merchant
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Theodekles, named character, age 22, , x 54, y 63
+traits GoodAdministrator 2
+ancillaries merchant
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+
+character	Milkpilles, general, age 20, , x 79, y 57
+traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
+ancillaries merchant
+army
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Thero, admiral, age 25, , x 127, y 121
+army
+unit		naval triremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character	Timasion, admiral, age 28, , x 119, y 117
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character	Ribaddi Ilerda, diplomat, age 47, , x 14, y 61
+traits GoodDiplomat 2
+
+character	Hiram Tunis, diplomat, age 31, , x 80, y 43
+traits GoodDiplomat 3
+
+character	Aqhat, spy, age 27, , x 130, y 123
+traits GoodSpy 4
+ancillaries courtesan
+
+character_record		Bomilkar, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
+character_record		Bisaltes, 	male, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+character_record		Actaee, 	female, command 0, influence 0, management 0, subterfuge 0, age 60, alive, never_a_leader
+character_record		Althaia, 	female, command 0, influence 0, management 0, subterfuge 0, age 36, alive, never_a_leader
+character_record		Polymede, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
+character_record		Xanthe, 	female, command 0, influence 0, management 0, subterfuge 0, age 22, alive, never_a_leader
+character_record		Roxane, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Muttunbaal, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+
+relative 	Hanno, 	Actaee,		Hasdrubal,	Burrhus,	Theophanes,	Bomilkar,	end
+relative 	Hasdrubal, 	Althaia,		Bisaltes,	Muttunbaal,	end
+relative 	Burrhus, 	Polymede,		Theages,	Theodekles,	Roxane,	end
+relative 	Theages, 	Xanthe,		end
 
 faction	slave, fortified_mao
 denari	10000
@@ -4282,37 +4461,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Elimia
-
-	year_founded 0
-	population 3250
-	plan_set default_set
-	faction_creator greek_cities
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_wall
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
 ; TEMP
 settlement
 {
@@ -4458,16 +4606,6 @@ settlement
 {
 	level village
 	region Tempr21
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr22
 
 	year_founded 0
 	population 400
@@ -5602,7 +5740,7 @@ unit		roman velite				exp 2 armour 0 weapon_lvl 0
 unit		roman velite				exp 2 armour 0 weapon_lvl 0
 unit		roman light cavalry				exp 2 armour 0 weapon_lvl 0
 
-; HELLENES
+; WESTERN GREEK COLONIES
 character	sub_faction greek_cities, Pythias, general, age 20, , x 86, y 144
 army
 unit		greek general's guard cavalry early				exp 2 armour 1 weapon_lvl 1
@@ -5622,19 +5760,48 @@ unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 
+; MAGNA GRAECIA
 character	sub_faction greek_cities, Archilochus, general, age 20, , x 141, y 142
 army
-unit		greek general's guard cavalry early				exp 2 armour 1 weapon_lvl 1
-unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
-unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
-unit		merc samnite				exp 2 armour 1 weapon_lvl 1
-unit		merc samnite				exp 2 armour 1 weapon_lvl 1
-unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
-unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
-unit		greek medium cavalry				exp 2 armour 1 weapon_lvl 1
-unit		greek cavalry				exp 6 armour 1 weapon_lvl 1
-unit		greek cavalry				exp 6 armour 1 weapon_lvl 1
-unit		greek cavalry				exp 6 armour 1 weapon_lvl 1
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
+
+; SICILY
+character	sub_faction greek_cities, Hicetaon, general, age 20, , x 137, y 127
+army
+unit		generic rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Deinokratis, general, age 20, , x 130, y 121
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<
@@ -5645,30 +5812,38 @@ unit		greek cavalry				exp 6 armour 1 weapon_lvl 1
 ;DS_AT_WAR			= 600
 
 core_attitudes	romans_julii,	-10		romans_senate, romans_brutii, romans_scipii
-core_attitudes	romans_julii,	100		gauls
+core_attitudes	romans_julii,	400		gauls, carthage
 core_attitudes	romans_julii,	600		slave
 
 core_attitudes	romans_brutii,	-10		romans_senate, romans_julii, romans_scipii
+core_attitudes	romans_brutii,	50		greek_cities
+core_attitudes	romans_brutii,	400		carthage
 core_attitudes	romans_brutii,	600		slave
 
 core_attitudes	romans_scipii,	-10		romans_senate, romans_julii, romans_brutii
+core_attitudes	romans_scipii,	50		greek_cities
+core_attitudes	romans_scipii,	400		carthage
 core_attitudes	romans_scipii,	600		slave
 
 core_attitudes	romans_senate, 	-10		romans_julii, romans_brutii, romans_scipii, romans_senate
-core_attitudes	romans_senate,	100		gauls
+core_attitudes	romans_senate,	400		carthage
 core_attitudes	romans_senate,	600		slave
 
-core_attitudes	britons,	100		germans
+core_attitudes	britons,	100		gauls
 core_attitudes	britons,	600		slave
 
-core_attitudes	gauls,	100		romans_julii, romans_senate
-core_attitudes	gauls,	200		germans
+core_attitudes	carthage,	100		gauls
+core_attitudes	carthage,	400		romans_senate, romans_julii, romans_scipii, romans_brutii, greek_cities
+core_attitudes	carthage,	600		slave
+
+core_attitudes	gauls,	100		carthage, britons
+core_attitudes	gauls,	400		romans_julii, romans_senate
 core_attitudes	gauls,	600		slave
 
-core_attitudes	germans,	100		britons
-core_attitudes	germans,	200		gauls
 core_attitudes	germans,	600		slave
 
+core_attitudes	greek_cities,	50		romans_scipii
+core_attitudes	greek_cities,	400		carthage
 core_attitudes	greek_cities,	600		slave
 
 core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities
@@ -5695,7 +5870,13 @@ faction_relationships	romans_senate,		100		romans_scipii
 faction_relationships	romans_senate, 		600		slave
 
 faction_relationships	britons, 		600		slave
+
+faction_relationships	carthage, 		600		slave
+
 faction_relationships	gauls, 		600		slave
+
 faction_relationships	germans, 		600		slave
+
 faction_relationships	greek_cities, 		600		slave
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, gauls
+
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, gauls, germans, greek_cities
