@@ -1135,6 +1135,34 @@ Elimia
 	5
 	3
 
+;West Mediterranean Islands
+Sardinia_Australis
+	Karalis
+	carthage
+	SardoPunic
+	220 226 43
+	none
+	5
+	9
+
+Sardinia_Borealis
+	Olbia_Rasna
+	carthage
+	SardoPunic
+	237 104 234
+	none
+	5
+	9
+
+Corsica
+	Alalia
+	romans_julii
+	Etruscans
+	226 107 9
+	none
+	5
+	3
+
 ;Temporary
 Tempr0
 	Temp0

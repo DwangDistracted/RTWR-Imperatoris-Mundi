@@ -122,6 +122,9 @@ Siculia
 Syracuse
 Sicania
 Elimia
+Sardinia_Australis
+Sardinia_Borealis
+Corsica
 
 Eblania
 Coriondia
@@ -247,6 +250,9 @@ Messana
 Syrakousai
 Akragas
 Lilybaeum
+Karalis
+Olbia_Rasna
+Alalia
 
 Tempr0
 Tempr4

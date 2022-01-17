@@ -2234,11 +2234,85 @@ settlement
 	}
 	building
 	{
-		type port_buildings port
+		type port_buildings shipwright
 	}
 	building
 	{
 		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Sardinia_Australis
+
+	year_founded 0
+	population 8400
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type health baths
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sardinia_Borealis
+
+	year_founded 0
+	population 5050
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -4458,6 +4532,26 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+}
+
+; CORSICA
+settlement
+{
+	level large_town
+	region Corsica
+
+	year_founded 0
+	population 4200
+	plan_set default_set
+	faction_creator romans_julii
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 

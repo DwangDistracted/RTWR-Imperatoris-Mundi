@@ -1142,7 +1142,7 @@ unit				greek hoplite
 unit				greek general's guard cavalry early
 
 rebel_type 			Tarantine		//greek_cities
-category			peasant_revolt 
+category			peasant_revolt
 chance				0
 description			Tarantine
 unit				greek cavalry
@@ -1158,7 +1158,7 @@ unit				greek general's guard cavalry early
 
 rebel_type 			Lugians		//Germans
 category			peasant_revolt 
-chance				0					
+chance				0
 description			Lugians	
 unit				barb infantry slave
 unit				barb infantry slave
@@ -1170,7 +1170,7 @@ unit				barbarian rebel general
 
 rebel_type 			Boii		//Gauls
 category			peasant_revolt 
-chance				0					
+chance				0
 description			Boii
 unit				barb infantry slave
 unit				barb infantry slave
@@ -1185,7 +1185,7 @@ unit				barb chieftain cavalry early slave
 
 rebel_type 			Mamertine		//Romans
 category			peasant_revolt 
-chance				0					
+chance				0
 description			Mamertine
 unit				greek peasant
 unit				roman velite
@@ -1195,7 +1195,21 @@ unit				roman hastati
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek cavalry
-unit				generic rebel general					
+unit				generic rebel general
+
+rebel_type 			SardoPunic		//Carthage
+category			peasant_revolt 
+chance				0
+description			SardoPunic
+unit				greek peasant
+unit				roman velite
+unit				roman velite
+unit				roman hastati
+unit				roman hastati
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek cavalry
+unit				generic rebel general
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
