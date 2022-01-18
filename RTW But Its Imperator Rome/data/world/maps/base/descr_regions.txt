@@ -1163,6 +1163,15 @@ Corsica
 	5
 	3
 
+Balearides
+	Palma
+	carthage
+	Beronicensis
+	231 69 249
+	none
+	5
+	5
+
 ;Temporary
 Tempr0
 	Temp0

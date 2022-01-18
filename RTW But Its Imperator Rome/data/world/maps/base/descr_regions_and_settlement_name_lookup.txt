@@ -125,6 +125,7 @@ Elimia
 Sardinia_Australis
 Sardinia_Borealis
 Corsica
+Balearides
 
 Eblania
 Coriondia
@@ -253,6 +254,7 @@ Lilybaeum
 Karalis
 Olbia_Rasna
 Alalia
+Palma
 
 Tempr0
 Tempr4

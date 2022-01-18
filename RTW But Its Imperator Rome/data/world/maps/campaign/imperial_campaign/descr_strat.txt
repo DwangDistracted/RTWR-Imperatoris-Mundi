@@ -12,6 +12,7 @@ unlockable
 	gauls
 	germans
 	greek_cities
+	numidia
 end
 nonplayable
 	romans_senate
@@ -685,6 +686,25 @@ resource marble, 3, 130, 123
 ;Elimia
 resource slaves, 1, 126, 122
 resource grain, 2, 126, 124
+
+;Balearides
+resource slaves, 1, 78, 120
+resource silver, 1, 74, 115
+resource glass, 1, 85, 124
+
+;Sardinia_Australis
+resource slaves, 1, 105, 129
+resource silver, 2, 105, 126
+resource lead, 4, 107, 130
+
+;Sardinia_Borealis
+resource slaves, 1, 104, 134
+resource wine, 2, 107, 132
+resource grain, 3, 104, 132
+
+;Corsica
+resource slaves, 1, 103, 144
+resource marble, 1, 103, 139
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -2316,6 +2336,33 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Balearides
+
+	year_founded 0
+	population 1750
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
 character	Hanno, named character, leader, age 65, , x 127, y 124
 traits GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , GoodTrader 1
 ancillaries spymaster
@@ -2367,7 +2414,7 @@ unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Theodekles, named character, age 22, , x 54, y 63
+character	Theodekles, named character, age 22, , x 80, y 121
 traits GoodAdministrator 2
 ancillaries merchant
 army
@@ -2376,12 +2423,21 @@ unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Milkpilles, general, age 20, , x 79, y 57
+character	Milkpilles, general, age 20, , x 106, y 135
 traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
 ancillaries merchant
 army
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian peasant				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Milkpilles, general, age 20, , x 107, y 127
+traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
+ancillaries merchant
+army
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
 character	Thero, admiral, age 25, , x 127, y 121
 army
@@ -2418,6 +2474,83 @@ relative 	Hanno, 	Actaee,		Hasdrubal,	Burrhus,	Theophanes,	Bomilkar,	end
 relative 	Hasdrubal, 	Althaia,		Bisaltes,	Muttunbaal,	end
 relative 	Burrhus, 	Polymede,		Theages,	Theodekles,	Roxane,	end
 relative 	Theages, 	Xanthe,		end
+
+faction	numidia, comfortable_henry
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr24
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+character	Syphax, named character, leader, age 60, , x 55, y 41
+traits GoodCommander 2 , Energetic 1
+ancillaries desert_scout, astrologer
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
+
+character	Gisgo, named character, heir, age 35, , x 12, y 46
+traits GoodCommander 2 , Energetic 1 , Intelligent 1 , Drink 1
+ancillaries merchant
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Muttines, named character, age 30, , x 166, y 2
+traits NaturalMilitarySkill 1 , PublicFaith 3 , Intelligent 1
+ancillaries desert_scout
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+
+character	Oxynta, general, age 20, , x 57, y 42
+army
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+
+character	Juva, general, age 20, , x 38, y 18
+army
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
+
+character	Thero, diplomat, age 20, , x 55, y 43
+traits GoodDiplomat 3
+
+character	Bathyaes, spy, age 20, , x 61, y 43
+traits GoodSpy 2
+ancillaries dancer
+
+character_record		Adonibal, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Balhanno, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Tabnit, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+character_record		Abdimilki, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Dahia, 	female, command 0, influence 0, management 0, subterfuge 0, age 51, alive, never_a_leader
+character_record		Kahina, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
+character_record		Aglaurus, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+character_record		Pherusa, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Sotera, 	female, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+
+relative 	Syphax, 	Dahia,		Gisgo,	Muttines,	Adonibal,	end
+relative 	Gisgo, 	Kahina,		Balhanno,	Pherusa,	end
+relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 
 faction	slave, fortified_mao
 denari	10000
@@ -4716,16 +4849,6 @@ settlement
 	plan_set default_set
 	faction_creator romans_julii
 }
-settlement
-{
-	level village
-	region Tempr24
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
 
 ;AMAZONS
 character	sub_faction greek_cities, Eudokia, general, age 20, , x 187, y 251
@@ -5897,6 +6020,19 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
 
+; WEST MEDITERRANEAN ISLANDS
+character	sub_faction romans_julii, Elpidius, general, age 20, , x 104, y 141
+army
+unit		generic rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 2 armour 0 weapon_lvl 0
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<
 ;DS_ALLIED			= 0	
@@ -5926,6 +6062,7 @@ core_attitudes	romans_senate,	600		slave
 core_attitudes	britons,	100		gauls
 core_attitudes	britons,	600		slave
 
+core_attitudes	carthage, 		0		numidia
 core_attitudes	carthage,	100		gauls
 core_attitudes	carthage,	400		romans_senate, romans_julii, romans_scipii, romans_brutii, greek_cities
 core_attitudes	carthage,	600		slave
@@ -5940,7 +6077,10 @@ core_attitudes	greek_cities,	50		romans_scipii
 core_attitudes	greek_cities,	400		carthage
 core_attitudes	greek_cities,	600		slave
 
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities
+core_attitudes	numidia, 		0		carthage
+core_attitudes	numidia, 		600		slave
+
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities, numidia
 
 ; Diplomatic Standing
 faction_relationships	romans_julii,		100		romans_brutii
@@ -5965,6 +6105,7 @@ faction_relationships	romans_senate, 		600		slave
 
 faction_relationships	britons, 		600		slave
 
+faction_relationships	carthage, 		0		numidia
 faction_relationships	carthage, 		600		slave
 
 faction_relationships	gauls, 		600		slave
@@ -5973,4 +6114,7 @@ faction_relationships	germans, 		600		slave
 
 faction_relationships	greek_cities, 		600		slave
 
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, gauls, germans, greek_cities
+faction_relationships	numidia, 		0		carthage
+faction_relationships	numidia, 		600		slave
+
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, gauls, germans, greek_cities, numidia
