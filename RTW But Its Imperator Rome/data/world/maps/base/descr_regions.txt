@@ -1172,6 +1172,52 @@ Balearides
 	5
 	5
 
+;Africa
+Carthago
+	Qart_Hadasht
+	carthage
+	Poeni
+	244 12 51
+	none
+	5
+	12
+
+Zeugitana
+	Karash
+	carthage
+	Poeni
+	104 216 75
+	none
+	5
+	12
+
+Byssatis
+	Tapsa
+	carthage
+	Poeni
+	199 214 66
+	none
+	5
+	14
+
+Thabracania
+	Tabarkon
+	carthage
+	Poeni
+	82 229 131
+	none
+	5
+	3
+
+Massylia
+	Rushikad
+	numidia
+	Numidian
+	29 121 155
+	none
+	5
+	6
+
 ;Temporary
 Tempr0
 	Temp0

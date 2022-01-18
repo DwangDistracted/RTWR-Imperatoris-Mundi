@@ -87,7 +87,6 @@ resource iron, 1, 40, 202
 
 ;Coritania
 resource slaves, 1, 41, 197
-resource dogs, 1, 46, 195
 resource wild_animals, 1, 42, 195
 
 ;Cornovia
@@ -127,7 +126,6 @@ resource copper, 2, 32, 174
 
 ;Dobunnia
 resource slaves, 1, 41, 187
-resource pigs, 1, 43, 190
 resource iron, 1, 41, 185
 resource textiles, 2, 44, 187
 resource lead, 1, 45, 192
@@ -157,7 +155,6 @@ resource iron, 1, 50, 161
 
 ;Venellia
 resource slaves, 1, 47, 170
-resource dogs, 1, 49, 167
 
 ;Eburovicia
 resource slaves, 1, 54, 170
@@ -186,7 +183,6 @@ resource timber, 3, 60, 154
 
 ;Turonia
 resource slaves, 1, 57, 163
-resource dogs, 1, 59, 165
 resource purple_dye, 2, 60, 163
 
 ;Carnutia
@@ -217,7 +213,6 @@ resource furs, 1, 71, 172
 ;Haeduia
 resource slaves, 1, 75, 164
 resource iron, 2, 77, 167
-resource dogs, 1, 76, 163
 resource purple_dye, 1, 75, 170
 
 ;Senonia
@@ -230,7 +225,6 @@ resource lead, 1, 73, 166
 resource slaves, 1, 68, 162
 resource furs, 3, 68, 168
 resource textiles, 2, 66, 166
-resource pigs, 1, 64, 163
 
 ;Celtica
 resource slaves, 1, 65, 155
@@ -259,7 +253,6 @@ resource wine, 2, 66, 140
 ;Biggeronia
 resource slaves, 1, 65, 138 
 resource marble, 4, 59, 137
-resource dogs, 1, 61, 138
 
 ;Volcatia
 resource slaves, 1, 68, 140
@@ -344,7 +337,6 @@ resource marble, 1, 80, 186
 ;Mediomatricia
 resource slaves, 1, 84, 182
 resource wine, 1, 84, 184
-resource dogs, 1, 81, 180
 
 ;Tribocia
 resource slaves, 1, 86, 177
@@ -364,7 +356,6 @@ resource hides, 3, 76, 199
 resource slaves, 1, 82, 208
 resource amber, 2, 82, 211
 resource timber, 3, 85, 205
-resource dogs, 1, 82, 203
 
 ;Bructeria
 resource slaves, 1, 81, 198
@@ -417,7 +408,6 @@ resource purple_dye, 2, 71, 241
 
 ;Chamavia
 resource slaves, 1, 91, 198
-resource pigs, 1, 87, 200
 resource grain, 2, 93, 195
 
 ;Langobardia
@@ -508,7 +498,6 @@ resource timber, 4, 122, 190
 ;Naristia
 resource slaves, 1, 118, 184
 resource furs, 2, 114, 188
-resource dogs, 1, 120, 185
 
 ;Latobrigia
 resource slaves, 1, 88, 173
@@ -584,7 +573,6 @@ resource wine, 1, 100, 154
 ;Insubria
 resource slaves, 1, 97,160
 resource grain, 5, 97, 158
-resource dogs, 1, 94, 160
 
 ;Cenomannia
 resource slaves, 1, 105, 162
@@ -593,7 +581,6 @@ resource olive_oil, 3, 103, 160
 
 ;Olana
 resource slaves, 1, 110, 164
-resource pigs, 1, 108, 165
 resource grain, 3, 108, 162
 
 ;Venetia
@@ -650,7 +637,6 @@ resource pottery, 1, 131, 146
 
 ;Campania
 resource slaves, 1, 125, 144
-resource dogs, 1, 129, 144
 resource wine, 3, 128, 142
 resource glass, 1, 130, 141
 
@@ -705,6 +691,33 @@ resource grain, 3, 104, 132
 ;Corsica
 resource slaves, 1, 103, 144
 resource marble, 1, 103, 139
+
+;Carthago
+resource slaves, 1, 114, 115
+resource grain, 4, 113, 115
+resource purple_dye, 3, 115, 112
+resource marble, 3, 112, 111
+
+;Zeugitana
+resource slaves, 1, 117, 111
+resource olive_oil, 3, 116, 108
+resource wine, 3, 119, 115
+
+;Thabracania
+resource slaves, 1, 110, 113
+resource lead, 5, 112, 109
+resource timber, 2, 109, 110
+
+;Byssatis
+resource slaves, 1, 119, 108
+resource grain, 2, 119, 106
+resource elephants, 2, 118, 102
+resource wine, 2, 120, 104
+
+;Massylia
+resource slaves, 1, 102, 108
+resource elephants, 1, 106, 109
+resource textiles, 1, 103, 111
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -2222,13 +2235,178 @@ denari	7000
 
 settlement
 {
-	level village
-	region Tempr22
+	level city
+	region Carthago
 
 	year_founded 0
-	population 400
+	population 10150
 	plan_set default_set
 	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type health baths
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Zeugitana
+
+	year_founded 0
+	population 7350
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Byssatis
+
+	year_founded 0
+	population 7400
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Thabracania
+
+	year_founded 0
+	population 6850
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -2368,18 +2546,28 @@ traits GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , 
 ancillaries spymaster
 army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian elephant forest				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
 
-character	Hasdrubal, named character, heir, age 45, , x 82, y 45
+character	Hasdrubal, named character, heir, age 45, , x 116, y 113
 traits NaturalMilitarySkill 3 , GoodDefender 1 , Intelligent 1 , Energetic 1 , GoodAmbusher 2
 ancillaries Herald
 army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian medium infantry				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
@@ -2396,13 +2584,11 @@ unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 1 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 
-character	Burrhus, named character, age 41, , x 83, y 34
+character	Burrhus, named character, age 41, , x 121, y 108
 traits GoodAdministrator 2 , Intelligent 1 , PublicFaith 1 , GoodTrader 2
 ancillaries priest_of_Tanit, merchant
 army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
 character	Theages, named character, age 23, , x 125, y 123
@@ -2423,21 +2609,33 @@ unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Milkpilles, general, age 20, , x 106, y 135
+character	Banat, named character, age 19, , x 118, y 113
 traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
 ancillaries merchant
 army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+
+character	Milkpilles, general, age 20, , x 106, y 135
+army
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Milkpilles, general, age 20, , x 107, y 127
-traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
-ancillaries merchant
+character	Barca, general, age 20, , x 107, y 127
 army
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
+
+character	Abdmelqart, general, age 20, , x 108, y 112
+army
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Thero, admiral, age 25, , x 127, y 121
 army
@@ -2446,7 +2644,7 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character	Timasion, admiral, age 28, , x 119, y 117
+character	Timasion, admiral, age 28, , x 112, y 116
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
@@ -2454,7 +2652,7 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 character	Ribaddi Ilerda, diplomat, age 47, , x 14, y 61
 traits GoodDiplomat 2
 
-character	Hiram Tunis, diplomat, age 31, , x 80, y 43
+character	Hiram Tunis, diplomat, age 31, , x 116, y 110
 traits GoodDiplomat 3
 
 character	Aqhat, spy, age 27, , x 130, y 123
@@ -2464,14 +2662,14 @@ ancillaries courtesan
 character_record		Bomilkar, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
 character_record		Bisaltes, 	male, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
 character_record		Actaee, 	female, command 0, influence 0, management 0, subterfuge 0, age 60, alive, never_a_leader
-character_record		Althaia, 	female, command 0, influence 0, management 0, subterfuge 0, age 36, alive, never_a_leader
+character_record		Althaia, 	female, command 0, influence 0, management 0, subterfuge 0, age 38, alive, never_a_leader
 character_record		Polymede, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
 character_record		Xanthe, 	female, command 0, influence 0, management 0, subterfuge 0, age 22, alive, never_a_leader
 character_record		Roxane, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
 character_record		Muttunbaal, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
 
 relative 	Hanno, 	Actaee,		Hasdrubal,	Burrhus,	Theophanes,	Bomilkar,	end
-relative 	Hasdrubal, 	Althaia,		Bisaltes,	Muttunbaal,	end
+relative 	Hasdrubal, 	Althaia,		Banat,	Bisaltes,	Muttunbaal,	end
 relative 	Burrhus, 	Polymede,		Theages,	Theodekles,	Roxane,	end
 relative 	Theages, 	Xanthe,		end
 
@@ -4668,7 +4866,7 @@ settlement
 	}
 }
 
-; CORSICA
+; WESTERN MEDITERRANEAN ISLANDS
 settlement
 {
 	level large_town
@@ -4685,6 +4883,30 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+}
+
+; NORTH AFRICA
+settlement
+{
+	level large_town
+	region Massylia
+
+	year_founded 0
+	population 5700
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -4838,6 +5060,16 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr22
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator carthage
 }
 settlement
 {
@@ -6020,7 +6252,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
 
-; WEST MEDITERRANEAN ISLANDS
+; WESTERN MEDITERRANEAN ISLANDS
 character	sub_faction romans_julii, Elpidius, general, age 20, , x 104, y 141
 army
 unit		generic rebel general				exp 2 armour 0 weapon_lvl 0
@@ -6032,6 +6264,23 @@ unit		roman hastati				exp 2 armour 0 weapon_lvl 0
 unit		roman hastati				exp 2 armour 0 weapon_lvl 0
 unit		roman velite				exp 2 armour 0 weapon_lvl 0
 unit		roman velite				exp 2 armour 0 weapon_lvl 0
+
+; NORTH AFRICA
+character	sub_faction carthage, Aderbal, general, age 20, , x 102, y 110
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<

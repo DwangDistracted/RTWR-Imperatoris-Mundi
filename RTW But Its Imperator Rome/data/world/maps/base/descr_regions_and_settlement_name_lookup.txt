@@ -126,6 +126,11 @@ Sardinia_Australis
 Sardinia_Borealis
 Corsica
 Balearides
+Carthago
+Zeugitana
+Byssatis
+Thabracania
+Massylia
 
 Eblania
 Coriondia
@@ -255,6 +260,11 @@ Karalis
 Olbia_Rasna
 Alalia
 Palma
+Qart_Hadasht
+Karash
+Tapsa
+Tabarkon
+Rushikad
 
 Tempr0
 Tempr4

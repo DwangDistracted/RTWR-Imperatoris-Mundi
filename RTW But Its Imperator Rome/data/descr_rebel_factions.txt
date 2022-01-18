@@ -1198,18 +1198,33 @@ unit				greek cavalry
 unit				generic rebel general
 
 rebel_type 			SardoPunic		//Carthage
-category			peasant_revolt 
+category			peasant_revolt
 chance				0
 description			SardoPunic
-unit				greek peasant
-unit				roman velite
-unit				roman velite
-unit				roman hastati
-unit				roman hastati
-unit				greek hoplite militia
-unit				greek hoplite militia
-unit				greek cavalry
-unit				generic rebel general
+unit				carthaginian peasant
+unit				carthaginian peasant
+unit				carthaginian peltast
+unit				carthaginian peltast
+unit				merc balearic slingers
+unit				carthaginian city militia
+unit				carthaginian city militia
+unit				carthaginian city militia
+unit				carthaginian cavalry
+unit				carthaginian general's cavalry early
+
+rebel_type 			Numidian		//numidia
+category			peasant_revolt
+chance				0
+description			Numidian
+unit				carthaginian peasant
+unit				carthaginian peasant
+unit				carthaginian slinger
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				carthaginian general's cavalry early
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
