@@ -719,6 +719,44 @@ resource slaves, 1, 102, 108
 resource elephants, 1, 106, 109
 resource textiles, 1, 103, 111
 
+;Musulamia
+resource slaves, 1, 115, 105
+resource wine, 4, 113, 106
+
+;Maxyesia
+resource slaves, 1, 113, 101
+resource textiles, 1, 112, 103
+resource elephants, 1, 111, 97
+resource camels, 2, 115, 98
+
+;Zaba
+resource slaves, 1, 109, 100
+resource wine, 2, 109, 101
+resource camels, 1, 105, 97
+
+;Aurasius
+resource slaves, 1, 106, 104
+resource textiles, 2, 101, 104
+resource stone, 4, 100, 100
+resource timber, 5, 106, 106
+
+;Gaetulia
+resource slaves, 1, 97, 99
+resource furs, 1, 101, 97
+resource camels, 2, 95, 96
+
+;Cirtania
+resource slaves, 1, 97, 105
+resource grain, 4, 96, 105
+resource iron, 3, 99, 110
+resource lead, 1, 97, 107
+resource hides, 2, 97, 102
+
+;Sitifensia
+resource slaves, 1, 93, 107
+resource wine, 2, 94, 101
+resource elephants, 1, 91, 100
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -2231,7 +2269,7 @@ relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
 relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 
 faction	carthage, sailor_napoleon
-denari	7000
+denari	5000
 
 settlement
 {
@@ -2674,20 +2712,113 @@ relative 	Burrhus, 	Polymede,		Theages,	Theodekles,	Roxane,	end
 relative 	Theages, 	Xanthe,		end
 
 faction	numidia, comfortable_henry
-denari	3000
+denari	5000
 
 settlement
 {
-	level village
-	region Tempr24
+	level large_town
+	region Cirtania
 
 	year_founded 0
-	population 400
+	population 4950
 	plan_set default_set
 	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
-character	Syphax, named character, leader, age 60, , x 55, y 41
+settlement
+{
+	level large_town
+	region Sitifensia
+
+	year_founded 0
+	population 3350
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aurasius
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level large_town
+	region Zaba
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+character	Syphax, named character, leader, age 60, , x 99, y 105
 traits GoodCommander 2 , Energetic 1
 ancillaries desert_scout, astrologer
 army
@@ -2696,7 +2827,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Gisgo, named character, heir, age 35, , x 12, y 46
+character	Gisgo, named character, heir, age 35, , x 107, y 101
 traits GoodCommander 2 , Energetic 1 , Intelligent 1 , Drink 1
 ancillaries merchant
 army
@@ -2705,7 +2836,7 @@ unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Muttines, named character, age 30, , x 166, y 2
+character	Muttines, named character, age 30, , x 97, y 105
 traits NaturalMilitarySkill 1 , PublicFaith 3 , Intelligent 1
 ancillaries desert_scout
 army
@@ -2716,12 +2847,12 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	Oxynta, general, age 20, , x 57, y 42
+character	Oxynta, general, age 20, , x 108, y 105
 army
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	Juva, general, age 20, , x 38, y 18
+character	Juva, general, age 20, , x 94, y 104
 army
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
@@ -2729,10 +2860,10 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Thero, diplomat, age 20, , x 55, y 43
+character	Thero, diplomat, age 20, , x 101, y 104
 traits GoodDiplomat 3
 
-character	Bathyaes, spy, age 20, , x 61, y 43
+character	Bathyaes, spy, age 20, , x 114, y 102
 traits GoodSpy 2
 ancillaries dancer
 
@@ -4895,7 +5026,7 @@ settlement
 	year_founded 0
 	population 5700
 	plan_set default_set
-	faction_creator carthage
+	faction_creator numidia
 	building
 	{
 		type core_building governors_villa
@@ -4908,6 +5039,47 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+}
+
+settlement
+{
+	level large_town
+	region Musulamia
+
+	year_founded 0
+	population 3050
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level village
+	region Maxyesia
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Gaetulia
+
+	year_founded 0
+	population 2550
+	plan_set default_set
+	faction_creator numidia
 }
 
 ; TEMP
@@ -5080,6 +5252,16 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr24
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
 }
 
 ;AMAZONS
@@ -6281,6 +6463,57 @@ unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+character	sub_faction numidia, Aischylos, general, age 20, , x 98, y 96
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Aischylos, general, age 20, , x 98, y 96
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Euenus, general, age 20, , x 115, y 101
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Euonomos, general, age 20, , x 114, y 105
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<
@@ -6332,24 +6565,24 @@ core_attitudes	numidia, 		600		slave
 core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities, numidia
 
 ; Diplomatic Standing
-faction_relationships	romans_julii,		100		romans_brutii
-faction_relationships	romans_julii,		100		romans_scipii
-faction_relationships	romans_julii,		100		romans_senate
+faction_relationships	romans_julii,		0		romans_brutii
+faction_relationships	romans_julii,		0		romans_scipii
+faction_relationships	romans_julii,		0		romans_senate
 faction_relationships	romans_julii, 		600		slave
 
-faction_relationships	romans_brutii,		100		romans_brutii
-faction_relationships	romans_brutii,		100		romans_scipii
-faction_relationships	romans_brutii,		100		romans_senate
+faction_relationships	romans_brutii,		0		romans_julii
+faction_relationships	romans_brutii,		0		romans_scipii
+faction_relationships	romans_brutii,		0		romans_senate
 faction_relationships	romans_brutii, 		600		slave
 
-faction_relationships	romans_scipii,		100		romans_julii
-faction_relationships	romans_scipii,		100		romans_brutii
-faction_relationships	romans_scipii,		100		romans_senate
+faction_relationships	romans_scipii,		0		romans_julii
+faction_relationships	romans_scipii,		0		romans_brutii
+faction_relationships	romans_scipii,		0		romans_senate
 faction_relationships	romans_scipii, 		600		slave
 
-faction_relationships	romans_senate, 		100		romans_julii
-faction_relationships	romans_senate,		100		romans_brutii
-faction_relationships	romans_senate,		100		romans_scipii
+faction_relationships	romans_senate, 		0		romans_julii
+faction_relationships	romans_senate,		0		romans_brutii
+faction_relationships	romans_senate,		0		romans_scipii
 faction_relationships	romans_senate, 		600		slave
 
 faction_relationships	britons, 		600		slave
@@ -6367,3 +6600,28 @@ faction_relationships	numidia, 		0		carthage
 faction_relationships	numidia, 		600		slave
 
 faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, gauls, germans, greek_cities, numidia
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; >>>> start of scripts section <<<<
+superfaction_setup romans_senate
+
+default_hostile slave
+default_hostile gauls
+default_hostile carthage
+;default_hostile macedon
+
+;;julii first mission should be to capture Pisna (Vallis_Arni)
+mission_queue romans_julii
+{
+	major_reward 10 Take_City Pisna
+}
+;;brutii first mission should be to capture Taras (Tarentum)
+mission_queue romans_brutii
+{
+	major_reward 10 Take_City Taras
+}
+;;scipii first mission should be to capture Messana (Siculia)
+mission_queue romans_scipii
+{
+	major_reward 10 Take_City Messana
+}

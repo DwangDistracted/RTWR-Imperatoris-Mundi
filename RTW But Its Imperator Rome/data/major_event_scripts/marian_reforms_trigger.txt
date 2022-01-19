@@ -1,4 +1,5 @@
 script
+	declare_counter HUGE_ITALIC_CITIES
 	set_counter HUGE_ITALIC_CITIES 0
 	;;check every settlement in the world
 	for_each settlement in world

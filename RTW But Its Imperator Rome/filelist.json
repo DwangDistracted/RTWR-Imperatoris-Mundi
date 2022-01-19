@@ -12,12 +12,24 @@
 		"checksum": 1160972198
 	},
 	{
+		"filename": "data\/descr_daytypes.txt",
+		"checksum": 2651613257
+	},
+	{
 		"filename": "data\/descr_rebel_factions.txt",
-		"checksum": 2141788273
+		"checksum": 3600713267
 	},
 	{
 		"filename": "data\/descr_unit_variation.txt",
 		"checksum": 800117491
+	},
+	{
+		"filename": "data\/feral_descr_grass_usage.txt",
+		"checksum": 3411630588
+	},
+	{
+		"filename": "data\/major_event_scripts\/marian_reforms_trigger.txt",
+		"checksum": 2958241695
 	},
 	{
 		"filename": "data\/terrain\/aerial_map\/tile_models\/river_a\/river_a.cas",
@@ -2277,11 +2289,11 @@
 	},
 	{
 		"filename": "data\/text\/imperial_campaign_regions_and_settlement_names.txt",
-		"checksum": 224904900
+		"checksum": 3004192278
 	},
 	{
 		"filename": "data\/text\/rebel_faction_descr.txt",
-		"checksum": 1219483213
+		"checksum": 224618544
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_disasters.txt",
@@ -2289,11 +2301,11 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 3177646264
+		"checksum": 2876547679
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 4022022950
+		"checksum": 1147659656
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
@@ -2345,23 +2357,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2995734877
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description.txt",
-		"checksum": 110368370
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description_brutii.txt",
-		"checksum": 1766092081
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description_julii.txt",
-		"checksum": 615846071
-	},
-	{
-		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/description_scipii.txt",
-		"checksum": 1756868814
+		"checksum": 595341464
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/disasters.tga",

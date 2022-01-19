@@ -1226,6 +1226,20 @@ unit				numidian cavalry
 unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
+rebel_type 			Musulamian		//numidia
+category			peasant_revolt
+chance				0
+description			Musulamian
+unit				carthaginian peasant
+unit				carthaginian peasant
+unit				carthaginian slinger
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				carthaginian general's cavalry early
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

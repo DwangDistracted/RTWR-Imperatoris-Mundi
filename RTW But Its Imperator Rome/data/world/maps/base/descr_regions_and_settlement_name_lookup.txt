@@ -131,6 +131,13 @@ Zeugitana
 Byssatis
 Thabracania
 Massylia
+Musulamia
+Maxyesia
+Zaba
+Aurasius
+Cirtania
+Sitifensia
+Gaetulia
 
 Eblania
 Coriondia
@@ -265,6 +272,13 @@ Karash
 Tapsa
 Tabarkon
 Rushikad
+Mactaris
+Tabira
+Ad_Aquas_Caesaris
+Ammaedara
+Kirta
+Sitifis
+Gemellae
 
 Tempr0
 Tempr4
