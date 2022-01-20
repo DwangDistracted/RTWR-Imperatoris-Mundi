@@ -715,8 +715,8 @@ unit				carthaginian peltast
 unit				carthaginian peltast
 unit				carthaginian city militia
 unit				merc balearic slingers
-unit				generic rebel general					
-					
+unit				carthaginian general's cavalry early
+
 rebel_type 			Latins		//Romans
 category			peasant_revolt 
 chance				0					
@@ -964,8 +964,8 @@ unit				carthaginian peltast
 unit				carthaginian city militia
 unit				carthaginian infantry
 unit				carthaginian cavalry
-unit				generic rebel general					
-					
+unit				carthaginian general's cavalry early				
+
 rebel_type 			Moors		//numidia
 category			peasant_revolt 
 chance				0					
@@ -973,8 +973,8 @@ description			Moors
 unit				carthaginian peasant
 unit				numidian javelinmen
 unit				numidian cavalry
-unit				generic rebel general					
-					
+unit				carthaginian general's cavalry early					
+
 rebel_type 			Palmyrans	//armenia
 category			peasant_revolt 
 chance				0					
@@ -1043,8 +1043,8 @@ unit				carthaginian peltast
 unit				carthaginian city militia
 unit				carthaginian infantry
 unit				carthaginian cavalry
-unit				generic rebel general					
-					
+unit				carthaginian general's cavalry early
+
 rebel_type 			Rhodians	//Macedon
 category			peasant_revolt 
 chance				0					
@@ -1098,8 +1098,8 @@ unit				carthaginian peasant
 unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
-unit				generic rebel general					
-					
+unit				carthaginian general's cavalry early
+
 rebel_type 			Libyans		//Macedon
 category			peasant_revolt 
 chance				0					
@@ -1209,7 +1209,7 @@ unit				merc balearic slingers
 unit				carthaginian city militia
 unit				carthaginian city militia
 unit				carthaginian cavalry
-unit				generic rebel general
+unit				carthaginian general's cavalry early
 
 rebel_type 			Massylian		//numidia
 category			peasant_revolt
@@ -1222,7 +1222,7 @@ unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
-unit				generic rebel general
+unit				carthaginian general's cavalry early
 
 rebel_type 			Musulamian		//numidia
 category			peasant_revolt
@@ -1236,7 +1236,7 @@ unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
-unit				generic rebel general
+unit				carthaginian general's cavalry early
 
 rebel_type 			Massaesylian		//numidia
 category			peasant_revolt
@@ -1250,7 +1250,7 @@ unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
-unit				generic rebel general
+unit				carthaginian general's cavalry early
 
 rebel_type 			Mauretanian		//numidia
 category			peasant_revolt
@@ -1264,31 +1264,31 @@ unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
-unit				generic rebel general
+unit				carthaginian general's cavalry early
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-					
+
 rebel_type			gladiator_uprising
 category			gladiator_revolt
 chance				100
 description			gladiator_uprising
-unit				roman peasant		
-unit				roman peasant		
-unit				roman velite gladiator	
-unit				roman samnite gladiator	
+unit				roman peasant
+unit				roman peasant
+unit				roman velite gladiator
+unit				roman samnite gladiator
 unit				roman mirmillo gladiator
-					
+
 rebel_type			brigands
 category			brigands
 chance				50
 description			brigands
-unit				merc peltast		
-unit				merc illyrian	
+unit				merc peltast
+unit				merc illyrian
 unit				merc samnite
-unit				merc thracian		
-unit				merc bastarnae	
+unit				merc thracian
+unit				merc bastarnae
 unit				merc sarmatian cavalry
 unit				merc horse archers
 unit				merc spanish infantry
@@ -1303,12 +1303,11 @@ unit				merc bedouin
 unit				merc bedouin archers
 unit				merc balearic slingers
 unit				merc barbarian infantry
-unit				merc barbarian cavalry		
-					
+unit				merc barbarian cavalry
+
 rebel_type			pirates
 category			pirates
 chance				50
 description			pirates
-unit				naval pirate ships		
-					
-					
+unit				naval pirate ships
+
