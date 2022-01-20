@@ -138,6 +138,14 @@ Aurasius
 Cirtania
 Sitifensia
 Gaetulia
+Iolia
+Machuria
+Massaesylia
+Metagonia
+Tingitania
+Mauretania
+Rutubis
+Tadla
 
 Eblania
 Coriondia
@@ -279,6 +287,14 @@ Ammaedara
 Kirta
 Sitifis
 Gemellae
+Iol
+Auzia
+Qartan
+Siga
+Tinga
+Volubilis
+Rutubis
+Tiflet
 
 Tempr0
 Tempr4

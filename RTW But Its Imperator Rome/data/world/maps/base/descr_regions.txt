@@ -1212,7 +1212,7 @@ Thabracania
 Massylia
 	Rushikad
 	numidia
-	Numidian
+	Massylian
 	29 121 155
 	none
 	5
@@ -1221,7 +1221,7 @@ Massylia
 Musulamia
 	Mactaris
 	numidia
-	Numidian
+	Musulamian
 	229 211 18
 	none
 	5
@@ -1230,7 +1230,7 @@ Musulamia
 Maxyesia
 	Tabira
 	numidia
-	Numidian
+	Musulamian
 	178 68 32
 	none
 	5
@@ -1248,7 +1248,7 @@ Zaba
 Aurasius
 	Ammaedara
 	numidia
-	Numidian
+	Massylian
 	244 122 97
 	none
 	5
@@ -1257,7 +1257,7 @@ Aurasius
 Cirtania
 	Kirta
 	numidia
-	Numidian
+	Massylian
 	216 177 4
 	none
 	5
@@ -1266,7 +1266,7 @@ Cirtania
 Sitifensia
 	Sitifis
 	numidia
-	Numidian
+	Massylian
 	149 8 214
 	none
 	5
@@ -1280,6 +1280,78 @@ Gaetulia
 	none
 	5
 	2
+
+Iolia
+	Iol
+	carthage
+	Poeni
+	188 141 47
+	none
+	5
+	3
+
+Machuria
+	Auzia
+	numidia
+	Massaesylian
+	120 135 13
+	none
+	5
+	0
+
+Massaesylia
+	Qartan
+	numidia
+	Massaesylian
+	249 178 62
+	none
+	5
+	2
+
+Metagonia
+	Siga
+	numidia
+	Massaesylian
+	151 170 5
+	none
+	5
+	1
+
+Tingitania
+	Tinga
+	carthage
+	Mauretanian
+	121 226 95
+	none
+	5
+	2
+
+Mauretania
+	Volubilis
+	numidia
+	Mauretanian
+	95 194 216
+	none
+	5
+	1
+
+Rutubis
+	Rutubis
+	numidia
+	Mauretanian
+	252 47 160
+	none
+	5
+	0
+
+Tadla
+	Tiflet
+	numidia
+	Mauretanian
+	76 211 78
+	none
+	5
+	0
 
 ;Temporary
 Tempr0

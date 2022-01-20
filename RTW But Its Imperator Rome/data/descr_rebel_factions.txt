@@ -1208,23 +1208,21 @@ unit				carthaginian peltast
 unit				merc balearic slingers
 unit				carthaginian city militia
 unit				carthaginian city militia
-unit				carthaginian city militia
 unit				carthaginian cavalry
-unit				carthaginian general's cavalry early
+unit				generic rebel general
 
-rebel_type 			Numidian		//numidia
+rebel_type 			Massylian		//numidia
 category			peasant_revolt
 chance				0
-description			Numidian
+description			Massylian
 unit				carthaginian peasant
 unit				carthaginian peasant
-unit				carthaginian slinger
 unit				numidian javelinmen
 unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
-unit				carthaginian general's cavalry early
+unit				generic rebel general
 
 rebel_type 			Musulamian		//numidia
 category			peasant_revolt
@@ -1232,13 +1230,41 @@ chance				0
 description			Musulamian
 unit				carthaginian peasant
 unit				carthaginian peasant
-unit				carthaginian slinger
 unit				numidian javelinmen
 unit				numidian javelinmen
+unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
-unit				carthaginian general's cavalry early
+unit				generic rebel general
+
+rebel_type 			Massaesylian		//numidia
+category			peasant_revolt
+chance				0
+description			Massaesylian
+unit				carthaginian peasant
+unit				carthaginian peasant
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				generic rebel general
+
+rebel_type 			Mauretanian		//numidia
+category			peasant_revolt
+chance				0
+description			Mauretanian
+unit				carthaginian peasant
+unit				carthaginian peasant
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				generic rebel general
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based

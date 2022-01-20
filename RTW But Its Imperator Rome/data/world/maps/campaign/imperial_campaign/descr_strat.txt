@@ -1328,7 +1328,7 @@ settlement
 
 settlement
 {
-	level large_town
+	level city
 	region Lucania
 
 	year_founded 0
@@ -2572,6 +2572,52 @@ settlement
 	building
 	{
 		type missiles archery_range
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Iolia
+
+	year_founded 0
+	population 3650
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tingitania
+
+	year_founded 0
+	population 3250
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -5062,22 +5108,144 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Maxyesia
 
 	year_founded 0
 	population 2500
 	plan_set default_set
 	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Gaetulia
+
+	year_founded 0
+	population 2550
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Machuria
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Massaesylia
+
+	year_founded 0
+	population 3250
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Metagonia
+
+	year_founded 0
+	population 3150
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mauretania
+
+	year_founded 0
+	population 2650
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Rutubis
+
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
 {
 	level village
-	region Gaetulia
+	region Tadla
 
 	year_founded 0
-	population 2550
+	population 1500
 	plan_set default_set
 	faction_creator numidia
 }
@@ -6473,19 +6641,6 @@ unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction numidia, Aischylos, general, age 20, , x 98, y 96
-army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction numidia, Euenus, general, age 20, , x 115, y 101
 army
