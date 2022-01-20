@@ -1353,6 +1353,42 @@ Tadla
 	5
 	0
 
+Mauretania_Ulterior
+	Essaoria
+	numidia
+	Mauretanian
+	255 135 195
+	none
+	5
+	0
+
+Lixiane
+	Gytta
+	numidia
+	Mauretanian
+	229 188 255
+	none
+	5
+	0
+
+Furtunatae_Insulae
+	Sertoria
+	numidia
+	Mauretanian
+	239 134 141
+	none
+	5
+	0
+
+Cerne
+	Kerne
+	carthage
+	Poeni
+	86 112 1
+	none
+	5
+	0
+
 ;Temporary
 Tempr0
 	Temp0

@@ -146,6 +146,10 @@ Tingitania
 Mauretania
 Rutubis
 Tadla
+Mauretania_Ulterior
+Lixiane
+Furtunatae_Insulae
+Cerne
 
 Eblania
 Coriondia
@@ -295,6 +299,10 @@ Tinga
 Volubilis
 Rutubis
 Tiflet
+Essaoria
+Gytta
+Sertoria
+Kerne
 
 Tempr0
 Tempr4

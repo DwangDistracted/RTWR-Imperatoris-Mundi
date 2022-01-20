@@ -5302,6 +5302,50 @@ settlement
 	faction_creator numidia
 }
 
+settlement
+{
+	level village
+	region Mauretania_Ulterior
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Lixiane
+
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Furtunatae_Insulae
+
+	year_founded 0
+	population 300
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Cerne
+
+	year_founded 0
+	population 275
+	plan_set default_set
+	faction_creator numidia
+}
+
 ; TEMP
 settlement
 {
