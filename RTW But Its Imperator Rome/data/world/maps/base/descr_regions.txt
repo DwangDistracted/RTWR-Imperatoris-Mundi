@@ -1387,6 +1387,61 @@ Cerne
 	86 112 1
 	none
 	5
+	2
+
+Nigritania
+	Tondidaru
+	numidia
+	Nigritae
+	3 124 17
+	none
+	5
+	4
+
+Deserta_Mauretania
+	Mulucha
+	numidia
+	Mauretanian
+	11 142 116
+	none
+	5
+	0
+
+Madethubadus
+	Dimmidi
+	numidia
+	Gaetuli
+	12 91 122
+	none
+	5
+	0
+
+Leonum_Trahentium
+	Alasi
+	numidia
+	Troglodytian
+	12 33 124
+	none
+	5
+	0
+
+Ougarta
+	Ougartoum
+	numidia
+	Troglodytian
+	135 150 4
+	none
+	5
+	0
+
+;Terra Incognita
+Libyae_Interior
+	toggle_fow
+	numidia
+	TerraIncognita
+	102 45 145
+	none
+	5
 	0
 
 ;Temporary
@@ -1539,15 +1594,6 @@ Tempr22
 	romans_julii
 	Latins
 	165 165 165
-	none
-	5
-	5
-
-Tempr23
-	Temp23
-	romans_julii
-	Latins
-	102 45 145
 	none
 	5
 	5

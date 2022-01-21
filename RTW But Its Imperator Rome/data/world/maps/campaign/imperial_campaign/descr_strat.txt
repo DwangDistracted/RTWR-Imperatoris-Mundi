@@ -727,12 +727,10 @@ resource wine, 4, 113, 106
 resource slaves, 1, 113, 101
 resource textiles, 1, 112, 103
 resource elephants, 1, 111, 97
-resource camels, 2, 115, 98
 
 ;Zaba
 resource slaves, 1, 109, 100
 resource wine, 2, 109, 101
-resource camels, 1, 105, 97
 
 ;Aurasius
 resource slaves, 1, 106, 104
@@ -743,13 +741,12 @@ resource timber, 5, 106, 106
 ;Gaetulia
 resource slaves, 1, 97, 99
 resource furs, 1, 101, 97
-resource camels, 2, 95, 96
 
 ;Cirtania
 resource slaves, 1, 97, 105
 resource grain, 4, 96, 105
 resource iron, 3, 99, 110
-resource lead, 1, 97, 107
+resource copper, 2, 97, 107
 resource hides, 2, 97, 102
 
 ;Sitifensia
@@ -799,6 +796,49 @@ resource grain, 1, 40, 71
 resource slaves, 1, 48, 75
 resource timber, 2, 48, 76
 resource wild_animals, 1, 52, 76
+
+;Deserta_Mauretania
+resource slaves, 1, 64, 83
+resource copper, 3, 57, 77
+resource wild_animals, 1, 61, 78
+
+;Madethubadusq
+resource slaves, 1, 93, 97
+resource textiles, 3, 90, 93
+resource iron, 1, 87, 95
+
+;Mauretania_Ulterior
+resource slaves, 1, 38, 66
+resource textiles, 2, 42, 68
+resource copper, 2, 45, 68
+
+;Lixiane
+resource slaves, 1, 38, 52
+resource textiles, 3, 40, 56
+
+;Furtunatae_Insulae
+resource slaves, 1, 10, 40
+resource grain, 1, 14, 39
+
+;Cerne
+resource slaves, 1, 19, 6
+resource textiles, 1, 17, 7
+resource grain, 1, 20, 3
+
+;Ougarta
+resource slaves, 1, 73, 68
+resource tin, 1, 61, 74
+resource textiles, 1, 80, 65
+
+;Leonum_Trahentium
+resource slaves, 1, 106, 44
+resource iron, 1, 118, 55
+resource copper, 2, 135, 23
+
+;Nigritania
+resource slaves, 1, 92, 6
+resource pottery, 2, 92, 2
+resource grain, 4, 95, 1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -5346,6 +5386,89 @@ settlement
 	faction_creator numidia
 }
 
+settlement
+{
+	level town
+	region Nigritania
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Deserta_Mauretania
+
+	year_founded 0
+	population 1650
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Madethubadus
+
+	year_founded 0
+	population 975
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Leonum_Trahentium
+
+	year_founded 0
+	population 525
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Ougarta
+
+	year_founded 0
+	population 450
+	plan_set default_set
+	faction_creator numidia
+}
+
+; Terra Incognita
+settlement
+{
+	level village
+	region Libyae_Interior
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
 ; TEMP
 settlement
 {
@@ -5506,16 +5629,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator carthage
-}
-settlement
-{
-	level village
-	region Tempr23
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
 }
 settlement
 {

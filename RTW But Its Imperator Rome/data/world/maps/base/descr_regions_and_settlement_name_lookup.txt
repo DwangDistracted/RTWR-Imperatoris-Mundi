@@ -150,6 +150,11 @@ Mauretania_Ulterior
 Lixiane
 Furtunatae_Insulae
 Cerne
+Nigritania
+Deserta_Mauretania
+Madethubadus
+Leonum_Trahentium
+Ougarta
 
 Eblania
 Coriondia
@@ -303,6 +308,14 @@ Essaoria
 Gytta
 Sertoria
 Kerne
+Tondidaru
+Mulucha
+Dimmidi
+Alasi
+Ougartoum
+
+Libyae_Interior
+toggle_fow
 
 Tempr0
 Tempr4
@@ -321,7 +334,6 @@ Tempr19
 Tempr20
 Tempr21
 Tempr22
-Tempr23
 Tempr24
 Temp0
 Temp4
@@ -340,5 +352,4 @@ Temp19
 Temp20
 Temp21
 Temp22
-Temp23
 Temp24

@@ -1266,6 +1266,36 @@ unit				numidian cavalry
 unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
+rebel_type 			Nigritae		//numidia
+category			peasant_revolt
+chance				0
+description			Nigritae
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				carthaginian general's cavalry early
+
+rebel_type 			Troglodytian		//numidia
+category			peasant_revolt
+chance				0
+description			Troglodytian
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				carthaginian general's cavalry early
+
+rebel_type 			TerraIncognita		//numidia
+category			peasant_revolt
+chance				0
+description			TerraIncognita
+unit				numidian cavalry
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
