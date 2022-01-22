@@ -886,6 +886,7 @@ resource slaves, 1, 162, 3
 resource gold, 1, 169, 11
 resource wild_animals, 3, 153, 4
 resource wild_animals, 5, 169, 2
+resource elephants, 3, 178, 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -2744,10 +2745,95 @@ settlement
 	year_founded 0
 	population 3250
 	plan_set default_set
-	faction_creator numidia
+	faction_creator carthage
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level city
+	region Baetica_Gaditanus
+
+	year_founded 0
+	population 6600
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mastiania
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bastetania
+
+	year_founded 0
+	population 3350
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 	building
 	{
@@ -2786,7 +2872,7 @@ unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
 
-character	Theophanes, named character, age 21, , x 17, y 58
+character	Theophanes, named character, age 21, , x 65, y 106
 traits NaturalMilitarySkill 1 , StrategicSkill 1 , Intelligent 1 , PublicFaith 1
 ancillaries famous_warrior, merchant
 army
@@ -2816,14 +2902,15 @@ unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Banat, named character, age 19, , x 81, y 102
+character	Banat, named character, age 19, , x 46, y 94
 traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
 ancillaries merchant
 army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
-unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 1 armour 0 weapon_lvl 0
 
 character	Burrhus, named character, age 41, , x 49, y 90
 traits GoodAdministrator 2 , Intelligent 1 , PublicFaith 1 , GoodTrader 2
@@ -2832,11 +2919,22 @@ army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
+character	Cheiron, general, age 41, , x 81, y 102
+army
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+
 character	Khilletzbal, general, age 41, , x 121, y 108
 army
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
 character	Admetos, general, age 19, , x 118, y 113
+army
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
+
+character	Thero, general, age 19, , x 62, y 100
 army
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
@@ -2869,10 +2967,17 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 character	Timasion, admiral, age 28, , x 112, y 116
 army
+unit		naval triremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character	Ribaddi Ilerda, diplomat, age 47, , x 14, y 61
+character	Xenagoras, admiral, age 28, , x 45, y 93
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character	Ribaddi Ilerda, diplomat, age 47, , x 46, y 93
 traits GoodDiplomat 2
 
 character	Hiram Tunis, diplomat, age 31, , x 116, y 110
@@ -4227,6 +4332,92 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Indicetia
+
+	year_founded 0
+	population 4600
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Contestania_Meridionalis
+
+	year_founded 0
+	population 3250
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; GERMANS
 settlement
 {
@@ -5436,29 +5627,6 @@ settlement
 settlement
 {
 	level town
-	region Nigritania
-
-	year_founded 0
-	population 1500
-	plan_set default_set
-	faction_creator numidia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level town
 	region Deserta_Mauretania
 
 	year_founded 0
@@ -5656,6 +5824,33 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Nigritania
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -6971,8 +7166,8 @@ unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
-unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
-unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
+unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
 unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
@@ -6982,6 +7177,38 @@ unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
 unit		barb noble cavalry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
+
+character	sub_faction greek_cities, Pleistarchos, general, age 20, , x 68, y 112
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Epicurus, general, age 20, , x 76, y 132
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; MAGNA GRAECIA
 character	sub_faction greek_cities, Archilochus, general, age 20, , x 141, y 142

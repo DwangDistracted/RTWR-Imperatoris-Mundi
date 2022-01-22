@@ -165,6 +165,11 @@ Garamantia_Occidentalis
 Agisymba
 Troglodytia
 Garamantia_Citerior
+Indicetia
+Contestania_Meridionalis
+Baetica_Gaditanus
+Mastiania
+Bastetania
 
 Eblania
 Coriondia
@@ -333,6 +338,11 @@ Garama
 Magium
 Kossedaoum
 Cydamus
+Emporion
+Imeroskopeion
+Agadir
+Mastia
+Urki
 
 Libyae_Interior
 toggle_fow

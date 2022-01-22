@@ -915,6 +915,24 @@ Alpes_Maritimae
 	5
 	4
 
+Indicetia
+	Emporion
+	greek_cities
+	Emporiote
+	47 112 1
+	none
+	5
+	3
+
+Contestania_Meridionalis
+	Imeroskopeion
+	greek_cities
+	Hemeroskopeiote
+	186 85 13
+	none
+	5
+	3
+
 ;Amazonia
 Hyperboria
 	Themiskyra
@@ -1524,6 +1542,34 @@ Troglodytia
 	none
 	5
 	0
+
+;Iberia
+Baetica_Gaditanus
+	Agadir
+	carthage
+	Poeni
+	54 14 142
+	none
+	5
+	4
+
+Mastiania
+	Mastia
+	carthage
+	Poeni
+	221 200 6
+	none
+	5
+	6
+
+Bastetania
+	Urki
+	carthage
+	Poeni
+	7 127 103
+	none
+	5
+	2
 
 ;Terra Incognita
 Libyae_Interior

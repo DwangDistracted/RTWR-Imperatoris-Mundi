@@ -1345,6 +1345,34 @@ unit				carthaginian peltast
 unit				carthaginian peltast
 unit				carthaginian general's cavalry early
 
+rebel_type 			Emporiote		//greek_cities
+category			peasant_revolt 
+chance				0
+description			Emporiote
+unit				carthaginian cavalry
+unit				barb noble cavalry slave
+unit				greek peasant
+unit				greek peasant
+unit				carthaginian infantry
+unit				carthaginian infantry
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
+
+rebel_type 			Hemeroskopeiote		//greek_cities
+category			peasant_revolt 
+chance				0
+description			Hemeroskopeiote
+unit				carthaginian cavalry
+unit				greek peasant
+unit				greek peasant
+unit				merc spanish infantry
+unit				carthaginian infantry
+unit				carthaginian infantry
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
