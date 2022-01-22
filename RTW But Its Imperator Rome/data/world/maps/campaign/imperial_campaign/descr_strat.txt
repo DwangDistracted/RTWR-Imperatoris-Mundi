@@ -888,6 +888,32 @@ resource wild_animals, 3, 153, 4
 resource wild_animals, 5, 169, 2
 resource elephants, 3, 178, 2
 
+;Indicetia
+resource slaves, 1, 75, 134
+resource glass, 2, 74, 131
+resource grain, 2, 73, 132
+
+;Contestania_Meridionalis
+resource slaves, 1, 65, 112
+resource wine, 4, 63, 109
+resource iron, 3, 61, 109
+
+;Mastiania
+resource slaves, 1, 62, 103
+resource silver, 4, 63, 106
+resource lead, 1, 61, 105
+
+;Bastetania
+resource slaves, 1, 61, 101
+resource olive_oil, 4, 55, 101
+resource iron, 1, 55, 98
+
+;Baetica_Gaditanus
+resource slaves, 1, 47, 93
+resource grain, 3, 46, 96
+resource olive_oil, 2, 49, 97
+resource copper, 3, 49, 95
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -2758,41 +2784,6 @@ settlement
 
 settlement
 {
-	level city
-	region Baetica_Gaditanus
-
-	year_founded 0
-	population 6600
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks militia_barracks
-	}
-	building
-	{
-		type market forum
-	}
-	building
-	{
-		type academic academy
-	}
-	building
-	{
-		type port_buildings shipwright
-	}
-}
-
-settlement
-{
 	level large_town
 	region Mastiania
 
@@ -2902,7 +2893,7 @@ unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Banat, named character, age 19, , x 46, y 94
+character	Banat, named character, age 19, , x 62, y 100
 traits GoodAdministrator 1 , Intelligent 1 , PublicFaith 1
 ancillaries merchant
 army
@@ -2930,11 +2921,6 @@ army
 unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 
 character	Admetos, general, age 19, , x 118, y 113
-army
-unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
-
-character	Thero, general, age 19, , x 62, y 100
 army
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
@@ -2972,12 +2958,12 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character	Xenagoras, admiral, age 28, , x 45, y 93
+character	Xenagoras, admiral, age 28, , x 64, y 104
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character	Ribaddi Ilerda, diplomat, age 47, , x 46, y 93
+character	Ribaddi Ilerda, diplomat, age 47, , x 62, y 104
 traits GoodDiplomat 2
 
 character	Hiram Tunis, diplomat, age 31, , x 116, y 110
@@ -5964,7 +5950,43 @@ settlement
 	faction_creator numidia
 }
 
-; Terra Incognita
+; IBERIA
+settlement
+{
+	level city
+	region Baetica_Gaditanus
+
+	year_founded 0
+	population 6600
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+}
+
+; TERRA INCOGNITA
 settlement
 {
 	level village
@@ -7197,18 +7219,15 @@ character	sub_faction gauls, Diviciacus, general, age 20, , x 106, y 158
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
 unit		merc samnite				exp 2 armour 0 weapon_lvl 0
 unit		merc samnite				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction romans_julii, Elatreus, general, age 20, , x 106, y 153
@@ -7634,6 +7653,30 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+; IBERIA
+character	sub_faction carthage, Metiochus, general, age 20, , x 46, y 94
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+; TERRA INCOGNITA
+character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
+army
+unit		carthaginian peasant				exp 9 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<
