@@ -612,10 +612,10 @@ unit				greek peasant
 unit				greek peltast
 unit				merc bastarnae	
 unit				barbarian rebel general
-					
+
 rebel_type 			Iberians	//Spain
 category			peasant_revolt 
-chance				3					
+chance				3
 description			Iberians
 unit				carthaginian peasant
 unit				carthaginian peltast
@@ -625,7 +625,7 @@ unit				barb naked fanatics slave
 unit				merc spanish infantry
 unit				merc balearic slingers
 unit				barbarian rebel general
-					
+
 rebel_type 			Delmatae		//illyria
 category			peasant_revolt 
 chance				0					
@@ -1168,21 +1168,6 @@ unit				barb naked fanatics slave
 unit				barb cavalry slave
 unit				barbarian rebel general
 
-rebel_type 			Boii		//Gauls
-category			peasant_revolt 
-chance				0
-description			Boii
-unit				barb infantry slave
-unit				barb infantry slave
-unit				barb peasant slave
-unit				barb peasant slave
-unit				barb naked fanatics slave
-unit				barb naked fanatics slave
-unit				barb archer slave
-unit				barb archer slave
-unit				barb cavalry slave
-unit				barb chieftain cavalry early slave
-
 rebel_type 			Mamertine		//Romans
 category			peasant_revolt 
 chance				0
@@ -1372,6 +1357,71 @@ unit				carthaginian infantry
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek general's guard cavalry early
+
+rebel_type 			Turdetanian	//Spain
+category			peasant_revolt 
+chance				0
+description			Turdetanian
+unit				merc balearic slingers
+unit				carthaginian peltast
+unit				carthaginian peasant
+unit				carthaginian infantry
+unit				carthaginian infantry
+unit				barb naked fanatics slave
+unit				merc spanish infantry
+unit				barbarian rebel general
+
+rebel_type 			Carpetanian	//Spain
+category			peasant_revolt 
+chance				0
+description			Carpetanian
+unit				carthaginian peltast
+unit				carthaginian peasant
+unit				carthaginian infantry
+unit				carthaginian infantry
+unit				barb naked fanatics slave
+unit				merc spanish infantry
+unit				merc spanish infantry
+unit				barbarian rebel general
+
+rebel_type 			Cantabrian	//Spain
+category			peasant_revolt 
+chance				0
+description			Cantabrian
+unit				carthaginian peltast
+unit				carthaginian peasant
+unit				carthaginian infantry
+unit				carthaginian infantry
+unit				barb naked fanatics slave
+unit				merc spanish infantry
+unit				merc spanish infantry
+unit				barbarian rebel general
+
+rebel_type 			Asturian	//Spain
+category			peasant_revolt 
+chance				0
+description			Asturian
+unit				carthaginian peltast
+unit				carthaginian peasant
+unit				carthaginian infantry
+unit				carthaginian infantry
+unit				barb naked fanatics slave
+unit				merc spanish infantry
+unit				merc spanish infantry
+unit				barbarian rebel general
+
+rebel_type 			Lusitanian	//Spain
+category			peasant_revolt 
+chance				0
+description			Lusitanian
+unit				carthaginian peltast
+unit				carthaginian peasant
+unit				carthaginian infantry
+unit				carthaginian infantry
+unit				barb naked fanatics slave
+unit				merc spanish infantry
+unit				merc spanish infantry
+unit				barbarian rebel general
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
