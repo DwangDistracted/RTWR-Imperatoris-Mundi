@@ -155,6 +155,16 @@ Deserta_Mauretania
 Madethubadus
 Leonum_Trahentium
 Ougarta
+Emporia
+Tripolitania
+Syrtica
+Nasamonia
+Deserta_Tripolitania
+Phazania
+Garamantia_Occidentalis
+Agisymba
+Troglodytia
+Garamantia_Citerior
 
 Eblania
 Coriondia
@@ -291,7 +301,7 @@ Tabarkon
 Rushikad
 Mactaris
 Tabira
-Ad_Aquas_Caesaris
+Thamugadi
 Ammaedara
 Kirta
 Sitifis
@@ -313,6 +323,16 @@ Mulucha
 Dimmidi
 Alasi
 Ougartoum
+Takapes
+Oyat
+Macomada
+Myd
+Augila
+Baracum
+Garama
+Magium
+Kossedaoum
+Cydamus
 
 Libyae_Interior
 toggle_fow
@@ -333,7 +353,6 @@ Tempr18
 Tempr19
 Tempr20
 Tempr21
-Tempr22
 Tempr24
 Temp0
 Temp4
@@ -351,5 +370,4 @@ Temp18
 Temp19
 Temp20
 Temp21
-Temp22
 Temp24

@@ -1237,7 +1237,7 @@ Maxyesia
 	0
 
 Zaba
-	Ad_Aquas_Caesaris
+	Thamugadi
 	numidia
 	Gaetuli
 	94 198 219
@@ -1434,6 +1434,97 @@ Ougarta
 	5
 	0
 
+;Libya
+Emporia
+	Takapes
+	carthage
+	Liby_Phoenician
+	6 122 101
+	none
+	5
+	6
+
+Tripolitania
+	Oyat
+	carthage
+	Liby_Phoenician
+	165 4 34
+	none
+	5
+	4
+
+Syrtica
+	Macomada
+	carthage
+	Nasamones
+	95 10 135
+	none
+	5
+	2
+
+Nasamonia
+	Augila
+	numidia
+	Nasamones
+	211 113 14
+	none
+	5
+	1
+
+Deserta_Tripolitania
+	Myd
+	numidia
+	Garamantian
+	78 127 8
+	none
+	5
+	1
+
+Phazania
+	Baracum
+	numidia
+	Garamantian
+	221 203 6
+	none
+	5
+	2
+
+Garamantia_Citerior
+	Cydamus
+	numidia
+	Garamantian
+	211 16 159
+	none
+	5
+	2
+
+Garamantia_Ulterior
+	Garama
+	numidia
+	Garamantian
+	165 165 165
+	none
+	5
+	4
+
+Agisymba
+	Magium
+	numidia
+	Agisymban
+	135 39 1
+	none
+	5
+	5
+
+Troglodytia
+	Kossedaoum
+	numidia
+	Troglodytian
+	132 195 190
+	none
+	5
+	0
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -1585,24 +1676,6 @@ Tempr21
 	romans_julii
 	Latins
 	89 53 31
-	none
-	5
-	5
-
-Tempr22
-	Temp22
-	romans_julii
-	Latins
-	165 165 165
-	none
-	5
-	5
-
-Tempr24
-	Temp24
-	romans_julii
-	Latins
-	132 195 190
 	none
 	5
 	5

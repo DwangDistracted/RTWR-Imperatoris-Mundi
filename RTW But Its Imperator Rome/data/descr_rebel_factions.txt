@@ -1290,11 +1290,60 @@ unit				numidian cavalry
 unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
+rebel_type 			Liby_Phoenician		//Carthage
+category			peasant_revolt
+chance				0
+description			Liby_Phoenician
+unit				carthaginian peasant
+unit				carthaginian peasant
+unit				merc libyan infantry
+unit				merc libyan infantry
+unit				merc libyan infantry
+unit				carthaginian city militia
+unit				carthaginian city militia
+unit				carthaginian cavalry
+unit				carthaginian general's cavalry early
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				0
 description			TerraIncognita
 unit				numidian cavalry
+
+rebel_type 			Garamantian		//numidia
+category			peasant_revolt
+chance				0
+description			Garamantian
+unit				merc libyan infantry
+unit				merc libyan infantry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				carthaginian cavalry
+unit				carthaginian general's cavalry early
+
+rebel_type 			Nasamones		//numidia
+category			peasant_revolt
+chance				0
+description			Nasamones
+unit				merc libyan infantry
+unit				merc libyan infantry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				carthaginian general's cavalry early
+
+rebel_type 			Agisymban		//numidia
+category			peasant_revolt
+chance				0
+description			Agisymban
+unit				carthaginian peltast
+unit				carthaginian peltast
+unit				carthaginian peltast
+unit				carthaginian peltast
+unit				carthaginian peltast
+unit				carthaginian general's cavalry early
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based

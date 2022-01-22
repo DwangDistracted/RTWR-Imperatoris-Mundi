@@ -430,7 +430,7 @@ resource hides, 2, 98, 205
 ;Baluconia
 resource slaves, 1, 100, 196
 resource timber, 4, 96, 196
-resource marble, 2, 103, 193
+resource tin, 4, 103, 193
 
 ;Buria
 resource slaves, 1, 106, 200
@@ -814,7 +814,7 @@ resource copper, 2, 45, 68
 
 ;Lixiane
 resource slaves, 1, 38, 52
-resource textiles, 3, 40, 56
+resource iron, 3, 40, 56
 
 ;Furtunatae_Insulae
 resource slaves, 1, 10, 40
@@ -827,7 +827,7 @@ resource grain, 1, 20, 3
 
 ;Ougarta
 resource slaves, 1, 73, 68
-resource tin, 1, 61, 74
+resource lead, 1, 61, 74
 resource textiles, 1, 80, 65
 
 ;Leonum_Trahentium
@@ -839,6 +839,53 @@ resource copper, 2, 135, 23
 resource slaves, 1, 92, 6
 resource pottery, 2, 92, 2
 resource grain, 4, 95, 1
+resource gold, 3, 86, 3
+
+;Emporia
+resource slaves, 1, 121, 97
+resource purple_dye, 2, 123, 100
+resource wood, 2, 128, 95
+
+;Tripolitania
+resource slaves, 1, 140, 97
+resource olive_oil, 3, 143, 95
+resource marble, 2, 134, 95
+
+;Syrtica
+resource slaves, 1, 155, 93
+resource olive_oil, 2, 150, 91
+
+;Garamantia_Citerior
+resource slaves, 1, 122, 83
+resource marble, 2, 120, 91
+
+;Garamantia_Ulterior
+resource slaves, 1, 138, 73
+resource pottery, 3, 135, 66
+resource copper, 2, 127, 56
+
+;Phazania
+resource slaves, 1, 145, 75
+resource copper, 2, 141, 78
+resource iron, 1, 158, 76
+
+;Deserta_Tripolitania
+resource slaves, 1, 141, 88
+resource hides, 3, 147, 87
+
+;Nasamonia
+resource slaves, 1, 169, 87
+resource olive_oil, 2, 173, 93
+
+;Troglodytia
+resource slaves, 1, 167, 40
+resource silver, 1, 171, 48
+
+;Agisymba
+resource slaves, 1, 162, 3
+resource gold, 1, 169, 11
+resource wild_animals, 3, 153, 4
+resource wild_animals, 5, 169, 2
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -5435,6 +5482,194 @@ settlement
 	faction_creator numidia
 }
 
+; LIBYA
+settlement
+{
+	level large_town
+	region Emporia
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tripolitania
+
+	year_founded 0
+	population 3300
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Syrtica
+
+	year_founded 0
+	population 3200
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Nasamonia
+
+	year_founded 0
+	population 1125
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; SAHARA
+settlement
+{
+	level large_town
+	region Deserta_Tripolitania
+
+	year_founded 0
+	population 2550
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Phazania
+
+	year_founded 0
+	population 1125
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Garamantia_Citerior
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Garamantia_Ulterior
+
+	year_founded 0
+	population 2275
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type health sewers
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Agisymba
+
+	year_founded 0
+	population 2850
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level village
+	region Troglodytia
+
+	year_founded 0
+	population 525
+	plan_set default_set
+	faction_creator numidia
+}
+
 settlement
 {
 	level village
@@ -5619,26 +5854,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr22
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator carthage
-}
-settlement
-{
-	level village
-	region Tempr24
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator numidia
 }
 
 ;AMAZONS
@@ -6944,6 +7159,185 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Masgava, general, age 20, , x 37, y 65
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Juva, general, age 20, , x 37, y 52
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Syphax, general, age 20, , x 10, y 39
+army
+unit		carthaginian peasant				exp 9 armour 0 weapon_lvl 0
+
+character	sub_faction carthage, Hanno, general, age 20, , x 18, y 3
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Burrhus, general, age 20, , x 61, y 81
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Akbar, general, age 20, , x 91, y 95
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+; LIBYA
+character	sub_faction carthage, Yehawwielon, general, age 20, , x 119, y 97
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction carthage, Maharbal, general, age 20, , x 136, y 97
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Juba, general, age 20, , x 158, y 92
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Jubal, general, age 20, , x 174, y 91
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+; SAHARA
+character	sub_faction numidia, Massinissa, general, age 20, , x 118, y 86
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Misagenes, general, age 20, , x 144, y 86
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Micipsa, general, age 20, , x 146, y 72
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Massiva, general, age 20, , x 139, y 65
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Aqhat, general, age 20, , x 77, y 66
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Admetos, general, age 20, , x 109, y 46
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Abdosir, general, age 20, , x 171, y 42
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Hiram, general, age 20, , x 90, y 1
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction numidia, Eshmunazar, general, age 20, , x 166, y 1
+army
+unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
