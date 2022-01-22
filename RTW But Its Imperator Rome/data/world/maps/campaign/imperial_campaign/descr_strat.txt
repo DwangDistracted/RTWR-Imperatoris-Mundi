@@ -13,6 +13,7 @@ unlockable
 	germans
 	greek_cities
 	numidia
+	spain
 end
 nonplayable
 	romans_senate
@@ -25,7 +26,6 @@ end_date	14 summer
 
 brigand_spawn_value 10
 pirate_spawn_value 10
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of landmarks section <<<<
@@ -3171,6 +3171,83 @@ relative 	Syphax, 	Dahia,		Gisgo,	Muttines,	Adonibal,	end
 relative 	Gisgo, 	Kahina,		Balhanno,	Pherusa,	end
 relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 
+faction	spain, fortified_mao
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr4
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator spain
+}
+
+character	Viriathus, named character, leader, age 60, , x 20, y 87
+traits GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1
+ancillaries bard
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Caraunios, named character, heir, age 40, , x 8, y 72
+traits GoodCommander 3 , Energetic 1 , Intelligent 2 , Drink 1
+ancillaries bodyguard
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Lucco, named character, age 30, , x 44, y 76
+traits Intelligent 2
+ancillaries civilized_slave, beastmaster
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Matugenus, named character, age 25, , x 36, y 58
+traits NaturalMilitarySkill 1 , Energetic 1 , Drink 1 , Bloodthirsty 1
+ancillaries armourer
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Segovax, diplomat, age 20, , x 9, y 72
+traits GoodDiplomat 3
+
+character	Rhetogenes, spy, age 20, , x 43, y 78
+traits GoodSpy 3
+
+character_record		Ambon, 	male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+character_record		Leukon, 	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Avaros, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Cartimandua, 	female, command 0, influence 0, management 0, subterfuge 0, age 59, alive, never_a_leader
+character_record		Esselta, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Iseulta, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+character_record		Keynea, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Verica, 	female, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+
+relative 	Viriathus, 	Cartimandua,		Caraunios,	Lucco,	Matugenus,	end
+relative 	Caraunios, 	Esselta,		Ambon,	end
+relative 	Lucco, 	Iseulta,		Leukon,	end
+relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
+
 faction	slave, fortified_mao
 denari	10000
 
@@ -5904,16 +5981,6 @@ settlement
 {
 	level village
 	region Tempr0
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr4
 
 	year_founded 0
 	population 400
