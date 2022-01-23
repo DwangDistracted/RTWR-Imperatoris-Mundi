@@ -1371,10 +1371,10 @@ unit				barb naked fanatics slave
 unit				merc spanish infantry
 unit				barbarian rebel general
 
-rebel_type 			Carpetanian	//Spain
+rebel_type 			Celtiberian	//Spain
 category			peasant_revolt 
 chance				0
-description			Carpetanian
+description			Celtiberian
 unit				carthaginian peltast
 unit				carthaginian peasant
 unit				carthaginian infantry

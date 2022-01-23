@@ -166,10 +166,15 @@ Agisymba
 Troglodytia
 Garamantia_Citerior
 Indicetia
-Contestania_Meridionalis
+Contestania
 Baetica_Gaditanus
 Mastiania
 Bastetania
+Edetania
+Ilercavonia
+Cessetania
+Ilergetia
+Vasconia
 
 Eblania
 Coriondia
@@ -343,6 +348,11 @@ Imeroskopeion
 Agadir
 Mastia
 Urki
+Arse
+Hibera
+Kesse
+Celsa
+Osca
 
 Libyae_Interior
 toggle_fow

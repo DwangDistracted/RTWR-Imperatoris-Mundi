@@ -924,7 +924,7 @@ Indicetia
 	5
 	3
 
-Contestania_Meridionalis
+Contestania
 	Imeroskopeion
 	greek_cities
 	Hemeroskopeiote
@@ -1570,6 +1570,51 @@ Bastetania
 	none
 	5
 	2
+
+Edetania
+	Arse
+	spain
+	Iberians
+	116 147 11
+	none
+	5
+	8
+
+Ilercavonia
+	Hibera
+	spain
+	Iberians
+	211 6 102
+	none
+	5
+	6
+
+Cessetania
+	Kesse
+	spain
+	Iberians
+	130 147 2
+	none
+	5
+	6
+
+Ilergetia
+	Celsa
+	spain
+	Iberians
+	216 95 8
+	none
+	5
+	3
+
+Vasconia
+	Osca
+	spain
+	Iberians
+	62 104 0
+	none
+	5
+	5
 
 ;Terra Incognita
 Libyae_Interior

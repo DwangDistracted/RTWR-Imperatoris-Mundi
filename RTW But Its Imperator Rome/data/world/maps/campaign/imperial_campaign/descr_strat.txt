@@ -893,10 +893,13 @@ resource slaves, 1, 75, 134
 resource glass, 2, 74, 131
 resource grain, 2, 73, 132
 
-;Contestania_Meridionalis
+;Contestania
 resource slaves, 1, 65, 112
 resource wine, 4, 63, 109
 resource iron, 3, 61, 109
+resource purple_dye, 3, 65, 114
+resource olive_oil, 2, 60, 112
+resource marble, 2, 64, 112
 
 ;Mastiania
 resource slaves, 1, 62, 103
@@ -913,6 +916,33 @@ resource slaves, 1, 47, 93
 resource grain, 3, 46, 96
 resource olive_oil, 2, 49, 97
 resource copper, 3, 49, 95
+
+;Edetania
+resource slaves, 1, 65, 118
+resource olive_oil, 3, 63, 120
+resource grain, 3, 61, 114
+resource wine, 2, 63, 115
+
+;Ilercavonia
+resource slaves, 1, 67, 120
+resource pottery, 2, 66, 125
+resource iron, 1, 64, 124
+
+;Cessetania
+resource slaves, 1, 72, 128
+resource furs, 2, 70, 129
+resource hides, 2, 68, 127
+
+;Ilergetia
+resource slaves, 1, 61, 128
+resource marble, 3, 63, 127
+resource wine, 3, 65, 130
+
+;Vasconia
+resource slaves, 1, 58, 131
+resource grain, 3, 60, 130
+resource furs, 4, 57, 130
+resource marble, 2, 60, 133
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -4445,7 +4475,7 @@ settlement
 settlement
 {
 	level large_town
-	region Contestania_Meridionalis
+	region Contestania
 
 	year_founded 0
 	population 3250
@@ -5983,6 +6013,113 @@ settlement
 	building
 	{
 		type port_buildings shipwright
+	}
+}
+
+settlement
+{
+	level large_town
+	region Edetania
+
+	year_founded 0
+	population 2900
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level large_town
+	region Ilercavonia
+
+	year_founded 0
+	population 3350
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cessetania
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Ilergetia
+
+	year_founded 0
+	population 2650
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Vasconia
+
+	year_founded 0
+	population 3050
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
 	}
 }
 
