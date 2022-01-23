@@ -7393,7 +7393,7 @@ unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
 unit		greek hoplite militia				exp 2 armour 1 weapon_lvl 1
-unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
+unit		merc balearic slingers				exp 2 armour 1 weapon_lvl 1
 unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
 unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
 unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
@@ -7413,7 +7413,7 @@ unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Epicurus, general, age 20, , x 76, y 132
@@ -7429,8 +7429,8 @@ unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; MAGNA GRAECIA
@@ -7810,6 +7810,71 @@ unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+character	sub_faction spain, Viriathus, general, age 20, , x 66, y 117
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Ambon, general, age 20, , x 68, y 124
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Arganthonios, general, age 20, , x 70, y 127
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Auaros, general, age 20, , x 63, y 128
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Caraunios, general, age 20, , x 61, y 132
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
 army
@@ -7859,10 +7924,12 @@ core_attitudes	greek_cities,	50		romans_scipii
 core_attitudes	greek_cities,	400		carthage
 core_attitudes	greek_cities,	600		slave
 
-core_attitudes	numidia, 		0		carthage
+core_attitudes	numidia, 		300		carthage
 core_attitudes	numidia, 		600		slave
 
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities, numidia
+core_attitudes	spain, 		600		slave
+
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities, numidia, spain
 
 ; Diplomatic Standing
 faction_relationships	romans_julii,		0		romans_brutii
@@ -7899,7 +7966,9 @@ faction_relationships	greek_cities, 		600		slave
 faction_relationships	numidia, 		0		carthage
 faction_relationships	numidia, 		600		slave
 
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, gauls, germans, greek_cities, numidia
+faction_relationships	spain, 		600		slave
+
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, gauls, germans, greek_cities, numidia, spain
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of scripts section <<<<
