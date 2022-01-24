@@ -175,6 +175,14 @@ Ilercavonia
 Cessetania
 Ilergetia
 Vasconia
+Baetica_Hispalensis
+Malacitia
+Oretania
+Baetica_Cordubensis
+Turdetania
+Couneia
+Turdulia_Occidentalis
+Turdulia_Orientalis
 
 Eblania
 Coriondia
@@ -353,6 +361,14 @@ Hibera
 Kesse
 Celsa
 Osca
+Karmo
+Malaka
+Kastilo
+Kartuba
+Orippo
+Onuba
+Varna
+Oretum
 
 Libyae_Interior
 toggle_fow

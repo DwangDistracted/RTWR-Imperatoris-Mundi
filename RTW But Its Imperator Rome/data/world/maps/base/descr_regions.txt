@@ -1616,6 +1616,78 @@ Vasconia
 	5
 	5
 
+Baetica_Hispalensis
+	Karmo
+	spain
+	Turdetanian
+	121 130 2
+	none
+	5
+	11
+
+Malacitia
+	Malaka
+	spain
+	Turdetanian
+	17 170 76
+	none
+	5
+	5
+
+Oretania
+	Kastilo
+	spain
+	Turdetanian
+	145 43 2
+	none
+	5
+	2
+
+Baetica_Cordubensis
+	Kartuba
+	spain
+	Turdetanian
+	166 12 209
+	none
+	5
+	11
+
+Turdetania
+	Orippo
+	spain
+	Turdetanian
+	193 3 196
+	none
+	5
+	11
+
+Couneia
+	Onuba
+	spain
+	Turdetanian
+	72 150 12
+	none
+	5
+	10
+
+Turdulia_Occidentalis
+	Varna
+	spain
+	Turdetanian
+	163 53 6
+	none
+	5
+	9
+
+Turdulia_Orientalis
+	Oretum
+	spain
+	Turdetanian
+	216 17 107
+	none
+	5
+	9
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

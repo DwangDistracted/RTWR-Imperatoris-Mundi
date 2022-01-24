@@ -944,6 +944,47 @@ resource grain, 3, 60, 130
 resource furs, 4, 57, 130
 resource marble, 2, 60, 133
 
+;Couneia
+resource slaves, 1, 39, 98
+resource iron, 3, 33, 98
+resource wine, 2, 36, 97
+
+;Turdetania
+resource slaves, 1, 44, 97
+resource iron, 3, 43, 101
+resource lead, 2, 41, 100
+resource olive_oil, 4, 45, 100
+
+;Baetica_Hispalensis
+resource slaves, 1, 47, 99
+resource textiles, 1, 50, 99
+resource pottery, 1, 46, 97
+
+;Malacitia
+resource slaves, 1, 53, 98
+resource silver, 1, 53, 101
+resource purple_dye, 1, 51, 99
+
+;Oretania
+resource slaves, 1, 57, 105
+resource silver, 4, 57, 107
+
+;Baetica_Cordubensis
+resource slaves, 1, 51, 104
+resource grain, 4, 48, 102
+resource marble, 3, 51, 105
+resource copper, 2, 48, 105
+
+;Turdulia_Orientalis
+resource slaves, 1, 49, 108
+resource copper, 2, 51, 107
+resource textiles, 2, 47, 107
+
+;Turdulia_Occidentalis
+resource slaves, 1, 39, 104
+resource textiles, 3, 44, 106
+resource wine, 3, 42, 103
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -6123,6 +6164,170 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Baetica_Hispalensis
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market market
+	}
+}
+
+settlement
+{
+	level large_town
+	region Malacitia
+
+	year_founded 0
+	population 4450
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Oretania
+
+	year_founded 0
+	population 3100
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Baetica_Cordubensis
+
+	year_founded 0
+	population 4400
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level large_town
+	region Turdetania
+
+	year_founded 0
+	population 4550
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Couneia
+
+	year_founded 0
+	population 3850
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Turdulia_Occidentalis
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Turdulia_Orientalis
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -7873,6 +8078,122 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Caros, general, age 20, , x 40, y 97
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Leukon, general, age 20, , x 44, y 99
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Megaravicos, general, age 20, , x 48, y 100
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Rhetogenes, general, age 20, , x 52, y 98
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Viriathos, general, age 20, , x 50, y 104
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Avaros, general, age 20, , x 40, y 103
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Matugenus, general, age 20, , x 52, y 108
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Lucco, general, age 20, , x 55, y 105
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
