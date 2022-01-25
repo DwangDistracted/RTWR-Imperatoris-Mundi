@@ -183,6 +183,14 @@ Turdetania
 Couneia
 Turdulia_Occidentalis
 Turdulia_Orientalis
+Lobetania
+Celtiberia_Meridionalis
+Celtiberia_Septentrionalis
+Celtiberia_Centralis
+Carpetania
+Vettonia_Meridionalis
+Vettonia_Septentrionalis
+Vaccaeia_Meridionalis
 
 Eblania
 Coriondia
@@ -359,7 +367,7 @@ Urki
 Arse
 Hibera
 Kesse
-Celsa
+Iltrida
 Osca
 Karmo
 Malaka
@@ -369,6 +377,14 @@ Orippo
 Onuba
 Varna
 Oretum
+Mentesa
+Valeria
+Salduie
+Segontia
+Toletum
+Augustobriga
+Avila
+Segovia
 
 Libyae_Interior
 toggle_fow

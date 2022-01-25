@@ -1599,7 +1599,7 @@ Cessetania
 	6
 
 Ilergetia
-	Celsa
+	Iltrida
 	spain
 	Iberians
 	216 95 8
@@ -1687,6 +1687,78 @@ Turdulia_Orientalis
 	none
 	5
 	9
+
+Lobetania
+	Mentesa
+	spain
+	Celtiberian
+	77 242 154
+	none
+	5
+	10
+
+Celtiberia_Meridionalis
+	Valeria
+	spain
+	Celtiberian
+	224 47 209
+	none
+	5
+	11
+
+Celtiberia_Septentrionalis
+	Salduie
+	spain
+	Celtiberian
+	81 221 26
+	none
+	5
+	7
+
+Celtiberia_Centralis
+	Segontia
+	spain
+	Celtiberian
+	239 206 16
+	none
+	5
+	11
+
+Carpetania
+	Toletum
+	spain
+	Celtiberian
+	12 209 74
+	none
+	5
+	10
+
+Vettonia_Meridionalis
+	Augustobriga
+	spain
+	Celtiberian
+	219 119 48
+	none
+	5
+	6
+
+Vettonia_Septentrionalis
+	Avila
+	spain
+	Celtiberian
+	77 34 158
+	none
+	5
+	4
+
+Vaccaeia_Meridionalis
+	Segovia
+	spain
+	Cantabrian
+	188 53 50
+	none
+	5
+	10
 
 ;Terra Incognita
 Libyae_Interior

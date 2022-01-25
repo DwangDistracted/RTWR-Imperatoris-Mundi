@@ -935,7 +935,7 @@ resource hides, 2, 68, 127
 
 ;Ilergetia
 resource slaves, 1, 61, 128
-resource marble, 3, 63, 127
+resource marble, 3, 64, 127
 resource wine, 3, 65, 130
 
 ;Vasconia
@@ -3233,6 +3233,63 @@ denari	3000
 
 settlement
 {
+	level large_town
+	region Vettonia_Meridionalis
+
+	year_founded 0
+	population 3050
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Vettonia_Septentrionalis
+
+	year_founded 0
+	population 2550
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Vaccaeia_Meridionalis
+
+	year_founded 0
+	population 2250
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
 	level village
 	region Tempr4
 
@@ -3265,7 +3322,7 @@ unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Lucco, named character, age 30, , x 44, y 76
+character	Lucco, named character, age 30, , x 43, y 117
 traits Intelligent 2
 ancillaries civilized_slave, beastmaster
 army
@@ -3275,7 +3332,7 @@ unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Matugenus, named character, age 25, , x 36, y 58
+character	Matugenus, named character, age 25, , x 44, y 113
 traits NaturalMilitarySkill 1 , Energetic 1 , Drink 1 , Bloodthirsty 1
 ancillaries armourer
 army
@@ -3285,10 +3342,10 @@ unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Segovax, diplomat, age 20, , x 9, y 72
+character	Segovax, diplomat, age 20, , x 43, y 118
 traits GoodDiplomat 3
 
-character	Rhetogenes, spy, age 20, , x 43, y 78
+character	Rhetogenes, spy, age 20, , x 51, y 117
 traits GoodSpy 3
 
 character_record		Ambon, 	male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
@@ -6328,6 +6385,105 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Lobetania
+
+	year_founded 0
+	population 2850
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Celtiberia_Meridionalis
+
+	year_founded 0
+	population 3700
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Celtiberia_Septentrionalis
+
+	year_founded 0
+	population 3550
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Celtiberia_Centralis
+
+	year_founded 0
+	population 3950
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Carpetania
+
+	year_founded 0
+	population 3400
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -8054,7 +8210,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction spain, Auaros, general, age 20, , x 63, y 128
+character	sub_faction spain, Auaros, general, age 20, , x 67, y 130
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
