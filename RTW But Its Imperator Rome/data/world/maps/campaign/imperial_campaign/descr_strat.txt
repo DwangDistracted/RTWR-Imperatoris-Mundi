@@ -898,7 +898,6 @@ resource slaves, 1, 65, 112
 resource wine, 4, 63, 109
 resource iron, 3, 61, 109
 resource purple_dye, 3, 65, 114
-resource olive_oil, 2, 60, 112
 resource marble, 2, 64, 112
 
 ;Mastiania
@@ -984,6 +983,48 @@ resource textiles, 2, 47, 107
 resource slaves, 1, 39, 104
 resource textiles, 3, 44, 106
 resource wine, 3, 42, 103
+
+;Lobetania
+resource slaves, 1, 57, 110
+resource olive_oil, 2, 55, 111
+resource wine, 3, 58, 113
+
+;Celtiberia_Meridionalis
+resource slaves, 1, 60, 118
+resource textiles, 3, 58, 114
+resource glass, 1, 57, 118
+
+;Celtiberia_Septentrionalis
+resource slaves, 1, 57, 128
+resource wine, 2, 60, 126
+resource gold, 1, 61, 122
+resource purple_dye, 2, 59, 124
+
+;Celtiberia_Centralis
+resource slaves, 1, 53, 123
+resource pottery, 3, 55, 123
+resource textiles, 3, 52, 119
+
+;Carpetania
+resource slaves, 1, 52, 113
+resource lead, 3, 51, 120
+resource iron, 3, 49, 117
+resource furs, 2, 54, 115
+
+;Vettonia_Meridionalis
+resource slaves, 1, 41, 112
+resource silver, 2, 47, 115
+resource furs, 3, 46, 110
+
+;Vettonia_Septentrionalis
+resource slaves, 1, 41, 120
+resource wine, 4, 39, 119
+resource gold, 2, 41, 116
+
+;Vaccaeia_Meridionalis
+resource slaves, 1, 46, 120
+resource wine, 3, 49, 124
+resource marble, 4, 48, 121
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -3248,6 +3289,14 @@ settlement
 	{
 		type defenses wooden_wall
 	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -3286,20 +3335,13 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+	building
+	{
+		type missiles practice_field
+	}
 }
 
-settlement
-{
-	level village
-	region Tempr4
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator spain
-}
-
-character	Viriathus, named character, leader, age 60, , x 20, y 87
+character	Viriathus, named character, leader, age 60, , x 47, y 119
 traits GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1
 ancillaries bard
 army
@@ -3310,7 +3352,7 @@ unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Caraunios, named character, heir, age 40, , x 8, y 72
+character	Caraunios, named character, heir, age 40, , x 47, y 120
 traits GoodCommander 3 , Energetic 1 , Intelligent 2 , Drink 1
 ancillaries bodyguard
 army
@@ -6482,6 +6524,14 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type smith blacksmith
+	}
 }
 
 ; TERRA INCOGNITA
@@ -6506,6 +6556,16 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr4
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator spain
 }
 settlement
 {
@@ -8343,6 +8403,79 @@ character	sub_faction spain, Lucco, general, age 20, , x 55, y 105
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Segovax, general, age 20, , x 58, y 110
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Huevos, general, age 20, , x 59, y 116
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Adiran, general, age 20, , x 54, y 119
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Ager, general, age 20, , x 50, y 115
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Aingeru, general, age 20, , x 59, y 127
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
