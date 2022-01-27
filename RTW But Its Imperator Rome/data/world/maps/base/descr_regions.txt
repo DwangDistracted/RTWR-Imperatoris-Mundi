@@ -1760,6 +1760,42 @@ Vaccaeia_Meridionalis
 	5
 	10
 
+Vaccaeia_Septentrionalis
+	Palantia
+	spain
+	Cantabrian
+	244 36 223
+	none
+	5
+	9
+
+Vardulia
+	Pompelo
+	spain
+	Cantabrian
+	25 252 59
+	none
+	5
+	5
+
+Autrigonia
+	Vindeleia
+	spain
+	Cantabrian
+	216 65 135
+	none
+	5
+	6
+
+Cantabria
+	Lancia
+	spain
+	Cantabrian
+	86 234 70
+	none
+	5
+	6
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

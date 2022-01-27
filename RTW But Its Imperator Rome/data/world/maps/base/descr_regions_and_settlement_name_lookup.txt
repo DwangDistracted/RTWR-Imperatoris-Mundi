@@ -191,6 +191,10 @@ Carpetania
 Vettonia_Meridionalis
 Vettonia_Septentrionalis
 Vaccaeia_Meridionalis
+Vaccaeia_Septentrionalis
+Vardulia
+Autrigonia
+Cantabria
 
 Eblania
 Coriondia
@@ -385,6 +389,10 @@ Toletum
 Augustobriga
 Avila
 Segovia
+Palantia
+Pompelo
+Vindeleia
+Lancia
 
 Libyae_Interior
 toggle_fow
