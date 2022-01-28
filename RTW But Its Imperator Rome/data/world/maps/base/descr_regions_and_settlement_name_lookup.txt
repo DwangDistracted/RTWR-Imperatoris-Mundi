@@ -195,6 +195,10 @@ Vaccaeia_Septentrionalis
 Vardulia
 Autrigonia
 Cantabria
+Celticia_Minoris
+Celticia_Maoioris
+Lusitania
+Oppidania
 
 Eblania
 Coriondia
@@ -393,6 +397,10 @@ Palantia
 Pompelo
 Vindeleia
 Lancia
+Ebora
+Augusta_Emerita
+Mirobriga
+Conimbriga
 
 Libyae_Interior
 toggle_fow
