@@ -199,6 +199,10 @@ Celticia_Minoris
 Celticia_Maoioris
 Lusitania
 Oppidania
+Asturia
+Aebocosia
+Callaecia_Meridionalis
+Callaecia_Septentrionalis
 
 Eblania
 Coriondia
@@ -401,12 +405,15 @@ Ebora
 Augusta_Emerita
 Mirobriga
 Conimbriga
+Lucus_Asturum
+Argentiolum
+Bracara_Augusta
+Assegonia
 
 Libyae_Interior
 toggle_fow
 
 Tempr0
-Tempr4
 Tempr6
 Tempr9
 Tempr10
@@ -423,7 +430,6 @@ Tempr20
 Tempr21
 Tempr24
 Temp0
-Temp4
 Temp6
 Temp9
 Temp10

@@ -1832,6 +1832,42 @@ Oppidania
 	5
 	8
 
+Asturia
+	Lucus_Asturum
+	spain
+	Asturian
+	247 235 74
+	none
+	5
+	4
+
+Aebocosia
+	Argentiolum
+	spain
+	Asturian
+	209 89 41
+	none
+	5
+	12
+
+Callaecia_Meridionalis
+	Bracara_Augusta
+	spain
+	Asturian
+	28 206 94
+	none
+	5
+	3
+
+Callaecia_Septentrionalis
+	Assegonia
+	spain
+	Asturian
+	237 28 36
+	none
+	5
+	11
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -1848,15 +1884,6 @@ Tempr0
 	romans_julii
 	Latins
 	255 0 0
-	none
-	5
-	5
-
-Tempr4
-	Temp4
-	romans_julii
-	Latins
-	237 28 36
 	none
 	5
 	5

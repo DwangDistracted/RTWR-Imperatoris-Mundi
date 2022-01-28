@@ -1053,7 +1053,7 @@ resource lead, 2, 36, 102
 ;Oppidania
 resource slaves, 1, 29, 105
 resource tin, 2, 31, 107
-resource timber, 2, 30, 117
+resource timber, 2, 30, 113
 
 ;Lusitania
 resource slaves, 1, 38, 116
@@ -1068,6 +1068,30 @@ resource grain, 4, 41, 110
 resource furs, 5, 36, 105
 resource olive_oil, 3, 39, 107
 resource pottery, 2, 42, 109
+
+;Callaecia_Meridionalis
+resource slaves, 1, 28, 120
+resource grain, 3, 30, 117
+resource gold, 5, 31, 119
+resource marble, 2, 32, 124
+
+;Callaecia_Septentrionalis
+resource slaves, 1, 24, 126
+resource tin, 6, 28, 129
+resource gold, 2, 29, 125
+
+;Asturia
+resource slaves, 1, 40, 128
+resource furs, 5, 32, 127
+resource tin, 2, 35, 127
+resource gold, 5, 34, 129
+
+;Aebocosia
+resource slaves, 1, 39, 121
+resource gold, 4, 35, 122
+resource tin, 2, 37, 126
+resource timber, 4, 37, 122
+resource hides, 3, 36, 118
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -3348,7 +3372,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
-	; mines
+	building
+	{
+		type hinterland_mines mines
+	}
 }
 
 settlement
@@ -6794,6 +6821,101 @@ settlement
 	{
 		type defenses wooden_wall
 	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Asturia
+
+	year_founded 0
+	population 3200
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aebocosia
+
+	year_founded 0
+	population 4250
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Callaecia_Meridionalis
+
+	year_founded 0
+	population 5200
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+}
+settlement
+{
+	level large_town
+	region Callaecia_Septentrionalis
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 ; TERRA INCOGNITA
@@ -6818,16 +6940,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr4
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator spain
 }
 settlement
 {
@@ -8844,6 +8956,66 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Danel, general, age 20, , x 38, y 123
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Deunoro, general, age 20, , x 38, y 129
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Dunixi, general, age 20, , x 28, y 117
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction spain, Edorta, general, age 20, , x 26, y 125
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
