@@ -1,0 +1,25 @@
+REGION_NAME,ETHNICITIES,REGIONS
+Brittania,caucasiandark;20;caucasian;80,Hibernia_Septentrionalis;Hibernia_Orientalis;Hibernia_Meridionalis;Hibernia_Occidentalis;Caledonia;Taexalia;Votadinia;Brigantia;Coritania;Cornovia;Icenia;Trinovantia;Cantiacia;Durotrigia;Dumnonia;Dobunnia;Ordovicia;Demetia
+Gaul,caucasiandark;60;caucasian;40,Osisimia;Armorica;Venellia;Eburovicia;Veliocassia;Namnetia;Pictonia;Turonia;Carnutia;Parisia;Aquitania;Santonia;Nitrobrogia;Auscia;Biggeronia;Volcatia;Celtica;Biturigia;Senonia;Haeduia;Cubia;Arvernia;Lemovicia;Ambarria;Sequania;Allobrogia;Alpes_Cottiae;Verbogenia
+Belgium,caucasiandark;40;caucasian;60,Morinia;Bellovacia;Suaeuconia;Nervia;Treveria_Salutaris;Leucia;Eburonia;Treveria;Mediomatricia;Tribocia
+GalloGreek Colonies,caucasiandark;55;caucasian;35;mediterranean;10,Alpes_Maritimae;Vocontia;Narbonensis
+Scandinavia,caucasian;100,Anglia;Cimbrica;Scandia_Insula;Herulia;East_Gothia;West_Gothia;Ultima_Thule
+North Germany,caucasiandark;20;caucasian;80,Frisia;Chasuaria;Chaucia;Bructeria;Sicambria;Langobardia;Chamavia;Baluconia;Pharodenia;Buria;Marsignia;Rugia;Helveconia;Elysia;Lugia
+South Germany,caucasiandark;50;caucasian;50,Vangionia;Chattia;Hermunduria;Marcomannia;Naharvalia;Boioa;Naristia;Noricum;Vindelicia;Latobrigia;Breunia;Helvetia;Ciscarpathia
+Baltics,caucasiandark;30;caucasian;70,Sciria;Chrononia;Turuntia;Venedia_Inferior;Ossioia;Vistulia
+Amazons,mediterranean;100,Hyperboria
+Cisalpine Gaul,caucasiandark;50;caucasian;20;mediterranean;30,Aemilla;Transpadana;Insubria;Cenomannia;Olana;Venetia
+Italy,mediterranean;100,Vallis_Arni;Dodecapolis;Umbria;Tuscia;Latium;Picenum;Aternum;Apulia;Campania;Lucania;Tarentum;Bruttium;Siculia;Syracuse;Sicania;Corsica
+Island Punic Colonies,mediterranean;70;berber;20;arabic;10,Elimia;Sardinia_Australis;Sardinia_Borealis;Balearides
+Coastal North Africa,berber;60;arabic;30;mediterranean;10,Carthago;Zeugitana;Byssatis;Thabracania;Massylia
+Inland North Africa,berber;100,Musulamia;Maxyesia;Zaba;Aurasius;Cirtania;Sitifensia;Gaetulia
+Coastal Mauritania,berber;80;arabic;20,Iolia;Tingitania
+Inland Mauritania,berber;100,Machuria;Massaesylia;Metagonia;Mauretania;Rutubis;Tadla;Mauretania_Ulterior;Lixiane;Madethubadus;Deserta_Mauretania;Furtunatae_Insulae
+Cerne,african;90;arabic;10,Cerne
+Sahara,berber;90;african;10,Leonum_Trahentium;Troglodytia;Ougarta;Deserta_Tripolitania;Phazania;Garamantia_Occidentalis;Garamantia_Citerior
+Tripolitania,berber;90;arabic;10,Tripolitania;Syrtica;Nasamonia
+Sub-Saharan Africa,african;100,Nigritania;Agisymba
+Ibero Greek Colonies,caucasiandark;80;mediterranean;20,Indicetia;Contestania
+Ibero Punic Colonies,caucasiandark;70;berber;20;arabic;10,Baetica_Gaditanus;Mastiania;Bastetania
+Iberia,caucasiandark;100,Edetania;Ilercavonia;Cessetania;Ilergetia;Vasconia;Baetica_Hispalensis;Malacitia;Oretania;Baetica_Cordubensis;Turdetania;Couneia;Turdulia_Occidentalis;Turdulia_Orientalis;Celticia_Minoris;Celticia_Maoioris;Lusitania;Oppidania;Asturia;Aebocosia;Callaecia_Meridionalis;Callaecia_Septentrionalis
+Celtiberia,caucasiandark;80;caucasian;20,Lobetania;Celtiberia_Meridionalis;Celtiberia_Septentrionalis;Celtiberia_Centralis;Carpetania;Vettonia_Meridionalis;Vettonia_Septentrionalis;Vaccaeia_Meridionalis;Vaccaeia_Septentrionalis;Vardulia;Autrigonia;Cantabria

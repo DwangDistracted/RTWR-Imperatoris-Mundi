@@ -14,10 +14,10 @@ unlockable
 	greek_cities
 	numidia
 	spain
+	slave
 end
 nonplayable
 	romans_senate
-	slave
 end
 
 
@@ -3455,29 +3455,29 @@ character	Viriathus, named character, leader, age 60, , x 36, y 114
 traits GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1
 ancillaries bard
 army
-unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 1
+unit		spanish scutarii				exp 0 armour 0 weapon_lvl 1
+unit		spanish scutarii				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 1
 
 character	Caraunios, named character, heir, age 40, , x 48, y 114
 traits GoodCommander 3 , Energetic 1 , Intelligent 2 , Drink 1
 ancillaries bodyguard
 army
-unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		spanish bull warriors				exp 0 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
-unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 1
+unit		spanish bull warriors				exp 0 armour 0 weapon_lvl 1
+unit		spanish scutarii				exp 0 armour 0 weapon_lvl 1
+unit		spanish scutarii				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 1
+unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 1
 
 character	Lucco, named character, age 30, , x 43, y 117
 traits Intelligent 2
@@ -3494,9 +3494,9 @@ traits NaturalMilitarySkill 1 , Energetic 1 , Drink 1 , Bloodthirsty 1
 ancillaries armourer
 army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Jakome, general, age 20, , x 47, y 119
