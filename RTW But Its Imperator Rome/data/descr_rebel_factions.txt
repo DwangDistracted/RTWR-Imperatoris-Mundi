@@ -1423,6 +1423,45 @@ unit				merc spanish infantry
 unit				merc spanish infantry
 unit				barbarian rebel general
 
+rebel_type 			Histrian		//dacia
+category			peasant_revolt 
+chance				0
+description			Histrian
+unit				barb peasant slave
+unit				barb noble cavalry slave
+unit				merc illyrian
+unit				merc illyrian
+unit				barb infantry slave
+unit				barb infantry slave
+unit				greek hoplite
+unit				barbarian rebel general
+
+rebel_type 			Libernian		//dacia
+category			peasant_revolt 
+chance				0
+description			Libernian
+unit				barb peasant slave
+unit				barb cavalry slave
+unit				merc illyrian
+unit				merc illyrian
+unit				barb infantry slave
+unit				barb infantry slave
+unit				greek hoplite
+unit				barbarian rebel general
+
+rebel_type 			Daorsian		//dacia
+category			peasant_revolt 
+chance				0
+description			Daorsian
+unit				barb peasant slave
+unit				barb noble cavalry slave
+unit				merc illyrian
+unit				merc illyrian
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb naked fanatics slave
+unit				barbarian rebel general
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -1868,6 +1868,52 @@ Callaecia_Septentrionalis
 	5
 	11
 
+;Illyria
+Histria
+	Polai
+	dacia
+	Histrian
+	216 56 47
+	none
+	5
+	5
+
+Libernia
+	Iader
+	dacia
+	Libernian
+	221 97 159
+	none
+	5
+	8
+
+Dalmatia
+	Salona
+	dacia
+	Delmatae
+	66 237 4
+	none
+	5
+	9
+
+Daorsia
+	Delminion
+	dacia
+	Daorsian
+	205 234 86
+	none
+	5
+	2
+
+Deuria
+	Segestika
+	dacia
+	Daorsian
+	120 221 86
+	none
+	5
+	2
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

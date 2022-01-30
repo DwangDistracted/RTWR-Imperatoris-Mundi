@@ -1179,6 +1179,19 @@ region
 			distribution 80
 		}
 	}
+	Semnonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
 	Vangionia
 	{
 		variant

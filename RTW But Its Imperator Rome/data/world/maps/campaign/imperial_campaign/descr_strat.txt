@@ -9,6 +9,7 @@ end
 unlockable
 	britons
 	carthage
+	dacia
 	gauls
 	germans
 	greek_cities
@@ -3524,6 +3525,69 @@ relative 	Caraunios, 	Esselta,		Ambon,	end
 relative 	Lucco, 	Iseulta,		Leukon,	end
 relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
 
+faction	dacia, balanced_stalin
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr21
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Zyraxes, named character, leader, age 60, , x 1, y 1
+traits GoodCommander 2 , Intelligent 1 , Bloodthirsty 2
+ancillaries bard
+army
+unit		barb chieftain cavalry early dacian				exp 1 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry dacian				exp 0 armour 0 weapon_lvl 0
+
+character	Vezina, named character, heir, age 35, , x 1, y 2
+traits NaturalMilitarySkill 2 , Intelligent 1 , Bloodthirsty 1 , Drink 1
+ancillaries armourer
+army
+unit		barb chieftain cavalry early dacian				exp 1 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb archer dacian				exp 0 armour 0 weapon_lvl 0
+
+character	Scyles, named character, age 30, , x 1, y 3
+traits Intelligent 3 , Bloodthirsty 1 , Energetic 1
+ancillaries civilized_slave
+army
+unit		barb chieftain cavalry early dacian				exp 1 armour 0 weapon_lvl 0
+unit		barb cavalry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		warband falx dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb archer dacian				exp 0 armour 0 weapon_lvl 0
+
+character	Dicomes, diplomat, age 20, , x 2, y 1
+traits GoodDiplomat 1
+
+character	Burubista, spy, age 20, , x 2, y 2
+traits GoodSpy 3
+
+character_record		Palacus, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Scylurus, 	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Cotiso, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Duras, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Serapia, 	female, command 0, influence 0, management 0, subterfuge 0, age 51, alive, never_a_leader
+character_record		Dana, 	female, command 0, influence 0, management 0, subterfuge 0, age 33, alive, never_a_leader
+character_record		Birkita, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+character_record		Devnet, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+character_record		Fallon, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+
+relative 	Zyraxes, 	Serapia,		Vezina,	Scyles,	Duras,	end
+relative 	Vezina, 	Dana,		Cotiso,	Devnet,	Palacus,	end
+relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
+
 faction	slave, fortified_mao
 denari	10000
 
@@ -6918,6 +6982,138 @@ settlement
 	}
 }
 
+; ILLYRIA
+settlement
+{
+	level large_town
+	region Histria
+
+	year_founded 0
+	population 2950
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Libernia
+
+	year_founded 0
+	population 3650
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Dalmatia
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Daorsia
+
+	year_founded 0
+	population 4550
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+}
+
+settlement
+{
+	level large_town
+	region Deuria
+
+	year_founded 0
+	population 4100
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market trader
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -7055,16 +7251,6 @@ settlement
 {
 	level village
 	region Tempr20
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr21
 
 	year_founded 0
 	population 400

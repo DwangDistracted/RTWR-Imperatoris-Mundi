@@ -73,6 +73,7 @@ Langobardia
 Chamavia
 Baluconia
 Pharodenia
+Semnonia
 Buria
 Marsignia
 Rugia
@@ -203,6 +204,11 @@ Vaccaeia_Septentrionalis
 Vardulia
 Autrigonia
 Cantabria
+Histria
+Libernia
+Dalmatia
+Daorsia
+Deuria
 
 Eblania
 Coriondia
@@ -409,6 +415,11 @@ Lucus_Asturum
 Argentiolum
 Bracara_Augusta
 Assegonia
+Polai
+Iader
+Salona
+Delminion
+Segestika
 
 Libyae_Interior
 toggle_fow
