@@ -1908,7 +1908,7 @@ Daorsia
 Deuria
 	Segestika
 	dacia
-	Daorsian
+	Breuci
 	120 221 86
 	none
 	5

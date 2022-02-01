@@ -1094,6 +1094,35 @@ resource tin, 2, 37, 126
 resource timber, 4, 37, 122
 resource hides, 3, 36, 118
 
+;Dalmatia
+resource slaves, 1, 132, 159
+resource olive_oil, 6, 137, 158
+resource pottery, 1, 145, 156
+resource wine, 2, 141, 156
+
+;Daorsia
+resource slaves, 1, 134, 160
+resource timber, 5, 137, 164
+resource purple_dye, 1, 140, 161
+resource marble, 2, 139, 159
+
+;Deuria
+resource slaves, 1, 131, 167
+resource furs, 2, 127, 168
+resource purple_dye, 2, 135, 165
+resource timber, 5, 130, 163
+
+;Libernia
+resource slaves, 1, 125, 163
+resource olive_oil, 1, 129, 160
+resource hides, 2, 126, 164
+
+;Histria
+resource slaves, 1, 121, 164
+resource wine, 3, 118, 167
+resource textiles, 1, 121, 167
+resource olive_oil, 1, 119, 169
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -9203,6 +9232,80 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+
+; ILLYRIA
+character	sub_faction dacia, Skunxa, general, age 20, , x 118, y 164
+army
+unit		barb chieftain cavalry early slave				exp 4 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 5 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 5 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 5 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 5 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 5 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 5 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 5 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 5 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 5 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Anacharsis, general, age 20, , x 127, y 161
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Idanthyrsus, general, age 20, , x 134, y 158
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Dapyx, general, age 20, , x 137, y 160
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Vencaslac, general, age 20, , x 130, y 167
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
