@@ -1914,6 +1914,88 @@ Deuria
 	5
 	2
 
+;Pannonia
+Latobicia
+	Carnium
+	gauls
+	Tauriscian
+	244 207 95
+	none
+	5
+	2
+
+Cataria
+	Varianis
+	gauls
+	Tauriscian
+	35 186 90
+	none
+	5
+	5
+
+Varciania
+	Vindobona
+	gauls
+	Tauriscian
+	196 13 187
+	none
+	5
+	2
+
+Pannonia_Prima
+	Aquincum
+	gauls
+	Eraviscian
+	90 255 35
+	none
+	5
+	0
+
+Carnuntia
+	Felicia
+	gauls
+	Eraviscian
+	36 183 112
+	none
+	5
+	5
+
+Quadia
+	Amatria
+	dacia
+	Eraviscian
+	107 26 165
+	none
+	5
+	3
+
+Valeria
+	Sopianai
+	gauls
+	Iazyges
+	212 237 71
+	none
+	5
+	8
+
+Hercuniatia
+	Iazygiana
+	dacia
+	Iazyges
+	65 198 125
+	none
+	5
+	9
+
+Pannonia_Secunda
+	Sirmium
+	gauls
+	Scordisci
+	211 81 42
+	none
+	5
+	10
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

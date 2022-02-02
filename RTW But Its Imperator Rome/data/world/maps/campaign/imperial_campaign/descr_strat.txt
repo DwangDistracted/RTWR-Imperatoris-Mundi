@@ -7143,6 +7143,174 @@ settlement
 	}
 }
 
+; PANNONIA
+settlement
+{
+	level large_town
+	region Latobicia
+
+	year_founded 0
+	population 5800
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cataria
+
+	year_founded 0
+	population 2550
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Varciania
+
+	year_founded 0
+	population 2750
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Pannonia_Prima
+
+	year_founded 0
+	population 3450
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level village
+	region Carnuntia
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator gauls
+}
+
+settlement
+{
+	level village
+	region Quadia
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator dacia
+}
+
+settlement
+{
+	level large_town
+	region Valeria
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Hercuniatia
+
+	year_founded 0
+	population 2350
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Pannonia_Secunda
+
+	year_founded 0
+	population 2350
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -9346,6 +9514,8 @@ core_attitudes	carthage,	100		gauls
 core_attitudes	carthage,	400		romans_senate, romans_julii, romans_scipii, romans_brutii, greek_cities
 core_attitudes	carthage,	600		slave
 
+core_attitudes	dacia,	600		slave
+
 core_attitudes	gauls,	100		carthage, britons
 core_attitudes	gauls,	400		romans_julii, romans_senate
 core_attitudes	gauls,	600		slave
@@ -9361,7 +9531,7 @@ core_attitudes	numidia, 		600		slave
 
 core_attitudes	spain, 		600		slave
 
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, gauls, germans, greek_cities, numidia, spain
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, numidia, spain
 
 ; Diplomatic Standing
 faction_relationships	romans_julii,		0		romans_brutii
@@ -9389,6 +9559,8 @@ faction_relationships	britons, 		600		slave
 faction_relationships	carthage, 		0		numidia
 faction_relationships	carthage, 		600		slave
 
+faction_relationships	dacia, 		600		slave
+
 faction_relationships	gauls, 		600		slave
 
 faction_relationships	germans, 		600		slave
@@ -9400,7 +9572,7 @@ faction_relationships	numidia, 		600		slave
 
 faction_relationships	spain, 		600		slave
 
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, gauls, germans, greek_cities, numidia, spain
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, numidia, spain
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of scripts section <<<<

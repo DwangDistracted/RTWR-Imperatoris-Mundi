@@ -1462,6 +1462,32 @@ unit				barb infantry slave
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
+rebel_type 			Tauriscian		//gauls
+category			peasant_revolt 
+chance				0					
+description			Tauriscian
+unit				barb peasant slave
+unit				barb peasant slave
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb naked fanatics slave
+unit				barb cavalry slave
+unit				barbarian rebel general
+
+rebel_type 			Eraviscian		//gauls
+category			peasant_revolt 
+chance				0					
+description			Eraviscian
+unit				barb peasant slave
+unit				barb peasant slave
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb naked fanatics slave
+unit				barb cavalry slave
+unit				barbarian rebel general
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

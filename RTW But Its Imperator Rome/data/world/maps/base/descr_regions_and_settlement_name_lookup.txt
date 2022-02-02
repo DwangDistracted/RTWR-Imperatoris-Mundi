@@ -209,6 +209,15 @@ Libernia
 Dalmatia
 Daorsia
 Deuria
+Latobicia
+Cataria
+Varciania
+Pannonia_Prima
+Valeria
+Hercuniatia
+Pannonia_Secunda
+Carnuntia
+Quadia
 
 Eblania
 Coriondia
@@ -420,6 +429,15 @@ Iader
 Salona
 Delminion
 Segestika
+Carnium
+Varianis
+Vindobona
+Aquincum
+Sopianai
+Iazygiana
+Sirmium
+Felicia
+Amatria
 
 Libyae_Interior
 toggle_fow
