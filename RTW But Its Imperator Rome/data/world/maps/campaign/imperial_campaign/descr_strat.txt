@@ -15,10 +15,11 @@ unlockable
 	greek_cities
 	numidia
 	spain
-	slave
+	thrace
 end
 nonplayable
 	romans_senate
+	slave
 end
 
 
@@ -1169,6 +1170,29 @@ resource grain, 4, 137, 187
 resource slaves, 1, 127, 188
 resource furs, 2, 128, 190
 resource hides, 2, 126, 185
+
+;Scordiscia
+resource slaves, 1, 143, 168
+resource wine, 2, 141, 166
+resource timber, 4, 137, 167
+
+;Dindaria
+resource slaves, 1, 147, 162
+resource marble, 2, 143, 160
+resource iron, 1, 147, 159
+resource silver, 4, 145, 164
+
+;Dardania
+resource slaves, 1, 153, 160
+resource silver, 2, 150, 160
+resource furs, 1, 151, 157
+resource marble, 2, 155, 159
+
+;Tricornensia
+resource slaves, 1, 152, 164
+resource purple_dye, 2, 152, 163
+resource grain, 2, 149, 168
+resource textiles, 1, 147, 165
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -3663,6 +3687,71 @@ character_record		Fallon, 	female, command 0, influence 0, management 0, subterf
 relative 	Zyraxes, 	Serapia,		Vezina,	Scyles,	Duras,	end
 relative 	Vezina, 	Dana,		Cotiso,	Devnet,	Palacus,	end
 relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
+
+faction	thrace, sailor_napoleon
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr20
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Sautes, named character, leader, age 60, , x 3, y 1
+traits GoodCommander 2 , GoodAttacker 2 , Energetic 1 , Drink 2
+ancillaries wine_steward, comedian, aged_retainer
+army
+unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
+unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Pytros, named character, heir, age 40, , x 3, y 2
+traits GoodCommander 1 , Energetic 2 , Drink 2 , Intelligent 1
+ancillaries wine_steward
+army
+unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Byzas, named character, age 30, , x 3, y 3
+traits NaturalMilitarySkill 1 , Intelligent 2 , Drink 1
+ancillaries freeman_clerk, wise_man
+army
+unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Rhaskos, diplomat, age 20, , x 4, y 1
+traits GoodDiplomat 2
+
+character	Satres, spy, age 20, , x 4, y 2
+traits GoodSpy 3
+
+character_record		Bryzos, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Gaidres, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+character_record		Iptacens, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Ziles, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Karia, 	female, command 0, influence 0, management 0, subterfuge 0, age 59, alive, never_a_leader
+character_record		Bendidora, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Cerzula, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+character_record		Eptesyka, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Mokasokos, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
+
+relative 	Sautes, 	Karia,		Pytros,	Byzas,	end
+relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
+relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 faction	slave, fortified_mao
 denari	10000
@@ -7358,6 +7447,99 @@ settlement
 	}
 }
 
+; MOESIA WEST
+settlement
+{
+	level large_town
+	region Scordiscia
+
+	year_founded 0
+	population 4150
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Dindaria
+
+	year_founded 0
+	population 1750
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tricornensia
+
+	year_founded 0
+	population 3300
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Dardania
+
+	year_founded 0
+	population 2150
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -7485,16 +7667,6 @@ settlement
 {
 	level village
 	region Tempr19
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr20
 
 	year_founded 0
 	population 400
@@ -9635,6 +9807,56 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+character	sub_faction gauls, Brennus, general, age 20, , x 145, y 167
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Orgetorix, general, age 20, , x 154, y 163
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Orgetorix, general, age 20, , x 145, y 161
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction thrace, Brinkazis, general, age 20, , x 153, y 157
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
 army
@@ -9691,7 +9913,9 @@ core_attitudes	numidia, 		600		slave
 
 core_attitudes	spain, 		600		slave
 
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, numidia, spain
+core_attitudes	thrace, 		600		slave
+
+core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, numidia, spain, thrace
 
 ; Diplomatic Standing
 faction_relationships	romans_julii,		0		romans_brutii
@@ -9719,6 +9943,7 @@ faction_relationships	britons, 		600		slave
 faction_relationships	carthage, 		0		numidia
 faction_relationships	carthage, 		600		slave
 
+faction_relationships	dacia, 		300		thrace
 faction_relationships	dacia, 		600		slave
 
 faction_relationships	gauls, 		600		slave
@@ -9732,7 +9957,10 @@ faction_relationships	numidia, 		600		slave
 
 faction_relationships	spain, 		600		slave
 
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, numidia, spain
+faction_relationships	thrace, 		300		dacia
+faction_relationships	thrace, 		600		slave
+
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, numidia, spain, thrace
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of scripts section <<<<

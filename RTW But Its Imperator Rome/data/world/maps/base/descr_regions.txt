@@ -1996,6 +1996,43 @@ Pannonia_Secunda
 	5
 	10
 
+;Western Moesia
+Scordiscia
+	Singidunum
+	gauls
+	Scordisci
+	232 2 166
+	none
+	5
+	10
+
+Tricornensia
+	Naissus
+	gauls
+	Scordisci
+	203 78 244
+	none
+	5
+	9
+
+Dindaria
+	Risitia
+	gauls
+	Dardanian
+	71 232 181
+	none
+	5
+	5
+
+Dardania
+	Skoupoi
+	thrace
+	Dardanian
+	46 186 11
+	none
+	5
+	4
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

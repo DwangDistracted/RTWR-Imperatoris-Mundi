@@ -1488,6 +1488,19 @@ unit				barb naked fanatics slave
 unit				barb cavalry slave
 unit				barbarian rebel general
 
+rebel_type 			Dardanian		//thrace
+category			peasant_revolt 
+chance				3					
+description			Dardanian
+unit				greek cavalry
+unit				greek peltast
+unit				greek peltast
+unit				merc thracian
+unit				merc thracian
+unit				merc bastarnae
+unit				greek hoplite
+unit				barbarian rebel general
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

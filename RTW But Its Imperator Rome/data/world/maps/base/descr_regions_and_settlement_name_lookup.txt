@@ -218,6 +218,10 @@ Hercuniatia
 Pannonia_Secunda
 Carnuntia
 Quadia
+Scordiscia
+Dindaria
+Tricornensia
+Dardania
 
 Eblania
 Coriondia
@@ -438,6 +442,10 @@ Iazygiana
 Sirmium
 Felicia
 Amatria
+Singidunum
+Risitia
+Naissus
+Skoupoi
 
 Libyae_Interior
 toggle_fow
