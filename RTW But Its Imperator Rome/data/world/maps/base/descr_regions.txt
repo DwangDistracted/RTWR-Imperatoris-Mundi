@@ -1996,6 +1996,97 @@ Pannonia_Secunda
 	5
 	10
 
+;Dacia
+Albocensia
+	Lixisis
+	dacia
+	Iazyges
+	149 168 23
+	none
+	5
+	10
+
+Iazygia
+	Crisia
+	dacia
+	Iazyges
+	101 160 24
+	none
+	5
+	0
+
+Cotinia
+	Oratis
+	dacia
+	Iazyges
+	216 67 181
+	none
+	5
+	2
+
+Costobocia
+	Vidava
+	dacia
+	Carpi
+	165 51 16
+	none
+	5
+	3
+
+Potulatensia
+	Apulum
+	dacia
+	Daci
+	211 52 198
+	none
+	5
+	0
+
+Porolissensis
+	Potaissa
+	dacia
+	Daci
+	122 160 16
+	none
+	5
+	4
+
+Apulensis
+	Media
+	dacia
+	Daci
+	242 188 53
+	none
+	5
+	2
+
+Malvensis
+	Buridava
+	dacia
+	Daci
+	91 132 10
+	none
+	5
+	5
+
+Getia
+	Popesti
+	dacia
+	Getae
+	191 1 131
+	none
+	5
+	6
+
+Roxolania
+	Polondava
+	dacia
+	Getae
+	198 57 21
+	none
+	5
+	3
+
 ;Western Moesia
 Scordiscia
 	Singidunum

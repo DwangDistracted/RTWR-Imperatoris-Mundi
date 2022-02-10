@@ -222,6 +222,16 @@ Scordiscia
 Dindaria
 Tricornensia
 Dardania
+Albocensia
+Iazygia
+Cotinia
+Costobocia
+Potulatensia
+Porolissensis
+Apulensis
+Malvensis
+Getia
+Roxolania
 
 Eblania
 Coriondia
@@ -446,6 +456,16 @@ Singidunum
 Risitia
 Naissus
 Skoupoi
+Lixisis
+Crisia
+Oratis
+Vidava
+Apulum
+Potaissa
+Media
+Buridava
+Popesti
+Polondava
 
 Libyae_Interior
 toggle_fow

@@ -1194,6 +1194,63 @@ resource purple_dye, 2, 152, 163
 resource grain, 2, 149, 168
 resource textiles, 1, 147, 165
 
+;Albocensia
+resource slaves, 1, 149, 172
+resource furs, 3, 146, 176
+resource grain, 2, 147, 170
+
+;Iazygia
+resource slaves, 1, 142, 182
+resource grain, 2, 145, 178
+resource timber, 4, 149, 180
+
+;Ciscarpathia
+resource slaves, 1, 142, 189
+resource lead, 2, 146, 193
+resource silver, 1, 142, 192
+resource timber, 4, 140, 184
+
+;Costobocia
+resource slaves, 1, 155, 190
+resource grain, 2, 148, 190
+resource marble, 3, 155, 193
+resource timber, 3, 150, 186
+resource silver, 1, 161, 190
+
+;Porolissensis
+resource slaves, 1, 161, 184
+resource gold, 4, 156, 183
+resource grain, 3, 155, 186
+
+;Potulatensia
+resource slaves, 1, 156, 180
+resource silver, 3, 154, 176
+resource iron, 4, 153, 171
+
+;Apulensis
+resource slaves, 1, 165, 181
+resource furs, 2, 164, 183
+resource hides, 3, 160, 180
+resource copper, 1, 169, 181
+
+;Malvensis
+resource slaves, 1, 159, 175
+resource grain, 3, 157, 171
+resource timber, 4, 160, 169
+resource copper, 4, 158, 176
+resource gold, 2, 161, 170
+
+;Getia
+resource slaves, 1, 168, 174
+resource furs, 2, 167, 175
+resource grain, 2, 167, 173
+resource timber, 3, 171, 172
+
+;Roxolania
+resource slaves, 1, 176, 181
+resource purple_dye, 2, 170, 177
+resource grain, 3, 173, 178
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -3630,16 +3687,105 @@ denari	3000
 
 settlement
 {
-	level village
-	region Tempr21
+	level large_town
+	region Malvensis
 
 	year_founded 0
-	population 400
+	population 5100
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
-character	Zyraxes, named character, leader, age 60, , x 1, y 1
+settlement
+{
+	level large_town
+	region Apulensis
+
+	year_founded 0
+	population 2950
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Porolissensis
+
+	year_founded 0
+	population 3700
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+}
+
+settlement
+{
+	level large_town
+	region Potulatensia
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	Zyraxes, named character, leader, age 60, , x 161, y 175
 traits GoodCommander 2 , Intelligent 1 , Bloodthirsty 2
 ancillaries bard
 army
@@ -3648,7 +3794,7 @@ unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry dacian				exp 0 armour 0 weapon_lvl 0
 
-character	Vezina, named character, heir, age 35, , x 1, y 2
+character	Vezina, named character, heir, age 35, , x 159, y 184
 traits NaturalMilitarySkill 2 , Intelligent 1 , Bloodthirsty 1 , Drink 1
 ancillaries armourer
 army
@@ -3657,7 +3803,7 @@ unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb archer dacian				exp 0 armour 0 weapon_lvl 0
 
-character	Scyles, named character, age 30, , x 1, y 3
+character	Scyles, named character, age 30, , x 159, y 175
 traits Intelligent 3 , Bloodthirsty 1 , Energetic 1
 ancillaries civilized_slave
 army
@@ -3668,10 +3814,20 @@ unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		warband falx dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb archer dacian				exp 0 armour 0 weapon_lvl 0
 
-character	Dicomes, diplomat, age 20, , x 2, y 1
+character	Anacharsis, general, age 20, , x 157, y 180
+army
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+
+character	Arapeithes, general, age 20, , x 163, y 181
+army
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
+
+character	Dicomes, diplomat, age 20, , x 170, y 173
 traits GoodDiplomat 1
 
-character	Burubista, spy, age 20, , x 2, y 2
+character	Burubista, spy, age 20, , x 168, y 173
 traits GoodSpy 3
 
 character_record		Palacus, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
@@ -7447,6 +7603,101 @@ settlement
 	}
 }
 
+; DACIA
+settlement
+{
+	level town
+	region Albocensia
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Iazygia
+
+	year_founded 0
+	population 1950
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Cotinia
+
+	year_founded 0
+	population 1150
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Costobocia
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator dacia
+}
+
+settlement
+{
+	level large_town
+	region Getia
+
+	year_founded 0
+	population 3150
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level large_town
+	region Roxolania
+
+	year_founded 0
+	population 2750
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ; MOESIA WEST
 settlement
 {
@@ -7667,6 +7918,16 @@ settlement
 {
 	level village
 	region Tempr19
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr21
 
 	year_founded 0
 	population 400
@@ -9805,6 +10066,66 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Ata, general, age 20, , x 147, y 174
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Skunxa, general, age 20, , x 147, y 179
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Burubista, general, age 20, , x 140, y 187
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Scorilo, general, age 20, , x 154, y 189
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Dromichetes, general, age 20, , x 169, y 173
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Ion, general, age 20, , x 175, y 184
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction gauls, Brennus, general, age 20, , x 145, y 167

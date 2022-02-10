@@ -1501,6 +1501,32 @@ unit				merc bastarnae
 unit				greek hoplite
 unit				barbarian rebel general
 
+rebel_type 			Daci		//dacia
+category			peasant_revolt 
+chance				0
+description			Daci
+unit				barb peasant slave
+unit				barb archer slave
+unit				barb archer slave
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb naked fanatics slave
+unit				merc bastarnae
+unit				barbarian rebel general
+
+rebel_type 			Getae		//dacia
+category			peasant_revolt 
+chance				0
+description			Getae
+unit				barb peasant slave
+unit				barb archer slave
+unit				barb archer slave
+unit				barb infantry slave
+unit				barb infantry slave
+unit				merc bastarnae
+unit				merc bastarnae
+unit				barbarian rebel general
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
