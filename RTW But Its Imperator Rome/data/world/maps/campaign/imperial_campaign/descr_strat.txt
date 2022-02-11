@@ -22,7 +22,6 @@ nonplayable
 	slave
 end
 
-
 start_date	-272 summer
 end_date	14 summer
 
@@ -1250,6 +1249,38 @@ resource timber, 3, 171, 172
 resource slaves, 1, 176, 181
 resource purple_dye, 2, 170, 177
 resource grain, 3, 173, 178
+
+;Picensia
+resource slaves, 1, 156, 168
+resource pottery, 2, 159, 166
+resource hides, 2, 154, 166
+
+;Saldensia
+resource slaves, 1, 166, 165
+resource grain, 2, 162, 167
+resource hides, 1, 167, 167
+
+;Moesia
+resource slaves, 1, 161, 162
+resource marble, 2, 158, 162
+resource grain, 3, 168, 161
+
+;Triballia
+resource slaves, 1, 169, 168
+resource grain, 2, 172, 169
+resource marble, 2, 169, 165
+resource timber, 2, 173, 164
+
+;Crobyzoia
+resource slaves, 1, 180, 171
+resource pottery, 3, 179, 168
+resource grain, 2, 177, 170
+
+;Scythia
+resource slaves, 1, 181, 180
+resource grain, 3, 179, 181
+resource hides, 3, 181, 174
+resource pottery, 1, 180, 178
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -3824,7 +3855,7 @@ army
 unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 
-character	Dicomes, diplomat, age 20, , x 170, y 173
+character	Dicomes, diplomat, age 20, , x 170, y 167
 traits GoodDiplomat 1
 
 character	Burubista, spy, age 20, , x 168, y 173
@@ -3849,13 +3880,64 @@ denari	3000
 
 settlement
 {
-	level village
-	region Tempr20
+	level large_town
+	region Scythia
 
 	year_founded 0
-	population 400
+	population 4000
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Crobyzoia
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 character	Sautes, named character, leader, age 60, , x 3, y 1
@@ -3869,27 +3951,34 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Pytros, named character, heir, age 40, , x 3, y 2
+character	Pytros, named character, heir, age 40, , x 3, y 3
 traits GoodCommander 1 , Energetic 2 , Drink 2 , Intelligent 1
 ancillaries wine_steward
 army
 unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Byzas, named character, age 30, , x 3, y 3
+character	Byzas, named character, age 30, , x 181, y 169
 traits NaturalMilitarySkill 1 , Intelligent 2 , Drink 1
 ancillaries freeman_clerk, wise_man
 army
 unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Arapeithes, general, age 20, , x 181, y 178
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Rhaskos, diplomat, age 20, , x 4, y 1
+character	Rhaskos, diplomat, age 20, , x 173, y 166
 traits GoodDiplomat 2
 
 character	Satres, spy, age 20, , x 4, y 2
@@ -7791,6 +7880,83 @@ settlement
 	}
 }
 
+; MOESIA EAST
+settlement
+{
+	level large_town
+	region Picensia
+
+	year_founded 0
+	population 3100
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Saldensia
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Moesia
+
+	year_founded 0
+	population 2900
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Triballia
+
+	year_founded 0
+	population 2700
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -7918,6 +8084,16 @@ settlement
 {
 	level village
 	region Tempr19
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr20
 
 	year_founded 0
 	population 400
@@ -10068,6 +10244,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+; DACIA
 character	sub_faction dacia, Ata, general, age 20, , x 147, y 174
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -10128,6 +10305,7 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+; MOESIA WEST
 character	sub_faction gauls, Brennus, general, age 20, , x 145, y 167
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -10177,6 +10355,57 @@ unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+; MOESIA EAST
+character	sub_faction dacia, Arapeithes, general, age 20, , x 158, y 166
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Diazenis, general, age 20, , x 164, y 161
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Diazelmis, general, age 20, , x 164, y 167
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Cunovindus, general, age 20, , x 171, y 165
+army
+unit		barb chieftain cavalry early slave				exp 5 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 5 armour 0 weapon_lvl 0
+unit		merc thracian				exp 5 armour 0 weapon_lvl 0
+unit		merc thracian				exp 5 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 5 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 5 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 5 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 5 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 5 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 5 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 5 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 5 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3

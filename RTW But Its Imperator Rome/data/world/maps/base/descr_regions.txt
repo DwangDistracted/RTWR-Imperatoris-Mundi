@@ -2124,6 +2124,61 @@ Dardania
 	5
 	4
 
+;Eastern Moesia
+Picensia
+	Ratiaria
+	dacia
+	Triballian
+	95 252 129
+	none
+	5
+	11
+
+Saldensia
+	Oescus
+	dacia
+	Triballian
+	193 32 73
+	none
+	5
+	3
+
+Moesia
+	Serdica
+	dacia
+	Triballian
+	244 94 19
+	none
+	5
+	4
+
+Triballia
+	Tylis
+	gauls
+	Tyle
+	221 48 132
+	none
+	5
+	3
+
+Crobyzoia
+	Odessos
+	thrace
+	Moesian
+	109 234 84
+	none
+	5
+	5
+
+Scythia
+	Istros
+	thrace
+	Moesian
+	229 32 65
+	none
+	5
+	5
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

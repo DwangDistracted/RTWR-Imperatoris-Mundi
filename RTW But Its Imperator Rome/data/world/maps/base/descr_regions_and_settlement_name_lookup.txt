@@ -232,6 +232,12 @@ Apulensis
 Malvensis
 Getia
 Roxolania
+Picensia
+Saldensia
+Moesia
+Triballia
+Crobyzoia
+Scythia
 
 Eblania
 Coriondia
@@ -466,6 +472,12 @@ Media
 Buridava
 Popesti
 Polondava
+Ratiaria
+Oescus
+Serdica
+Tylis
+Odessos
+Istros
 
 Libyae_Interior
 toggle_fow

@@ -590,7 +590,7 @@ unit				barb infantry slave
 unit				barb infantry slave
 unit				barb cavalry slave
 unit				barbarian rebel general
-					
+
 rebel_type 			Breuci		//illyria
 category			peasant_revolt 
 chance				0					
@@ -600,8 +600,7 @@ unit				barb peasant slave
 unit				barb cavalry slave
 unit				barb archer slave
 unit				barbarian rebel general
-					
-					
+
 rebel_type 			Odrysae		//thrace
 category			peasant_revolt 
 chance				3					
@@ -1525,6 +1524,45 @@ unit				barb infantry slave
 unit				barb infantry slave
 unit				merc bastarnae
 unit				merc bastarnae
+unit				barbarian rebel general
+
+rebel_type 			Triballian		//thrace
+category			peasant_revolt 
+chance				3					
+description			Triballian
+unit				greek cavalry
+unit				greek peltast
+unit				greek peltast
+unit				merc thracian
+unit				merc thracian
+unit				merc bastarnae
+unit				barbarian rebel general
+
+rebel_type 			Tyle		//gauls
+category			peasant_revolt 
+chance				3					
+description			Tyle
+unit				barb cavalry slave
+unit				barb noble cavalry slave
+unit				barb archer slave
+unit				barb archer slave
+unit				merc thracian
+unit				merc thracian
+unit				barb naked fanatics slave
+unit				barb naked fanatics slave
+unit				merc bastarnae
+unit				barbarian rebel general
+
+rebel_type 			Moesian		//thrace
+category			peasant_revolt 
+chance				3					
+description			Moesian
+unit				greek cavalry
+unit				greek peltast
+unit				greek peltast
+unit				merc thracian
+unit				merc bastarnae
+unit				greek hoplite
 unit				barbarian rebel general
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
