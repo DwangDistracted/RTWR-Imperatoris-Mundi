@@ -249,6 +249,15 @@ Chalkidiki
 Emathia
 Pelagonia
 Thessalia
+Illyria_Graeca
+Epirus
+Aetolia
+Boeotia
+Attica
+Euboea
+Achaea
+Arcadia
+Laconia
 
 Eblania
 Coriondia
@@ -500,6 +509,15 @@ Thessaloniki
 Pella
 Lychnidos
 Larisa
+Apollonia
+Passaron
+Thermos
+Thibai
+Athinai
+Chalkis
+Korinthos
+Elis
+Sparta
 
 Libyae_Interior
 toggle_fow

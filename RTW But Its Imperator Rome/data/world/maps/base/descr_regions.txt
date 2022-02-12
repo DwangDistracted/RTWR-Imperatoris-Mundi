@@ -2278,7 +2278,90 @@ Thessalia
 	234 237 83
 	none
 	5
-	10
+	11
+
+;Epeiros
+Illyria_Graeca
+	Apollonia
+	macedon
+	Epirots
+	244 165 100
+	none
+	5
+	8
+
+Epirus
+	Passaron
+	macedon
+	Epirots
+	51 175 42
+	none
+	5
+	3
+
+Aetolia
+	Thermos
+	greek_cities
+	Aetolians
+	215 0 219
+	none
+	5
+	7
+
+;Greece
+Boeotia
+	Thibai
+	greek_cities
+	Boeotian
+	97 163 16
+	none
+	5
+	3
+
+Attica
+	Athinai
+	greek_cities
+	Athenians
+	247 77 51
+	none
+	5
+	5
+
+Euboea
+	Chalkis
+	greek_cities
+	Euboean
+	255 175 79
+	none
+	5
+	2
+
+Achaea
+	Korinthos
+	greek_cities
+	Achaeans
+	219 63 164
+	none
+	5
+	4
+
+Arcadia
+	Elis
+	greek_cities
+	Arcadian
+	104 224 65
+	none
+	5
+	4
+
+Laconia
+	Sparta
+	greek_cities
+	Helots
+	173 26 43
+	sparta
+	5
+	6
 
 ;Terra Incognita
 Libyae_Interior

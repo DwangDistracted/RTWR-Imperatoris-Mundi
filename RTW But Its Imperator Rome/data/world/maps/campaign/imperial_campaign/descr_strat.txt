@@ -1,6 +1,6 @@
 ; Custom campaign script made by hand because I have no life
 
-campaign		imperator_map
+campaign		imperial
 playable
 	romans_julii
 	romans_brutii
@@ -31,6 +31,13 @@ pirate_spawn_value 10
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of landmarks section <<<<
+;landmark	pyramids_and_sphinx	181,	12
+;landmark	pharos	178,	21
+;landmark	colossus	160,	44
+;landmark	temple	157,	53
+landmark	statue	164,	133
+;landmark	gardens	237,	46
+;landmark	mausoleum	160,	50
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of resources section <<<<   ! sorted by region !
@@ -654,7 +661,7 @@ resource pottery, 2, 138, 134
 
 ;Tarentum
 resource slaves, 1, 142, 143
-resource olives, 3, 139, 142
+resource olive_oil, 3, 139, 142
 resource pottery, 1, 144, 142
 
 ;Siculia
@@ -737,7 +744,7 @@ resource wine, 2, 109, 101
 ;Aurasius
 resource slaves, 1, 106, 104
 resource textiles, 2, 101, 104
-resource stone, 4, 100, 100
+resource marble, 4, 100, 100
 resource timber, 5, 106, 106
 
 ;Gaetulia
@@ -1341,6 +1348,60 @@ resource slaves, 1, 160, 157
 resource gold, 1, 158, 157
 resource lead, 2, 159, 160
 resource timber, 4, 159, 153
+
+;Illyria_Graeca
+resource slaves, 1, 151, 149
+resource furs, 1, 150, 152
+resource olive_oil, 3, 148, 153
+resource pottery, 1, 150, 150
+
+;Epirus
+resource slaves, 1, 156, 141
+resource silver, 1, 158, 142
+resource olive_oil, 2, 153, 141
+resource timber, 2, 152, 145
+
+;Aetolia
+resource slaves, 1, 163, 137
+resource olive_oil, 4, 158, 135
+resource marble, 2, 161, 139
+resource pottery, 2, 160, 137
+
+;Boeotia
+resource slaves, 1, 167, 138
+resource lead, 1, 165, 137
+resource iron, 2, 165, 140
+resource wine, 2, 169, 138
+resource pottery, 2, 169, 137
+
+;Attica
+resource slaves, 1, 171, 138
+resource lead, 2, 171, 136
+resource iron, 4, 174, 136
+resource silver, 2, 172, 135
+
+;Euboea
+resource slaves, 1, 172, 140
+resource wine, 2, 169, 142
+resource pottery, 2, 170, 141
+resource marble, 2, 179, 137
+resource iron, 2, 175, 138
+
+;Achaea
+resource slaves, 1, 170, 134
+resource textiles, 2, 167, 134
+resource wine, 2, 171, 134
+
+;Arcadia
+resource slaves, 1, 164, 134
+resource pottery, 3, 166, 132
+resource olive_oil, 4, 166, 134
+
+;Laconia
+resource slaves, 1, 169, 131
+resource wine, 2, 166, 130
+resource olive_oil, 3, 167, 131
+resource iron, 2, 172, 129
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -2686,36 +2747,75 @@ denari	5000
 
 settlement
 {
-	level city
-	region Tempr9
+	level large_town
+	region Laconia
 
 	year_founded 0
-	population 6000
+	population 5550
 	plan_set default_set
 	faction_creator greek_cities
-	building
-	{
-		type barracks militia_barracks
-	}
 	building
 	{
 		type core_building governors_villa
 	}
 	building
 	{
-		type port_buildings port
+		type barracks city_barracks
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type missiles practice_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arcadia
+
+	year_founded 0
+	population 4450
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
 	}
 	building
 	{
 		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 
@@ -2766,7 +2866,7 @@ settlement
 	}
 }
 
-character	Kleomenes of Sparta, named character, leader, age 56, , x 454, y 82
+character	Kleomenes of Sparta, named character, leader, age 56, , x 168, y 131
 traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 2 , Intelligent 1
 ancillaries wrestler
 army
@@ -2803,7 +2903,7 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 
-character	Eumenes of Sparta, named character, age 31, , x 452, y 83
+character	Eumenes of Sparta, named character, age 31, , x 163, y 134
 traits Intelligent 1 , GoodAdministrator 3
 ancillaries mentor, comedian
 army
@@ -2819,8 +2919,9 @@ unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
 
-character	Polydoros of Rhodes, admiral, age 36, , x 472, y 60
+character	Polydoros of Rhodes, admiral, age 36, , x `, y 60
 army
+unit		naval triremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
@@ -2831,10 +2932,10 @@ unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 
-character	Castor of Elis, diplomat, age 30, , x 451, y 82
+character	Castor of Elis, diplomat, age 30, , x 165, y 134
 traits GoodDiplomat 3
 
-character	Charax of Gythium, spy, age 30, , x 451, y 81
+character	Charax of Gythium, spy, age 30, , x 168, y 133
 traits GoodSpy 2
 ancillaries networker
 
@@ -4101,6 +4202,64 @@ settlement
 settlement
 {
 	level large_town
+	region Achaea
+
+	year_founded 0
+	population 3950
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Euboea
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+}
+
+settlement
+{
+	level large_town
 	region Pelagonia
 
 	year_founded 0
@@ -4197,7 +4356,7 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
 
-character	Euenus, named character, age 27, , x 1, y 3
+character	Euenus, named character, age 27, , x 169, y 135
 traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 2
 ancillaries treasurer
 army
@@ -4239,6 +4398,10 @@ character	Argeos, general, age 20, , x 163, y 143
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
+
+character	Aeaces, general, age 20, , x 171, y 140
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 character	Carpus of Pylos, diplomat, age 20, , x 165, y 142
 traits GoodDiplomat 3
@@ -8497,6 +8660,187 @@ settlement
 	}
 }
 
+; EPEIROS
+settlement
+{
+	level large_town
+	region Illyria_Graeca
+
+	year_founded 0
+	population 2250
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Epirus
+
+	year_founded 0
+	population 7200
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aetolia
+
+	year_founded 0
+	population 3600
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; GREECE
+settlement
+{
+	level large_town
+	region Boeotia
+
+	year_founded 0
+	population 6250
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Attica
+
+	year_founded 0
+	population 9600
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type academic scriptorium
+	}
+	building
+	{
+		type theatres odeon
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -8529,6 +8873,16 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr9
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator greek_cities
 }
 settlement
 {
@@ -10947,6 +11301,7 @@ unit		barb archer slave				exp 5 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave				exp 5 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 5 armour 0 weapon_lvl 0
 
+; PROPONTIS
 character	sub_faction greek_cities, Lysimachos, general, age 20, , x 180, y 155
 army
 unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
@@ -10979,6 +11334,93 @@ unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+; EPEIROS
+character	sub_faction macedon, Deinomenes, general, age 20, , x 150, y 147
+army
+unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction macedon, Alexander, general, age 20, , x 156, y 143
+army
+unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+; GREECE
+character	sub_faction greek_cities, Epimenes, general, age 20, , x 163, y 138
+army
+unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Demetrios, general, age 20, , x 168, y 138
+army
+unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Aristides, general, age 20, , x 172, y 137
+army
+unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA

@@ -1038,7 +1038,7 @@ chance				0
 description			Helots
 unit				greek peasant
 unit				greek peasant
-unit				greek peasant
+unit				greek peltast
 unit				greek peltast
 unit				greek peltast
 unit				greek peltast
@@ -1598,6 +1598,45 @@ unit				greek peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek hoplite
+unit				greek general's guard cavalry early
+
+rebel_type 			Boeotian	//greek_cities
+category			peasant_revolt 
+chance				0					
+description			Boeotian
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
+rebel_type 			Euboean	//greek_cities
+category			peasant_revolt 
+chance				0					
+description			Euboean
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
+
+rebel_type 			Arcadian	//greek_cities
+category			peasant_revolt 
+chance				0					
+description			Arcadian
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
 unit				greek general's guard cavalry early
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
