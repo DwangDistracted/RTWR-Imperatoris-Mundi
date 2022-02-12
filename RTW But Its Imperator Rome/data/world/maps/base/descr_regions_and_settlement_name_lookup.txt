@@ -243,6 +243,12 @@ Thracia
 Rhodope
 Propontis
 Europa
+Paeonia
+Odomantike
+Chalkidiki
+Emathia
+Pelagonia
+Thessalia
 
 Eblania
 Coriondia
@@ -488,6 +494,12 @@ Seuthopolis
 Abdira
 Lysimacheia
 Byzantion
+Astraion
+Amphipolis
+Thessaloniki
+Pella
+Lychnidos
+Larisa
 
 Libyae_Interior
 toggle_fow

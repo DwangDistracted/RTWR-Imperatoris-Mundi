@@ -2225,6 +2225,61 @@ Europa
 	5
 	3
 
+;Macedonia
+Paeonia
+	Astraion
+	macedon
+	Paionians
+	146 5 255
+	none
+	5
+	6
+
+Odomantike
+	Amphipolis
+	macedon
+	Edones
+	64 160 28
+	none
+	5
+	4
+
+Chalkidiki
+	Thessaloniki
+	macedon
+	Sithones
+	206 26 6
+	none
+	5
+	5
+
+Emathia
+	Pella
+	macedon
+	Emathian
+	33 183 45
+	none
+	5
+	10
+
+Pelagonia
+	Lychnidos
+	macedon
+	Pelagonian
+	255 53 231
+	none
+	5
+	2
+
+Thessalia
+	Larisa
+	macedon
+	Thessalians
+	234 237 83
+	none
+	5
+	10
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

@@ -675,13 +675,15 @@ rebel_type 			Paionians	//Macedon
 category			peasant_revolt 
 chance				0					
 description			Paionians
+unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
-unit				greek peltast
+unit				merc illyrian
+unit				merc illyrian
 unit				greek hoplite militia
-unit				greek cavalry
-unit				generic rebel general					
-					
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
+
 rebel_type 			Etruscans	//romans
 category			peasant_revolt 
 chance				0					
@@ -729,44 +731,46 @@ unit				roman hastati
 unit				roman hastati
 unit				roman light cavalry
 unit				generic rebel general					
-					
+
 rebel_type 			Edones		//Macedon
 category			peasant_revolt 
 chance				0					
 description			Edones
+unit				greek cavalry
+unit				greek medium cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
-unit				greek cavalry
-unit				greek medium cavalry
-unit				generic rebel general					
-					
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
 rebel_type 			Sithones	//Macedon
 category			peasant_revolt 
 chance				0					
 description			Sithones
+unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
-unit				greek cavalry
-unit				merc thracian		
-unit				generic rebel general					
-					
+unit				merc thracian
+unit				greek general's guard cavalry early
+
 rebel_type 			Bithynians	//Macedon
 category			peasant_revolt 
 chance				0					
 description			Bithynians
+unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
-unit				greek cavalry
+unit				greek hoplite militia
 unit				merc thracian		
-unit				generic rebel general					
-					
+unit				greek general's guard cavalry early				
+
 rebel_type 			Galatians	//Gauls
 category			peasant_revolt 
 chance				0					
@@ -792,14 +796,15 @@ rebel_type 			Epirots		//Macedon
 category			peasant_revolt 
 chance				0					
 description			Epirots
+unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
+unit				merc illyrian
 unit				greek hoplite militia
-unit				greek cavalry
-unit				merc illyrian	
-unit				generic rebel general					
-					
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
 rebel_type 			Calabrians	//romans_brutii
 category			peasant_revolt 
 chance				0					
@@ -843,38 +848,35 @@ rebel_type 			Lesbians	//Macedon
 category			peasant_revolt 
 chance				0					
 description			Lesbians
+unit				greek cavalry
+unit				greek medium cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite
-unit				greek cavalry
-unit				greek medium cavalry
-unit				generic rebel general					
-						
-					
+unit				greek general's guard cavalry early			
+
 rebel_type 			Cilicians	//Seleucid
 category			peasant_revolt 
 chance				6					
 description			Cilicians
 unit				merc cilician pirate
-unit				generic rebel general					
-						
-					
+unit				generic rebel general		
+
 rebel_type 			Thessalians	//Macedon
 category			peasant_revolt 
 chance				0					
 description			Thessalians
+unit				greek cavalry
+unit				greek cavalry
+unit				greek medium cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
-unit				greek cavalry
-unit				greek cavalry
-unit				greek medium cavalry
-unit				generic rebel general					
-						
-					
+unit				greek general's guard cavalry early					
+
 rebel_type 			Lucanians	//romans_brutii
 category			peasant_revolt 
 chance				3					
@@ -899,30 +901,32 @@ unit				greek hoplite
 unit				greek cavalry
 unit				generic rebel general					
 					
-rebel_type 			Aetolians	//Macedon
+rebel_type 			Aetolians	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Aetolians
+unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek heavy peltast
-unit				greek cavalry
-unit				generic rebel general					
-					
-rebel_type 			Athenians	//Macedon
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
+
+rebel_type 			Athenians	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Athenians
+unit				greek cavalry
 unit				greek peasant
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek hoplite
-unit				greek cavalry
-unit				generic rebel general					
-					
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
 rebel_type 			Elamites	//Parthia
 category			peasant_revolt 
 chance				0					
@@ -933,29 +937,33 @@ unit				east infantry
 unit				east heavy cavalry
 unit				east horse archer
 unit				eastern rebel general
-					
-rebel_type 			Achaeans	//Macedon
+
+rebel_type 			Achaeans	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Achaeans
+unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek heavy peltast
-unit				greek cavalry
-unit				generic rebel general					
-					
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
+
 rebel_type 			Lycians		//Macedon
 category			peasant_revolt 
 chance				0					
 description			Lycians
+unit				greek cavalry
+unit				greek medium cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
 unit				merc cilician pirate
-unit				generic rebel general					
-					
+unit				greek general's guard cavalry early
+
 rebel_type 			Sicani		//Carthage
 category			peasant_revolt 
 chance				0					
@@ -989,7 +997,7 @@ unit				merc bedouin
 unit				merc bedouin archers
 unit				eastern rebel general
 					
-rebel_type 			Cypriots	//Macedon
+rebel_type 			Cypriots	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Cypriots
@@ -997,10 +1005,11 @@ unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
+unit				greek hoplite militia
 unit				greek hoplite
 unit				merc cilician pirate
-unit				generic rebel general					
-					
+unit				greek general's guard cavalry early
+
 rebel_type 			Phoenicians	//seleucids
 category			peasant_revolt 
 chance				0					
@@ -1010,21 +1019,20 @@ unit				carthaginian city militia
 unit				carthaginian city militia
 unit				eastern rebel general
 					
-rebel_type 			Syracusans	//Macedon
+rebel_type 			Syracusans	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Syracusans
+unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek hoplite
-unit				greek cavalry
-unit				greek medium cavalry
-unit				generic rebel general					
-					
-rebel_type 			Helots		//Macedon
+unit				greek general's guard cavalry early
+
+rebel_type 			Helots		//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Helots
@@ -1032,9 +1040,11 @@ unit				greek peasant
 unit				greek peasant
 unit				greek peasant
 unit				greek peltast
+unit				greek peltast
+unit				greek peltast
 unit				greek hoplite militia
-unit				generic rebel general					
-					
+unit				greek general's guard cavalry early
+
 rebel_type 			Poeni		//Carthage
 category			peasant_revolt 
 chance				0					
@@ -1046,17 +1056,19 @@ unit				carthaginian infantry
 unit				carthaginian cavalry
 unit				carthaginian general's cavalry early
 
-rebel_type 			Rhodians	//Macedon
+rebel_type 			Rhodians	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Rhodians
+unit				merc rhodian slingers
+unit				merc rhodian slingers
+unit				greek peasant
 unit				greek peasant
 unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
-unit				merc rhodian slingers
-unit				generic rebel general					
-					
+unit				greek general's guard cavalry early
+
 rebel_type 			Nabataeans	//parthia
 category			peasant_revolt 
 chance				3					
@@ -1069,18 +1081,18 @@ unit				merc bedouin
 unit				merc bedouin archers
 unit				eastern rebel general
 					
-rebel_type 			Cretans		//macedon
+rebel_type 			Cretans		//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Cretans
+unit				merc cretan archers
+unit				merc cretan archers
 unit				greek peasant
 unit				greek peltast
+unit				merc peltast
 unit				greek hoplite militia
 unit				greek hoplite
-unit				merc cretan archers
-unit				merc cretan archers
-unit				merc cilician pirate
-unit				generic rebel general					
+unit				greek general's guard cavalry early
 
 rebel_type 			Judaeans	//parthia
 category			peasant_revolt 
@@ -1101,7 +1113,7 @@ unit				numidian cavalry
 unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
-rebel_type 			Libyans		//Macedon
+rebel_type 			Libyans		//egypt
 category			peasant_revolt 
 chance				0					
 description			Libyans
@@ -1115,7 +1127,7 @@ unit				egyptian archer
 unit				egyptian chariot
 unit				generic rebel general					
 					
-rebel_type 			Illyrians		//macedonia
+rebel_type 			Illyrians		//macedon
 category			peasant_revolt 
 chance				3				
 description			Illyrians
@@ -1132,8 +1144,6 @@ category			peasant_revolt
 chance				0
 description			Massaliote
 unit				barb cavalry slave
-unit				barb noble cavalry slave
-unit				greek peasant
 unit				greek peasant
 unit				barb archer slave
 unit				barb archer slave
@@ -1150,119 +1160,113 @@ unit				greek cavalry
 unit				greek cavalry
 unit				greek medium cavalry
 unit				greek peasant
-unit				greek peasant
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				merc samnite
-unit				greek hoplite
 unit				greek general's guard cavalry early
 
 rebel_type 			Lugians		//Germans
 category			peasant_revolt 
 chance				0
-description			Lugians	
-unit				barb infantry slave
-unit				barb infantry slave
-unit				barb peasant slave
-unit				barb peasant slave
-unit				barb naked fanatics slave
+description			Lugians
 unit				barb cavalry slave
+unit				barb archer slave
+unit				barb peasant slave
+unit				barb peasant slave
+unit				barb infantry slave
+unit				barb infantry slave
+unit				barb naked fanatics slave
 unit				barbarian rebel general
 
 rebel_type 			Mamertine		//Romans
 category			peasant_revolt 
 chance				0
 description			Mamertine
+unit				greek cavalry
 unit				greek peasant
 unit				roman velite
 unit				roman velite
 unit				roman hastati
 unit				roman hastati
 unit				greek hoplite militia
-unit				greek hoplite militia
-unit				greek cavalry
 unit				generic rebel general
 
 rebel_type 			SardoPunic		//Carthage
 category			peasant_revolt
 chance				0
 description			SardoPunic
-unit				carthaginian peasant
+unit				carthaginian cavalry
 unit				carthaginian peasant
 unit				carthaginian peltast
 unit				carthaginian peltast
 unit				merc balearic slingers
 unit				carthaginian city militia
 unit				carthaginian city militia
-unit				carthaginian cavalry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Massylian		//numidia
 category			peasant_revolt
 chance				0
 description			Massylian
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
 unit				carthaginian peasant
 unit				carthaginian peasant
 unit				numidian javelinmen
 unit				numidian javelinmen
-unit				numidian cavalry
-unit				numidian cavalry
-unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Musulamian		//numidia
 category			peasant_revolt
 chance				0
 description			Musulamian
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
 unit				carthaginian peasant
 unit				carthaginian peasant
 unit				numidian javelinmen
 unit				numidian javelinmen
-unit				numidian javelinmen
-unit				numidian cavalry
-unit				numidian cavalry
-unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Massaesylian		//numidia
 category			peasant_revolt
 chance				0
 description			Massaesylian
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
 unit				carthaginian peasant
 unit				carthaginian peasant
 unit				numidian javelinmen
 unit				numidian javelinmen
-unit				numidian javelinmen
-unit				numidian cavalry
-unit				numidian cavalry
-unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Mauretanian		//numidia
 category			peasant_revolt
 chance				0
 description			Mauretanian
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
 unit				carthaginian peasant
 unit				carthaginian peasant
 unit				numidian javelinmen
 unit				numidian javelinmen
-unit				numidian javelinmen
-unit				numidian cavalry
-unit				numidian cavalry
-unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Nigritae		//numidia
 category			peasant_revolt
 chance				0
 description			Nigritae
-unit				numidian javelinmen
-unit				numidian javelinmen
-unit				numidian javelinmen
-unit				numidian javelinmen
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian javelinmen
+unit				numidian javelinmen
 unit				carthaginian general's cavalry early
 
 rebel_type 			Troglodytian		//numidia
@@ -1274,20 +1278,21 @@ unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Liby_Phoenician		//Carthage
 category			peasant_revolt
 chance				0
 description			Liby_Phoenician
-unit				carthaginian peasant
-unit				carthaginian peasant
-unit				merc libyan infantry
-unit				merc libyan infantry
-unit				merc libyan infantry
-unit				carthaginian city militia
-unit				carthaginian city militia
 unit				carthaginian cavalry
+unit				carthaginian peasant
+unit				merc libyan infantry
+unit				merc libyan infantry
+unit				merc libyan infantry
+unit				carthaginian city militia
+unit				carthaginian city militia
 unit				carthaginian general's cavalry early
 
 rebel_type 			TerraIncognita		//numidia
@@ -1300,30 +1305,34 @@ rebel_type 			Garamantian		//numidia
 category			peasant_revolt
 chance				0
 description			Garamantian
-unit				merc libyan infantry
-unit				merc libyan infantry
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
 unit				numidian cavalry
 unit				carthaginian cavalry
+unit				merc libyan infantry
+unit				merc libyan infantry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Nasamones		//numidia
 category			peasant_revolt
 chance				0
 description			Nasamones
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
+unit				numidian cavalry
 unit				merc libyan infantry
 unit				merc libyan infantry
-unit				numidian cavalry
-unit				numidian cavalry
-unit				numidian cavalry
 unit				carthaginian general's cavalry early
 
 rebel_type 			Agisymban		//numidia
 category			peasant_revolt
 chance				0
 description			Agisymban
+unit				carthaginian peltast
+unit				carthaginian peltast
 unit				carthaginian peltast
 unit				carthaginian peltast
 unit				carthaginian peltast
@@ -1336,8 +1345,7 @@ category			peasant_revolt
 chance				0
 description			Emporiote
 unit				carthaginian cavalry
-unit				barb noble cavalry slave
-unit				greek peasant
+unit				barb archer slave
 unit				greek peasant
 unit				carthaginian infantry
 unit				carthaginian infantry
@@ -1350,7 +1358,6 @@ category			peasant_revolt
 chance				0
 description			Hemeroskopeiote
 unit				carthaginian cavalry
-unit				greek peasant
 unit				greek peasant
 unit				merc spanish infantry
 unit				carthaginian infantry
@@ -1428,8 +1435,8 @@ rebel_type 			Histrian		//dacia
 category			peasant_revolt 
 chance				0
 description			Histrian
+unit				barb cavalry slave
 unit				barb peasant slave
-unit				barb noble cavalry slave
 unit				merc illyrian
 unit				merc illyrian
 unit				barb infantry slave
@@ -1441,8 +1448,8 @@ rebel_type 			Libernian		//dacia
 category			peasant_revolt 
 chance				0
 description			Libernian
-unit				barb peasant slave
 unit				barb cavalry slave
+unit				barb peasant slave
 unit				merc illyrian
 unit				merc illyrian
 unit				barb infantry slave
@@ -1454,8 +1461,8 @@ rebel_type 			Daorsian		//dacia
 category			peasant_revolt 
 chance				0
 description			Daorsian
+unit				barb cavalry slave
 unit				barb peasant slave
-unit				barb noble cavalry slave
 unit				merc illyrian
 unit				merc illyrian
 unit				barb infantry slave
@@ -1467,26 +1474,26 @@ rebel_type 			Tauriscian		//gauls
 category			peasant_revolt 
 chance				0					
 description			Tauriscian
+unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
 unit				barb infantry slave
 unit				barb naked fanatics slave
-unit				barb cavalry slave
 unit				barbarian rebel general
 
 rebel_type 			Eraviscian		//gauls
 category			peasant_revolt 
 chance				0					
 description			Eraviscian
+unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
 unit				barb infantry slave
 unit				barb naked fanatics slave
-unit				barb cavalry slave
 unit				barbarian rebel general
 
 rebel_type 			Dardanian		//thrace
@@ -1533,6 +1540,7 @@ category			peasant_revolt
 chance				3					
 description			Triballian
 unit				greek cavalry
+unit				barb peasant slave
 unit				greek peltast
 unit				greek peltast
 unit				merc thracian
@@ -1547,10 +1555,8 @@ description			Tyle
 unit				barb cavalry slave
 unit				barb noble cavalry slave
 unit				barb archer slave
-unit				barb archer slave
 unit				merc thracian
 unit				merc thracian
-unit				barb naked fanatics slave
 unit				barb naked fanatics slave
 unit				merc bastarnae
 unit				barbarian rebel general
@@ -1564,8 +1570,35 @@ unit				greek peltast
 unit				greek peltast
 unit				merc thracian
 unit				merc bastarnae
-unit				greek hoplite
+unit				greek hoplite militia
+unit				greek hoplite militia
 unit				barbarian rebel general
+
+rebel_type 			Emathian		//Macedon
+category			peasant_revolt 
+chance				0					
+description			Emathian
+unit				greek cavalry
+unit				greek medium cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
+rebel_type 			Pelagonian		//Macedon
+category			peasant_revolt 
+chance				0					
+description			Pelagonian
+unit				greek cavalry
+unit				greek medium cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based

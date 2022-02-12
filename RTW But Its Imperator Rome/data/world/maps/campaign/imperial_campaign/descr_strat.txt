@@ -1310,6 +1310,38 @@ resource grain, 3, 185, 160
 resource pottery, 2, 188, 160
 resource textiles, 1, 185, 158
 
+;Odomantike
+resource slaves, 1, 167, 153
+resource iron, 3, 167, 156
+resource silver, 2, 172, 152
+
+;Chalkidiki
+resource slaves, 1, 165, 151
+resource glass, 3, 167, 151
+resource olive_oil, 3, 164, 153
+resource silver, 1, 168, 149
+
+;Emathia
+resource slaves, 1, 163, 148
+resource grain, 2, 162, 151
+resource wine, 2, 161, 149
+
+;Thessalia
+resource slaves, 1, 162, 144
+resource grain, 2, 161, 143
+resource pottery, 2, 165, 144
+
+;Pelagonia
+resource slaves, 1, 158, 152
+resource furs, 1, 155, 148
+resource hides, 2, 160, 147
+
+;Paeonia
+resource slaves, 1, 160, 157
+resource gold, 1, 158, 157
+resource lead, 2, 159, 160
+resource timber, 4, 159, 153
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -3908,13 +3940,223 @@ denari	5000
 
 settlement
 {
+	level city
+	region Emathia
+
+	year_founded 0
+	population 7200
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Chalkidiki
+
+	year_founded 0
+	population 6950
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Odomantike
+
+	year_founded 0
+	population 4250
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Thessalia
+
+	year_founded 0
+	population 6200
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Pelagonia
+
+	year_founded 0
+	population 4850
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Paeonia
+
+	year_founded 0
+	population 4200
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+}
+
+settlement
+{
 	level large_town
 	region Rhodope
 
 	year_founded 0
 	population 3000
 	plan_set default_set
-	faction_creator thrace
+	faction_creator macedon
 	building
 	{
 		type core_building governors_villa
@@ -3925,27 +4167,35 @@ settlement
 	}
 }
 
-character	Antigonos, named character, leader, age 50, , x 1, y 1
+character	Antigonos, named character, leader, age 50, , x 164, y 143
 traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 2 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1
 ancillaries shieldbearer
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		merc thracian				exp 0 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 0 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek heavy cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
+unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
 
-character	Gyras, named character, heir, age 32, , x 1, y 2
+character	Gyras, named character, heir, age 32, , x 163, y 150
 traits GoodCommander 1 , NaturalMilitarySkill 2 , PublicFaith 1 , MathematicsSkill 1 , Intelligent 1 , Generous 1
 ancillaries actor
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
 
 character	Euenus, named character, age 27, , x 1, y 3
 traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 2
@@ -3956,7 +4206,7 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
-character	Damasos, named character, age 20, , x 174, y 155
+character	Damasos, named character, age 20, , x 166, y 149
 traits GoodAdministrator 1
 ancillaries tutor
 army
@@ -3965,16 +4215,44 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 
-character	Carpus of Pylos, diplomat, age 20, , x 1, y 5
+character	Admetos, general, age 20, , x 174, y 155
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Adymos, general, age 20, , x 169, y 153
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 1
+unit		greek peltast				exp 0 armour 0 weapon_lvl 1
+
+character	Akylos, general, age 20, , x 161, y 156
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 0 armour 0 weapon_lvl 0
+
+character	Anaksarxos, general, age 20, , x 156, y 151
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 0 armour 0 weapon_lvl 0
+
+character	Argeos, general, age 20, , x 163, y 143
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
+
+character	Carpus of Pylos, diplomat, age 20, , x 165, y 142
 traits GoodDiplomat 3
 ancillaries wine_steward
 
-character	Aegisthes of Larissa, spy, age 20, , x 1, y 6
+character	Aegisthes of Larissa, spy, age 20, , x 170, y 136
 traits GoodSpy 2
 ancillaries dancer
 
-character	Alcaeos of Abydos, admiral, age 20, , x 1, y 7
+character	Alcaeos of Abydos, admiral, age 20, , x 165, y 148
 army
+unit		naval triremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
@@ -8212,6 +8490,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
