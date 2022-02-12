@@ -238,6 +238,11 @@ Moesia
 Triballia
 Crobyzoia
 Scythia
+Haemimontus
+Thracia
+Rhodope
+Propontis
+Europa
 
 Eblania
 Coriondia
@@ -478,6 +483,11 @@ Serdica
 Tylis
 Odessos
 Istros
+Apollonia_Pontiki
+Seuthopolis
+Abdira
+Lysimacheia
+Byzantion
 
 Libyae_Interior
 toggle_fow

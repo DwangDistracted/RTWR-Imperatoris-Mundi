@@ -2179,6 +2179,52 @@ Scythia
 	5
 	5
 
+;Thrace
+Haemimontus
+	Apollonia_Pontiki
+	thrace
+	Odrysae
+	226 105 83
+	none
+	5
+	4
+
+Thracia
+	Seuthopolis
+	thrace
+	Odrysae
+	252 113 173
+	none
+	5
+	10
+
+Rhodope
+	Abdira
+	thrace
+	Odrysae
+	188 239 79
+	none
+	5
+	3
+
+Propontis
+	Lysimacheia
+	thrace
+	Bosphorans
+	160 50 22
+	none
+	5
+	9
+
+Europa
+	Byzantion
+	thrace
+	Bosphorans
+	110 211 69
+	none
+	5
+	3
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

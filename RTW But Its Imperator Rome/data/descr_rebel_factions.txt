@@ -491,18 +491,20 @@ unit				barb peasant slave
 unit				barb cavalry slave
 unit				barb archer slave
 unit				barbarian rebel general
-						
-rebel_type 			Bosphorans	//macedon
+
+rebel_type 			Bosphorans	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Bosphorans
-unit				greek peasant
-unit				greek hoplite militia
-unit				greek hoplite militia
-unit				greek cavalry
 unit				barb horse archers slave
-unit				generic rebel general
-					
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
 rebel_type 			Pictones	//gauls
 category			peasant_revolt 
 chance				0					
