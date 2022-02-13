@@ -33,7 +33,7 @@ pirate_spawn_value 10
 ; >>>> start of landmarks section <<<<
 ;landmark	pyramids_and_sphinx	181,	12
 ;landmark	pharos	178,	21
-;landmark	colossus	160,	44
+landmark	colossus	194,	134
 ;landmark	temple	157,	53
 landmark	statue	164,	133
 ;landmark	gardens	237,	46
@@ -1402,6 +1402,17 @@ resource slaves, 1, 169, 131
 resource wine, 2, 166, 130
 resource olive_oil, 3, 167, 131
 resource iron, 2, 172, 129
+
+;Sporades
+resource slaves, 1, 193, 133
+resource glass, 1, 193, 132
+resource silk, 3, 182, 134
+
+;Crete
+resource slaves, 1, 185, 124
+resource iron, 1, 177, 123
+resource lead, 1, 181, 124
+resource olive_oil, 4, 187, 124
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -2786,20 +2797,20 @@ settlement
 
 settlement
 {
-	level large_town
-	region Arcadia
+	level city
+	region Crete
 
 	year_founded 0
-	population 4450
+	population 8900
 	plan_set default_set
 	faction_creator greek_cities
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -2807,7 +2818,7 @@ settlement
 	}
 	building
 	{
-		type missiles practice_field
+		type missiles catapult_range
 	}
 	building
 	{
@@ -2815,7 +2826,15 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms
+		type academic academy
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
 	}
 }
 
@@ -2866,18 +2885,117 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Sporades
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arcadia
+
+	year_founded 0
+	population 4450
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 character	Kleomenes of Sparta, named character, leader, age 56, , x 168, y 131
 traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 2 , Intelligent 1
 ancillaries wrestler
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite spartan				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
-unit		greek peasant				exp 1 armour 0 weapon_lvl 0
-unit		greek peasant				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 1 armour 0 weapon_lvl 0
+unit		greek peltast				exp 1 armour 0 weapon_lvl 0
 
-character	Hiero of Sparta, named character, age 34, , x 137, y 121
+character	Antigonos of Sparta, named character, heir, age 33, , x 167, y 132
+traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1
+ancillaries mentor, poet
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite spartan				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+
+character	Hiero of Sparta, named character, age 30, , x 137, y 121
 traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2
 ancillaries brilliant_inventor, playwright
 army
@@ -2892,18 +3010,7 @@ unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Antigonos of Sparta, named character, age 33, , x 455, y 82
-traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1
-ancillaries mentor, poet
-army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
-
-character	Eumenes of Sparta, named character, age 31, , x 163, y 134
+character	Eumenes of Sparta, named character, age 29, , x 163, y 134
 traits Intelligent 1 , GoodAdministrator 3
 ancillaries mentor, comedian
 army
@@ -2911,7 +3018,7 @@ unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
-character	Memnon of Sparta, named character, age 29, , x 452, y 82
+character	Memnon of Sparta, named character, age 26, , x 194, y 133
 traits Intelligent 2 , GoodAdministrator 2 , GoodTrader 2 , Drink 1
 ancillaries merchant, mentor
 army
@@ -2919,7 +3026,13 @@ unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
 
-character	Polydoros of Rhodes, admiral, age 36, , x `, y 60
+character	Hyrtius, general, age 20, , x 183, y 123
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 0 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 0 armour 0 weapon_lvl 0
+
+character	Polydoros of Rhodes, admiral, age 36, , x 194, y 131
 army
 unit		naval triremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
@@ -2928,7 +3041,13 @@ unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 
 character	Gelo of Syracuse, admiral, age 36, , x 136, y 119
 army
+unit		naval triremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+unit		naval biremes				exp 1 armour 0 weapon_lvl 0
+
+character	Hermon of Crete, admiral, age 36, , x 179, y 125
+army
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 unit		naval biremes				exp 1 armour 0 weapon_lvl 0
 
@@ -2949,7 +3068,7 @@ character_record		Eugenius of Sparta, 	male, command 0, influence 0, management 
 character_record		Nicanor of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
 character_record		Hermine of Sparta, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
 
-relative 	Kleomenes of Sparta, 	Clymene,		Hiero of Sparta,	Antigonos of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
+relative 	Kleomenes of Sparta, 	Clymene,		Antigonos of Sparta,	Hiero of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
 relative 	Hiero of Sparta, 	Harmonia,		Cleon of Sparta,	Hermine of Sparta,	end
 relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
 relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
@@ -4037,7 +4156,7 @@ relative 	Vezina, 	Dana,		Cotiso,	Devnet,	Palacus,	end
 relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
 
 faction	macedon, fortified_napoleon
-denari	5000
+denari	2000
 
 settlement
 {
@@ -4331,12 +4450,12 @@ traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 2 , PublicFa
 ancillaries shieldbearer
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
-unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek royal pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		merc thracian				exp 0 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 0 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 0 armour 0 weapon_lvl 0
@@ -4432,7 +4551,7 @@ relative 	Gyras, 	Alkmena,		Aloeus,	Abreas,	end
 relative 	Euenus, 	Pervica,		Caleope,	Deukalos,	end
 
 faction	thrace, sailor_napoleon
-denari	3000
+denari	5000
 
 settlement
 {
@@ -4575,11 +4694,17 @@ army
 unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 0 armour 0 weapon_lvl 0
+unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
 unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Byzas, named character, age 30, , x 181, y 169
 traits NaturalMilitarySkill 1 , Intelligent 2 , Drink 1
@@ -8619,6 +8744,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -8653,10 +8782,6 @@ settlement
 	building
 	{
 		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
 	}
 }
 

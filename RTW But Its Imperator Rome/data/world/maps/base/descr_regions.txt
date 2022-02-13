@@ -2363,6 +2363,24 @@ Laconia
 	5
 	6
 
+Sporades
+	Rodos
+	greek_cities
+	Rhodians
+	112 193 36
+	none
+	5
+	3
+
+Crete
+	Gortyna
+	greek_cities
+	Cretans
+	166 80 216
+	sparta
+	5
+	3
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

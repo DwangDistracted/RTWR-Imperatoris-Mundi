@@ -258,6 +258,8 @@ Euboea
 Achaea
 Arcadia
 Laconia
+Sporades
+Crete
 
 Eblania
 Coriondia
@@ -518,6 +520,8 @@ Chalkis
 Korinthos
 Elis
 Sparta
+Rodos
+Gortyna
 
 Libyae_Interior
 toggle_fow
