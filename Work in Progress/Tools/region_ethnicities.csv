@@ -16,10 +16,18 @@ Inland North Africa,berber;100,Musulamia;Maxyesia;Zaba;Aurasius;Cirtania;Sitifen
 Coastal Mauritania,berber;80;arabic;20,Iolia;Tingitania
 Inland Mauritania,berber;100,Machuria;Massaesylia;Metagonia;Mauretania;Rutubis;Tadla;Mauretania_Ulterior;Lixiane;Madethubadus;Deserta_Mauretania;Furtunatae_Insulae
 Cerne,african;90;arabic;10,Cerne
-Sahara,berber;90;african;10,Leonum_Trahentium;Troglodytia;Ougarta;Deserta_Tripolitania;Phazania;Garamantia_Occidentalis;Garamantia_Citerior
+Sahara,berber;90;african;10,Leonum_Trahentium;Troglodytia;Ougarta;Deserta_Tripolitania;Phazania;Garamantia_Occidentalis;Garamantia_Citerior;Libyae_Interior
 Tripolitania,berber;90;arabic;10,Tripolitania;Syrtica;Nasamonia
 Sub-Saharan Africa,african;100,Nigritania;Agisymba
 Ibero Greek Colonies,caucasiandark;80;mediterranean;20,Indicetia;Contestania
 Ibero Punic Colonies,caucasiandark;70;berber;20;arabic;10,Baetica_Gaditanus;Mastiania;Bastetania
 Iberia,caucasiandark;100,Edetania;Ilercavonia;Cessetania;Ilergetia;Vasconia;Baetica_Hispalensis;Malacitia;Oretania;Baetica_Cordubensis;Turdetania;Couneia;Turdulia_Occidentalis;Turdulia_Orientalis;Celticia_Minoris;Celticia_Maoioris;Lusitania;Oppidania;Asturia;Aebocosia;Callaecia_Meridionalis;Callaecia_Septentrionalis
 Celtiberia,caucasiandark;80;caucasian;20,Lobetania;Celtiberia_Meridionalis;Celtiberia_Septentrionalis;Celtiberia_Centralis;Carpetania;Vettonia_Meridionalis;Vettonia_Septentrionalis;Vaccaeia_Meridionalis;Vaccaeia_Septentrionalis;Vardulia;Autrigonia;Cantabria
+Coastal Illyria,caucasiandark;20;caucasian;10;mediterranean;70,Histria;Libernia;Dalmatia
+Inland Illyria,caucasiandark;30;caucasian;20;mediterranean;50,Daorsia;Deuria
+Pannonia,caucasiandark;90;caucasian;10,Latobicia;Cataria;Varciania;Pannonia_Prima;Carnuntia;Quadia;Valeria;Hercuniatia;Pannonia_Secunda
+Dacia,caucasian;100,Albocensia;Iazygia;Cotinia;Costobocia;Potulatensia;Porolissensis;Apulensis;Malvensis;Getia;Roxolania
+Moesia,caucasiandark;30;caucasian;10;mediterranean;60,Tricornensia;Dindaria;Dardania;Picensia;Saldensia;Moesia;Crobyzoia;Scythia
+Celtic Balkans,caucasiandark;60;caucasian;20;mediterranean;20,Scordiscia;Triballia
+Thrace,caucasiandark;10;caucasian;10;mediterranean;80,Haemimontus;Thracia;Rhodope;Propontis;Europa;Paeonia
+Hellas,mediterranean;100,Odomantike;Chalkidiki;Emathia;Pelagonia;Thessalia;Illyria_Graeca;Epirus;Aetolia;Boeotia;Attica;Euboea;Achaea;Arcadia;Laconia;Sporades;Crete

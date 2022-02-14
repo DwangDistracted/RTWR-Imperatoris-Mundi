@@ -2377,7 +2377,7 @@ Crete
 	greek_cities
 	Cretans
 	166 80 216
-	sparta
+	none
 	5
 	3
 
