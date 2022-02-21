@@ -260,6 +260,12 @@ Arcadia
 Laconia
 Sporades
 Crete
+Chersonesos_Zenonis
+Chersonesos_Heraclea
+Taurica
+Bosporus_Cimmerius
+Sarmatia_Maritima
+Scythia_Harpitis
 
 Eblania
 Coriondia
@@ -522,6 +528,12 @@ Elis
 Sparta
 Rodos
 Gortyna
+Pantikapaion
+Chersonisos
+Kimmeria
+Phanagoreia
+Olbia
+Tyras
 
 Libyae_Interior
 toggle_fow

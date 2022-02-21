@@ -15,6 +15,7 @@ unlockable
 	greek_cities
 	macedon
 	numidia
+	scythia
 	spain
 	thrace
 end
@@ -1413,6 +1414,35 @@ resource slaves, 1, 185, 124
 resource iron, 1, 177, 123
 resource lead, 1, 181, 124
 resource olive_oil, 4, 187, 124
+
+;Chersonesos_Zenonis
+resource slaves, 1, 207, 189
+resource pottery, 2, 212, 191
+resource textiles, 3, 210, 190
+
+;Chersonesos_Heraclea
+resource slaves, 1, 199, 189
+resource wine, 3, 203, 187
+resource iron, 2, 205, 186
+
+;Taurica
+resource slaves, 1, 201, 191
+resource grain, 2, 201, 190
+resource pottery, 1, 205, 191
+resource timber, 1, 204, 188
+
+;Bosporus_Cimmerius
+resource slaves, 1, 220, 195
+resource wild_animals, 2, 219, 193
+resource textiles, 1, 217, 192
+
+;Sarmatia_Maritima
+resource slaves, 1, 187, 194
+resource wild_animals, 2, 193, 195
+
+;Scythia_Harpitis
+resource slaves, 1, 183, 183
+resource wild_animals, 1, 183, 188
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -4746,6 +4776,76 @@ character_record		Mokasokos, 	female, command 0, influence 0, management 0, subt
 relative 	Sautes, 	Karia,		Pytros,	Byzas,	end
 relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
 relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
+
+faction	scythia, trader_smith
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr0
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Zipoetes, named character, leader, age 50, , x 1, y 1
+traits GoodCommander 2 , Energetic 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2
+ancillaries armourer
+army
+unit		barb chieftain cavalry early scythian				exp 1 armour 0 weapon_lvl 0
+unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+
+character	Partatua, named character, heir, age 30, , x 1, y 2
+traits GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1 , Bloodthirsty 2
+ancillaries galloper
+army
+unit		barb chieftain cavalry early scythian				exp 1 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
+
+character	Belnirari, named character, age 27, , x 1, y 3
+traits NaturalMilitarySkill 1 , Intelligent 2 , Bloodthirsty 1
+ancillaries bard, goldsmith
+army
+unit		barb chieftain cavalry early scythian				exp 1 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+
+character	Phillipos, general, age 20, , x 1, y 4
+army
+unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
+
+character	Liapos, spy, age 20, , x 2, y 1
+traits GoodSpy 1
+
+character	Rimsin, diplomat, age 20, , x 2, y 2
+traits GoodDiplomat 1
+
+character_record		Ara, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Madyes, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Ziaelas, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Palacus, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Serapia, 	female, command 0, influence 0, management 0, subterfuge 0, age 49, alive, never_a_leader
+character_record		Afina, 	female, command 0, influence 0, management 0, subterfuge 0, age 29, alive, never_a_leader
+character_record		Branka, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
+character_record		Devnet, 	female, command 0, influence 0, management 0, subterfuge 0, age 22, alive, never_a_leader
+character_record		Hestia, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+
+relative 	Zipoetes, 	Serapia,		Partatua,	Belnirari,	Devnet,	Palacus,	end
+relative 	Partatua, 	Afina,		Ziaelas,	Hestia,	end
+relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 
 faction	slave, fortified_mao
 denari	10000
@@ -8966,6 +9066,197 @@ settlement
 	}
 }
 
+; CRIMEA
+settlement
+{
+	level large_town
+	region Chersonesos_Zenonis
+
+	year_founded 0
+	population 4875
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Chersonesos_Heraclea
+
+	year_founded 0
+	population 4550
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Taurica
+
+	year_founded 0
+	population 2050
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+}
+
+settlement
+{
+	level town
+	region Bosporus_Cimmerius
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Sarmatia_Maritima
+
+	year_founded 0
+	population 1350
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Scythia_Harpitis
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -8979,16 +9270,6 @@ settlement
 }
 
 ; TEMP
-settlement
-{
-	level village
-	region Tempr0
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
 settlement
 {
 	level village
@@ -11429,7 +11710,7 @@ unit		barb cavalry slave				exp 5 armour 0 weapon_lvl 0
 ; PROPONTIS
 character	sub_faction greek_cities, Lysimachos, general, age 20, , x 180, y 155
 army
-unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -11448,7 +11729,7 @@ unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Deiphonous, general, age 20, , x 190, y 160
 army
-unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -11464,7 +11745,7 @@ unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 ; EPEIROS
 character	sub_faction macedon, Deinomenes, general, age 20, , x 150, y 147
 army
-unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -11475,7 +11756,7 @@ unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction macedon, Alexander, general, age 20, , x 156, y 143
 army
-unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -11496,7 +11777,7 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 ; GREECE
 character	sub_faction greek_cities, Epimenes, general, age 20, , x 163, y 138
 army
-unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -11509,7 +11790,7 @@ unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Demetrios, general, age 20, , x 168, y 138
 army
-unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -11527,7 +11808,7 @@ unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Aristides, general, age 20, , x 172, y 137
 army
-unit		greek general's guard cavalry early				exp 5 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
@@ -11545,6 +11826,79 @@ unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+; CRIMEA
+character	sub_faction thrace, Spartocus, general, age 20, , x 213, y 192
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction thrace, Solomon, general, age 20, , x 203, y 185
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Solomon, general, age 20, , x 203, y 192
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction thrace, Spartocus, general, age 20, , x 215, y 193
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction thrace, Phileas, general, age 20, , x 190, y 195
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction thrace, Hermeias, general, age 20, , x 185, y 189
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
@@ -11575,18 +11929,19 @@ core_attitudes	romans_scipii,	50		greek_cities
 core_attitudes	romans_scipii,	400		carthage
 core_attitudes	romans_scipii,	600		slave
 
-core_attitudes	romans_senate, 	-10		romans_julii, romans_brutii, romans_scipii, romans_senate
+core_attitudes	romans_senate,	-10		romans_julii, romans_brutii, romans_scipii, romans_senate
 core_attitudes	romans_senate,	400		carthage
 core_attitudes	romans_senate,	600		slave
 
 core_attitudes	britons,	100		gauls
 core_attitudes	britons,	600		slave
 
-core_attitudes	carthage, 		0		numidia
+core_attitudes	carthage,	0		numidia
 core_attitudes	carthage,	100		gauls
 core_attitudes	carthage,	400		romans_senate, romans_julii, romans_scipii, romans_brutii, greek_cities
 core_attitudes	carthage,	600		slave
 
+core_attitudes	dacia,	400		thrace
 core_attitudes	dacia,	600		slave
 
 core_attitudes	gauls,	100		carthage, britons
@@ -11599,58 +11954,63 @@ core_attitudes	greek_cities,	50		romans_scipii
 core_attitudes	greek_cities,	400		carthage
 core_attitudes	greek_cities,	600		slave
 
-core_attitudes	macedon, 		300		greek_cities
-core_attitudes	macedon, 		400		romans_brutii, thrace
-core_attitudes	macedon, 		600		slave
+core_attitudes	macedon,	300		thrace
+core_attitudes	macedon,	400		romans_brutii, greek_cities
+core_attitudes	macedon,	600		slave
 
-core_attitudes	numidia, 		300		carthage
-core_attitudes	numidia, 		600		slave
+core_attitudes	numidia,	300		carthage
+core_attitudes	numidia,	600		slave
 
-core_attitudes	spain, 		600		slave
+core_attitudes	scythia,	600		slave
 
-core_attitudes	thrace, 		500		macedon
-core_attitudes	thrace, 		600		slave
+core_attitudes	spain,	600		slave
 
-core_attitudes	slave,		600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, spain, thrace
+core_attitudes	thrace,	400		macedon, dacia
+core_attitudes	thrace,	600		slave
+
+core_attitudes	slave,	600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, scythia, spain, thrace
 
 ; Diplomatic Standing
 faction_relationships	romans_julii,		0		romans_brutii, romans_scipii, romans_senate
-faction_relationships	romans_julii, 		600		slave
+faction_relationships	romans_julii,		600		slave
 
 faction_relationships	romans_brutii,		0		romans_julii, romans_scipii, romans_senate
-faction_relationships	romans_brutii, 		600		slave
+faction_relationships	romans_brutii,		600		slave
 
 faction_relationships	romans_scipii,		0		romans_julii, romans_brutii, romans_senate
-faction_relationships	romans_scipii, 		600		slave
+faction_relationships	romans_scipii,		600		slave
 
-faction_relationships	romans_senate, 		0		romans_julii, romans_brutii, romans_scipii
-faction_relationships	romans_senate, 		600		slave
+faction_relationships	romans_senate,		0		romans_julii, romans_brutii, romans_scipii
+faction_relationships	romans_senate,		600		slave
 
-faction_relationships	britons, 		600		slave
+faction_relationships	britons,		600		slave
 
-faction_relationships	carthage, 		0		numidia
-faction_relationships	carthage, 		600		slave
+faction_relationships	carthage,		0		numidia
+faction_relationships	carthage,		600		slave
 
-faction_relationships	dacia, 		300		thrace
-faction_relationships	dacia, 		600		slave
+faction_relationships	dacia,		600		slave
 
-faction_relationships	gauls, 		600		slave
+faction_relationships	gauls,		600		slave
 
-faction_relationships	germans, 		600		slave
+faction_relationships	germans,		600		slave
 
-faction_relationships	greek_cities, 		600		macedon, slave
+faction_relationships	greek_cities,		400		macedon
+faction_relationships	greek_cities,		600		slave
 
-faction_relationships	macedon, 		600		greek_cities, slave
+faction_relationships	macedon,		400		thrace, greek_cities
+faction_relationships	macedon,		600		slave
 
-faction_relationships	numidia, 		0		carthage
-faction_relationships	numidia, 		600		slave
+faction_relationships	numidia,		0		carthage
+faction_relationships	numidia,		600		slave
 
-faction_relationships	spain, 		600		slave
+faction_relationships	scythia,		600		slave
 
-faction_relationships	thrace, 		300		dacia
-faction_relationships	thrace, 		600		slave
+faction_relationships	spain,		600		slave
 
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, spain, thrace
+faction_relationships	thrace,		400		macedon
+faction_relationships	thrace,		600		slave
+
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, scythia, spain, thrace
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of scripts section <<<<
@@ -11659,7 +12019,7 @@ superfaction_setup romans_senate
 default_hostile slave
 default_hostile gauls
 default_hostile carthage
-;default_hostile macedon
+default_hostile macedon
 
 ;;julii first mission should be to capture Pisna (Vallis_Arni)
 mission_queue romans_julii

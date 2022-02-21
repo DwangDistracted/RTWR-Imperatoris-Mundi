@@ -2210,7 +2210,7 @@ Rhodope
 Propontis
 	Lysimacheia
 	thrace
-	Bosphorans
+	Chersonian
 	160 50 22
 	none
 	5
@@ -2219,7 +2219,7 @@ Propontis
 Europa
 	Byzantion
 	thrace
-	Bosphorans
+	Byzantine
 	110 211 69
 	none
 	5
@@ -2377,6 +2377,61 @@ Crete
 	greek_cities
 	Cretans
 	166 80 216
+	none
+	5
+	3
+
+;Crimea
+Chersonesos_Zenonis
+	Pantikapaion
+	thrace
+	Bosphorans
+	252 185 98
+	none
+	5
+	7
+
+Chersonesos_Heraclea
+	Chersonisos
+	thrace
+	Bosphorans
+	252 27 233
+	none
+	5
+	4
+
+Taurica
+	Kimmeria
+	scythia
+	Taurican
+	183 255 68
+	none
+	5
+	2
+
+Bosporus_Cimmerius
+	Phanagoreia
+	thrace
+	Bosphorans
+	198 21 107
+	none
+	5
+	3
+
+Sarmatia_Maritima
+	Olbia
+	thrace
+	Bosphorans
+	64 201 62
+	none
+	5
+	3
+
+Scythia_Harpitis
+	Tyras
+	thrace
+	Bosphorans
+	221 19 178
 	none
 	5
 	3

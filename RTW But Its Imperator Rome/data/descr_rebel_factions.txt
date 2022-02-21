@@ -121,7 +121,7 @@ unit				barb peasant slave
 unit				barb naked fanatics slave
 unit				barb cavalry slave
 unit				barbarian rebel general
-					
+
 rebel_type 			Sarmatians	//Scythians
 category			peasant_revolt 
 chance				0					
@@ -133,7 +133,7 @@ unit				barb horse archers slave
 unit				barb horse archers slave
 unit				barb horse archers slave
 unit				barbarian rebel general
-					
+
 rebel_type 			Iceni		//Britons
 category			peasant_revolt 
 chance				6					
@@ -496,6 +496,32 @@ rebel_type 			Bosphorans	//greek_cities
 category			peasant_revolt 
 chance				0					
 description			Bosphorans
+unit				barb horse archers slave
+unit				barb horse archers slave
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
+rebel_type 			Chersonian	//greek_cities
+category			peasant_revolt 
+chance				0					
+description			Chersonian
+unit				barb horse archers slave
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
+rebel_type 			Byzantine	//greek_cities
+category			peasant_revolt 
+chance				0					
+description			Byzantine
 unit				barb horse archers slave
 unit				greek cavalry
 unit				greek peasant
@@ -1638,6 +1664,19 @@ unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek general's guard cavalry early
+
+rebel_type 			Taurican	//Scythians
+category			peasant_revolt 
+chance				0					
+description			Taurican
+unit				barb horse archers slave
+unit				barb horse archers slave
+unit				barb horse archers slave
+unit				barb cavalry slave
+unit				barb peasant slave
+unit				barb archer slave
+unit				greek hoplite militia
+unit				barbarian rebel general
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
