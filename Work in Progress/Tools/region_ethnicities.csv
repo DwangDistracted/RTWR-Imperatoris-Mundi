@@ -2,7 +2,7 @@ REGION_NAME,ETHNICITIES,REGIONS
 Brittania,caucasiandark;20;caucasian;80,Hibernia_Septentrionalis;Hibernia_Orientalis;Hibernia_Meridionalis;Hibernia_Occidentalis;Caledonia;Taexalia;Votadinia;Brigantia;Coritania;Cornovia;Icenia;Trinovantia;Cantiacia;Durotrigia;Dumnonia;Dobunnia;Ordovicia;Demetia
 Gaul,caucasiandark;60;caucasian;40,Osisimia;Armorica;Venellia;Eburovicia;Veliocassia;Namnetia;Pictonia;Turonia;Carnutia;Parisia;Aquitania;Santonia;Nitrobrogia;Auscia;Biggeronia;Volcatia;Celtica;Biturigia;Senonia;Haeduia;Cubia;Arvernia;Lemovicia;Ambarria;Sequania;Allobrogia;Alpes_Cottiae;Verbogenia
 Belgium,caucasiandark;40;caucasian;60,Morinia;Bellovacia;Suaeuconia;Nervia;Treveria_Salutaris;Leucia;Eburonia;Treveria;Mediomatricia;Tribocia
-GalloGreek Colonies,caucasiandark;55;caucasian;35;mediterranean;10,Alpes_Maritimae;Vocontia;Narbonensis
+GalloGreek Colonies,caucasiandark;55;caucasian;25;mediterranean;20,Alpes_Maritimae;Vocontia;Narbonensis
 Scandinavia,caucasian;100,Anglia;Cimbrica;Scandia_Insula;Herulia;East_Gothia;West_Gothia;Ultima_Thule
 North Germany,caucasiandark;20;caucasian;80,Frisia;Chasuaria;Chaucia;Bructeria;Sicambria;Langobardia;Chamavia;Baluconia;Pharodenia;Buria;Marsignia;Rugia;Helveconia;Elysia;Lugia;Semnonia
 South Germany,caucasiandark;50;caucasian;50,Vangionia;Chattia;Hermunduria;Marcomannia;Naharvalia;Boioa;Naristia;Noricum;Vindelicia;Latobrigia;Breunia;Helvetia;Ciscarpathia
@@ -31,3 +31,5 @@ Moesia,caucasiandark;30;caucasian;10;mediterranean;60,Tricornensia;Dindaria;Dard
 Celtic Balkans,caucasiandark;60;caucasian;20;mediterranean;20,Scordiscia;Triballia
 Thrace,caucasiandark;10;caucasian;10;mediterranean;80,Haemimontus;Thracia;Rhodope;Propontis;Europa;Paeonia
 Hellas,mediterranean;100,Odomantike;Chalkidiki;Emathia;Pelagonia;Thessalia;Illyria_Graeca;Epirus;Aetolia;Boeotia;Attica;Euboea;Achaea;Arcadia;Laconia;Sporades;Crete
+Crimea,caucasiandark;80;mediterranean;20,Chersonesos_Zenonis;Chersonesos_Heraclea;Taurica;Bosporus_Cimmerius;Sarmatia_Maritima;Scythia_Harpitis
+European Sarmatia,caucasiandark;100,Subcarpathia;Zargidava;Clepia;Sarmatia;Sarmatia_Superioris;Borysthenia;Hypania;Transborysthena;Transhypania;Hypania_Minoris;Bassetia;Vistulia_Inferioris;Amadocia;Neuri;Gelonia

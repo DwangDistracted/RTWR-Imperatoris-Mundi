@@ -884,12 +884,12 @@ region
 		variant
 		{
 			ethnicity caucasian
-			distribution 35
+			distribution 25
 		}
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 20
 		}
 	}
 	Vocontia
@@ -902,12 +902,12 @@ region
 		variant
 		{
 			ethnicity caucasian
-			distribution 35
+			distribution 25
 		}
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 20
 		}
 	}
 	Narbonensis
@@ -920,12 +920,12 @@ region
 		variant
 		{
 			ethnicity caucasian
-			distribution 35
+			distribution 25
 		}
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 20
 		}
 	}
 	Anglia
@@ -3291,6 +3291,204 @@ region
 		variant
 		{
 			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Chersonesos_Zenonis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Chersonesos_Heraclea
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Taurica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Bosporus_Cimmerius
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Sarmatia_Maritima
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Scythia_Harpitis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Subcarpathia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Zargidava
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Clepia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmatia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmatia_Superioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Borysthenia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Hypania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Transborysthena
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Transhypania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Hypania_Minoris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Bassetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Vistulia_Inferioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Amadocia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Neuri
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Gelonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
 			distribution 100
 		}
 	}
