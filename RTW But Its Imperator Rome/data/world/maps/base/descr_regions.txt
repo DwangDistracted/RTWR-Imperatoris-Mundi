@@ -2436,6 +2436,16 @@ Scythia_Harpitis
 	5
 	3
 
+;European Sarmatia
+Neuri
+	Azagarium
+	scythia
+	Agathyrsian
+	225 198 152
+	none
+	5
+	1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -2452,15 +2462,6 @@ Tempr0
 	romans_julii
 	Latins
 	255 0 0
-	none
-	5
-	5
-
-Tempr6
-	Temp6
-	romans_julii
-	Latins
-	225 198 152
 	none
 	5
 	5

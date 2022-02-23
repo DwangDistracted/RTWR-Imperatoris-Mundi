@@ -9257,6 +9257,18 @@ settlement
 	}
 }
 
+; EUROPEAN SARMATIA
+settlement
+{
+	level village
+	region Neuri
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator scythia
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -9270,16 +9282,6 @@ settlement
 }
 
 ; TEMP
-settlement
-{
-	level village
-	region Tempr6
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
 settlement
 {
 	level village

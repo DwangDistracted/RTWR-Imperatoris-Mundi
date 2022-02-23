@@ -266,6 +266,7 @@ Taurica
 Bosporus_Cimmerius
 Sarmatia_Maritima
 Scythia_Harpitis
+Neuri
 
 Eblania
 Coriondia
@@ -534,12 +535,12 @@ Kimmeria
 Phanagoreia
 Olbia
 Tyras
+Azagarium
 
 Libyae_Interior
 toggle_fow
 
 Tempr0
-Tempr6
 Tempr9
 Tempr10
 Tempr11
@@ -555,7 +556,6 @@ Tempr20
 Tempr21
 Tempr24
 Temp0
-Temp6
 Temp9
 Temp10
 Temp11
