@@ -1972,7 +1972,7 @@ Quadia
 Valeria
 	Sopianai
 	gauls
-	Iazyges
+	Pannonian
 	212 237 71
 	none
 	5
@@ -1981,7 +1981,7 @@ Valeria
 Hercuniatia
 	Iazygiana
 	dacia
-	Iazyges
+	Pannonian
 	65 198 125
 	none
 	5
@@ -2000,7 +2000,7 @@ Pannonia_Secunda
 Albocensia
 	Lixisis
 	dacia
-	Iazyges
+	Pannonian
 	149 168 23
 	none
 	5
@@ -2009,7 +2009,7 @@ Albocensia
 Iazygia
 	Crisia
 	dacia
-	Iazyges
+	Pannonian
 	101 160 24
 	none
 	5
@@ -2018,7 +2018,7 @@ Iazygia
 Cotinia
 	Oratis
 	dacia
-	Iazyges
+	Pannonian
 	216 67 181
 	none
 	5
@@ -2437,6 +2437,123 @@ Scythia_Harpitis
 	3
 
 ;European Sarmatia
+Subcarpathia
+	Castrana
+	dacia
+	Harpian
+	199 249 72
+	none
+	5
+	0
+
+Zargidava
+	Piroboridava
+	dacia
+	Harpian
+	57 198 47
+	none
+	5
+	2
+
+Clepia
+	Volumis
+	dacia
+	Harpian
+	216 149 26
+	none
+	5
+	3
+
+Sarmatia
+	Scyra
+	scythia
+	Iazyges
+	213 22 226
+	none
+	5
+	3
+
+Sarmatia_Superioris
+	Ektonopolis
+	scythia
+	Iazyges
+	214 89 98
+	none
+	5
+	4
+
+Borysthenia
+	Zeh
+	scythia
+	Iazyges
+	37 178 82
+	none
+	5
+	5
+
+Hypania
+	Zetha
+	scythia
+	Iazyges
+	229 157 2
+	none
+	5
+	1
+
+Transborysthena
+	Volg
+	scythia
+	Roxolani
+	182 221 82
+	none
+	5
+	1
+
+Transhypania
+	Gelts
+	scythia
+	Agathyrsian
+	26 140 4
+	none
+	5
+	0
+
+Hypania_Minoris
+	Lechta
+	scythia
+	Agathyrsian
+	232 123 55
+	none
+	5
+	0
+
+Bassetia
+	Vurdant
+	scythia
+	Agathyrsian
+	226 183 90
+	none
+	5
+	0
+
+Vistulia_Inferioris
+	Malica
+	scythia
+	Agathyrsian
+	216 71 100
+	none
+	5
+	2
+
+Amadocia
+	Trakylli
+	scythia
+	Agathyrsian
+	166 247 86
+	none
+	5
+	1
+
 Neuri
 	Azagarium
 	scythia
@@ -2445,6 +2562,15 @@ Neuri
 	none
 	5
 	1
+
+Gelonia
+	Gelonus
+	scythia
+	Roxolani
+	56 204 48
+	none
+	5
+	2
 
 ;Terra Incognita
 Libyae_Interior

@@ -420,17 +420,30 @@ chance				0
 description			Roxolani
 unit				barb horse archers slave
 unit				barb horse archers slave
-unit				barb cavalry slave
+unit				barb horse archers slave
 unit				merc sarmatian cavalry
-unit				barb peasant slave
+unit				merc sarmatian cavalry
 unit				barb archer slave
 unit				barb archer slave
 unit				barbarian rebel general
 
-rebel_type 			Iazyges		// dacia
+rebel_type 			Iazyges	//Scythians
 category			peasant_revolt 
 chance				0
 description			Iazyges
+unit				barb horse archers slave
+unit				barb horse archers slave
+unit				barb horse archers slave
+unit				merc sarmatian cavalry
+unit				barb archer slave
+unit				barb archer slave
+unit				barb archer slave
+unit				barbarian rebel general
+
+rebel_type 			Pannonian		// dacia
+category			peasant_revolt 
+chance				0
+description			Pannonian
 unit				barb cavalry slave
 unit				barb archer slave
 unit				barb archer slave

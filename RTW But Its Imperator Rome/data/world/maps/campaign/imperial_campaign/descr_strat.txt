@@ -568,7 +568,7 @@ resource furs, 3, 151, 216
 ;Vistulia
 resource slaves, 1, 137, 204
 resource furs, 3, 142, 207
-resource wild_animals, 3, 145, 201
+resource wild_animals, 3, 142, 202
 
 ;Transpadana
 resource slaves, 1, 92, 158
@@ -1443,6 +1443,89 @@ resource wild_animals, 2, 193, 195
 ;Scythia_Harpitis
 resource slaves, 1, 183, 183
 resource wild_animals, 1, 183, 188
+
+;Subcarpathia
+resource slaves, 1, 152, 198
+resource copper, 3, 150, 196
+resource timber, 4, 158, 197
+
+;Zargidava
+resource slaves, 1, 174, 187
+resource grain, 3, 171, 189
+resource lead, 1, 165, 190
+
+;Clepia
+resource slaves, 1, 180, 187
+resource furs, 3, 172, 194
+resource lead, 1, 179, 191
+resource timber, 3, 176, 193
+
+;Sarmatia
+resource slaves, 1, 185, 197
+resource marble, 2, 181, 199
+resource purple_dye, 2, 182, 193
+
+;Sarmatia_Superioris
+resource slaves, 1, 193, 200
+resource grain, 2, 188, 200
+resource furs, 3, 190, 204
+
+;Borysthenia
+resource slaves, 1, 195, 204
+resource iron, 2, 192, 206
+resource grain, 2, 199, 204
+
+;Hypania
+resource slaves, 1, 183, 205
+resource timber, 3, 180, 204
+resource purple_dye, 2, 185, 207
+
+;Transborysthena
+resource slaves, 1, 200, 212
+resource furs, 2, 189, 213
+resource textiles, 1, 198, 210
+
+;Transhypania
+resource slaves, 1, 176, 212
+resource furs, 2, 178, 208
+resource lead, 2, 166, 206
+
+;Hypania_Minoris
+resource slaves, 1, 170, 204
+resource timber, 2, 163, 202
+resource lead, 1, 174, 199
+
+;Bassetia
+resource slaves, 1, 160, 208
+resource wild_animals, 1, 156, 205
+resource furs, 3, 159, 211
+
+;Vistulia_Inferioris
+resource slaves, 1, 147, 204
+resource timber, 2, 151, 204
+resource hides, 3, 147, 202
+
+;Vistulia_Inferioris
+resource slaves, 1, 147, 204
+resource timber, 2, 151, 204
+resource hides, 3, 147, 202
+
+;Amadocia
+resource slaves, 1, 148, 214
+resource purple_dye, 3, 151, 210
+resource iron, 1, 154, 206
+
+;Neuri
+resource slaves, 1, 178, 214
+resource amber, 3, 167, 218
+resource timber, 2, 173, 215
+resource copper, 2, 169, 212
+
+;Gelonia
+resource slaves, 1, 203, 219
+resource timber, 3, 193, 221
+resource grain, 2, 203, 213
+resource pottery, 3, 200, 215
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -9261,10 +9344,180 @@ settlement
 settlement
 {
 	level village
+	region Subcarpathia
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator dacia
+}
+
+settlement
+{
+	level town
+	region Zargidava
+
+	year_founded 0
+	population 1850
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Clepia
+
+	year_founded 0
+	population 1550
+	plan_set default_set
+	faction_creator dacia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level village
+	region Sarmatia
+
+	year_founded 0
+	population 1550
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Sarmatia_Superioris
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Borysthenia
+
+	year_founded 0
+	population 700
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Hypania
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Transborysthena
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Transhypania
+
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Hypania_Minoris
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Bassetia
+
+	year_founded 0
+	population 850
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Vistulia_Inferioris
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Amadocia
+
+	year_founded 0
+	population 1100
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
 	region Neuri
 
 	year_founded 0
-	population 400
+	population 950
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Gelonia
+
+	year_founded 0
+	population 850
 	plan_set default_set
 	faction_creator scythia
 }
@@ -11903,6 +12156,165 @@ unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+; EUROPEAN SARMATIA
+character	sub_faction dacia, Zalmoxis, general, age 20, , x 172, y 187
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Vezina, general, age 20, , x 178, y 189
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction dacia, Comosicus, general, age 20, , x 154, y 198
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Zipoetes, general, age 20, , x 184, y 195
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Arame, general, age 20, , x 190, y 199
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Arame, general, age 20, , x 195, y 207
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Artashes, general, age 20, , x 183, y 209
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Ara, general, age 20, , x 198, y 214
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Aram, general, age 20, , x 202, y 216
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Aramu, general, age 20, , x 178, y 217
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Argishti, general, age 20, , x 178, y 212
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Arkha, general, age 20, , x 169, y 200
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Artavazd, general, age 20, , x 162, y 211
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Artaxias, general, age 20, , x 149, y 206
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Atheas, general, age 20, , x 147, y 213
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3

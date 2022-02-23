@@ -266,7 +266,21 @@ Taurica
 Bosporus_Cimmerius
 Sarmatia_Maritima
 Scythia_Harpitis
+Subcarpathia
+Zargidava
+Clepia
+Sarmatia
+Sarmatia_Superioris
+Borysthenia
+Hypania
+Transborysthena
+Transhypania
+Hypania_Minoris
+Bassetia
+Vistulia_Inferioris
+Amadocia
 Neuri
+Gelonia
 
 Eblania
 Coriondia
@@ -535,7 +549,21 @@ Kimmeria
 Phanagoreia
 Olbia
 Tyras
+Castrana
+Piroboridava
+Volumis
+Scyra
+Ektonopolis
+Zeh
+Zetha
+Volg
+Gelts
+Lechta
+Vurdant
+Malica
+Trakylli
 Azagarium
+Gelonus
 
 Libyae_Interior
 toggle_fow
