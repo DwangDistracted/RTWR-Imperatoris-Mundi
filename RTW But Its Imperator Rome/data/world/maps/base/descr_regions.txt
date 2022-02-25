@@ -2566,11 +2566,111 @@ Neuri
 Gelonia
 	Gelonus
 	scythia
-	Roxolani
+	Agathyrsian
 	56 204 48
 	none
 	5
 	2
+
+;Asian Sarmatia
+Tauroscythia
+	Pasyris
+	scythia
+	Roxolani
+	175 29 93
+	none
+	5
+	3
+
+Cimmero_Scythia
+	Ruti
+	scythia
+	Roxolani
+	1 168 23
+	none
+	5
+	3
+
+Tanaica
+	Tanais
+	scythia
+	Roxolani
+	204 89 51
+	none
+	5
+	4
+
+Borysthenia_Maioris
+	Tahent
+	scythia
+	Roxolani
+	189 255 38
+	none
+	5
+	3
+
+Danaia
+	Yakkant
+	scythia
+	Roxolani
+	61 219 82
+	none
+	5
+	3
+
+Mantessa
+	Ishkent
+	scythia
+	Roxolani
+	183 67 55
+	none
+	5
+	4
+
+Confluenta
+	Vyrni
+	scythia
+	Sarmatians
+	114 186 14
+	none
+	5
+	6
+
+Danaia_Superioris
+	Shashcha
+	scythia
+	Sarmatians
+	255 114 109
+	none
+	5
+	4
+
+Melanchlenia
+	Agathyrsica
+	scythia
+	Agathyrsian
+	232 167 39
+	none
+	5
+	1
+
+Thyssagetae
+	Exapolis
+	scythia
+	Sarmatians
+	170 242 26
+	none
+	5
+	2
+
+Stumica
+	Gaithasoura
+	scythia
+	Sarmatians
+	158 12 206
+	none
+	5
+	1
 
 ;Terra Incognita
 Libyae_Interior

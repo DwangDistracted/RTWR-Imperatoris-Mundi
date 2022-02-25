@@ -3492,6 +3492,94 @@ region
 			distribution 100
 		}
 	}
+	Tauroscythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Cimmero_Scythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Tanaica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Borysthenia_Maioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Danaia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Mantessa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Confluenta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Danaia_Superioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Melanchlenia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Thyssagetae
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Stumica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
 	Berserk
 	{
 

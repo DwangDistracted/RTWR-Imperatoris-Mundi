@@ -1527,6 +1527,65 @@ resource timber, 3, 193, 221
 resource grain, 2, 203, 213
 resource pottery, 3, 200, 215
 
+;Tauroscythia
+resource slaves, 1, 200, 197
+resource timber, 2, 198, 194
+resource grain, 4, 203, 201
+
+;Cimmero_Scythia
+resource slaves, 1, 207, 203
+resource grain, 2, 208, 201
+resource copper, 2, 211, 205
+
+;Tanaica
+resource slaves, 1, 223, 208
+resource grain, 2, 223, 209
+resource lead, 1, 216, 208
+resource copper, 1, 218, 209
+
+;Borysthenia_Maioris
+resource slaves, 1, 203, 209
+resource grain, 2, 203, 205
+resource wild_animals, 4, 203, 210
+
+;Danaia
+resource slaves, 1, 208, 211
+resource purple_dye, 3, 207, 214
+resource furs, 2, 211, 212
+
+;Mantessa
+resource slaves, 1, 218, 213
+resource grain, 2, 225, 212
+resource textiles, 1, 223, 211
+
+;Confluenta
+resource slaves, 1, 228, 215
+resource lead, 2, 226, 214
+resource textiles, 1, 230, 213
+
+;Danaia_Superioris
+resource slaves, 1, 219, 218
+resource hides, 4, 222, 216
+resource furs, 2, 214, 216
+
+;Melanchlenia
+resource slaves, 1, 207, 226
+resource textiles, 1, 214, 220
+resource grain, 2, 216, 225
+
+;Thyssagetae
+resource slaves, 1, 230, 223
+resource iron, 2, 231, 219
+resource textiles, 2, 226, 222
+resource pottery, 1, 232, 222
+
+;Stumica
+resource slaves, 1, 227, 231
+resource furs, 3, 219, 230
+resource copper, 1, 222, 226
+resource iron, 1, 237, 227
+resource grain, 2, 227, 225
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -4861,20 +4920,76 @@ relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
 relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 faction	scythia, trader_smith
-denari	3000
+denari	5000
 
 settlement
 {
-	level village
-	region Tempr0
+	level large_town
+	region Tauroscythia
 
 	year_founded 0
-	population 400
+	population 2850	
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator scythia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+}
+settlement
+{
+	level town
+	region Cimmero_Scythia
+
+	year_founded 0
+	population 1700
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+settlement
+{
+	level town
+	region Tanaica
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
 }
 
-character	Zipoetes, named character, leader, age 50, , x 1, y 1
+character	Zipoetes, named character, leader, age 50, , x 201, y 201
 traits GoodCommander 2 , Energetic 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2
 ancillaries armourer
 army
@@ -4885,7 +5000,7 @@ unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 
-character	Partatua, named character, heir, age 30, , x 1, y 2
+character	Partatua, named character, heir, age 30, , x 205, y 204
 traits GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1 , Bloodthirsty 2
 ancillaries galloper
 army
@@ -4896,7 +5011,7 @@ unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
 
-character	Belnirari, named character, age 27, , x 1, y 3
+character	Belnirari, named character, age 27, , x 209, y 204
 traits NaturalMilitarySkill 1 , Intelligent 2 , Bloodthirsty 1
 ancillaries bard, goldsmith
 army
@@ -4905,15 +5020,15 @@ unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 
-character	Phillipos, general, age 20, , x 1, y 4
+character	Phillipos, general, age 20, , x 222, y 207
 army
 unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
 
-character	Liapos, spy, age 20, , x 2, y 1
+character	Liapos, spy, age 20, , x 205, y 208
 traits GoodSpy 1
 
-character	Rimsin, diplomat, age 20, , x 2, y 2
+character	Rimsin, diplomat, age 20, , x 199, y 199
 traits GoodDiplomat 1
 
 character_record		Ara, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
@@ -9369,7 +9484,7 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Clepia
 
 	year_founded 0
@@ -9399,7 +9514,7 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Sarmatia_Superioris
 
 	year_founded 0
@@ -9522,6 +9637,107 @@ settlement
 	faction_creator scythia
 }
 
+; ASIAN SARMATIA
+settlement
+{
+	level village
+	region Borysthenia_Maioris
+
+	year_founded 0
+	population 700
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Danaia
+
+	year_founded 0
+	population 700
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Mantessa
+
+	year_founded 0
+	population 650
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level town
+	region Confluenta
+
+	year_founded 0
+	population 1900
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Danaia_Superioris
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Melanchlenia
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level town
+	region Thyssagetae
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Stumica
+
+	year_founded 0
+	population 2300
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -9535,6 +9751,16 @@ settlement
 }
 
 ; TEMP
+settlement
+{
+	level village
+	region Tempr0
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
 settlement
 {
 	level village
@@ -12230,7 +12456,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
@@ -12240,7 +12466,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
@@ -12250,7 +12476,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
@@ -12314,6 +12540,94 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+; ASIAN SARMATIA
+character	sub_faction scythia, Belnirari, general, age 20, , x 202, y 208
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Eminos, general, age 20, , x 209, y 213
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Haldita, general, age 20, , x 207, y 224
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Kudurmabug, general, age 20, , x 218, y 216
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Liapos, general, age 20, , x 220, y 212
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Madyes, general, age 20, , x 228, y 213
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Menua, general, age 20, , x 233, y 223
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Partatua, general, age 20, , x 225, y 232
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA

@@ -281,6 +281,17 @@ Vistulia_Inferioris
 Amadocia
 Neuri
 Gelonia
+Tauroscythia
+Cimmero_Scythia
+Tanaica
+Borysthenia_Maioris
+Danaia
+Mantessa
+Confluenta
+Danaia_Superioris
+Melanchlenia
+Thyssagetae
+Stumica
 
 Eblania
 Coriondia
@@ -564,6 +575,17 @@ Malica
 Trakylli
 Azagarium
 Gelonus
+Pasyris
+Ruti
+Tanais
+Tahent
+Yakkant
+Ishkent
+Vyrni
+Shashcha
+Agathyrsica
+Exapolis
+Gaithasoura
 
 Libyae_Interior
 toggle_fow
