@@ -1586,6 +1586,63 @@ resource copper, 1, 222, 226
 resource iron, 1, 237, 227
 resource grain, 2, 227, 225
 
+;Maeotia
+resource slaves, 1, 226, 202
+resource furs, 1, 224, 194
+resource timber, 2, 222, 203
+
+;Sindica
+resource slaves, 1, 222, 192
+resource furs, 2, 233, 193
+resource wild_animals, 2, 237, 191
+resource grain, 4, 229, 196
+
+;Scythia_Transmontem
+resource slaves, 1, 264, 193
+resource iron, 2, 257, 191
+resource wild_animals, 5, 261, 198
+resource furs, 2, 253, 193
+
+;Tanaissa
+resource slaves, 1, 226, 207
+resource iron, 1, 230, 204
+resource furs, 1, 229, 200
+
+;Sarmatia_Hyrcania
+resource slaves, 1, 254, 200
+resource pottery, 1, 256, 200
+resource furs, 2, 253, 197
+resource wild_animals, 1, 249, 197
+
+;Sattara
+resource slaves, 1, 240, 205
+resource timber, 3, 237, 205
+resource hides, 2, 242, 200
+resource purple_dye, 2, 242, 207
+
+;Hyrcania_Superioris
+resource slaves, 1, 254, 205
+resource hides, 3, 247, 202
+resource timber, 2, 248, 207
+resource purple_dye, 1, 251, 202
+
+;Alania
+resource slaves, 1, 238, 213
+resource wild_animals, 4, 241, 215
+resource hides, 2, 238, 218
+
+;Alania_Orientalis
+resource slaves, 1, 250, 214
+resource grain, 2, 246, 220
+resource iron, 2, 241, 219
+resource pottery, 1, 246, 213
+
+;Atara
+resource slaves, 1, 257, 210
+resource grain, 3, 254, 212
+resource timber, 2, 252, 210
+resource furs, 2, 262, 218
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
 
@@ -9725,11 +9782,174 @@ settlement
 
 settlement
 {
-	level town
+	level large_town
 	region Stumica
 
 	year_founded 0
 	population 2300
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+; CIRCASSIA
+settlement
+{
+	level town
+	region Maeotia
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sindica
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+}
+
+settlement
+{
+	level town
+	region Scythia_Transmontem
+
+	year_founded 0
+	population 1900
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tanaissa
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Sarmatia_Hyrcania
+
+	year_founded 0
+	population 1350
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sattara
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Hyrcania_Superioris
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Alania
+
+	year_founded 0
+	population 1250
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Alania_Orientalis
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Atara
+
+	year_founded 0
+	population 1700
 	plan_set default_set
 	faction_creator scythia
 	building
@@ -12626,6 +12846,125 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+; CIRCASSIA
+character	sub_faction scythia, Phillipos, general, age 20, , x 225, y 200
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Prusias, general, age 20, , x 225, y 206
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Rimsin, general, age 20, , x 223, y 192
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Rusa, general, age 20, , x 237, y 213
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Sarduri, general, age 20, , x 249, y 214
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Skunxa, general, age 20, , x 256, y 210
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Tigran, general, age 20, , x 252, y 206
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Tigranes, general, age 20, , x 257, y 198
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Trdat, general, age 20, , x 241, y 203
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Waradsin, general, age 20, , x 265, y 191
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0

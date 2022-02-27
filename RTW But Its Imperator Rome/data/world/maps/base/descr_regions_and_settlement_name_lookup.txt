@@ -292,6 +292,16 @@ Danaia_Superioris
 Melanchlenia
 Thyssagetae
 Stumica
+Maeotia
+Sindica
+Scythia_Transmontem
+Tanaissa
+Sarmatia_Hyrcania
+Sattara
+Hyrcania_Superioris
+Alania
+Alania_Orientalis
+Atara
 
 Eblania
 Coriondia
@@ -586,6 +596,16 @@ Shashcha
 Agathyrsica
 Exapolis
 Gaithasoura
+Iados
+Sabiranum
+Valent
+Katys
+Zabender
+Vynikka
+Chroda
+Zhev
+Mennichak
+Gyashech
 
 Libyae_Interior
 toggle_fow

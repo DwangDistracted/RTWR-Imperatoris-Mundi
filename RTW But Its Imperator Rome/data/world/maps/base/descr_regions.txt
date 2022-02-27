@@ -2672,6 +2672,100 @@ Stumica
 	5
 	1
 
+;Circassia
+Maeotia
+	Iados
+	scythia
+	Maeotae
+	252 168 90
+	none
+	5
+	2
+
+Sindica
+	Sabiranum
+	scythia
+	Siraces
+	183 52 219
+	none
+	5
+	3
+
+Scythia_Transmontem
+	Valent
+	scythia
+	Siraces
+	140 209 83
+	none
+	5
+	0
+
+Tanaissa
+	Katys
+	scythia
+	Siraces
+	60 1 163
+	none
+	5
+	3
+
+Sarmatia_Hyrcania
+	Zabender
+	scythia
+	Siraces
+	183 57 34
+	none
+	5
+	2
+
+Sattara
+	Vynikka
+	scythia
+	Siraces
+	232 198 48
+	none
+	5
+	3
+
+Hyrcania_Superioris
+	Chroda
+	scythia
+	Siraces
+	94 229 164
+	none
+	5
+	2
+
+Alania
+	Zhev
+	scythia
+	Alans
+	188 88 16
+	none
+	5
+	4
+
+Alania_Orientalis
+	Mennichak
+	scythia
+	Alans
+	94 183 45
+	none
+	5
+	4
+
+Atara
+	Gyashech
+	scythia
+	Alans
+	130 80 183
+	none
+	5
+	2
+
+;Far Sarmatia
+;Nesietis
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

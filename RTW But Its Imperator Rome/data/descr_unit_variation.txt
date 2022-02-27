@@ -3580,6 +3580,86 @@ region
 			distribution 100
 		}
 	}
+	Maeotia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sindica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia_Transmontem
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Tanaissa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmatia_Hyrcania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sattara
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Hyrcania_Superioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Alania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Alania_Orientalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Atara
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
 	Berserk
 	{
 

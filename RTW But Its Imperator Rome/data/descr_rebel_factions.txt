@@ -110,8 +110,8 @@ unit				barb horse archers slave
 unit				barb horse archers slave
 unit				barb horse archers slave
 unit				barb cavalry slave
+unit				merc sarmatian cavalry
 unit				barb peasant slave
-unit				barb archer slave
 unit				barb archer slave
 unit				barbarian rebel general
 
@@ -421,7 +421,7 @@ description			Roxolani
 unit				barb horse archers slave
 unit				barb horse archers slave
 unit				barb horse archers slave
-unit				merc sarmatian cavalry
+unit				barb horse archers slave
 unit				merc sarmatian cavalry
 unit				barb archer slave
 unit				barb archer slave
@@ -434,7 +434,7 @@ description			Iazyges
 unit				barb horse archers slave
 unit				barb horse archers slave
 unit				barb horse archers slave
-unit				merc sarmatian cavalry
+unit				barb cavalry slave
 unit				barb archer slave
 unit				barb archer slave
 unit				barb archer slave
@@ -1751,6 +1751,19 @@ unit				barb archer slave
 unit				barb archer slave
 unit				barb archer slave
 unit				barb infantry slave
+unit				barbarian rebel general
+
+rebel_type 			Siraces	//Scythians
+category			peasant_revolt 
+chance				0
+description			Siraces
+unit				barb horse archers slave
+unit				barb horse archers slave
+unit				barb horse archers slave
+unit				merc sarmatian cavalry
+unit				barb peasant slave
+unit				barb archer slave
+unit				barb archer slave
 unit				barbarian rebel general
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
