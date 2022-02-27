@@ -302,6 +302,13 @@ Hyrcania_Superioris
 Alania
 Alania_Orientalis
 Atara
+Nesietis
+Transhyrcania
+Darn
+Scythia_Magna
+Deserta_Scythia
+Abzoa
+Alanorsia
 
 Eblania
 Coriondia
@@ -606,13 +613,21 @@ Chroda
 Zhev
 Mennichak
 Gyashech
+Nesitotis
+Zale
+Satticha
+Alanica
+Vyache
+Aorsia
+Tengiz
 
 Libyae_Interior
 toggle_fow
+Sarmatia_Ulterior
+add_money
 
 Tempr0
 Tempr9
-Tempr10
 Tempr11
 Tempr12
 Tempr13
@@ -627,7 +642,6 @@ Tempr21
 Tempr24
 Temp0
 Temp9
-Temp10
 Temp11
 Temp12
 Temp13

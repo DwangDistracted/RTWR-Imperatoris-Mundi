@@ -48,7 +48,7 @@ resource slaves, 1, 189, 250
 resource grain, 2, 183, 253
 resource furs, 3, 142, 248
 resource wild_animals, 4, 148, 242
-resource timber, 6, 219, 245
+resource timber, 6, 194, 253
 resource incense, 2, 176, 254
 resource silk, 2, 181, 250
 resource purple_dye, 2, 178, 241
@@ -1642,6 +1642,49 @@ resource slaves, 1, 257, 210
 resource grain, 3, 254, 212
 resource timber, 2, 252, 210
 resource furs, 2, 262, 218
+
+;Nesietis
+resource slaves, 1, 243, 225
+resource grain, 1, 244, 222
+resource lead, 1, 250, 228
+resource textiles, 1, 248, 224
+
+;Transhyrcania
+resource slaves, 1, 258, 224
+resource furs, 2, 265, 227
+resource hides, 3, 252, 221
+resource purple_dye, 2, 257, 218
+
+;Darn
+resource slaves, 1, 278, 226
+resource furs, 3, 268, 223
+resource incense, 2, 275, 223
+
+;Scythia_Magna
+resource slaves, 1, 289, 236
+resource gold, 1, 299, 240
+resource iron, 1, 284, 230
+resource wild_animals, 1, 301, 232
+
+;Deserta_Scythia
+resource slaves, 1, 304, 225
+resource wild_animals, 2, 308, 231
+resource furs, 1, 312, 234
+
+;Abzoa
+resource slaves, 1, 323, 243
+resource iron, 2, 334, 242
+resource incense, 2, 317, 237
+
+;Alanorsia
+resource slaves, 1, 345, 249
+resource copper, 2, 352, 252
+resource grain, 2, 351, 248
+resource furs, 2, 346, 241
+
+;TerraIncognita
+resource slaves, 1, 51, 5
+resource slaves, 1, 233, 253
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -9870,17 +9913,13 @@ settlement
 
 settlement
 {
-	level town
+	level village
 	region Sarmatia_Hyrcania
 
 	year_founded 0
 	population 1350
 	plan_set default_set
 	faction_creator scythia
-	building
-	{
-		type core_building governors_house
-	}
 }
 
 settlement
@@ -9915,32 +9954,24 @@ settlement
 
 settlement
 {
-	level town
+	level village
 	region Alania
 
 	year_founded 0
 	population 1250
 	plan_set default_set
 	faction_creator scythia
-	building
-	{
-		type core_building governors_house
-	}
 }
 
 settlement
 {
-	level town
+	level village
 	region Alania_Orientalis
 
 	year_founded 0
 	population 1300
 	plan_set default_set
 	faction_creator scythia
-	building
-	{
-		type core_building governors_house
-	}
 }
 
 settlement
@@ -9958,6 +9989,104 @@ settlement
 	}
 }
 
+; FAR SARMATIA
+settlement
+{
+	level village
+	region Nesietis
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Transhyrcania
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level town
+	region Darn
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Scythia_Magna
+
+	year_founded 0
+	population 850
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level village
+	region Deserta_Scythia
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator scythia
+}
+
+settlement
+{
+	level town
+	region Abzoa
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level town
+	region Alanorsia
+
+	year_founded 0
+	population 1350
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -9968,6 +10097,16 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator numidia
+}
+settlement
+{
+	level village
+	region Sarmatia_Ulterior
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator scythia
 }
 
 ; TEMP
@@ -9990,16 +10129,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator greek_cities
-}
-settlement
-{
-	level village
-	region Tempr10
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
 }
 settlement
 {
@@ -12969,10 +13098,80 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+; FAR SARMATIA
+character	sub_faction scythia, Ziaelas, general, age 20, , x 241, y 223
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Anacharsis, general, age 20, , x 257, y 222
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Arapeithes, general, age 20, , x 280, y 224
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Atheas, general, age 20, , x 291, y 235
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Idanthyrsus, general, age 20, , x 306, y 228
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Palacus, general, age 20, , x 347, y 248
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
 army
 unit		carthaginian peasant				exp 9 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Saulius, general, age 20, , x 236, y 253
+army
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<

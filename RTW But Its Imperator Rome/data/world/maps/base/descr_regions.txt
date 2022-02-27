@@ -2764,7 +2764,68 @@ Atara
 	2
 
 ;Far Sarmatia
-;Nesietis
+Nesietis
+	Nesitotis
+	scythia
+	Alans
+	216 184 67
+	none
+	5
+	1
+
+Transhyrcania
+	Zale
+	scythia
+	Alans
+	239 0 11
+	none
+	5
+	3
+
+Darn
+	Satticha
+	scythia
+	Alans
+	173 201 32
+	none
+	5
+	3
+
+Scythia_Magna
+	Alanica
+	scythia
+	Alans
+	124 204 20
+	none
+	5
+	3
+
+Deserta_Scythia
+	Vyache
+	scythia
+	Alans
+	229 57 94
+	none
+	5
+	2
+
+Abzoa
+	Aorsia
+	scythia
+	Alans
+	133 66 191
+	none
+	5
+	2
+
+Alanorsia
+	Tengiz
+	scythia
+	Alans
+	181 12 32
+	none
+	5
+	3
 
 ;Terra Incognita
 Libyae_Interior
@@ -2772,6 +2833,15 @@ Libyae_Interior
 	numidia
 	TerraIncognita
 	102 45 145
+	none
+	5
+	0
+
+Sarmatia_Ulterior
+	add_money
+	scythia
+	TerraIncognita
+	98 65 65
 	none
 	5
 	0
@@ -2791,15 +2861,6 @@ Tempr9
 	romans_julii
 	Latins
 	0 64 0
-	none
-	5
-	5
-
-Tempr10
-	Temp10
-	romans_julii
-	Latins
-	98 65 65
 	none
 	5
 	5

@@ -3660,6 +3660,97 @@ region
 			distribution 100
 		}
 	}
+	Nesietis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Transhyrcania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Darn
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Scythia_Magna
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Deserta_Scythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Abzoa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Alanorsia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
 	Berserk
 	{
 
