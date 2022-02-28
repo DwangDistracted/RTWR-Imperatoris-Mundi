@@ -10087,6 +10087,119 @@ settlement
 	}
 }
 
+; SOUTHERN SIBERIA
+settlement
+{
+	level village
+	region Busu
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Septem_Flumina
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Sacasene
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Hongnia
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+; TANIM
+settlement
+{
+	level village
+	region Gushia
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Hamich
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+; CHINA
+settlement
+{
+	level village
+	region Sericae_Portae
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Serica
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Serica_Issedones
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
+settlement
+{
+	level village
+	region Serica_Coconor
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator numidia
+}
+
 ; TERRA INCOGNITA
 settlement
 {

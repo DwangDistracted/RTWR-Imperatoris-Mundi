@@ -2827,6 +2827,110 @@ Alanorsia
 	5
 	3
 
+;Southern Siberia
+Busu
+	Arimaspia
+	scythia
+	Saka
+	216 182 71
+	none
+	5
+	2
+	;16, copper, 1, timber, 1, wild_animals, 2
+
+Septem_Flumina
+	Ili
+	scythia
+	Saka
+	11 127 81
+	none
+	5
+	3
+	;34, grain, 2, pottery, 1, wild_animals, 1, incense, 1
+
+Sacasene
+	Kujin
+	scythia
+	Saka
+	237 101 178
+	none
+	5
+	4
+	;14, incense, 3, grain, 1, furs, 1
+
+Hongnia
+	Artey
+	scythia
+	Hunni
+	160 57 28
+	none
+	5
+	2
+	;15, wild_animals 1, silver, 1
+
+;Tanim
+Gushia
+	Turfan
+	scythia
+	Asii
+	156 201 72
+	none
+	5
+	4
+	;32, gold, 1, purple_dye, 3, wild_animals, 1
+
+Hamich
+	Cumuda
+	scythia
+	Asii
+	209 170 73
+	none
+	5
+	2
+	;16, grain, 2, gold, 2, iron, 1, copper, 1
+
+;China
+Sericae_Portae
+	Throana
+	scythia
+	Asii
+	244 22 189
+	none
+	5
+	2
+	;17, copper, 1, grain, 1, iron, 4
+
+Serica
+	Sera
+	greek_cities
+	;parthia
+	Seres
+	181 32 42
+	none
+	5
+	10
+	; large_city complete, gold, 6, furs, 4, iron, 5, silk 10, copper, 4, incense, 6
+
+Serica_Issedones
+	Issedon
+	scythia
+	Issedones
+	127 183 49
+	none
+	5
+	0
+	;1200, trader, furs, 3, grain, 2, hides, 2
+
+Serica_Coconor
+	Quilan
+	scythia
+	Issedones
+	88 18 145
+	none
+	5
+	0
+	;11, furs, 2, copper, 1, iron, 1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -2845,6 +2949,9 @@ Sarmatia_Ulterior
 	none
 	5
 	0
+
+;Emodus Mountains = Himalayas
+;Imaus Mountains = TianShan Mountains
 
 ;Temporary
 Tempr0

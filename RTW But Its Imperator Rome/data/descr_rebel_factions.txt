@@ -1766,6 +1766,84 @@ unit				barb archer slave
 unit				barb archer slave
 unit				barbarian rebel general
 
+rebel_type 			Hunni		//Scythians
+category			peasant_revolt 
+chance				0
+description			Hunni
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Asii		//Scythians
+category			peasant_revolt 
+chance				0
+description			Asii
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Issedones		//Scythians
+category			peasant_revolt 
+chance				0
+description			Issedones
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Massagetae		//Scythians
+category			peasant_revolt 
+chance				0
+description			Massagetae
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Tocharian		//Scythians
+category			peasant_revolt 
+chance				0
+description			Tocharian
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Seres	//Parthia
+category			peasant_revolt 
+chance				0
+description			Seres
+unit				east horse archer
+unit				east heavy cavalry
+unit				east heavy cavalry
+unit				merc sarmatian cavalry
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				eastern rebel general
+
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

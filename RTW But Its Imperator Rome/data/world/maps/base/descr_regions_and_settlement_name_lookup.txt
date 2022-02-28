@@ -309,6 +309,16 @@ Scythia_Magna
 Deserta_Scythia
 Abzoa
 Alanorsia
+Busu
+Septem_Flumina
+Sacasene
+Hongnia
+Gushia
+Hamich
+Sericae_Portae
+Serica
+Serica_Issedones
+Serica_Coconor
 
 Eblania
 Coriondia
@@ -620,6 +630,16 @@ Alanica
 Vyache
 Aorsia
 Tengiz
+Arimaspia
+Ili
+Kujin
+Artey
+Turfan
+Cumuda
+Throana
+Sera
+Issedon
+Quilan
 
 Libyae_Interior
 toggle_fow
