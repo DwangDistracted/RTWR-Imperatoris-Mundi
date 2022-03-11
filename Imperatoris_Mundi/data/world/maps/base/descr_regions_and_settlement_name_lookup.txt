@@ -318,7 +318,7 @@ Hamich
 Sericae_Portae
 Serica
 Serica_Issedones
-Serica_Coconor
+Serica_Coconorum
 
 Eblania
 Coriondia
@@ -644,13 +644,15 @@ Quilan
 Libyae_Interior
 toggle_fow
 Sarmatia_Ulterior
-add_money
+way_too_cold
+Mons_Emodus
+monk_town
+Mons_Imaus
+i_see_you
 
 Tempr0
 Tempr9
 Tempr11
-Tempr12
-Tempr13
 Tempr14
 Tempr15
 Tempr16
@@ -663,8 +665,6 @@ Tempr24
 Temp0
 Temp9
 Temp11
-Temp12
-Temp13
 Temp14
 Temp15
 Temp16

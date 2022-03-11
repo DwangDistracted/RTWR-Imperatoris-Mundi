@@ -15,6 +15,7 @@ unlockable
 	greek_cities
 	macedon
 	numidia
+	parthia
 	scythia
 	spain
 	thrace
@@ -1681,6 +1682,70 @@ resource slaves, 1, 345, 249
 resource copper, 2, 352, 252
 resource grain, 2, 351, 248
 resource furs, 2, 346, 241
+
+;Busu
+resource slaves, 1, 368, 249
+resource copper, 1, 358, 245
+resource timber, 1, 370, 253
+resource wild_animals, 2, 364, 246
+
+;Septem_Flumina
+resource slaves, 1, 382, 244
+resource grain, 2, 377, 244
+resource pottery, 1, 383, 249
+resource wild_animals, 1, 382, 236
+resource incense, 1, 382, 241
+
+;Sacasene
+resource slaves, 1, 400, 241
+resource incense, 3, 404, 242
+resource grain, 1, 387, 237
+resource furs, 1, 412, 245
+
+;Hongnia
+resource slaves, 1, 417, 252
+resource wild_animals, 2, 425, 253
+resource silver, 1, 408, 254
+
+;Gushia
+resource slaves, 1, 450, 247
+resource gold, 1, 442, 246
+resource purple_dye, 454, 247
+resource wild_animals, 1, 451, 250
+
+;Hamich
+resource slaves, 1, 450, 247
+resource grain, 1, 460, 253
+resource gold, 3, 472, 251
+resource iron, 1, 469, 247
+resource copper, 1, 471, 253
+
+;Sericae_Portae
+resource slaves, 1, 476, 244
+resource copper, 1, 482, 250
+resource grain, 1, 472, 244
+resource iron, 4, 478, 241
+
+;Serica
+resource slaves, 1, 507, 251
+resource gold, 6, 497, 244
+resource furs, 4, 506, 242
+resource iron, 5, 493, 244
+resource silk, 10, 507, 252
+resource copper, 4, 502, 254
+resource incense, 6, 503, 249
+
+;Serica_Issedones
+resource slaves, 1, 477, 226
+resource furs, 3, 480, 235
+resource grain, 2, 477, 224
+resource hides, 2, 491, 224
+
+;Serica_Coconorum
+resource slaves, 1, 505, 234
+resource furs, 2, 505, 238
+resource copper, 1, 507, 227
+resource iron, 1, 508, 235
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -5144,6 +5209,81 @@ character_record		Hestia, 	female, command 0, influence 0, management 0, subterf
 relative 	Zipoetes, 	Serapia,		Partatua,	Belnirari,	Devnet,	Palacus,	end
 relative 	Partatua, 	Afina,		Ziaelas,	Hestia,	end
 relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
+
+faction	parthia, balanced_genghis
+denari	5000
+
+settlement
+{
+	level village
+	region Tempr21
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Arsaces, named character, leader, age 60, , x 2, y 4
+traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 2 , Austere 1
+ancillaries foodtaster
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Ardumanish, named character, heir, age 40, , x 2, y 3
+traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 1 , GoodCavalryGeneral 2
+ancillaries galloper
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east slinger				exp 0 armour 0 weapon_lvl 0
+unit		east slinger				exp 0 armour 0 weapon_lvl 0
+
+character	Bagabigna, named character, age 35, , x 2, y 2
+traits PublicFaith 2 , GoodAdministrator 1
+ancillaries priest_of_Zoroastra
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east slinger				exp 0 armour 0 weapon_lvl 0
+unit		east slinger				exp 0 armour 0 weapon_lvl 0
+
+character	Phraotes, named character, age 30, , x 2, y 1
+traits GoodAdministrator 2 , Intelligent 2 , GoodCavalryGeneral 1
+ancillaries merchant
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Otanes, diplomat, age 20, , x 1, y 2
+traits GoodDiplomat 3
+
+character	Skunxa, spy, age 20, , x 1, y 1
+traits GoodSpy 2
+ancillaries dancer
+
+character_record		Arses, 	male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+character_record		Thuxra, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		Achaemenes, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Roxanna, 	female, command 0, influence 0, management 0, subterfuge 0, age 58, alive, never_a_leader
+character_record		Ariyamna, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Nabunaita, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Bardiya, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+
+relative 	Arsaces, 	Roxanna,		Ardumanish,	Bagabigna,	Phraotes,	end
+relative 	Ardumanish, 	Ariyamna,		Achaemenes,	Arses,	Bardiya,	end
+relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 
 faction	slave, fortified_mao
 denari	10000
@@ -10094,20 +10234,24 @@ settlement
 	region Busu
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
-	faction_creator numidia
+	faction_creator scythia
 }
 
 settlement
 {
-	level village
+	level town
 	region Septem_Flumina
 
 	year_founded 0
-	population 400
+	population 1700
 	plan_set default_set
-	faction_creator numidia
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
 }
 
 settlement
@@ -10116,9 +10260,9 @@ settlement
 	region Sacasene
 
 	year_founded 0
-	population 400
+	population 700
 	plan_set default_set
-	faction_creator numidia
+	faction_creator scythia
 }
 
 settlement
@@ -10127,77 +10271,205 @@ settlement
 	region Hongnia
 
 	year_founded 0
-	population 400
+	population 750
 	plan_set default_set
-	faction_creator numidia
+	faction_creator scythia
 }
 
 ; TANIM
 settlement
 {
-	level village
+	level large_town
 	region Gushia
 
 	year_founded 0
-	population 400
+	population 3200
 	plan_set default_set
-	faction_creator numidia
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Hamich
 
 	year_founded 0
-	population 400
+	population 1600
 	plan_set default_set
-	faction_creator numidia
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 ; CHINA
 settlement
 {
-	level village
+	level large_town
 	region Sericae_Portae
 
 	year_founded 0
-	population 400
+	population 2550
 	plan_set default_set
-	faction_creator numidia
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
 {
-	level village
+	level huge_city
 	region Serica
 
 	year_founded 0
-	population 400
+	population 24000
 	plan_set default_set
-	faction_creator numidia
+	faction_creator parthia
+	building
+	{
+		type core_building imperial_palace
+	}
+	building
+	{
+		type defenses epic_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian circus_maximus
+	}
+	building
+	{
+		type missiles catapult_range
+	}
+	building
+	{
+		type smith foundry
+	}
+	building
+	{
+		type despotic_law secret_police_network
+	}
+	building
+	{
+		type market curia
+	}
+	building
+	{
+		type caravans silk_rd
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type hinterland_farms farms+4
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_mines mines+1
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Serica_Issedones
 
 	year_founded 0
-	population 400
+	population 1200
 	plan_set default_set
-	faction_creator numidia
+	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
 }
 
 settlement
 {
 	level village
-	region Serica_Coconor
+	region Serica_Coconorum
 
 	year_founded 0
-	population 400
+	population 550
 	plan_set default_set
-	faction_creator numidia
+	faction_creator scythia
 }
 
 ; TERRA INCOGNITA
@@ -10220,6 +10492,26 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator scythia
+}
+settlement
+{
+	level village
+	region Mons_Emodus
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+settlement
+{
+	level village
+	region Mons_Imaus
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
 }
 
 ; TEMP
@@ -10247,26 +10539,6 @@ settlement
 {
 	level village
 	region Tempr11
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr12
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr13
 
 	year_founded 0
 	population 400
@@ -10337,16 +10609,6 @@ settlement
 {
 	level village
 	region Tempr20
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr21
 
 	year_founded 0
 	population 400
@@ -13320,7 +13582,7 @@ core_attitudes	carthage,	100		gauls
 core_attitudes	carthage,	400		romans_senate, romans_julii, romans_scipii, romans_brutii, greek_cities
 core_attitudes	carthage,	600		slave
 
-core_attitudes	dacia,	400		thrace
+core_attitudes	dacia,	400		thrace, scythia
 core_attitudes	dacia,	600		slave
 
 core_attitudes	gauls,	100		carthage, britons
@@ -13340,14 +13602,18 @@ core_attitudes	macedon,	600		slave
 core_attitudes	numidia,	300		carthage
 core_attitudes	numidia,	600		slave
 
+core_attitudes	parthia,	600		slave
+
+core_attitudes	scythia,	400		dacia
 core_attitudes	scythia,	600		slave
 
+core_attitudes	spain,	400		carthage
 core_attitudes	spain,	600		slave
 
 core_attitudes	thrace,	400		macedon, dacia
 core_attitudes	thrace,	600		slave
 
-core_attitudes	slave,	600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, scythia, spain, thrace
+core_attitudes	slave,	600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, parthia, scythia, spain, thrace
 
 ; Diplomatic Standing
 faction_relationships	romans_julii,		0		romans_brutii, romans_scipii, romans_senate
@@ -13382,6 +13648,8 @@ faction_relationships	macedon,		600		slave
 faction_relationships	numidia,		0		carthage
 faction_relationships	numidia,		600		slave
 
+faction_relationships	parthia,		600		slave
+
 faction_relationships	scythia,		600		slave
 
 faction_relationships	spain,		600		slave
@@ -13389,7 +13657,7 @@ faction_relationships	spain,		600		slave
 faction_relationships	thrace,		400		macedon
 faction_relationships	thrace,		600		slave
 
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, scythia, spain, thrace
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, parthia, scythia, spain, thrace
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of scripts section <<<<

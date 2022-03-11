@@ -2836,7 +2836,6 @@ Busu
 	none
 	5
 	2
-	;16, copper, 1, timber, 1, wild_animals, 2
 
 Septem_Flumina
 	Ili
@@ -2846,7 +2845,6 @@ Septem_Flumina
 	none
 	5
 	3
-	;34, grain, 2, pottery, 1, wild_animals, 1, incense, 1
 
 Sacasene
 	Kujin
@@ -2856,7 +2854,6 @@ Sacasene
 	none
 	5
 	4
-	;14, incense, 3, grain, 1, furs, 1
 
 Hongnia
 	Artey
@@ -2866,50 +2863,44 @@ Hongnia
 	none
 	5
 	2
-	;15, wild_animals 1, silver, 1
 
 ;Tanim
 Gushia
 	Turfan
-	scythia
+	parthia
 	Asii
 	156 201 72
 	none
 	5
-	4
-	;32, gold, 1, purple_dye, 3, wild_animals, 1
+	6
 
 Hamich
 	Cumuda
-	scythia
+	parthia
 	Asii
 	209 170 73
 	none
 	5
-	2
-	;16, grain, 2, gold, 2, iron, 1, copper, 1
+	4
 
 ;China
 Sericae_Portae
 	Throana
-	scythia
+	parthia
 	Asii
 	244 22 189
 	none
 	5
 	2
-	;17, copper, 1, grain, 1, iron, 4
 
 Serica
 	Sera
-	greek_cities
-	;parthia
+	parthia
 	Seres
 	181 32 42
 	none
 	5
 	10
-	; large_city complete, gold, 6, furs, 4, iron, 5, silk 10, copper, 4, incense, 6
 
 Serica_Issedones
 	Issedon
@@ -2919,9 +2910,8 @@ Serica_Issedones
 	none
 	5
 	0
-	;1200, trader, furs, 3, grain, 2, hides, 2
 
-Serica_Coconor
+Serica_Coconorum
 	Quilan
 	scythia
 	Issedones
@@ -2929,7 +2919,6 @@ Serica_Coconor
 	none
 	5
 	0
-	;11, furs, 2, copper, 1, iron, 1
 
 ;Terra Incognita
 Libyae_Interior
@@ -2942,7 +2931,7 @@ Libyae_Interior
 	0
 
 Sarmatia_Ulterior
-	add_money
+	way_too_cold
 	scythia
 	TerraIncognita
 	98 65 65
@@ -2950,8 +2939,23 @@ Sarmatia_Ulterior
 	5
 	0
 
-;Emodus Mountains = Himalayas
-;Imaus Mountains = TianShan Mountains
+Mons_Emodus
+	monk_town
+	parthia
+	TerraIncognita
+	169 131 7
+	none
+	5
+	0
+
+Mons_Imaus
+	i_see_you
+	parthia
+	TerraIncognita
+	138 102 66
+	none
+	5
+	0
 
 ;Temporary
 Tempr0
@@ -2977,24 +2981,6 @@ Tempr11
 	romans_julii
 	Latins
 	0 128 128
-	none
-	5
-	5
-
-Tempr12
-	Temp12
-	romans_julii
-	Latins
-	138 102 66
-	none
-	5
-	5
-
-Tempr13
-	Temp13
-	romans_julii
-	Latins
-	169 131 7
 	none
 	5
 	5
