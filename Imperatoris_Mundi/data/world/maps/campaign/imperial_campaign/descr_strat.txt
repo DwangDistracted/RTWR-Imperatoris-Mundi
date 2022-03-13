@@ -7,15 +7,19 @@ playable
 	romans_scipii
 end 
 unlockable
+	armenia
 	britons
 	carthage
 	dacia
+	egypt
 	gauls
 	germans
 	greek_cities
 	macedon
 	numidia
 	parthia
+	pontus
+	seleucid
 	scythia
 	spain
 	thrace
@@ -1720,7 +1724,62 @@ resource gold, 3, 472, 251
 resource iron, 1, 469, 247
 resource copper, 1, 471, 253
 
-;Sericae_Portae
+;Agni
+resource slaves, 1, 235, 244
+resource silver, 1, 440, 241
+resource furs, 1, 431, 242
+resource grain, 1, 435, 241
+
+;Kroraina
+resource slaves, 1, 458, 241
+resource silk, 2, 456, 240
+resource hides, 1, 460, 237
+resource grain, 2, 453, 236
+
+;Portae_Ferraea
+resource slaves, 1, 430, 237
+resource iron, 2, 428, 239
+resource textiles, 1, 430, 234
+resource grain, 1, 436, 236
+
+;Kushine
+resource slaves, 1, 417, 234
+resource pottery, 1, 417, 231
+resource grain, 2, 422, 233
+resource copper, 1, 423, 237
+resource silk, 1, 425, 235
+
+;Calmadana
+resource slaves, 1, 444, 220
+resource grain, 1, 453, 232
+resource hides, 2, 441, 220
+
+;Gumo
+resource slaves, 1, 414, 228
+resource silk, 1, 410, 228
+resource silver, 2, 405, 228
+resource grain, 2, 412, 224
+resource pottery, 1, 403, 219
+
+;Kasia
+resource slaves, 1, 394, 214
+resource silk, 2, 396, 210
+resource incense, 2, 400, 209
+resource grain, 2, 398, 212
+
+;Gosthana
+resource slaves, 1, 412, 207
+resource incense, 1, 410, 204
+resource wild_animals, 1, 405, 205
+resource textiles, 1, 417, 207
+
+;Cadot
+resource slaves, 1, 428, 208
+resource silver, 2, 425, 203
+resource incense, 1, 432, 211
+resource grain, 1, 420, 207
+
+;Paelex_Porta
 resource slaves, 1, 476, 244
 resource copper, 1, 482, 250
 resource grain, 1, 472, 244
@@ -1735,7 +1794,7 @@ resource silk, 10, 507, 252
 resource copper, 4, 502, 254
 resource incense, 6, 503, 249
 
-;Serica_Issedones
+;Serica_Asmiraii
 resource slaves, 1, 477, 226
 resource furs, 3, 480, 235
 resource grain, 2, 477, 224
@@ -1747,9 +1806,62 @@ resource furs, 2, 505, 238
 resource copper, 1, 507, 227
 resource iron, 1, 508, 235
 
+;Issedonia
+resource slaves, 1, 356, 236
+resource grain, 2, 361, 236
+resource wild_animals, 1, 347, 232
+resource iron, 1, 353, 228
+
+;Talas
+resource slaves, 1, 376, 230
+resource copper, 2, 382, 230
+resource iron, 2, 371, 227
+
+;Chach
+resource slaves, 1, 365, 226
+resource textiles, 1, 359, 219
+resource furs, 3, 362, 214
+resource silver, 1, 355, 225
+
+;Jaxartes_Superior
+resource slaves, 1, 352, 220
+resource silver, 1, 346, 225
+resource gold, 2, 355, 211
+resource grain, 2, 357, 216
+resource pottery, 1, 246, 225
+
+;Jaxartes_Inferior
+resource slaves, 1, 328, 227
+resource grain, 3, 333, 229
+resource lead, 1, 342, 228
+resource textiles, 1, 337, 225
+
+;Dzankath
+resource slaves, 1, 319, 227
+resource gold, 1, 324, 224
+resource silver, 3, 317, 232
+
+;Ferghana
+resource slaves, 1, 374, 215
+resource silk, 3, 376, 215
+resource grain, 2, 374, 212
+
+;Kyreschata
+resource slaves, 1, 360, 209
+resource furs, 2, 366, 206
+resource silk, 1, 361, 206
+resource grain, 2, 363, 210
+
+;TerraIncognita
+resource slaves, 1, 373, 202
+resource furs, 4, 373, 199
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
+resource slaves, 1, 392, 225
+resource slaves, 1, 459, 193
+resource slaves, 1, 427, 222
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -5224,7 +5336,7 @@ settlement
 	faction_creator romans_julii
 }
 
-character	Arsaces, named character, leader, age 60, , x 2, y 4
+character	Arsaces, named character, leader, age 60, , x 1, y 1
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 2 , Austere 1
 ancillaries foodtaster
 army
@@ -5235,7 +5347,7 @@ unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 
-character	Ardumanish, named character, heir, age 40, , x 2, y 3
+character	Ardumanish, named character, heir, age 40, , x 1, y 2
 traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 1 , GoodCavalryGeneral 2
 ancillaries galloper
 army
@@ -5243,7 +5355,7 @@ unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Bagabigna, named character, age 35, , x 2, y 2
+character	Bagabigna, named character, age 35, , x 1, y 3
 traits PublicFaith 2 , GoodAdministrator 1
 ancillaries priest_of_Zoroastra
 army
@@ -5255,7 +5367,7 @@ unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Phraotes, named character, age 30, , x 2, y 1
+character	Phraotes, named character, age 30, , x 1, y 4
 traits GoodAdministrator 2 , Intelligent 2 , GoodCavalryGeneral 1
 ancillaries merchant
 army
@@ -5266,10 +5378,10 @@ unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east peasant				exp 0 armour 0 weapon_lvl 0
 
-character	Otanes, diplomat, age 20, , x 1, y 2
+character	Otanes, diplomat, age 20, , x 1, y 5
 traits GoodDiplomat 3
 
-character	Skunxa, spy, age 20, , x 1, y 1
+character	Skunxa, spy, age 20, , x 1, y 6
 traits GoodSpy 2
 ancillaries dancer
 
@@ -5284,6 +5396,337 @@ character_record		Bardiya, 	female, command 0, influence 0, management 0, subter
 relative 	Arsaces, 	Roxanna,		Ardumanish,	Bagabigna,	Phraotes,	end
 relative 	Ardumanish, 	Ariyamna,		Achaemenes,	Arses,	Bardiya,	end
 relative 	Phraotes, 	Nabunaita,		Thuxra,	end
+
+faction	armenia, fortified_henry
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr0
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Artaxias, named character, leader, age 60, , x 3, y 1
+traits GoodCommander 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1
+ancillaries chief_eunuch
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Rusa, named character, heir, age 35, , x 3, y 2
+traits GoodCommander 1 , PublicFaith 1 , Intelligent 2
+ancillaries galloper
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Aramu, named character, age 30, , x 3, y 3
+traits Intelligent 2 , MathematicsSkill 1 , Drink 1
+ancillaries freeman_clerk, drinking_companion
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Prusias, spy, age 20, , x 3, y 4
+traits GoodSpy 4
+ancillaries courtesan
+
+character	Menua, diplomat, age 20, , x 3, y 5
+traits GoodDiplomat 3
+
+character_record		Zipoetes, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Aram, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Eminos, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
+character_record		Sarduri, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Erato, 	female, command 0, influence 0, management 0, subterfuge 0, age 51, alive, never_a_leader
+character_record		Karo, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
+character_record		Pao, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
+character_record		Arao, 	female, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
+character_record		Hurriya, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+
+relative 	Artaxias, 	Erato,		Rusa,	Aramu,	Zipoetes,	end
+relative 	Rusa, 	Karo,		Arao,	Aram,	Sarduri,	end
+relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
+
+faction	egypt, religious_caesar
+denari	5000
+
+settlement
+{
+	level village
+	region Tempr9
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Hekhemmut, named character, leader, age 55, , x 2, y 1
+traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
+ancillaries librarian, master_embalmer
+army
+unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
+unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Khnumhoptep, named character, heir, age 40, , x 2, y 2
+traits StrategicSkill 2 , NaturalMilitarySkill 1 , PublicFaith 3
+ancillaries magician
+army
+unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Ptahhotep, named character, age 35, , x 2, y 4
+traits GoodCommander 1 , PublicFaith 2 , MathematicsSkill 3 , Embezzler 1
+ancillaries mathematician
+army
+unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Kiya, named character, age 28, , x 2, y 5
+traits NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 1
+ancillaries master_of_archers
+army
+unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Neferet, general, age 20, , x 2, y 6
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Nakhrankh, general, age 20, , x 2, y 7
+army
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Miwsher, general, age 20, , x 2, y 8
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Wah, admiral, age 29, , x 2, y 9
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character	Khu, spy, age 20, , x 2, y 10
+traits GoodSpy 3
+ancillaries poisoner
+
+character	Nakhti, diplomat, age 20, , x 2, y 11
+traits GoodDiplomat 2
+
+character_record		Ahmose, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Meryre, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Tanutamun, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Heruben, 	male, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+character_record		Euredice, 	female, command 0, influence 0, management 0, subterfuge 0, age 55, alive, never_a_leader
+character_record		Aneksi, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
+character_record		Satsobek, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Pedibastet, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
+character_record		Senbi, 	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
+character_record		Hebeny, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Arsinoe, 	female, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+
+relative 	Hekhemmut, 	Euredice,		Khnumhoptep,	Ptahhotep,	Kiya,	Senbi,	end
+relative 	Khnumhoptep, 	Aneksi,		Ahmose,	Hebeny,	Meryre,	end
+relative 	Ptahhotep, 	Satsobek,		Arsinoe,	Tanutamun,	end
+relative 	Kiya, 	Pedibastet,		Heruben,	end
+
+faction	pontus, trader_napoleon
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr11
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Mithradates, named character, leader, age 60, , x 4, y 1
+traits GoodCommander 2 , PublicFaith 1 , Intelligent 2
+ancillaries aged_retainer, chief_eunuch
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+
+character	Pharnaces, named character, heir, age 40, , x 4, y 2
+traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , GoodCavalryGeneral 1
+ancillaries famous_courtesan, foodtaster
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Herakles, named character, age 30, , x 4, y 3
+traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , MathematicsSkill 3
+ancillaries freeman_clerk, merchant
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Synges, spy, age 20, , x 4, y 4
+traits GoodSpy 4
+
+character	Sauromates, diplomat, age 20, , x 4, y 5
+traits GoodDiplomat 4
+
+character	Ariobarzanes, admiral, age 20, , x 4, y 6
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character_record		Dionysos, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Paerisades, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Rhescuporis, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Spartocus, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
+character_record		Laodice, 	female, command 0, influence 0, management 0, subterfuge 0, age 55, alive, never_a_leader
+character_record		Pythodoris, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Antonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Dynamis, 	female, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
+character_record		Gepaepyris, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+
+relative 	Mithradates, 	Laodice,		Pharnaces,	Herakles,	Spartocus,	end
+relative 	Pharnaces, 	Pythodoris,		Dynamis,	Gepaepyris,	Paerisades,	end
+relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
+
+faction	seleucid, balanced_stalin
+denari	3000
+
+settlement
+{
+	level village
+	region Tempr14
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+
+character	Antiochus, named character, leader, age 60, , x 5, y 1
+traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2
+ancillaries heroic_saviour
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Aristarchus, named character, heir, age 40, , x 5, y 2
+traits Aesthetic 2 , GoodAdministrator 2 , Intelligent 3 , Embezzler 1
+ancillaries exotic_slave, biographer
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Alexander, named character, age 30, , x 5, y 3
+traits GoodAdministrator 2 , Intelligent 1
+ancillaries desert_scout
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Demetrius, named character, age 26, , x 5, y 4
+traits Intelligent 2 , Energetic 1
+ancillaries mentor
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Achaeus of Hippus, general, age 20, , x 5, y 5
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 5, y 6
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Euthydemus, admiral, age 20, , x 5, y 7
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character	Philip, spy, age 20, , x 5, y 8
+traits GoodSpy 2
+
+character	Attalus, diplomat, age 20, , x 5, y 9
+traits GoodDiplomat 3
+
+character_record		Cleitos, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
+character_record		Gyras, 	male, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+character_record		Kassandros, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		Zeuxis, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Alkmena, 	female, command 0, influence 0, management 0, subterfuge 0, age 58, alive, never_a_leader
+character_record		Aspasia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+character_record		Parthenope, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+character_record		Athena, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Dione, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
+character_record		Helike, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Orthia, 	female, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+
+relative 	Antiochus, 	Alkmena,		Aristarchus,	Alexander,	Demetrius,	Dione,	end
+relative 	Aristarchus, 	Aspasia,		Cleitos,	Zeuxis,	end
+relative 	Alexander, 	Parthenope,		Gyras,	Helike,	end
+relative 	Demetrius, 	Athena,		Kassandros,	Orthia,	end
 
 faction	slave, fortified_mao
 denari	10000
@@ -10276,7 +10719,7 @@ settlement
 	faction_creator scythia
 }
 
-; TANIM
+; TANIM BASIN
 settlement
 {
 	level large_town
@@ -10339,11 +10782,306 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Agni
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kroraina
+
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Portae_Ferraea
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type caravans caravan
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kushine
+
+	year_founded 0
+	population 4200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level town
+	region Calmadana
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level large_town
+	region Gumo
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Kasia
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type caravans frankincense_rd
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Gosthana
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Cadot
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; CHINA
 settlement
 {
 	level large_town
-	region Sericae_Portae
+	region Paelex_Porta
 
 	year_founded 0
 	population 2550
@@ -10445,12 +11183,12 @@ settlement
 settlement
 {
 	level town
-	region Serica_Issedones
+	region Serica_Asmiraii
 
 	year_founded 0
 	population 1200
 	plan_set default_set
-	faction_creator scythia
+	faction_creator parthia
 	building
 	{
 		type core_building governors_house
@@ -10469,7 +11207,228 @@ settlement
 	year_founded 0
 	population 550
 	plan_set default_set
+	faction_creator parthia
+}
+
+; JAXARTA
+settlement
+{
+	level town
+	region Issedonia
+
+	year_founded 0
+	population 850
+	plan_set default_set
 	faction_creator scythia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level large_town
+	region Talas
+
+	year_founded 0
+	population 2750
+	plan_set default_set
+	faction_creator scythia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Chach
+
+	year_founded 0
+	population 3350
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type caravans caravan
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Jaxartes_Superior
+
+	year_founded 0
+	population 1250
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Jaxartes_Inferior
+
+	year_founded 0
+	population 1150
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Dzankath
+
+	year_founded 0
+	population 650
+	plan_set default_set
+	faction_creator parthia
+}
+
+;Ferghana
+settlement
+{
+	level city
+	region Ferghana
+
+	year_founded 0
+	population 7250
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type caravans frankincense_rd
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kyreschata
+
+	year_founded 0
+	population 5650
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level town
+	region Pamir
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
 }
 
 ; TERRA INCOGNITA
@@ -10515,46 +11474,6 @@ settlement
 }
 
 ; TEMP
-settlement
-{
-	level village
-	region Tempr0
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr9
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator greek_cities
-}
-settlement
-{
-	level village
-	region Tempr11
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr14
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
 settlement
 {
 	level village
@@ -13574,6 +14493,9 @@ core_attitudes	romans_senate,	-10		romans_julii, romans_brutii, romans_scipii, r
 core_attitudes	romans_senate,	400		carthage
 core_attitudes	romans_senate,	600		slave
 
+core_attitudes	armenia,	400		seleucid
+core_attitudes	armenia,	600		slave
+
 core_attitudes	britons,	100		gauls
 core_attitudes	britons,	600		slave
 
@@ -13585,6 +14507,11 @@ core_attitudes	carthage,	600		slave
 core_attitudes	dacia,	400		thrace, scythia
 core_attitudes	dacia,	600		slave
 
+core_attitudes	egypt,	100		greek_cities
+core_attitudes	egypt,	400		macedon
+core_attitudes	egypt,	500		seleucid
+core_attitudes	egypt,	600		slave
+
 core_attitudes	gauls,	100		carthage, britons
 core_attitudes	gauls,	400		romans_julii, romans_senate
 core_attitudes	gauls,	600		slave
@@ -13592,28 +14519,37 @@ core_attitudes	gauls,	600		slave
 core_attitudes	germans,	600		slave
 
 core_attitudes	greek_cities,	50		romans_scipii
+core_attitudes	greek_cities,	50		egypt
 core_attitudes	greek_cities,	400		carthage
 core_attitudes	greek_cities,	600		slave
 
 core_attitudes	macedon,	300		thrace
-core_attitudes	macedon,	400		romans_brutii, greek_cities
+core_attitudes	macedon,	400		romans_brutii, greek_cities, egypt, seleucid
 core_attitudes	macedon,	600		slave
 
 core_attitudes	numidia,	300		carthage
 core_attitudes	numidia,	600		slave
 
+core_attitudes	parthia,		500		seleucid
 core_attitudes	parthia,	600		slave
+
+core_attitudes	pontus,	400		seleucid
+core_attitudes	pontus,	600		slave
 
 core_attitudes	scythia,	400		dacia
 core_attitudes	scythia,	600		slave
 
+core_attitudes	seleucid,	400		armenia, pontus
+core_attitudes	seleucid,	500		egypt, parthia
+core_attitudes	seleucid,	600		slave
+
 core_attitudes	spain,	400		carthage
 core_attitudes	spain,	600		slave
 
-core_attitudes	thrace,	400		macedon, dacia
+core_attitudes	thrace,	400		macedon, dacia, seleucid
 core_attitudes	thrace,	600		slave
 
-core_attitudes	slave,	600		romans_julii, romans_brutii, romans_scipii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, parthia, scythia, spain, thrace
+core_attitudes	slave,	600		romans_julii, romans_brutii, romans_scipii, romans_senate, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
 
 ; Diplomatic Standing
 faction_relationships	romans_julii,		0		romans_brutii, romans_scipii, romans_senate
@@ -13628,12 +14564,17 @@ faction_relationships	romans_scipii,		600		slave
 faction_relationships	romans_senate,		0		romans_julii, romans_brutii, romans_scipii
 faction_relationships	romans_senate,		600		slave
 
+faction_relationships	armenia,		600		slave
+
 faction_relationships	britons,		600		slave
 
 faction_relationships	carthage,		0		numidia
 faction_relationships	carthage,		600		slave
 
 faction_relationships	dacia,		600		slave
+
+faction_relationships	egypt,		500		seleucid
+faction_relationships	egypt,		600		slave
 
 faction_relationships	gauls,		600		slave
 
@@ -13648,7 +14589,13 @@ faction_relationships	macedon,		600		slave
 faction_relationships	numidia,		0		carthage
 faction_relationships	numidia,		600		slave
 
+faction_relationships	parthia,		500		seleucid
 faction_relationships	parthia,		600		slave
+
+faction_relationships	pontus,		600		slave
+
+faction_relationships	seleucid,		500		egypt, parthia
+faction_relationships	seleucid,		600		slave
 
 faction_relationships	scythia,		600		slave
 
@@ -13657,7 +14604,7 @@ faction_relationships	spain,		600		slave
 faction_relationships	thrace,		400		macedon
 faction_relationships	thrace,		600		slave
 
-faction_relationships	slave,			600		romans_julii, romans_brutii, romans_senate, britons, carthage, dacia, gauls, germans, greek_cities, macedon, numidia, parthia, scythia, spain, thrace
+faction_relationships	slave,			600		romans_julii, romans_brutii, romans_scipii, romans_senate, macedon, egypt, seleucid, carthage, parthia, pontus, gauls, germans, britons, armenia, dacia, greek_cities, numidia, scythia, spain, thrace
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of scripts section <<<<

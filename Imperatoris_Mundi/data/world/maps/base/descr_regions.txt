@@ -2883,8 +2883,89 @@ Hamich
 	5
 	4
 
+Agni
+	Arsi
+	parthia
+	Tocharian
+	242 231 29
+	none
+	5
+	2
+
+Kroraina
+	Kroran
+	parthia
+	Tocharian
+	198 3 39
+	none
+	5
+	3
+
+Portae_Ferraea
+	Korla
+	parthia
+	Tocharian
+	43 242 56
+	none
+	5
+	1
+
+Kushine
+	Kucha
+	parthia
+	Tocharian
+	244 78 192
+	none
+	5
+	4
+
+Calmadana
+	Qarqan
+	parthia
+	Tocharian
+	37 186 3
+	none
+	5
+	4
+
+Gumo
+	Aqsu
+	parthia
+	Tocharian
+	189 201 22
+	none
+	5
+	3
+
+Kasia
+	Kasi
+	parthia
+	Khotanese
+	216 75 85
+	none
+	5
+	7
+
+Gosthana
+	Godana
+	parthia
+	Khotanese
+	63 35 132
+	none
+	5
+	5
+
+Cadot
+	Cadota
+	parthia
+	Khotanese
+	216 213 49
+	none
+	5
+	4
+
 ;China
-Sericae_Portae
+Paelex_Porta
 	Throana
 	parthia
 	Asii
@@ -2902,10 +2983,10 @@ Serica
 	5
 	10
 
-Serica_Issedones
-	Issedon
-	scythia
-	Issedones
+Serica_Asmiraii
+	Asmira
+	parthia
+	Asmiraian
 	127 183 49
 	none
 	5
@@ -2913,9 +2994,92 @@ Serica_Issedones
 
 Serica_Coconorum
 	Quilan
+	parthia
+	Seres
+	88 18 145
+	none
+	5
+	0
+
+;Jaxarta
+Issedonia
+	Issedon
 	scythia
 	Issedones
-	88 18 145
+	209 115 14
+	none
+	5
+	2
+
+Talas
+	Yul
+	scythia
+	Issedones
+	90 10 130
+	none
+	5
+	1
+
+Chach
+	Turris_Lapidea
+	parthia
+	Sogdian
+	14 160 65
+	none
+	5
+	2
+
+Jaxartes_Superior
+	Poshkar
+	scythia
+	Massagetae
+	155 27 10
+	none
+	5
+	5
+
+Jaxartes_Inferior
+	Iaxartoum
+	scythia
+	Massagetae
+	224 184 8
+	none
+	5
+	4
+
+Dzankath
+	Yakhsha_Arta
+	scythia
+	Massagetae
+	88 153 10
+	none
+	5
+	2
+
+;Ferghana
+Ferghana
+	Andukan
+	parthia
+	Sogdian
+	127 32 1
+	none
+	5
+	4
+
+Kyreschata
+	Alexandreia_Eschati
+	seleucid
+	Baktrian
+	206 184 20
+	none
+	5
+	7
+
+Pamir
+	Baskata
+	parthia
+	Sogdian
+	0 119 79
 	none
 	5
 	0
@@ -2953,6 +3117,15 @@ Mons_Imaus
 	parthia
 	TerraIncognita
 	138 102 66
+	none
+	5
+	0
+
+Taklamakan_Desertum
+	dune
+	parthia
+	TerraIncognita
+	234 129 37
 	none
 	5
 	0

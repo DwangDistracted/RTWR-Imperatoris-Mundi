@@ -1370,12 +1370,6 @@ unit				carthaginian city militia
 unit				carthaginian city militia
 unit				carthaginian general's cavalry early
 
-rebel_type 			TerraIncognita		//numidia
-category			peasant_revolt
-chance				0
-description			TerraIncognita
-unit				numidian cavalry
-
 rebel_type 			Garamantian		//numidia
 category			peasant_revolt
 chance				0
@@ -1818,10 +1812,23 @@ unit				east archer
 unit				east archer
 unit				eastern rebel general
 
-rebel_type 			Tocharian		//Scythians
+rebel_type 			Tocharian		//Parthia
 category			peasant_revolt 
 chance				0
 description			Tocharian
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Khotanese		//Parthia
+category			peasant_revolt 
+chance				0
+description			Khotanese
 unit				east horse archer
 unit				east horse archer
 unit				east horse archer
@@ -1843,6 +1850,51 @@ unit				east archer
 unit				east archer
 unit				east infantry
 unit				eastern rebel general
+
+rebel_type 			Asmiraian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Asmiraian
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Sogdian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Sogdian
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				merc sarmatian cavalry
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Baktrian		//seleucids
+category			peasant_revolt 
+chance				0
+description			Baktrian
+unit				east horse archer
+unit				east horse archer
+unit				east heavy cavalry
+unit				merc sarmatian cavalry
+unit				east archer
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
+rebel_type 			TerraIncognita		//numidia
+category			peasant_revolt
+chance				0
+description			TerraIncognita
+unit				cheat oliphants
 
 ;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
 ;non region			based
