@@ -33,6 +33,11 @@ Thrace,caucasiandark;10;caucasian;10;mediterranean;80,Haemimontus;Thracia;Rhodop
 Hellas,mediterranean;100,Odomantike;Chalkidiki;Emathia;Pelagonia;Thessalia;Illyria_Graeca;Epirus;Aetolia;Boeotia;Attica;Euboea;Achaea;Arcadia;Laconia;Sporades;Crete
 Crimea,caucasiandark;80;mediterranean;20,Chersonesos_Zenonis;Chersonesos_Heraclea;Taurica;Bosporus_Cimmerius;Sarmatia_Maritima;Scythia_Harpitis
 European Sarmatia,caucasiandark;100,Subcarpathia;Zargidava;Clepia;Sarmatia;Sarmatia_Superioris;Borysthenia;Hypania;Transborysthena;Transhypania;Hypania_Minoris;Bassetia;Vistulia_Inferioris;Amadocia;Neuri;Gelonia
-Asian Sarmatia,caucasiandark;100,Tauroscythia;Cimmero_Scythia;Tanaica;Borysthenia_Maioris;Danaia;Mantessa;Confluenta;Danaia_Superioris;Melanchlenia;Thyssagetae;Stumica
+Asian Sarmatia,caucasiandark;100,Tauroscythia;Cimmero_Scythia;Tanaica;Borysthenia_Maioris;Danaia;Mantessa;Confluenta;Danaia_Superioris;Melanchlenia;Thyssagetae;Stumica;Sarmatia_Ulterior
 Circassia,caucasiandark;100,Maeotia;Sindica;Scythia_Transmontem;Tanaissa;Sarmatia_Hyrcania;Sattara;Hyrcania_Superioris;Alania;Alania_Orientalis;Atara
 Far Sarmatia,caucasiandark;90;eastasian;10,Nesietis;Transhyrcania;Darn;Scythia_Magna;Deserta_Scythia;Abzoa;Alanorsia
+Southern Siberia,caucasiandark;70;eastasian;30,Busu;Septem_Flumina;Sacasene;Hongnia
+Tanim,caucasiandark;40;caucasian;40;eastasian;20,Gushia;Hamich;Agni;Kroraina;Portae_Ferraea;Kushine;Calmadana;Gumo;Kasia;Gosthana;Cadot;Taklamakan_Desertum
+Seres,eastasian;100,Paelex_Porta;Serica;Serica_Asmiraii;Serica_Coconorum;Mons_Emodus
+Jaxarta,caucasiandark;80;eastasian;20,Issedonia;Talas;Chach;Jaxartes_Superior;Jaxartes_Inferior;Dzankath;Mons_Imaus
+Ferghana,mediterranean;15;caucasiandark;50;caucasian;30;eastasian;5,Ferghana;Kyreschata;Pamir

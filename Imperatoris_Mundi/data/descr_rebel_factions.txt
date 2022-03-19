@@ -1843,8 +1843,8 @@ category			peasant_revolt
 chance				0
 description			Seres
 unit				east horse archer
-unit				east heavy cavalry
-unit				east heavy cavalry
+unit				east horse archer
+unit				merc sarmatian cavalry
 unit				merc sarmatian cavalry
 unit				east archer
 unit				east archer
@@ -1883,8 +1883,8 @@ chance				0
 description			Baktrian
 unit				east horse archer
 unit				east horse archer
-unit				east heavy cavalry
 unit				merc sarmatian cavalry
+unit				east archer
 unit				east archer
 unit				greek hoplite militia
 unit				greek hoplite

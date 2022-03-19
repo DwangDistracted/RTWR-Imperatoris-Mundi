@@ -3580,6 +3580,14 @@ region
 			distribution 100
 		}
 	}
+	Sarmatia_Ulterior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
 	Maeotia
 	{
 		variant
@@ -3749,6 +3757,474 @@ region
 		{
 			ethnicity eastasian
 			distribution 10
+		}
+	}
+	Busu
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Septem_Flumina
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Sacasene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Hongnia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Gushia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Hamich
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Agni
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Kroraina
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Portae_Ferraea
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Kushine
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Calmadana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Gumo
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Kasia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Gosthana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Cadot
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Taklamakan_Desertum
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Paelex_Porta
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Serica
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Serica_Asmiraii
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Serica_Coconorum
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Mons_Emodus
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Issedonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Talas
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Chach
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Jaxartes_Superior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Jaxartes_Inferior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Dzankath
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Mons_Imaus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Ferghana
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 30
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Kyreschata
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 30
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Pamir
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 30
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
 		}
 	}
 	Berserk
