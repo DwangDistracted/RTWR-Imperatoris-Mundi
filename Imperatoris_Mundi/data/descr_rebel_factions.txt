@@ -1799,7 +1799,7 @@ unit				east archer
 unit				east archer
 unit				eastern rebel general
 
-rebel_type 			Massagetae		//Scythians
+rebel_type 			Massagetae		//Parthia
 category			peasant_revolt 
 chance				0
 description			Massagetae
@@ -1889,6 +1889,45 @@ unit				east archer
 unit				greek hoplite militia
 unit				greek hoplite
 unit				greek general's guard cavalry early
+
+rebel_type 			Chorasmian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Chorasmian
+unit				east horse archer
+unit				merc sarmatian cavalry
+unit				merc sarmatian cavalry
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Amardian		//Scythians
+category			peasant_revolt 
+chance				0
+description			Amardian
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				eastern rebel general
+
+rebel_type 			Dahae		//Parthia
+category			peasant_revolt 
+chance				0
+description			Dahae
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				merc sarmatian cavalry
+unit				merc sarmatian cavalry
+unit				east archer
+unit				eastern rebel general
 
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt

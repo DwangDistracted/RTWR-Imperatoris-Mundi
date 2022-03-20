@@ -4227,6 +4227,110 @@ region
 			distribution 5
 		}
 	}
+	Sakastan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sogdiana_Deserta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Tigraxauda
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Oxia_Deserta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Ostia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Inferior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Superior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Deserta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Mardastan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia_Ultima
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia_Pontica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Dahaestan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Massagetica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
 	Berserk
 	{
 

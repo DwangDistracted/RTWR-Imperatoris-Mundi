@@ -11431,6 +11431,237 @@ settlement
 	}
 }
 
+; SOGDIAN DESERT
+settlement
+{
+	level town
+	region Sakastan
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level village
+	region Sogdiana_Deserta
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level town
+	region Tigraxauda
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level village
+	region Oxia_Deserta
+
+	year_founded 0
+	population 600
+	plan_set default_set
+	faction_creator parthia
+}
+
+; CHORASMIA
+settlement
+{
+	level large_town
+	region Chorasmia_Ostia
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Chorasmia_Inferior
+
+	year_founded 0
+	population 4600
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Chorasmia_Superior
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; AMARDIA
+settlement
+{
+	level village
+	region Chorasmia_Deserta
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Mardastan
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Scythia_Ultima
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+
+; DAHAEA
+settlement
+{
+	level village
+	region Scythia_Pontica
+
+	year_founded 0
+	population 500
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Dahaestan
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level town
+	region Massagetica
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -14429,6 +14660,17 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction scythia, Idanthyrsus, general, age 20, , x 322, y 240
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0

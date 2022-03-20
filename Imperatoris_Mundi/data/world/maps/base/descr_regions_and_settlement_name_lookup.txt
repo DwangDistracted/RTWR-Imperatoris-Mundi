@@ -337,6 +337,19 @@ Dzankath
 Ferghana
 Kyreschata
 Pamir
+Sakastan
+Sogdiana_Deserta
+Tigraxauda
+Oxia_Deserta
+Chorasmia_Ostia
+Chorasmia_Inferior
+Chorasmia_Superior
+Chorasmia_Deserta
+Mardastan
+Scythia_Ultima
+Scythia_Pontica
+Dahaestan
+Massagetica
 
 Eblania
 Coriondia
@@ -676,6 +689,19 @@ Yakhsha_Arta
 Andukan
 Alexandreia_Eschati
 Baskata
+Kashram
+Palisha
+Gazil
+Eorta
+Cammei
+Gurganj
+Kath
+Sechoria
+Karon
+Yetteka
+Suna
+Gdy_Kala
+Yatsha
 
 Libyae_Interior
 toggle_fow
