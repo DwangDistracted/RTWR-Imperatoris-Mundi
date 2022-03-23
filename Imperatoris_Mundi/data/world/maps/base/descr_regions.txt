@@ -161,7 +161,7 @@ Demetia
 	5
 	2
 
-;Gauls
+;Gaul
 Osisimia
 	Tregoritum
 	gauls
@@ -3093,7 +3093,6 @@ Sakastan
 	none
 	5
 	2
-	;20, lead, 1, textiles, 3, grain, 2
 
 Sogdiana_Deserta
 	Palisha
@@ -3103,7 +3102,6 @@ Sogdiana_Deserta
 	none
 	5
 	0
-	;10, gold, 1, textiles, 2
 
 Tigraxauda
 	Amul
@@ -3113,7 +3111,6 @@ Tigraxauda
 	none
 	5
 	1
-	;24, grain, 2, gold, 1, wine, 1
 
 Oxia_Deserta
 	Eorta
@@ -3123,7 +3120,6 @@ Oxia_Deserta
 	none
 	5
 	1
-	;12, gold, 1, grain, 2
 
 ;Chorasmia
 Chorasmia_Ostia
@@ -3134,7 +3130,6 @@ Chorasmia_Ostia
 	none
 	5
 	8
-	;15*2, stone_walls, grain, 3, textiles, 1
 
 Chorasmia_Inferior
 	Gurganj
@@ -3144,7 +3139,6 @@ Chorasmia_Inferior
 	none
 	5
 	12
-	;26*2, stone_walls, iron, 1, incense, 2, pottery, 1
 
 Chorasmia_Superior
 	Kath
@@ -3154,7 +3148,6 @@ Chorasmia_Superior
 	none
 	5
 	5
-	;12*2, stone_walls, grain, 2, wine, 1, textiles, 1
 
 ;Amardia
 Chorasmia_Deserta
@@ -3165,7 +3158,6 @@ Chorasmia_Deserta
 	none
 	5
 	1
-	;11, grain, 1, wild_animals, 1
 
 Mardastan
 	Karon
@@ -3175,7 +3167,6 @@ Mardastan
 	none
 	5
 	0
-	;8, silver, 1, grain, 1, iron, 1
 
 Scythia_Ultima
 	Yetteka
@@ -3185,7 +3176,6 @@ Scythia_Ultima
 	none
 	5
 	0
-	;7, silver, 1, textiles, 2
 
 ;Dahaea
 Scythia_Pontica
@@ -3196,7 +3186,6 @@ Scythia_Pontica
 	none
 	5
 	0
-	;10, copper, 1, textiles, 1
 
 Dahaestan
 	Gdy_Kala
@@ -3206,7 +3195,6 @@ Dahaestan
 	none
 	5
 	4
-	;16, gold, 2, silver, 1, textiles, 1
 
 Massagetica
 	Yatsha
@@ -3216,7 +3204,26 @@ Massagetica
 	none
 	5
 	2
-	;28, trader, gold, 1, incense, 1, wild_animals, 1
+
+Parnia
+	Abaskun
+	parthia
+	Dahae
+	247 169 145
+	none
+	5
+	6
+
+Siracene
+	Gathar
+	parthia
+	Dahae
+	178 114 224
+	none
+	5
+	5
+
+;Parthia
 
 ;Terra Incognita
 Libyae_Interior

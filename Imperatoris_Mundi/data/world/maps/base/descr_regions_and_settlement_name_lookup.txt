@@ -350,6 +350,8 @@ Scythia_Ultima
 Scythia_Pontica
 Dahaestan
 Massagetica
+Parnia
+Siracene
 
 Eblania
 Coriondia
@@ -702,6 +704,8 @@ Yetteka
 Suna
 Gdy_Kala
 Yatsha
+Abaskun
+Gathar
 
 Libyae_Interior
 toggle_fow
