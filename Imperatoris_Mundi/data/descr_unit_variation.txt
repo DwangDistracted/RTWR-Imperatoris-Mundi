@@ -4331,6 +4331,192 @@ region
 			distribution 100
 		}
 	}
+	Parnia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Siracene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Margiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmagana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Attene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Bactriana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Chomaria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Candara
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Transoxus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Sogdiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Oxiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Tarmita
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
 	Berserk
 	{
 

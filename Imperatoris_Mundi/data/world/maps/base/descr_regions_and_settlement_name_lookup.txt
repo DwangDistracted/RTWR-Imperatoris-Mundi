@@ -352,6 +352,16 @@ Dahaestan
 Massagetica
 Parnia
 Siracene
+Margiana
+Bactriana
+Candara
+Transoxus
+Sogdiana
+Oxiana
+Sarmagana
+Attene
+Chomaria
+Tarmita
 
 Eblania
 Coriondia
@@ -706,6 +716,16 @@ Gdy_Kala
 Yatsha
 Abaskun
 Gathar
+Alexandreia_Margiana
+Baktra
+Drapsaka
+Phratroua
+Maracanda
+Eukratideia
+Marvrot
+Charracarta
+Rhoitia
+Alexandreia_Oxou
 
 Libyae_Interior
 toggle_fow

@@ -1929,6 +1929,19 @@ unit				merc sarmatian cavalry
 unit				east archer
 unit				eastern rebel general
 
+rebel_type 			Margian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Margian
+unit				east horse archer
+unit				merc sarmatian cavalry
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				0

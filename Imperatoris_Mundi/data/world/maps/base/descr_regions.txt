@@ -2968,7 +2968,7 @@ Cadot
 Paelex_Porta
 	Throana
 	parthia
-	Asii
+	Seres
 	244 22 189
 	none
 	5
@@ -3194,7 +3194,7 @@ Dahaestan
 	219 215 8
 	none
 	5
-	4
+	3
 
 Massagetica
 	Yatsha
@@ -3203,7 +3203,7 @@ Massagetica
 	142 5 65
 	none
 	5
-	2
+	1
 
 Parnia
 	Abaskun
@@ -3212,7 +3212,7 @@ Parnia
 	247 169 145
 	none
 	5
-	6
+	4
 
 Siracene
 	Gathar
@@ -3221,9 +3221,100 @@ Siracene
 	178 114 224
 	none
 	5
-	5
+	3
 
-;Parthia
+;Margiana
+Margiana
+	Alexandreia_Margiana
+	parthia
+	Margian
+	221 211 68
+	none
+	5
+	6
+
+Sarmagana
+	Marvrot
+	parthia
+	Margian
+	224 93 76
+	none
+	5
+	3
+
+Attene
+	Charracarta
+	parthia
+	Margian
+	93 196 64
+	none
+	5
+	4
+
+;Bactria
+Bactriana
+	Baktra
+	seleucid
+	Baktrian
+	116 57 198
+	none
+	5
+	6
+
+Chomaria
+	Rhoitia
+	seleucid
+	Baktrian
+	249 54 152
+	none
+	5
+	3
+
+Candara
+	Drapsaka
+	seleucid
+	Baktrian
+	153 4 39
+	none
+	5
+	2
+
+;Oxiana
+Transoxus
+	Phratroua
+	parthia
+	Sogdian
+	14 242 181
+	none
+	5
+	3
+
+Sogdiana
+	Maracanda
+	parthia
+	Sogdian
+	101 46 204
+	none
+	5
+	3
+
+Oxiana
+	Eukratideia
+	seleucid
+	Baktrian
+	216 202 0
+	none
+	5
+	4
+
+Tarmita
+	Alexandreia_Oxou
+	seleucid
+	Baktrian
+	82 147 16
+	none
+	5
+	5
 
 ;Terra Incognita
 Libyae_Interior
