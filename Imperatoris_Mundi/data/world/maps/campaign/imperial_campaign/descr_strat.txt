@@ -1999,6 +1999,33 @@ resource grain, 3, 365, 189
 resource pottery, 1, 363, 193
 resource furs, 1, 356, 191
 
+;Barka
+resource slaves, 1, 169, 96
+resource olive_oil, 4, 170, 104
+resource marble, 1, 170, 100
+resource grain, 2, 168, 100
+
+;Cyrenaica
+resource slaves, 1, 173, 104
+resource olive_oil, 2, 172, 106
+resource incense, 2, 177, 106
+resource textiles, 2, 180, 105
+
+;Marmarica
+resource slaves, 1, 190, 104
+resource olive_oil, 2, 185, 105
+resource grain, 1, 193, 106
+
+;Libya
+resource slaves, 1, 204, 105
+resource olive_oil, 1, 197, 105
+resource grain, 1, 200, 106
+
+;Ammon
+resource slaves, 1, 200, 94
+resource grain, 4, 196, 96
+resource wild_animals, 1, 194, 92
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -5673,13 +5700,63 @@ denari	5000
 
 settlement
 {
-	level village
-	region Tempr9
+	level town
+	region Libya
 
 	year_founded 0
-	population 400
+	population 1400
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Marmarica
+
+	year_founded 0
+	population 1250
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Ammon
+
+	year_founded 0
+	population 1650
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 character	Hekhemmut, named character, leader, age 55, , x 2, y 1
@@ -12213,6 +12290,81 @@ settlement
 	}
 }
 
+; CYRENAICA
+settlement
+{
+	level large_town
+	region Barka
+
+	year_founded 0
+	population 3450
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cyrenaica
+
+	year_founded 0
+	population 5800
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -12259,6 +12411,16 @@ settlement
 settlement
 {
 	level village
+	region Tempr9
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
 	region Tempr15
 
 	year_founded 0
@@ -12300,16 +12462,6 @@ settlement
 {
 	level village
 	region Tempr19
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr20
 
 	year_founded 0
 	population 400
@@ -15899,7 +16051,7 @@ unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction seleucid, Eurykratides, general, age 20, , x 362, y 191
-army Tarmita
+army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -15916,6 +16068,41 @@ unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+
+; CYRENAICA
+character	sub_faction greek_cities, Eratosthenes, general, age 20, , x 169, y 98
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Megasthenes, general, age 20, , x 174, y 108
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3

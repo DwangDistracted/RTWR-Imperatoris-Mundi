@@ -3316,6 +3316,52 @@ Tarmita
 	5
 	5
 
+;Cyrenaica
+Barka
+	Serapeion
+	greek_cities
+	Cyrenaican
+	155 32 40
+	none
+	5
+	2
+
+Cyrenaica
+	Kyrini
+	greek_cities
+	Cyrenaican
+	42 193 188
+	none
+	5
+	4
+
+Marmarica
+	Plynos_Limen
+	egypt
+	Libyans
+	169 58 255
+	none
+	5
+	0
+
+Libya
+	Paraitonion
+	egypt
+	Libyans
+	229 212 84
+	none
+	5
+	0
+
+Ammon
+	Ammonion
+	egypt
+	Libyans
+	250 210 1
+	none
+	5
+	1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -3440,15 +3486,6 @@ Tempr19
 	romans_julii
 	Latins
 	180 76 67
-	none
-	5
-	5
-
-Tempr20
-	Temp20
-	romans_julii
-	Latins
-	250 210 1
 	none
 	5
 	5

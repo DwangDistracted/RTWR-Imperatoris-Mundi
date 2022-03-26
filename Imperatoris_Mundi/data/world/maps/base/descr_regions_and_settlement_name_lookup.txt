@@ -362,6 +362,11 @@ Sarmagana
 Attene
 Chomaria
 Tarmita
+Barka
+Cyrenaica
+Marmarica
+Libya
+Ammon
 
 Eblania
 Coriondia
@@ -726,6 +731,11 @@ Marvrot
 Charracarta
 Rhoitia
 Alexandreia_Oxou
+Serapeion
+Kyrini
+Plynos_Limen
+Paraitonion
+Ammonion
 
 Libyae_Interior
 toggle_fow
@@ -751,7 +761,6 @@ Tempr16
 Tempr17
 Tempr18
 Tempr19
-Tempr20
 Tempr21
 Tempr24
 Temp0
@@ -763,6 +772,5 @@ Temp16
 Temp17
 Temp18
 Temp19
-Temp20
 Temp21
 Temp24

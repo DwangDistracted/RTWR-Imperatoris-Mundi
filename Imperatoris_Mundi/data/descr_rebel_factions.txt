@@ -1942,6 +1942,19 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Cyrenaican	//greek_cities
+category			peasant_revolt 
+chance				0
+description			Cyrenaican
+unit				greek cavalry
+unit				greek peasant
+unit				egyptian peltast
+unit				egyptian peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				0

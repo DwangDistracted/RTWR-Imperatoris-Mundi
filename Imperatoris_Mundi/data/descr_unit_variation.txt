@@ -4517,6 +4517,96 @@ region
 			distribution 5
 		}
 	}
+	Barka
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Cyrenaica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Marmarica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Libya
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Ammon
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
 	Berserk
 	{
 
