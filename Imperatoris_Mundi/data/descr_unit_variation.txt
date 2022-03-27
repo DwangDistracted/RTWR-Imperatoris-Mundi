@@ -4527,12 +4527,7 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 40
-		}
-		variant
-		{
-			ethnicity arabic
-			distribution 10
+			distribution 50
 		}
 	}
 	Cyrenaica
@@ -4545,12 +4540,7 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 40
-		}
-		variant
-		{
-			ethnicity arabic
-			distribution 10
+			distribution 50
 		}
 	}
 	Marmarica
@@ -4563,12 +4553,7 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 40
-		}
-		variant
-		{
-			ethnicity arabic
-			distribution 10
+			distribution 50
 		}
 	}
 	Libya
@@ -4581,12 +4566,7 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 40
-		}
-		variant
-		{
-			ethnicity arabic
-			distribution 10
+			distribution 50
 		}
 	}
 	Ammon
@@ -4599,12 +4579,143 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 40
+			distribution 50
+		}
+	}
+	Delta_Occidentalis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
 		}
 		variant
 		{
-			ethnicity arabic
-			distribution 10
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Delta_Orientalis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Aegyptis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Saracena
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Heptanomis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Asyut
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 85
+		}
+	}
+	Luxor
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 85
+		}
+	}
+	Aswan
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 85
+		}
+	}
+	Parva
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+	Farfara
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+	Kharga
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+	Khargana
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
 		}
 	}
 	Berserk

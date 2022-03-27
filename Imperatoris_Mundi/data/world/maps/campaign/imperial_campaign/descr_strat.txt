@@ -37,8 +37,8 @@ pirate_spawn_value 10
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of landmarks section <<<<
-;landmark	pyramids_and_sphinx	181,	12
-;landmark	pharos	178,	21
+landmark	pyramids_and_sphinx	217,	99
+landmark	pharos	209,	106
 landmark	colossus	194,	134
 ;landmark	temple	157,	53
 landmark	statue	164,	133
@@ -2025,6 +2025,87 @@ resource grain, 1, 200, 106
 resource slaves, 1, 200, 94
 resource grain, 4, 196, 96
 resource wild_animals, 1, 194, 92
+resource camels, 1, 199, 92
+
+;Delta_Occidentalis
+resource slaves, 1, 212, 107
+resource glass, 2, 213, 107
+resource pottery, 1, 211, 105
+resource purple_dye, 2, 215, 106
+resource grain, 7, 217, 105
+resource elephants, 1, 213, 104
+
+;Delta_Orientalis
+resource slaves, 1, 220, 109
+resource textiles, 6, 221, 111
+resource wine, 1, 216, 108
+resource pottery, 1, 214, 110
+
+;Aegyptis
+resource slaves, 1, 220, 100
+resource textiles, 4, 220, 103
+resource marble, 2, 217, 101
+resource pottery, 1, 220, 98
+
+;Saracena
+resource slaves, 1, 222, 106
+resource incense 1, 225, 104
+resource purple_dye, 1, 234, 94
+resource copper, 1, 227, 100
+
+;Heptanomis
+resource slaves, 1, 217, 94
+resource grain, 7, 217, 97
+resource wine, 1, 219, 93
+resource gold, 2, 223, 94
+resource marble, 1, 223, 96
+
+;Asyut
+resource slaves, 1, 228, 89
+resource marble, 2, 227, 93
+resource grain, 2, 223, 91
+resource gold, 3, 226, 88
+resource pottery, 1, 227, 91
+
+;Luxor
+resource slaves, 1, 236, 83
+resource marble, 2, 235, 86
+resource textiles, 1, 234, 82
+resource wild_animals, 2, 235, 79
+resource elephants, 1, 237, 80
+
+;Aswan
+resource slaves, 1, 239, 75
+resource marble, 2, 241, 74
+resource grain, 3, 235, 74
+resource wild_animals, 2, 231, 69
+resource pottery, 3, 235, 69
+resource elephants, 1, 235, 72
+
+;Parva
+resource slaves, 1, 209, 91
+resource camels, 2, 205, 89
+resource lead, 1, 208, 89
+resource grain, 2, 214, 93
+
+;Farfara
+resource slaves, 1, 209, 81
+resource wild_animals, 2, 208, 77
+resource camels, 1, 205, 80
+resource marble, 1, 207, 84
+
+;Kharga
+resource slaves, 1, 218, 78
+resource grain, 2, 218, 76
+resource textiles, 1, 221, 81
+resource camels, 2, 213, 77
+
+;Khargana
+resource slaves, 1, 219, 72
+resource gold, 1, 223, 70
+resource pottery, 1, 225, 65
+resource textiles, 1, 227, 67
+resource camels, 1, 219, 70
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -5700,6 +5781,303 @@ denari	5000
 
 settlement
 {
+	level large_city
+	region Delta_Occidentalis
+
+	year_founded 0
+	population 13750
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building proconsuls_palace
+	}
+	building
+	{
+		type defenses large_stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type equestrian hippodrome
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type academic scriptorium
+	}
+	building
+	{
+		type health aqueduct
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+3
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_city
+	region Delta_Orientalis
+
+	year_founded 0
+	population 12700
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building proconsuls_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_city
+	region Aegyptis
+
+	year_founded 0
+	population 13000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building proconsuls_palace
+	}
+	building
+	{
+		type defenses large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles catapult_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type health aqueduct
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Saracena
+
+	year_founded 0
+	population 2600
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Heptanomis
+
+	year_founded 0
+	population 11850
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type health sewers
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Asyut
+
+	year_founded 0
+	population 3650
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Luxor
+
+	year_founded 0
+	population 2850
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
 	level town
 	region Libya
 
@@ -5752,6 +6130,82 @@ settlement
 	building
 	{
 		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Parva
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Farfara
+
+	year_founded 0
+	population 1600
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Kharga
+
+	year_founded 0
+	population 1950
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Khargana
+
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
 	}
 	building
 	{
@@ -12362,6 +12816,42 @@ settlement
 	building
 	{
 		type hinterland_farms farms+1
+	}
+}
+
+; UPPER EGYPT
+settlement
+{
+	level large_town
+	region Aswan
+
+	year_founded 0
+	population 2900
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 

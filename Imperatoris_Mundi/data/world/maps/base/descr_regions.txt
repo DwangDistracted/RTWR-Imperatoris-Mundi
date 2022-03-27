@@ -3362,6 +3362,117 @@ Ammon
 	5
 	1
 
+;Lower Egypt
+Delta_Occidentalis
+	Alexandreia
+	egypt
+	Egyptian
+	76 206 87
+	none
+	5
+	18
+
+Delta_Orientalis
+	Leontopolis
+	egypt
+	Egyptian
+	239 59 68
+	none
+	5
+	20
+
+Aegyptis
+	Memphis
+	egypt
+	Egyptian
+	249 213 67
+	none
+	5
+	16
+
+Saracena
+	Bubastis
+	egypt
+	Egyptian
+	237 92 200
+	none
+	5
+	2
+
+Heptanomis
+	Arsinoe
+	egypt
+	Egyptian
+	211 69 131
+	none
+	5
+	11
+
+;Upper Egypt
+Asyut
+	Ptolemais_Ermiou
+	egypt
+	Egyptian
+	62 193 136
+	none
+	5
+	6
+
+Luxor
+	Thibai_Ekatompyloi
+	egypt
+	Egyptian
+	229 183 32
+	none
+	5
+	5
+
+Aswan
+	Syene
+	egypt
+	Egyptian
+	19 247 88
+	none
+	5
+	5
+
+;West Egyptian Desert
+Parva
+	Oasis_Mikro
+	egypt
+	Libyans
+	219 76 81
+	none
+	5
+	0
+
+Farfara
+	Siwa
+	egypt
+	Libyans
+	252 218 106
+	none
+	5
+	0
+
+Kharga
+	Amoura
+	egypt
+	Egyptian
+	14 142 104
+	none
+	5
+	0
+
+Khargana
+	Parammon
+	egypt
+	Egyptian
+	209 2 50
+	none
+	5
+	0
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

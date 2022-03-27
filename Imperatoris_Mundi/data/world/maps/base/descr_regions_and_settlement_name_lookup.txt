@@ -367,6 +367,17 @@ Cyrenaica
 Marmarica
 Libya
 Ammon
+Delta_Occidentalis
+Delta_Orientalis
+Aegyptis
+Heptanomis
+Asyut
+Luxor
+Aswan
+Parva
+Farfara
+Kharga
+Khargana
 
 Eblania
 Coriondia
@@ -736,6 +747,18 @@ Kyrini
 Plynos_Limen
 Paraitonion
 Ammonion
+Delta_Orientalis
+Alexandreia
+Leontopolis
+Memphis
+Arsinoe
+Ptolemais_Ermiou
+Thibai_Ekatompyloi
+Syene
+Oasis_Mikro
+Siwa
+Amoura
+Parammon
 
 Libyae_Interior
 toggle_fow
