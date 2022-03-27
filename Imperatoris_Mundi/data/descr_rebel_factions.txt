@@ -1981,6 +1981,19 @@ unit				egyptian peltast
 unit				egyptian peltast
 unit				egyptian general's bodyguard early
 
+rebel_type 			Blemmyan	//egyptian
+category			peasant_revolt 
+chance				0
+description			Blemmyan
+unit				egyptian archer
+unit				egyptian archer
+unit				egyptian peasant
+unit				egyptian peltast
+unit				egyptian peltast
+unit				egyptian peltast
+unit				egyptian peltast
+unit				egyptian general's bodyguard early
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				0

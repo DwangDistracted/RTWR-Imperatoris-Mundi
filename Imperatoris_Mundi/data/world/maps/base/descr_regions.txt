@@ -3473,6 +3473,34 @@ Khargana
 	5
 	0
 
+;Eastern Desert
+Porphyritis_Mons
+	Myos_Hormos
+	egypt
+	Egyptian
+	216 34 77
+	none
+	5
+	1
+
+Troglodytica
+	Bereniki_Troglodytiki
+	egypt
+	Egyptian
+	32 173 159
+	none
+	5
+	1
+
+Ptolemais_Epithera
+	Ptolemais_Theron
+	egypt
+	Blemmyan
+	227 232 97
+	none
+	5
+	1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

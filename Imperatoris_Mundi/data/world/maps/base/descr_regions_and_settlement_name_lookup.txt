@@ -378,6 +378,9 @@ Parva
 Farfara
 Kharga
 Khargana
+Porphyritis_Mons
+Troglodytica
+Ptolemais_Epithera
 
 Eblania
 Coriondia
@@ -759,6 +762,9 @@ Oasis_Mikro
 Siwa
 Amoura
 Parammon
+Myos_Hormos
+Bereniki_Troglodytiki
+Ptolemais_Theron
 
 Libyae_Interior
 toggle_fow

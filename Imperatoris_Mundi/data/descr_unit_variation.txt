@@ -4718,6 +4718,60 @@ region
 			distribution 100
 		}
 	}
+	Porphyritis_Mons
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+	Troglodytica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+	Ptolemais_Epithera
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
 	Berserk
 	{
 

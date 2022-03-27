@@ -2107,6 +2107,23 @@ resource pottery, 1, 225, 65
 resource textiles, 1, 227, 67
 resource camels, 1, 219, 70
 
+;Porphyritis_Mons
+resource slaves, 1, 241, 86
+resource gold, 2, 239, 85
+resource marble, 4, 235, 89
+
+;Troglodytica
+resource slaves, 1, 248, 77
+resource gold, 2, 243, 81
+resource marble, 4, 242, 79
+resource lead, 1, 245, 81
+
+;Ptolemais_Epithera
+resource slaves, 1, 260, 61
+resource gold, 2, 255, 65
+resource elephants, 3, 263, 58
+resource incense, 1, 257, 70
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -5777,7 +5794,7 @@ relative 	Rusa, 	Karo,		Arao,	Aram,	Sarduri,	end
 relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
 faction	egypt, religious_caesar
-denari	5000
+denari	2000
 
 settlement
 {
@@ -5814,7 +5831,7 @@ settlement
 	}
 	building
 	{
-		type health aqueduct
+		type health baths
 	}
 	building
 	{
@@ -5912,7 +5929,7 @@ settlement
 	}
 	building
 	{
-		type health aqueduct
+		type health baths
 	}
 	building
 	{
@@ -6210,6 +6227,56 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Porphyritis_Mons
+
+	year_founded 0
+	population 2350
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Troglodytica
+
+	year_founded 0
+	population 2750
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -12839,10 +12906,6 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
-	}
-	building
-	{
 		type missiles practice_field
 	}
 	building
@@ -12852,6 +12915,25 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Ptolemais_Epithera
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -16593,6 +16675,28 @@ unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+; UPPER EGYPT
+character	sub_faction egypt, Hekhemmut, general, age 20, , x 238, y 76
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Khnumhoptep, general, age 20, , x 262, y 62
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
