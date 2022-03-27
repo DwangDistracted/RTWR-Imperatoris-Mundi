@@ -6280,27 +6280,36 @@ settlement
 	}
 }
 
-character	Hekhemmut, named character, leader, age 55, , x 2, y 1
+character	Hekhemmut, named character, leader, age 55, , x 213, y 107
 traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
 ancillaries librarian, master_embalmer
 army
 unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
-unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
-unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
+unit		egyptian elite guards				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian infantry				exp 0 armour 0 weapon_lvl 0
+unit		egyptian infantry				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer elite				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian cleruch				exp 0 armour 0 weapon_lvl 0
+unit		egyptian cleruch				exp 0 armour 0 weapon_lvl 0
+unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
+unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
 
-character	Khnumhoptep, named character, heir, age 40, , x 2, y 2
+character	Khnumhoptep, named character, heir, age 40, , x 211, y 108
 traits StrategicSkill 2 , NaturalMilitarySkill 1 , PublicFaith 3
 ancillaries magician
 army
 unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
 character	Ptahhotep, named character, age 35, , x 2, y 4
 traits GoodCommander 1 , PublicFaith 2 , MathematicsSkill 3 , Embezzler 1
@@ -6308,19 +6317,18 @@ ancillaries mathematician
 army
 unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
-character	Kiya, named character, age 28, , x 2, y 5
+character	Kiya, named character, age 28, , x 228, y 90
 traits NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 1
 ancillaries master_of_archers
 army
 unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
 character	Neferet, general, age 20, , x 2, y 6
 army
@@ -6329,11 +6337,67 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Nakhrankh, general, age 20, , x 2, y 7
+character	Nakhrankh, general, age 20, , x 235, y 84
 army
-unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+
+character	Heruben, general, age 20, , x 218, y 95
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+
+character	Isetnofet, general, age 20, , x 220, y 101
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+
+character	Khasekhem, general, age 20, , x 219, y 108
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+
+character	Pasebakhaen, general, age 20, , x 223, y 105
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Akhaenniut, general, age 20, , x 203, y 106
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Neferetiabet, general, age 20, , x 191, y 105
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Ptahotem, general, age 20, , x 241, y 87
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Ahmose, general, age 20, , x 249, y 77
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Nakhti, general, age 20, , x 198, y 94
+army
+unit		egyptian bedouin				exp 0 armour 0 weapon_lvl 0
+
+character	Mutnodjmet, general, age 20, , x 208, y 92
+army
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Meryre, general, age 20, , x 209, y 79
+army
+unit		egyptian bedouin				exp 0 armour 0 weapon_lvl 0
+
+character	Menmaatre, general, age 20, , x 216, y 77
+army
+unit		egyptian bedouin				exp 0 armour 0 weapon_lvl 0
+
+character	Pamiu, general, age 20, , x 218, y 74
+army
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Miwsher, general, age 20, , x 2, y 8
 army
@@ -6342,8 +6406,11 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
 
-character	Wah, admiral, age 29, , x 2, y 9
+character	Wah, admiral, age 29, , x 210, y 108
 army
+unit		naval triremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
