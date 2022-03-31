@@ -4728,12 +4728,17 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 70
+			distribution 60
 		}
 		variant
 		{
 			ethnicity arabic
 			distribution 20
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
 		}
 	}
 	Troglodytica
@@ -4746,12 +4751,17 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 70
+			distribution 60
 		}
 		variant
 		{
 			ethnicity arabic
 			distribution 20
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
 		}
 	}
 	Ptolemais_Epithera
@@ -4764,12 +4774,134 @@ region
 		variant
 		{
 			ethnicity egyptian
-			distribution 70
+			distribution 60
 		}
 		variant
 		{
 			ethnicity arabic
 			distribution 20
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Nubia_Septentrionalis
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Nubia_Centralis
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Nubia_Meridionalis
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Alana
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Meroe_Insula
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Alut
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Atbaras
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Attiroia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Bega
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
 		}
 	}
 	Berserk

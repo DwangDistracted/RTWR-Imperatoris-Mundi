@@ -3501,6 +3501,108 @@ Ptolemais_Epithera
 	5
 	1
 
+;Nubia
+Nubia_Septentrionalis
+	Pachora
+	egypt
+	Nubian
+	237 219 101
+	none
+	5
+	4
+
+Nubia_Centralis
+	Patigga
+	egypt
+	Nubian
+	211 79 52
+	none
+	5
+	4
+
+Nubia_Meridionalis
+	Napata
+	egypt
+	Nubian
+	101 249 32
+	none
+	5
+	2
+
+Alana
+	Darou
+	egypt
+	Nubian
+	244 116 110
+	none
+	5
+	3
+
+;Meroe
+Meroe_Insula
+	Meroe
+	egypt
+	Meroitian
+	221 213 93
+	none
+	5
+	3
+
+Alut
+	Soba
+	egypt
+	Meroitian
+	158 44 0
+	none
+	5
+	2
+
+Atbaras
+	Kassala
+	egypt
+	Meroitian
+	58 170 27
+	none
+	5
+	0
+
+Attiroia
+	Hide
+	egypt
+	Meroitian
+	186 109 53
+	none
+	5
+	1
+
+;Daamat
+Bega
+	Hawulti_Melazo
+	egypt
+	Daamat
+	211 106 93
+	none
+	5
+	1
+
+Tangiatae
+	Adoulis
+	egypt
+	Daamat
+	47 183 54
+	none
+	5
+	2
+
+Daamat
+	Yeha
+	egypt
+	Daamat
+	104 39 244
+	none
+	5
+	3
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

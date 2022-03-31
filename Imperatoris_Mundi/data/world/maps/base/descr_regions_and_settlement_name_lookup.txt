@@ -381,6 +381,17 @@ Khargana
 Porphyritis_Mons
 Troglodytica
 Ptolemais_Epithera
+Nubia_Septentrionalis
+Nubia_Centralis
+Nubia_Meridionalis
+Alana
+Meroe_Insula
+Alut
+Atbaras
+Attiroia
+Bega
+Tangiatae
+Daamat
 
 Eblania
 Coriondia
@@ -765,6 +776,17 @@ Parammon
 Myos_Hormos
 Bereniki_Troglodytiki
 Ptolemais_Theron
+Pachora
+Patigga
+Napata
+Darou
+Meroe
+Soba
+Kassala
+Hide
+Hawulti_Melazo
+Adoulis
+Yeha
 
 Libyae_Interior
 toggle_fow

@@ -2080,7 +2080,7 @@ resource marble, 2, 241, 74
 resource grain, 3, 235, 74
 resource wild_animals, 2, 231, 69
 resource pottery, 3, 235, 69
-resource elephants, 1, 235, 72
+resource elephants, 2, 235, 72
 
 ;Parva
 resource slaves, 1, 209, 91
@@ -2121,8 +2121,77 @@ resource lead, 1, 245, 81
 ;Ptolemais_Epithera
 resource slaves, 1, 260, 61
 resource gold, 2, 255, 65
-resource elephants, 3, 263, 58
+resource elephants, 3, 264, 58
 resource incense, 1, 257, 70
+
+;Nubia_Septentrionalis
+resource slaves, 1, 227, 61
+resource gold, 1, 233, 56
+resource pottery, 1, 229, 58
+resource textiles, 2, 232, 61
+resource wild_animals, 2, 230, 55
+
+;Nubia_Centralis
+resource slaves, 1, 235, 51
+resource iron, 1, 235, 54
+resource incense, 3, 233, 49
+resource wild_animals, 3, 236, 45
+
+;Nubia_Meridionalis
+resource slaves, 1, 241, 50
+resource marble, 2, 239, 54
+resource incense, 2, 244, 54
+resource wild_animals, 2, 240, 46
+
+;Alana
+resource slaves, 1, 252, 51
+resource textiles, 3, 248, 47
+resource iron, 1, 250, 55
+resource wild_animals, 3, 247, 51
+
+;Meroe_Insula
+resource slaves, 1, 252, 44
+resource iron, 1, 258, 49
+resource camels, 1, 244, 42
+resource incense, 2, 255, 45
+
+;Alut
+resource slaves, 1, 249, 34
+resource camels, 1, 245, 37
+resource pottery, 1, 246, 31
+resource elephants, 1, 251, 33
+resource silver, 2, 248, 38
+
+;Atbaras
+resource slaves, 1, 263, 42
+resource gold, 1, 264, 38
+resource olive_oil, 1, 267, 38
+resource pottery, 1, 259, 43
+
+;Attiroia
+resource slaves, 1, 257, 31
+resource furs, 3, 261, 32
+resource grain, 2, 253, 36
+resource elephants, 2, 257, 36
+resource incense, 3, 262, 35
+
+;Bega
+resource slaves, 1, 279, 42
+resource pottery, 1, 271, 40
+resource incense, 1, 274, 41
+resource textiles, 2, 269, 45
+
+;Tangiatae
+resource slaves, 1, 277, 47
+resource incense, 3, 275, 50
+resource copper, 1, 269, 55
+resource iron, 1, 271, 51
+
+;Daamat
+resource slaves, 1, 277, 42
+resource marble, 1, 280, 39
+resource pottery, 2, 283, 42
+resource grain, 2, 277, 38
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -6404,7 +6473,6 @@ army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
-unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
 
 character	Wah, admiral, age 29, , x 210, y 108
 army
@@ -13004,6 +13072,306 @@ settlement
 	}
 }
 
+; NUBIA
+settlement
+{
+	level large_town
+	region Nubia_Septentrionalis
+
+	year_founded 0
+	population 5150
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Nubia_Centralis
+
+	year_founded 0
+	population 5800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Nubia_Meridionalis
+
+	year_founded 0
+	population 2850
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Alana
+
+	year_founded 0
+	population 4250
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; MEROE
+settlement
+{
+	level large_town
+	region Meroe_Insula
+
+	year_founded 0
+	population 4150
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Alut
+
+	year_founded 0
+	population 3400
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Atbaras
+
+	year_founded 0
+	population 1650
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Attiroia
+
+	year_founded 0
+	population 2150
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+; DAAMAT
+settlement
+{
+	level town
+	region Bega
+
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tangiatae
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Daamat
+
+	year_founded 0
+	population 4150
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -16764,6 +17132,153 @@ unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+; NUBIA
+character	sub_faction egypt, Nakhrankh, general, age 20, , x 229, y 60
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Ptahhotep, general, age 20, , x 234, y 52
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Ptahotem, general, age 20, , x 242, y 52
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Wah, general, age 20, , x 251, y 48
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+; MEROE
+character	sub_faction egypt, Ahmose, general, age 20, , x 250, y 43
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Heruben, general, age 20, , x 248, y 36
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Isetnofet, general, age 20, , x 262, y 41
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Khasekhem, general, age 20, , x 255, y 31
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+; DAAMAT
+character	sub_faction egypt, Khu, general, age 20, , x 272, y 42
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Kiya, general, age 20, , x 278, y 46
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Neferet, general, age 20, , x 276, y 40
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
