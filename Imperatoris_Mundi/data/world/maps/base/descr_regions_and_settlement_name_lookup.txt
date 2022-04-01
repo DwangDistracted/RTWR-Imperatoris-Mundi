@@ -392,6 +392,15 @@ Attiroia
 Bega
 Tangiatae
 Daamat
+Punt
+Asayta
+Akridophagia
+Rhausae
+Barbaria
+Cinnamonifora
+Aromatica
+Elephas
+Azania
 
 Eblania
 Coriondia
@@ -787,6 +796,15 @@ Hide
 Hawulti_Melazo
 Adoulis
 Yeha
+Arsinoe_Epidires
+Awsa
+Gidaya
+Avalites
+Malao
+Mundus
+Mosylon
+Opone
+Serapion
 
 Libyae_Interior
 toggle_fow
@@ -803,6 +821,9 @@ i_see_you
 Taklamakan_Desertum
 dune
 
+Barbaria_Interior
+somalian_pirates_weeee
+
 Tempr0
 Tempr9
 Tempr11
@@ -811,9 +832,7 @@ Tempr15
 Tempr16
 Tempr17
 Tempr18
-Tempr19
 Tempr21
-Tempr24
 Temp0
 Temp9
 Temp11
@@ -822,6 +841,4 @@ Temp15
 Temp16
 Temp17
 Temp18
-Temp19
 Temp21
-Temp24

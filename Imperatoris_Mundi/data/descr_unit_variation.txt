@@ -4904,6 +4904,162 @@ region
 			distribution 10
 		}
 	}
+	Tangiatae
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Daamat
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Punt
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Asayta
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Akridophagia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Rhausae
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Barbaria
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Cinnamonifora
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Aromatica
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Elephas
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Azania
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Barbaria_Interior
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
 	Berserk
 	{
 

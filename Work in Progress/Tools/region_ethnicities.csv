@@ -52,4 +52,5 @@ West Egyptian Desert,egyptian;100,Parva;Farfara;Kharga;Khargana
 Eastern Desert,mediterranean;10;egyptian;60;arabic;20;african;10,Porphyritis_Mons;Troglodytica;Ptolemais_Epithera
 Nubia,egyptian;40;african;60,Nubia_Septentrionalis;Nubia_Centralis;Nubia_Meridionalis;Alana
 Meroe,african;90;egyptian;10,Meroe_Insula;Alut;Atbaras;Attiroia
-Daaamat,african;90;arabic;10,Bega,Tangiatae,Daamat
+Daaamat,african;90;arabic;10,Bega;Tangiatae;Daamat;Punt
+Erythrae,african;90;arabic;10,Asayta;Akridophagia;Rhausae;Barbaria;Cinnamonifora;Aromatica;Elephas;Azania;Barbaria_Interior

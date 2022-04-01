@@ -3603,6 +3603,88 @@ Daamat
 	5
 	3
 
+Punt
+	Arsinoe_Epidires
+	egypt
+	Daamat
+	226 155 2
+	none
+	5
+	1
+
+;Erythrae
+Asayta
+	Awsa
+	egypt
+	Macrobian
+	154 219 89
+	none
+	5
+	2
+
+Akridophagia
+	Gidaya
+	egypt
+	Macrobian
+	196 174 7
+	none
+	5
+	1
+
+Rhausae
+	Avalites
+	egypt
+	Macrobian
+	181 57 23
+	none
+	5
+	2
+
+Barbaria
+	Malao
+	egypt
+	Macrobian
+	224 184 40
+	none
+	5
+	1
+
+Cinnamonifora
+	Mundus
+	egypt
+	Macrobian
+	80 229 39
+	none
+	5
+	0
+
+Aromatica
+	Mosylon
+	egypt
+	Macrobian
+	242 225 101
+	none
+	5
+	0
+
+Elephas
+	Opone
+	egypt
+	Macrobian
+	51 6 124
+	none
+	5
+	0
+
+Azania
+	Serapion
+	egypt
+	Macrobian
+	134 224 96
+	none
+	5
+	2
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -3645,6 +3727,15 @@ Taklamakan_Desertum
 	parthia
 	TerraIncognita
 	234 129 37
+	none
+	5
+	0
+
+Barbaria_Interior
+	somalian_pirates_weeee
+	romans_julii
+	Latins
+	180 76 67
 	none
 	5
 	0
@@ -3718,15 +3809,6 @@ Tempr18
 	romans_julii
 	Latins
 	0 128 0
-	none
-	5
-	5
-
-Tempr19
-	Temp19
-	romans_julii
-	Latins
-	180 76 67
 	none
 	5
 	5

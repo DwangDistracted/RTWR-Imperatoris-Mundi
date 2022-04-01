@@ -2049,7 +2049,7 @@ resource pottery, 1, 220, 98
 
 ;Saracena
 resource slaves, 1, 222, 106
-resource incense 1, 225, 104
+resource incense, 1, 225, 104
 resource purple_dye, 1, 234, 94
 resource copper, 1, 227, 100
 
@@ -2193,12 +2193,70 @@ resource marble, 1, 280, 39
 resource pottery, 2, 283, 42
 resource grain, 2, 277, 38
 
+;Punt
+resource slaves, 1, 294, 37
+resource elephants, 2, 296, 34
+resource pottery, 1, 298, 37
+resource incense, 2, 289, 40
+resource wild_animals, 2, 290, 38
+
+;Asayta
+resource slaves, 1, 296, 31
+resource grain, 2, 292, 31
+resource iron, 1, 285, 33
+resource lead, 1, 285, 29
+resource incense, 2, 287, 29
+resource textiles, 2, 287, 34
+
+;Akridophagia
+resource slaves, 1, 290, 17
+resource copper, 1, 294, 20
+resource gold, 1, 287, 22
+resource lead, 1, 296, 22
+resource furs, 2, 287, 15
+resource elephants, 1, 289, 15
+
+;Rhausae
+resource slaves, 1, 302, 31
+resource grain, 2, 299, 28
+resource lead, 1, 300, 24
+resource incense, 1, 302, 27
+resource textiles, 1, 298, 25
+
+;Barbaria
+resource slaves, 1, 307, 28
+resource gold, 2, 312, 30
+resource wild_animals, 1, 310, 25
+
+;Cinnamonifora
+resource slaves, 1, 317, 31
+resource incense, 1, 322, 29
+resource textiles, 1, 327, 32
+
+;Aromatica
+resource slaves, 1, 330, 39
+resource incense, 2, 336, 43
+resource textiles, 1, 332, 35
+resource elephants, 1, 334, 39
+
+;Elephas
+resource slaves, 1, 336, 35
+resource textiles, 3, 335, 30
+resource pottery, 1, 337, 28
+
+;Azania
+resource slaves, 1, 330, 3
+resource incense, 2, 331, 7
+resource purple_dye, 1, 326, 1
+resource gold, 1, 327, 4
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
 resource slaves, 1, 392, 225
 resource slaves, 1, 459, 193
 resource slaves, 1, 427, 222
+resource slaves, 1, 314, 4
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -13313,7 +13371,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -13344,7 +13402,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -13369,6 +13427,242 @@ settlement
 	building
 	{
 		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Punt
+
+	year_founded 0
+	population 3400
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+; ERYTHRAE
+settlement
+{
+	level large_town
+	region Asayta
+
+	year_founded 0
+	population 4800
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Akridophagia
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Rhausae
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Barbaria
+
+	year_founded 0
+	population 1900
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Cinnamonifora
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aromatica
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Elephas
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Azania
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -13412,6 +13706,16 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator parthia
+}
+settlement
+{
+	level village
+	region Barbaria_Interior
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator egypt
 }
 
 ; TEMP
@@ -13459,16 +13763,6 @@ settlement
 {
 	level village
 	region Tempr18
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr19
 
 	year_founded 0
 	population 400
