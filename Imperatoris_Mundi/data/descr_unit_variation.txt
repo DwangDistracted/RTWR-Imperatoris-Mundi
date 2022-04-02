@@ -5060,6 +5060,102 @@ region
 			distribution 10
 		}
 	}
+	Axomitarum
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Tiama
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Atalmo
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Ssasu
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Melanokhrotoi
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Gambala
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Calaa
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Astasobas
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Golaissae
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Artabatita
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Syrbotia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Cyeneum
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
 	Berserk
 	{
 
