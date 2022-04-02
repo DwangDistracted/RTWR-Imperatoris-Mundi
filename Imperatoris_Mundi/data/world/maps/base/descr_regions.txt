@@ -3685,6 +3685,116 @@ Azania
 	5
 	2
 
+;Aethiopia
+Axomitarum
+	Axum
+	egypt
+	Aksumite
+	216 37 2
+	none
+	5
+	5
+
+Tiama
+	Sembobitis
+	egypt
+	Aksumite
+	221 204 8
+	none
+	5
+	3
+
+Atalmo
+	Tissisat
+	egypt
+	Aksumite
+	156 81 247
+	none
+	5
+	2
+
+Ssasu
+	Showa
+	egypt
+	Aksumite
+	90 237 134
+	none
+	5
+	1
+
+Melanokhrotoi
+	Maste
+	egypt
+	Aksumite
+	104 48 168
+	none
+	5
+	4
+
+Gambala
+	Tziamo
+	egypt
+	Aksumite
+	198 185 0
+	none
+	5
+	3
+
+; CYENEUM
+Calaa
+	Sannar
+	egypt
+	Cyenean
+	242 217 106
+	none
+	5
+	2
+
+Astasobas
+	Uatara
+	egypt
+	Cyenean
+	155 1 47
+	none
+	5
+	2
+
+Golaissae
+	Belaya
+	egypt
+	Cyenean
+	161 97 221
+	none
+	5
+	3
+
+Artabatita
+	Astapus
+	egypt
+	Cyenean
+	216 71 119
+	none
+	5
+	1
+
+Syrbotia
+	Zankor
+	egypt
+	Cyenean
+	21 239 68
+	none
+	5
+	2
+
+Cyeneum
+	Barditon
+	egypt
+	Cyenean
+	252 240 78
+	none
+	5
+	1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -3733,8 +3843,8 @@ Taklamakan_Desertum
 
 Barbaria_Interior
 	somalian_pirates_weeee
-	romans_julii
-	Latins
+	egypt
+	TerraIncognita
 	180 76 67
 	none
 	5
@@ -3809,15 +3919,6 @@ Tempr18
 	romans_julii
 	Latins
 	0 128 0
-	none
-	5
-	5
-
-Tempr21
-	Temp21
-	romans_julii
-	Latins
-	89 53 31
 	none
 	5
 	5

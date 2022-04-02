@@ -1714,18 +1714,18 @@ resource silver, 1, 408, 254
 ;Gushia
 resource slaves, 1, 450, 247
 resource gold, 1, 442, 246
-resource purple_dye, 454, 247
+resource purple_dye, 1, 454, 247
 resource wild_animals, 1, 451, 250
 
 ;Hamich
-resource slaves, 1, 450, 247
+resource slaves, 1, 464, 252
 resource grain, 1, 460, 253
 resource gold, 3, 472, 251
 resource iron, 1, 469, 247
 resource copper, 1, 471, 253
 
 ;Agni
-resource slaves, 1, 235, 244
+resource slaves, 1, 440, 243
 resource silver, 1, 440, 241
 resource furs, 1, 431, 242
 resource grain, 1, 435, 241
@@ -2001,7 +2001,7 @@ resource furs, 1, 356, 191
 
 ;Barka
 resource slaves, 1, 169, 96
-resource olive_oil, 4, 170, 104
+resource olive_oil, 4, 171, 104
 resource marble, 1, 170, 100
 resource grain, 2, 168, 100
 
@@ -2176,10 +2176,10 @@ resource elephants, 2, 257, 36
 resource incense, 3, 262, 35
 
 ;Bega
-resource slaves, 1, 279, 42
+resource slaves, 1, 271, 44
 resource pottery, 1, 271, 40
 resource incense, 1, 274, 41
-resource textiles, 2, 269, 45
+resource hides, 2, 269, 45
 
 ;Tangiatae
 resource slaves, 1, 277, 47
@@ -2206,12 +2206,12 @@ resource grain, 2, 292, 31
 resource iron, 1, 285, 33
 resource lead, 1, 285, 29
 resource incense, 2, 287, 29
-resource textiles, 2, 287, 34
+resource hides, 2, 287, 34
 
 ;Akridophagia
 resource slaves, 1, 290, 17
 resource copper, 1, 294, 20
-resource gold, 1, 287, 22
+resource gold, 1, 288, 22
 resource lead, 1, 296, 22
 resource furs, 2, 287, 15
 resource elephants, 1, 289, 15
@@ -2221,7 +2221,7 @@ resource slaves, 1, 302, 31
 resource grain, 2, 299, 28
 resource lead, 1, 300, 24
 resource incense, 1, 302, 27
-resource textiles, 1, 298, 25
+resource hides, 1, 298, 25
 
 ;Barbaria
 resource slaves, 1, 307, 28
@@ -2231,17 +2231,17 @@ resource wild_animals, 1, 310, 25
 ;Cinnamonifora
 resource slaves, 1, 317, 31
 resource incense, 1, 322, 29
-resource textiles, 1, 327, 32
+resource hides, 1, 327, 32
 
 ;Aromatica
 resource slaves, 1, 330, 39
 resource incense, 2, 336, 43
-resource textiles, 1, 332, 35
+resource hides, 1, 332, 35
 resource elephants, 1, 334, 39
 
 ;Elephas
 resource slaves, 1, 336, 35
-resource textiles, 3, 335, 30
+resource hides, 3, 335, 30
 resource pottery, 1, 337, 28
 
 ;Azania
@@ -2249,6 +2249,86 @@ resource slaves, 1, 330, 3
 resource incense, 2, 331, 7
 resource purple_dye, 1, 326, 1
 resource gold, 1, 327, 4
+
+;Axomitarum
+resource slaves, 1, 275, 35
+resource gold, 2, 275, 30
+resource silver, 1, 281, 32
+resource pottery, 1, 270, 37
+resource textiles, 3, 277, 27
+resource elephants, 1, 281, 27
+
+;Tiama
+resource slaves, 1, 271, 27
+resource wild_animals, 2, 267, 24
+resource grain, 2, 269, 25
+resource elephants, 1, 269, 29
+resource gold, 1, 274, 24
+
+;Atalmo
+resource slaves, 1, 264, 24
+resource hides, 2, 268, 35
+resource grain, 2, 265, 34
+resource elephants, 2, 266, 29
+resource incense, 3, 263, 30
+
+;Ssasu
+resource slaves, 1, 274, 20
+resource grain, 2, 267, 21
+resource elephants, 1, 269, 17
+resource gold, 1, 275, 22
+resource copper, 1, 283, 22
+resource iron, 1, 279, 22
+
+;Melanokhrotoi
+resource slaves, 1, 283, 4
+resource timber, 5, 285, 11
+resource hides, 2, 281, 12
+resource lead, 1, 283, 8
+resource iron, 1, 280, 1
+resource incense, 1, 282, 11
+
+;Gambala
+resource slaves, 1, 273, 7
+resource grain, 2, 277, 8
+resource hides, 3, 273, 15
+
+;Calaa
+resource slaves, 1, 254, 27
+resource grain, 3, 252, 23
+resource hides, 2, 256, 22
+resource furs, 1, 252, 17
+resource pottery, 1, 252, 28
+
+;Astasobas
+resource slaves, 1, 260, 20
+resource grain, 3, 265, 19
+resource wild_animals, 2, 256, 16
+resource iron, 1, 262, 11
+
+;Golaissae
+resource slaves, 1, 254, 7
+resource grain, 2, 252, 4
+resource furs, 2, 257, 4
+resource elephants, 3, 263, 1
+resource incense, 3, 250, 2
+
+;Artabatita
+resource slaves, 1, 244, 7
+resource incense, 1, 242, 10
+resource wild_animals, 3, 229, 4
+resource iron, 1, 244, 15
+
+;Syrbotia
+resource slaves, 1, 226, 14
+resource hides, 2, 237, 16
+resource incense, 2, 222, 14
+
+;Cyeneum
+resource slaves, 1, 207, 7
+resource incense, 1, 211, 5
+resource elephants, 1, 192, 5
+resource copper, 1, 197, 8
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -13267,7 +13347,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -13458,6 +13538,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -13666,6 +13750,280 @@ settlement
 	}
 }
 
+; AETHIOPIA
+settlement
+{
+	level city
+	region Axomitarum
+
+	year_founded 0
+	population 6200
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tiama
+
+	year_founded 0
+	population 4200
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+}
+
+settlement
+{
+	level town
+	region Atalmo
+
+	year_founded 0
+	population 1750
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Ssasu
+
+	year_founded 0
+	population 1900
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+}
+
+settlement
+{
+	level large_town
+	region Melanokhrotoi
+
+	year_founded 0
+	population 2050
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Gambala
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+; CYENEUM
+settlement
+{
+	level town
+	region Calaa
+
+	year_founded 0
+	population 1650
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Astasobas
+
+	year_founded 0
+	population 1700
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Golaissae
+
+	year_founded 0
+	population 2150
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Artabatita
+
+	year_founded 0
+	population 1850
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Syrbotia
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cyeneum
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator numidia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type market trader
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -13763,16 +14121,6 @@ settlement
 {
 	level village
 	region Tempr18
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr21
 
 	year_founded 0
 	population 400
@@ -17371,6 +17719,7 @@ unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
 ; CYRENAICA
+;Barka
 character	sub_faction greek_cities, Eratosthenes, general, age 20, , x 169, y 98
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -17379,13 +17728,12 @@ unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Cyrenaica
 character	sub_faction greek_cities, Megasthenes, general, age 20, , x 174, y 108
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -17394,10 +17742,8 @@ unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
-unit		merc libyan infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
@@ -17406,6 +17752,7 @@ unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; UPPER EGYPT
+;Aswan
 character	sub_faction egypt, Hekhemmut, general, age 20, , x 238, y 76
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17419,15 +17766,18 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
+;Ptolemais_Epithera
 character	sub_faction egypt, Khnumhoptep, general, age 20, , x 262, y 62
 army
-unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 
 ; NUBIA
+;Nubia_Septentrionalis
 character	sub_faction egypt, Nakhrankh, general, age 20, , x 229, y 60
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17435,6 +17785,7 @@ unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -17442,9 +17793,9 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
-unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
+;Nubia_Centralis
 character	sub_faction egypt, Ptahhotep, general, age 20, , x 234, y 52
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17459,10 +17810,10 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
+;Nubia_Meridionalis
 character	sub_faction egypt, Ptahotem, general, age 20, , x 242, y 52
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17476,6 +17827,7 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
+;Alana
 character	sub_faction egypt, Wah, general, age 20, , x 251, y 48
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17492,6 +17844,7 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
 ; MEROE
+;Meroe_Insula
 character	sub_faction egypt, Ahmose, general, age 20, , x 250, y 43
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17504,9 +17857,10 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
+;Alut
 character	sub_faction egypt, Heruben, general, age 20, , x 248, y 36
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17520,18 +17874,23 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
+;Atbaras
 character	sub_faction egypt, Isetnofet, general, age 20, , x 262, y 41
 army
-unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 
+;Attiroia
 character	sub_faction egypt, Khasekhem, general, age 20, , x 255, y 31
 army
-unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
@@ -17540,14 +17899,17 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 
 ; DAAMAT
+;Bega
 character	sub_faction egypt, Khu, general, age 20, , x 272, y 42
 army
-unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 
+;Tangiatae
 character	sub_faction egypt, Kiya, general, age 20, , x 278, y 46
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
@@ -17558,8 +17920,145 @@ unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 
+;Daamat
 character	sub_faction egypt, Neferet, general, age 20, , x 276, y 40
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Punt
+character	sub_faction egypt, Neferetiabet, general, age 20, , x 295, y 38
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+; ERYTHRAE
+;Asayta
+character	sub_faction egypt, Nakhti, general, age 20, , x 295, y 30
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Akridophagia
+character	sub_faction egypt, Miwsher, general, age 20, , x 289, y 18
+army
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Rhausae
+character	sub_faction egypt, Meryre, general, age 20, , x 301, y 31
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Barbaria
+character	sub_faction egypt, Menmaatre, general, age 20, , x 309, y 28
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Cinnamonifora
+character	sub_faction egypt, Mutnodjmet, general, age 20, , x 318, y 32
+army
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Aromatica
+character	sub_faction egypt, Pamiu, general, age 20, , x 329, y 38
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Elephas
+character	sub_faction egypt, Pasebakhaen, general, age 20, , x 337, y 37
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Azania
+character	sub_faction egypt, Akhaenniut, general, age 20, , x 329, y 2
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+; AETHIOPIA
+;Axomitarum
+character	sub_faction egypt, Rameses, general, age 20, , x 274, y 34
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
@@ -17572,7 +18071,142 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Tiama
+character	sub_faction egypt, Tutankhemwy, general, age 20, , x 272, y 26
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Atalmo
+character	sub_faction egypt, Amunmose, general, age 20, , x 261, y 26
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Ssasu
+character	sub_faction egypt, Sekhemwy, general, age 20, , x 273, y 20
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Melanokhrotoi
+character	sub_faction egypt, Alexander, general, age 20, , x 284, y 5
+army
+unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+
+;Gambala
+character	sub_faction egypt, Akhoris, general, age 20, , x 273, y 10
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+; CYRENEUM
+;Calaa
+character	sub_faction egypt, Amasis, general, age 20, , x 256, y 26
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Astasobas
+character	sub_faction egypt, Amyrtaios, general, age 20, , x 262, y 20
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Golaissae
+character	sub_faction egypt, Apries, general, age 20, , x 255, y 4
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Artabatita
+character	sub_faction egypt, Djehutimes, general, age 20, , x 243, y 5
+army
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Syrbotia
+character	sub_faction egypt, Nekho, general, age 20, , x 224, y 13
+army
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+
+;Cyeneum
+character	sub_faction egypt, Nektanebo, general, age 20, , x 205, y 5
+army
+unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
@@ -17594,6 +18228,10 @@ unit		east infantry				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Zoroaster, general, age 20, , x 463, y 197
 army
 unit		east infantry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction egypt, Akhaenniut, general, age 20, , x 308, y 5
+army
+unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<

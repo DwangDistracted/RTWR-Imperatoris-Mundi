@@ -401,6 +401,18 @@ Cinnamonifora
 Aromatica
 Elephas
 Azania
+Axomitarum
+Tiama
+Atalmo
+Ssasu
+Melanokhrotoi
+Gambala
+Calaa
+Astasobas
+Golaissae
+Syrbotia
+Artabatita
+Cyeneum
 
 Eblania
 Coriondia
@@ -805,6 +817,18 @@ Mundus
 Mosylon
 Opone
 Serapion
+Axum
+Sembobitis
+Tissisat
+Showa
+Maste
+Tziamo
+Sannar
+Uatara
+Belaya
+Zankor
+Astapus
+Barditon
 
 Libyae_Interior
 toggle_fow
@@ -832,7 +856,6 @@ Tempr15
 Tempr16
 Tempr17
 Tempr18
-Tempr21
 Temp0
 Temp9
 Temp11
@@ -841,4 +864,3 @@ Temp15
 Temp16
 Temp17
 Temp18
-Temp21
