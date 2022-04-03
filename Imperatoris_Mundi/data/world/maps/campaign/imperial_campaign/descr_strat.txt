@@ -4576,11 +4576,11 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
-		type missiles practice_field
+		type missiles archery_range
 	}
 	building
 	{
@@ -4593,6 +4593,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
 	}
 }
 
@@ -4621,6 +4625,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -4638,11 +4646,19 @@ settlement
 	}
 	building
 	{
+		type missiles practice_field
+	}
+	building
+	{
 		type equestrian stables
 	}
 	building
 	{
 		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -4658,6 +4674,14 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -15490,6 +15514,7 @@ unit		roman velite				exp 2 armour 0 weapon_lvl 0
 unit		roman velite				exp 2 armour 0 weapon_lvl 0
 
 ; NORTH AFRICA
+;Massylia
 character	sub_faction carthage, Aderbal, general, age 20, , x 102, y 110
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15501,34 +15526,38 @@ unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Gaetulia
 character	sub_faction numidia, Aischylos, general, age 20, , x 98, y 96
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Maxyesia
 character	sub_faction numidia, Euenus, general, age 20, , x 115, y 101
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Musulamia
 character	sub_faction numidia, Euonomos, general, age 20, , x 114, y 105
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15537,24 +15566,25 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Machuria
 character	sub_faction numidia, Sakarbal, general, age 20, , x 87, y 100
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Massaesylia
 character	sub_faction numidia, Tabnit, general, age 20, , x 75, y 99
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15562,12 +15592,13 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Metagonia
 character	sub_faction numidia, Theages, general, age 20, , x 67, y 92
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15575,12 +15606,13 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Mauretania
 character	sub_faction numidia, Sakarbal, general, age 20, , x 53, y 81
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15588,22 +15620,28 @@ unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Tadla
 character	sub_faction numidia, Zeuxis, general, age 20, , x 50, y 77
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Rutubis
 character	sub_faction numidia, Zamolxis, general, age 20, , x 41, y 75
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
@@ -15612,53 +15650,63 @@ unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Mauretania_Ulterior
 character	sub_faction numidia, Masgava, general, age 20, , x 37, y 65
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Lixiane
 character	sub_faction numidia, Juva, general, age 20, , x 37, y 52
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Furtunatae_Insulae
 character	sub_faction numidia, Syphax, general, age 20, , x 10, y 39
 army
-unit		carthaginian peasant				exp 9 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 
+;Cerne
 character	sub_faction carthage, Hanno, general, age 20, , x 18, y 3
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 
+;Deserta_Mauretania
 character	sub_faction numidia, Burrhus, general, age 20, , x 61, y 81
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Madethubadus
 character	sub_faction numidia, Akbar, general, age 20, , x 91, y 95
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; LIBYA
+;Emporia
 character	sub_faction carthage, Yehawwielon, general, age 20, , x 119, y 97
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15668,10 +15716,13 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Tripolitania
 character	sub_faction carthage, Maharbal, general, age 20, , x 136, y 97
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15681,9 +15732,11 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Syrtica
 character	sub_faction numidia, Juba, general, age 20, , x 158, y 92
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15692,34 +15745,43 @@ unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Nasamonia
 character	sub_faction numidia, Jubal, general, age 20, , x 174, y 91
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; SAHARA
+;Garamantia_Citerior
 character	sub_faction numidia, Massinissa, general, age 20, , x 118, y 86
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Deserta_Tripolitania
 character	sub_faction numidia, Misagenes, general, age 20, , x 144, y 86
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
@@ -15727,14 +15789,18 @@ unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Phazania
 character	sub_faction numidia, Micipsa, general, age 20, , x 146, y 72
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Garamantia_Ulterior
 character	sub_faction numidia, Massiva, general, age 20, , x 139, y 65
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15743,44 +15809,49 @@ unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Ougarta
 character	sub_faction numidia, Aqhat, general, age 20, , x 77, y 66
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 
+;Leonum_Trahentium
 character	sub_faction numidia, Admetos, general, age 20, , x 109, y 46
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 
+;Troglodytia
 character	sub_faction numidia, Abdosir, general, age 20, , x 171, y 42
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 
+;Nigritania
 character	sub_faction numidia, Hiram, general, age 20, , x 90, y 1
 army
-unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Agisymba
 character	sub_faction numidia, Eshmunazar, general, age 20, , x 166, y 1
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -15788,21 +15859,27 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0  Athanatos
+
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; IBERIA
+;Baetica_Gaditanus
 character	sub_faction carthage, Metiochus, general, age 20, , x 46, y 94
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
@@ -15810,6 +15887,7 @@ unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Edetania
 character	sub_faction spain, Viriathus, general, age 20, , x 66, y 117
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15823,6 +15901,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Ilercavonia
 character	sub_faction spain, Ambon, general, age 20, , x 68, y 124
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15836,6 +15915,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Cessetania
 character	sub_faction spain, Arganthonios, general, age 20, , x 70, y 127
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15849,6 +15929,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Ilergetia
 character	sub_faction spain, Auaros, general, age 20, , x 67, y 130
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15862,6 +15943,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Vasconia
 character	sub_faction spain, Caraunios, general, age 20, , x 61, y 132
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15875,11 +15957,12 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Couneia
 character	sub_faction spain, Caros, general, age 20, , x 40, y 97
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
@@ -15890,6 +15973,7 @@ unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Turdetania
 character	sub_faction spain, Leukon, general, age 20, , x 44, y 99
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15901,30 +15985,36 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Baetica_Hispalensis
 character	sub_faction spain, Megaravicos, general, age 20, , x 48, y 100
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Malacitia
 character	sub_faction spain, Rhetogenes, general, age 20, , x 52, y 98
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
@@ -15932,9 +16022,10 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Baetica_Cordubensis
 character	sub_faction spain, Viriathos, general, age 20, , x 50, y 104
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15946,15 +16037,16 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Turdulia_Occidentalis
 character	sub_faction spain, Avaros, general, age 20, , x 40, y 103
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
@@ -15965,6 +16057,7 @@ unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Turdulia_Orientalis
 character	sub_faction spain, Matugenus, general, age 20, , x 52, y 108
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15978,6 +16071,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Oretania
 character	sub_faction spain, Lucco, general, age 20, , x 55, y 105
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -15988,9 +16082,10 @@ unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Lobetania
 character	sub_faction spain, Segovax, general, age 20, , x 58, y 110
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16004,6 +16099,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Celtiberia_Meridionalis
 character	sub_faction spain, Huevos, general, age 20, , x 59, y 116
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16019,6 +16115,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Celtiberia_Centralis
 character	sub_faction spain, Adiran, general, age 20, , x 54, y 119
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16034,6 +16131,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Carpetania
 character	sub_faction spain, Ager, general, age 20, , x 50, y 115
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16041,14 +16139,13 @@ unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian city militia				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Celtiberia_Septentrionalis
 character	sub_faction spain, Aingeru, general, age 20, , x 59, y 127
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16064,6 +16161,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Vettonia_Septentrionalis
 character	sub_faction spain, Akil, general, age 20, , x 45, y 125
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16077,11 +16175,12 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Cantabria
 character	sub_faction spain, Ander, general, age 20, , x 42, y 128
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
@@ -16090,6 +16189,7 @@ unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Autrigonia
 character	sub_faction spain, Antton, general, age 20, , x 51, y 129
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16103,6 +16203,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Vardulia
 character	sub_faction spain, Asentzio, general, age 20, , x 55, y 132
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16116,6 +16217,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Celticia_Maoioris
 character	sub_faction spain, Benat, general, age 20, , x 42, y 107
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16133,6 +16235,7 @@ unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Celticia_Minoris
 character	sub_faction spain, Bingen, general, age 20, , x 34, y 103
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16148,6 +16251,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Oppidania
 character	sub_faction spain, Bittor, general, age 20, , x 30, y 109
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16163,12 +16267,13 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Aebocosia
 character	sub_faction spain, Danel, general, age 20, , x 38, y 123
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
@@ -16178,12 +16283,13 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Asturia
 character	sub_faction spain, Deunoro, general, age 20, , x 38, y 129
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc spanish infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian infantry				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
@@ -16191,6 +16297,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Callaecia_Meridionalis
 character	sub_faction spain, Dunixi, general, age 20, , x 28, y 117
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16208,6 +16315,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Callaecia_Septentrionalis
 character	sub_faction spain, Edorta, general, age 20, , x 26, y 125
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0

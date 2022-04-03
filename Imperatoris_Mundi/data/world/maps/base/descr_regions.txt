@@ -1407,15 +1407,6 @@ Cerne
 	5
 	2
 
-Nigritania
-	Tondidaru
-	numidia
-	Nigritae
-	3 124 17
-	none
-	5
-	4
-
 Deserta_Mauretania
 	Mulucha
 	numidia
@@ -1430,24 +1421,6 @@ Madethubadus
 	numidia
 	Gaetuli
 	12 91 122
-	none
-	5
-	0
-
-Leonum_Trahentium
-	Alasi
-	numidia
-	Troglodytian
-	12 33 124
-	none
-	5
-	0
-
-Ougarta
-	Ougartoum
-	numidia
-	Troglodytian
-	135 150 4
 	none
 	5
 	0
@@ -1488,6 +1461,34 @@ Nasamonia
 	none
 	5
 	1
+
+;Sahara
+Leonum_Trahentium
+	Alasi
+	numidia
+	Troglodytian
+	12 33 124
+	none
+	5
+	0
+
+Nigritania
+	Tondidaru
+	numidia
+	Nigritae
+	3 124 17
+	none
+	5
+	4
+
+Ougarta
+	Ougartoum
+	numidia
+	Troglodytian
+	135 150 4
+	none
+	5
+	0
 
 Deserta_Tripolitania
 	Myd
