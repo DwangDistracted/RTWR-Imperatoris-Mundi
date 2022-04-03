@@ -15040,7 +15040,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 ;Ciscarpathia
 character	sub_faction germans, Gaiseric, general, age 20, , x 133, y 196
 army
-unit		rebel naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -15473,6 +15473,7 @@ unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
 
 ; WESTERN MEDITERRANEAN ISLANDS
+;Corsica
 character	sub_faction romans_julii, Elpidius, general, age 20, , x 104, y 141
 army
 unit		generic rebel general				exp 2 armour 0 weapon_lvl 0
@@ -15480,8 +15481,11 @@ unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		merc samnite				exp 2 armour 0 weapon_lvl 0
 unit		merc samnite				exp 2 armour 0 weapon_lvl 0
+unit		merc samnite				exp 2 armour 0 weapon_lvl 0
 unit		roman hastati				exp 2 armour 0 weapon_lvl 0
 unit		roman hastati				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 2 armour 0 weapon_lvl 0
+unit		roman velite				exp 2 armour 0 weapon_lvl 0
 unit		roman velite				exp 2 armour 0 weapon_lvl 0
 unit		roman velite				exp 2 armour 0 weapon_lvl 0
 
