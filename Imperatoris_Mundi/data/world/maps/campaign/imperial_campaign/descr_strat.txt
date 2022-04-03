@@ -4694,7 +4694,7 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Gisgo, named character, heir, age 35, , x 107, y 101
+character	Gisgo, named character, heir, age 35, , x 97, y 105
 traits GoodCommander 2 , Energetic 1 , Intelligent 1 , Drink 1
 ancillaries merchant
 army
@@ -4702,17 +4702,24 @@ unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		numidian desert warriors				exp 0 armour 0 weapon_lvl 0
+unit		numidian desert warriors				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian archer				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian archer				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	Muttines, named character, age 30, , x 97, y 105
+character	Muttines, named character, age 30, , x 107, y 101
 traits NaturalMilitarySkill 1 , PublicFaith 3 , Intelligent 1
 ancillaries desert_scout
 army
 unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Oxynta, general, age 20, , x 108, y 105
 army
