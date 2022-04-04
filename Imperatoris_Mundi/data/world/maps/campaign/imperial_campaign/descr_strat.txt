@@ -16339,6 +16339,7 @@ unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; ILLYRIA
+;Histria
 character	sub_faction dacia, Skunxa, general, age 20, , x 118, y 164
 army
 unit		barb chieftain cavalry early slave				exp 4 armour 0 weapon_lvl 0
@@ -16352,6 +16353,7 @@ unit		barb infantry slave				exp 5 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 5 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave				exp 5 armour 0 weapon_lvl 0
 
+;Libernia
 character	sub_faction dacia, Anacharsis, general, age 20, , x 127, y 161
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16367,6 +16369,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Dalmatia
 character	sub_faction dacia, Idanthyrsus, general, age 20, , x 134, y 158
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16382,6 +16385,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Daorsia
 character	sub_faction dacia, Dapyx, general, age 20, , x 137, y 160
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16397,6 +16401,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Deuria
 character	sub_faction dacia, Vencaslac, general, age 20, , x 130, y 167
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16412,6 +16417,8 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+; PANNONIA
+;Latobicia
 character	sub_faction dacia, Arapeithes, general, age 20, , x 118, y 173
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16426,9 +16433,10 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Cataria
 character	sub_faction dacia, Idanthyrsus, general, age 20, , x 133, y 169
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16442,6 +16450,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Pannonia_Secunda
 character	sub_faction dacia, Partatua, general, age 20, , x 141, y 170
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16450,11 +16459,10 @@ unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Valeria
 character	sub_faction dacia, Saulius, general, age 20, , x 135, y 174
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16470,6 +16478,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Hercuniatia
 character	sub_faction dacia, Decebalus, general, age 20, , x 139, y 180
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16477,17 +16486,16 @@ unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Pannonia_Prima
 character	sub_faction dacia, Zyraxes, general, age 20, , x 135, y 183
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -16496,27 +16504,32 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Quadia
 character	sub_faction dacia, Attila, general, age 20, , x 135, y 188
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Carnuntia
 character	sub_faction dacia, Dnestr, general, age 20, , x 129, y 188
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Varciania
 character	sub_faction dacia, Deceneu, general, age 20, , x 127, y 183
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -16526,40 +16539,49 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; DACIA
+;Albocensia
 character	sub_faction dacia, Ata, general, age 20, , x 147, y 174
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Iazygia
 character	sub_faction dacia, Skunxa, general, age 20, , x 147, y 179
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Cotinia
 character	sub_faction dacia, Burubista, general, age 20, , x 140, y 187
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Costobocia
 character	sub_faction dacia, Scorilo, general, age 20, , x 154, y 189
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Getia
 character	sub_faction dacia, Dromichetes, general, age 20, , x 169, y 173
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16573,6 +16595,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Roxolania
 character	sub_faction dacia, Ion, general, age 20, , x 175, y 184
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16587,6 +16610,7 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; MOESIA WEST
+;Scordiscia
 character	sub_faction gauls, Brennus, general, age 20, , x 145, y 167
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16602,6 +16626,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Tricornensia
 character	sub_faction gauls, Orgetorix, general, age 20, , x 154, y 163
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16612,12 +16637,13 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Dindaria
 character	sub_faction gauls, Orgetorix, general, age 20, , x 145, y 161
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
 unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -16626,6 +16652,7 @@ unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Dardania
 character	sub_faction thrace, Brinkazis, general, age 20, , x 153, y 157
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16638,6 +16665,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 ; MOESIA EAST
+;Picensia
 character	sub_faction dacia, Arapeithes, general, age 20, , x 158, y 166
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16651,6 +16679,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Moesia
 character	sub_faction dacia, Diazenis, general, age 20, , x 164, y 161
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16662,6 +16691,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Saldensia
 character	sub_faction dacia, Diazelmis, general, age 20, , x 164, y 167
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16673,15 +16703,14 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
+;Triballia
 character	sub_faction gauls, Cunovindus, general, age 20, , x 171, y 165
 army
 unit		barb chieftain cavalry early slave				exp 5 armour 0 weapon_lvl 0
 unit		merc bastarnae				exp 5 armour 0 weapon_lvl 0
-unit		merc thracian				exp 5 armour 0 weapon_lvl 0
-unit		merc thracian				exp 5 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 5 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 5 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 5 armour 0 weapon_lvl 0
+unit		merc thracian				exp 5 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 5 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 5 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 5 armour 0 weapon_lvl 0
@@ -16689,6 +16718,7 @@ unit		barb noble cavalry slave				exp 5 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 5 armour 0 weapon_lvl 0
 
 ; PROPONTIS
+;Propontis
 character	sub_faction greek_cities, Lysimachos, general, age 20, , x 180, y 155
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -16702,28 +16732,26 @@ unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Europa
 character	sub_faction greek_cities, Deiphonous, general, age 20, , x 190, y 160
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		merc thracian				exp 2 armour 0 weapon_lvl 0
-unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
 ; EPEIROS
+;Illyria_Graeca
 character	sub_faction macedon, Deinomenes, general, age 20, , x 150, y 147
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -16733,14 +16761,14 @@ unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Epirus
 character	sub_faction macedon, Alexander, general, age 20, , x 156, y 143
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -16755,7 +16783,7 @@ unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
-; GREECE
+;Aetolia
 character	sub_faction greek_cities, Epimenes, general, age 20, , x 163, y 138
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -16765,13 +16793,18 @@ unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+; GREECE
+;Boeotia
 character	sub_faction greek_cities, Demetrios, general, age 20, , x 168, y 138
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
@@ -16787,6 +16820,7 @@ unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Attica
 character	sub_faction greek_cities, Aristides, general, age 20, , x 172, y 137
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -16801,46 +16835,51 @@ unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
 ; CRIMEA
+;Chersonesos_Zenonis
 character	sub_faction thrace, Spartocus, general, age 20, , x 213, y 192
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Chersonesos_Heraclea
 character	sub_faction thrace, Solomon, general, age 20, , x 203, y 185
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Taurica
 character	sub_faction scythia, Solomon, general, age 20, , x 203, y 192
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16851,30 +16890,31 @@ unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Bosporus_Cimmerius
 character	sub_faction thrace, Spartocus, general, age 20, , x 215, y 193
 army
-unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Sarmatia_Maritima
 character	sub_faction thrace, Phileas, general, age 20, , x 190, y 195
 army
-unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Scythia_Harpitis
 character	sub_faction thrace, Hermeias, general, age 20, , x 185, y 189
 army
-unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
@@ -16884,6 +16924,7 @@ unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
 ; EUROPEAN SARMATIA
+;Zargidava
 character	sub_faction dacia, Zalmoxis, general, age 20, , x 172, y 187
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16894,7 +16935,9 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Clepia
 character	sub_faction dacia, Vezina, general, age 20, , x 178, y 189
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -16905,95 +16948,89 @@ unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Subcarpathia
 character	sub_faction dacia, Comosicus, general, age 20, , x 154, y 198
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Sarmatia
 character	sub_faction scythia, Zipoetes, general, age 20, , x 184, y 195
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Sarmatia_Superioris
 character	sub_faction scythia, Arame, general, age 20, , x 190, y 199
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Borysthenia
 character	sub_faction scythia, Arame, general, age 20, , x 195, y 207
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Hypania
 character	sub_faction scythia, Artashes, general, age 20, , x 183, y 209
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Transborysthena
 character	sub_faction scythia, Ara, general, age 20, , x 198, y 214
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Gelonia
 character	sub_faction scythia, Aram, general, age 20, , x 202, y 216
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Neuri
 character	sub_faction scythia, Aramu, general, age 20, , x 178, y 217
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 4 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Transhypania
 character	sub_faction scythia, Argishti, general, age 20, , x 178, y 212
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -17001,40 +17038,37 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Hypania_Minoris
 character	sub_faction scythia, Arkha, general, age 20, , x 169, y 200
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 4 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Bassetia
 character	sub_faction scythia, Artavazd, general, age 20, , x 162, y 211
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Vistulia_Inferioris
 character	sub_faction scythia, Artaxias, general, age 20, , x 149, y 206
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Amadocia
 character	sub_faction scythia, Atheas, general, age 20, , x 147, y 213
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb noble cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -17043,105 +17077,101 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ; ASIAN SARMATIA
+;Borysthenia_Maioris
 character	sub_faction scythia, Belnirari, general, age 20, , x 202, y 208
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Danaia
 character	sub_faction scythia, Eminos, general, age 20, , x 209, y 213
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Melanchlenia
 character	sub_faction scythia, Haldita, general, age 20, , x 207, y 224
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+;Danaia_Superioris
+character	sub_faction scythia, Kudurmabug, general, age 20, , x 218, y 216
+army
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+;Mantessa
+character	sub_faction scythia, Liapos, general, age 20, , x 220, y 212
+army
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+;Confluenta
+character	sub_faction scythia, Madyes, general, age 20, , x 228, y 213
+army
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction scythia, Kudurmabug, general, age 20, , x 218, y 216
-army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction scythia, Liapos, general, age 20, , x 220, y 212
-army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction scythia, Madyes, general, age 20, , x 228, y 213
-army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-
+;Thyssagetae
 character	sub_faction scythia, Menua, general, age 20, , x 233, y 223
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Stumica
 character	sub_faction scythia, Partatua, general, age 20, , x 225, y 232
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ; CIRCASSIA
+;Maeotia
 character	sub_faction scythia, Phillipos, general, age 20, , x 225, y 200
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Tanaissa
 character	sub_faction scythia, Prusias, general, age 20, , x 225, y 206
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -17149,64 +17179,63 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+;Sindica
+character	sub_faction scythia, Rimsin, general, age 20, , x 223, y 192
+army
+unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+;Alania
+character	sub_faction scythia, Rusa, general, age 20, , x 237, y 213
+army
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+;Hyrcania_Superioris
+character	sub_faction scythia, Sarduri, general, age 20, , x 249, y 214
+army
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+
+;Atara
+character	sub_faction scythia, Skunxa, general, age 20, , x 256, y 210
+army
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction scythia, Rimsin, general, age 20, , x 223, y 192
-army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction scythia, Rusa, general, age 20, , x 237, y 213
-army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction scythia, Sarduri, general, age 20, , x 249, y 214
-army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction scythia, Skunxa, general, age 20, , x 256, y 210
-army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
-
+;Alania_Orientalis
 character	sub_faction scythia, Tigran, general, age 20, , x 252, y 206
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -17214,6 +17243,7 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Sarmatia_Hyrcania
 character	sub_faction scythia, Tigranes, general, age 20, , x 257, y 198
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -17225,6 +17255,7 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Sattara
 character	sub_faction scythia, Trdat, general, age 20, , x 241, y 203
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
@@ -17232,19 +17263,20 @@ unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Scythia_Transmontem
 character	sub_faction scythia, Waradsin, general, age 20, , x 265, y 191
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
