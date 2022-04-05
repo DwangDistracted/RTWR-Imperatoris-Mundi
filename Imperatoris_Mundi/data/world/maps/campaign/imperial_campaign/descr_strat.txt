@@ -16552,7 +16552,7 @@ unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 ;Iazygia
 character	sub_faction dacia, Skunxa, general, age 20, , x 147, y 179
 army
-unit		barb naked fanatics early slave				exp 2 armour 0 weapon_lvl 0
+unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -17282,76 +17282,71 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ; FAR SARMATIA
+;Nesietis
 character	sub_faction scythia, Ziaelas, general, age 20, , x 241, y 223
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Transhyrcania
 character	sub_faction scythia, Anacharsis, general, age 20, , x 257, y 222
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Darn
 character	sub_faction scythia, Arapeithes, general, age 20, , x 280, y 224
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Scythia_Magna
 character	sub_faction scythia, Atheas, general, age 20, , x 291, y 235
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Abzoa
 character	sub_faction scythia, Idanthyrsus, general, age 20, , x 322, y 240
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Deserta_Scythia
 character	sub_faction scythia, Idanthyrsus, general, age 20, , x 306, y 228
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Alanorsia
 character	sub_faction scythia, Palacus, general, age 20, , x 347, y 248
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
-unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
@@ -17359,42 +17354,47 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ; SOUTHERN SIBERIA
+;Busu
 character	sub_faction scythia, Scyles, general, age 20, , x 367, y 249
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Septem_Flumina
 character	sub_faction scythia, Scylurus, general, age 20, , x 381, y 243
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Sacasene
 character	sub_faction scythia, Zipoetes, general, age 20, , x 403, y 244
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Hongnia
 character	sub_faction scythia, Attila, general, age 20, , x 419, y 251
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
+unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
 ; TANIM
+;Gushia
 character	sub_faction parthia, Abdieso, general, age 20, , x 449, y 246
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -17408,50 +17408,54 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Hamich
 character	sub_faction parthia, Bagabigna, general, age 20, , x 461, y 251
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Kroraina
 character	sub_faction parthia, Achaemenes, general, age 20, , x 455, y 239
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 5 armour 0 weapon_lvl 0
+unit		east archer				exp 5 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Agni
 character	sub_faction parthia, Ardumanish, general, age 20, , x 436, y 243
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Portae_Ferraea
 character	sub_faction parthia, Ares, general, age 20, , x 431, y 236
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Kushine
 character	sub_faction parthia, Ariaramnes, general, age 20, , x 416, y 232
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		eastern rebel general				exp 5 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -17464,28 +17468,29 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Calmadana
 character	sub_faction parthia, Arsaces, general, age 20, , x 443, y 218
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Gumo
 character	sub_faction parthia, Arsames, general, age 20, , x 409, y 228
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 5 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 5 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Kasia
 character	sub_faction parthia, Arses, general, age 20, , x 393, y 211
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -17502,31 +17507,33 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Gosthana
 character	sub_faction parthia, Artavardiya, general, age 20, , x 412, y 204
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Cadot
 character	sub_faction parthia, Artaxerxes, general, age 20, , x 429, y 206
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; SERES
+;Paelex_Porta
 character	sub_faction parthia, Siamak, general, age 20, , x 475, y 243
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -17546,6 +17553,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Serica
 character	sub_faction parthia, Cincixri, general, age 20, , x 507, y 248
 army
 unit		eastern rebel general				exp 9 armour 3 weapon_lvl 3
@@ -17569,38 +17577,42 @@ unit		east horse archer				exp 9 armour 3 weapon_lvl 3
 unit		east horse archer				exp 9 armour 3 weapon_lvl 3
 unit		east horse archer				exp 9 armour 3 weapon_lvl 3
 
+;Serica_Asmiraii
 character	sub_faction parthia, Haxamanish, general, age 20, , x 480, y 226
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Serica_Coconorum
 character	sub_faction parthia, Teispes, general, age 20, , x 504, y 233
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; JAXARTES
+;Issedonia
 character	sub_faction scythia, Sarduri, general, age 20, , x 358, y 236
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Talas
 character	sub_faction scythia, Tigranes, general, age 20, , x 378, y 228
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
@@ -17609,55 +17621,60 @@ unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 2 armour 0 weapon_lvl 0
 
+;Chach
 character	sub_faction parthia, Artostes, general, age 20, , x 366, y 224
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Jaxartes_Superior
 character	sub_faction parthia, Aspacanah, general, age 20, , x 355, y 220
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Jaxartes_Inferior
 character	sub_faction parthia, Bagabuxsha, general, age 20, , x 329, y 225
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Dzankath
 character	sub_faction parthia, Bahar, general, age 20, , x 317, y 228
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; FERGHANA
+;Ferghana
 character	sub_faction parthia, Cambyses, general, age 20, , x 377, y 215
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -17666,12 +17683,12 @@ unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Kyreschata
 character	sub_faction seleucid, Hermeias, general, age 20, , x 363, y 206
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -17679,6 +17696,8 @@ unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -17687,205 +17706,195 @@ unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Pamir
 character	sub_faction parthia, Caspar, general, age 20, , x 372, y 201
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 
 ; SOGDIAN DESERT
+;Sakastan
 character	sub_faction parthia, Cisantaxma, general, age 20, , x 352, y 211
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Sogdiana_Deserta
 character	sub_faction parthia, Cishpi, general, age 20, , x 343, y 205
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Tigraxauda
 character	sub_faction parthia, Cyaxares, general, age 20, , x 339, y 197
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Oxia_Deserta
 character	sub_faction parthia, Cyrus, general, age 20, , x 321, y 212
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; CHORASMIA
+;Chorasmia_Ostia
 character	sub_faction parthia, Dadarshi, general, age 20, , x 316, y 211
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		eastern rebel general				exp 4 armour 3 weapon_lvl 1
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Chorasmia_Inferior
 character	sub_faction parthia, Darayavahu, general, age 20, , x 316, y 205
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		eastern rebel general				exp 4 armour 3 weapon_lvl 1
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Chorasmia_Superior
 character	sub_faction parthia, Dadarshi, general, age 20, , x 333, y 201
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		eastern rebel general				exp 4 armour 3 weapon_lvl 1
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
+unit		merc sarmatian cavalry				exp 4 armour 3 weapon_lvl 1
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; AMARDIA
+;Chorasmia_Deserta
 character	sub_faction parthia, Datuvahya, general, age 20, , x 303, y 215
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Mardastan
 character	sub_faction parthia, Fariel, general, age 20, , x 280, y 207
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Scythia_Ultima
 character	sub_faction parthia, Fravarti, general, age 20, , x 289, y 198
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; DAHAEA
+;Scythia_Pontica
 character	sub_faction parthia, Gaubaruva, general, age 20, , x 301, y 192
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Dahaestan
 character	sub_faction parthia, Gaumata, general, age 20, , x 311, y 189
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Massagetica
 character	sub_faction parthia, Gobryas, general, age 20, , x 311, y 197
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; MARGIANA
+;Margiana
 character	sub_faction parthia, Haxamanish, general, age 20, , x 337, y 183
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Sarmagana
 character	sub_faction parthia, Hydarnes, general, age 20, , x 344, y 173
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 2 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Attene
 character	sub_faction parthia, Hystaspes, general, age 20, , x 346, y 191
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; BACTRIA
+;Bactriana
 character	sub_faction seleucid, Diodotus, general, age 20, , x 364, y 186
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -17893,8 +17902,6 @@ unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -17904,11 +17911,10 @@ unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
-unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Chomaria
 character	sub_faction seleucid, Demetrius, general, age 20, , x 354, y 179
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -17916,23 +17922,19 @@ unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Candara
 character	sub_faction seleucid, Diodotus, general, age 20, , x 371, y 188
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -17940,14 +17942,15 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
 ; OXIANA
+;Transoxus
 character	sub_faction parthia, Imanish, general, age 20, , x 345, y 194
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -17956,6 +17959,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Sogdiana
 character	sub_faction parthia, Sogdianus, general, age 20, , x 354, y 199
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -17963,38 +17967,31 @@ unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Oxiana
 character	sub_faction seleucid, Helicaon, general, age 20, , x 372, y 194
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
+;Tarmita
 character	sub_faction seleucid, Eurykratides, general, age 20, , x 362, y 191
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -18008,9 +18005,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
