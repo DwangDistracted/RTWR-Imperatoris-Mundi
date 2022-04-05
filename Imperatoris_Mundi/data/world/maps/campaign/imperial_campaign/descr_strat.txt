@@ -17691,7 +17691,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 ;Kyreschata
 character	sub_faction seleucid, Hermeias, general, age 20, , x 363, y 206
 army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
