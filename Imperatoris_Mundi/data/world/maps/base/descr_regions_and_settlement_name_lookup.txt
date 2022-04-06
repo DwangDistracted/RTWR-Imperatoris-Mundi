@@ -413,6 +413,13 @@ Golaissae
 Syrbotia
 Artabatita
 Cyeneum
+Mapharitis
+Himyar
+Saba
+Qataban
+Myrrhifera
+Hadhramut_Occidentalis
+Hadhramut_Orientalis
 
 Eblania
 Coriondia
@@ -829,6 +836,13 @@ Belaya
 Zankor
 Astapus
 Barditon
+Mouza
+Raida
+Tamna
+Firai
+Yathill
+Shabwa
+Thialematt
 
 Libyae_Interior
 toggle_fow

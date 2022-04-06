@@ -3796,6 +3796,70 @@ Cyeneum
 	5
 	1
 
+;Arabia Felix
+Mapharitis
+	Mouza
+	parthia
+	Sabaean
+	221 48 74
+	none
+	5
+	3
+
+Himyar
+	Raida
+	parthia
+	Sabaean
+	29 229 149
+	none
+	5
+	3
+
+Saba
+	Tamna
+	parthia
+	Sabaean
+	229 232 62
+	none
+	5
+	1
+
+Qataban
+	Firai
+	parthia
+	Sabaean
+	66 168 11
+	none
+	5
+	2
+
+Myrrhifera
+	Yathill
+	parthia
+	Sabaean
+	175 44 35
+	none
+	5
+	1
+
+Hadhramut_Occidentalis
+	Shabwa
+	parthia
+	Hadhramut
+	249 115 94
+	none
+	5
+	1
+
+Hadhramut_Orientalis
+	Thialematt
+	parthia
+	Hadhramut
+	219 216 63
+	none
+	5
+	1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

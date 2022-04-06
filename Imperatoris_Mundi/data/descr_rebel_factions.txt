@@ -2059,6 +2059,84 @@ unit				egyptian peltast
 unit				egyptian peltast
 unit				egyptian general's bodyguard early
 
+rebel_type 			Sabaean	//parthia
+category			peasant_revolt 
+chance				0
+description			Sabaean
+unit				merc bedouin archers
+unit				merc arab cavalry
+unit				merc arab cavalry
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Hadhramut	//parthia
+category			peasant_revolt 
+chance				0
+description			Hadhramut
+unit				merc bedouin archers
+unit				merc bedouin archers
+unit				merc bedouin
+unit				merc bedouin
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Lihyan	//parthia
+category			peasant_revolt 
+chance				0
+description			Lihyan
+unit				merc bedouin archers
+unit				merc bedouin
+unit				merc arab cavalry
+unit				merc arab cavalry
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Maka	//parthia
+category			peasant_revolt 
+chance				0
+description			Maka
+unit				merc bedouin archers
+unit				merc arab cavalry
+unit				merc arab cavalry
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Gerrhan	//parthia
+category			peasant_revolt 
+chance				0
+description			Gerrhan
+unit				merc arab cavalry
+unit				merc arab cavalry
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Qedarite	//parthia
+category			peasant_revolt 
+chance				0
+description			Qedarite
+unit				merc bedouin archers
+unit				merc bedouin archers
+unit				merc bedouin archers
+unit				merc bedouin
+unit				merc bedouin
+unit				merc arab cavalry
+unit				merc arab cavalry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				0

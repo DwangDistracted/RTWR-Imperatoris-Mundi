@@ -5156,6 +5156,132 @@ region
 			distribution 100
 		}
 	}
+	Mapharitis
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Himyar
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Saba
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Qataban
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Myrrhifera
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Hadhramut_Occidentalis
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Hadhramut_Orientalis
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
 	Berserk
 	{
 
