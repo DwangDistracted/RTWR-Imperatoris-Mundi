@@ -14289,6 +14289,199 @@ settlement
 	faction_creator parthia
 }
 
+; WEST ARABIA
+settlement
+{
+	level town
+	region Taifa
+
+	year_founded 0
+	population 1800
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cinaedocolpitis
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Arabia_Ad_Sinus
+
+	year_founded 0
+	population 1450
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Iathrippa
+
+	year_founded 0
+	population 2050
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Hegra
+
+	year_founded 0
+	population 1650
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arabia_Relicta
+
+	year_founded 0
+	population 2100
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arabia_Petrea
+
+	year_founded 0
+	population 2650
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sinai
+
+	year_founded 0
+	population 2050
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type missiles practice_field
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -18740,7 +18933,7 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 
 ; ARABIA FELIX
 ;Mapharitis
-character	sub_faction parthia, Nektanebo, general, age 20, , x 299, y 42
+character	sub_faction parthia, Sosimenes, general, age 20, , x 299, y 42
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -18752,7 +18945,7 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
 ;Himyar
-character	sub_faction parthia, Nektanebo, general, age 20, , x 301, y 48
+character	sub_faction parthia, Syrus, general, age 20, , x 301, y 48
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -18766,7 +18959,7 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
 ;Myrrhifera
-character	sub_faction parthia, Nektanebo, general, age 20, , x 299, y 56
+character	sub_faction parthia, Tabor, general, age 20, , x 299, y 56
 army
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -18776,7 +18969,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
 
 ;Saba
-character	sub_faction parthia, Nektanebo, general, age 20, , x 308, y 52
+character	sub_faction parthia, Tallis, general, age 20, , x 308, y 52
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -18788,7 +18981,7 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
 
 ;Qataban
-character	sub_faction parthia, Nektanebo, general, age 20, , x 314, y 47
+character	sub_faction parthia, Taxmaspada, general, age 20, , x 314, y 47
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -18802,7 +18995,7 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
 
 ;Hadhramut_Occidentalis
-character	sub_faction parthia, Nektanebo, general, age 20, , x 316, y 55
+character	sub_faction parthia, Teispes, general, age 20, , x 316, y 55
 army
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
@@ -18813,13 +19006,15 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 
 ;Hadhramut_Orientalis
-character	sub_faction parthia, Nektanebo, general, age 20, , x 328, y 61
+character	sub_faction parthia, Thuxra, general, age 20, , x 328, y 61
 army
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+; WEST ARABIA
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3

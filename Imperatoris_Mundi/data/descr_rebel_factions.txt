@@ -1058,7 +1058,7 @@ unit				east peasant
 unit				east archer
 unit				east infantry
 unit				eastern rebel general
-					
+
 rebel_type 			Cypriots	//greek_cities
 category			peasant_revolt 
 chance				0
@@ -2068,7 +2068,7 @@ unit				merc arab cavalry
 unit				merc arab cavalry
 unit				east archer
 unit				east archer
-unit				east infantry
+unit				east peasant
 unit				east infantry
 unit				eastern rebel general
 
@@ -2077,9 +2077,9 @@ category			peasant_revolt
 chance				0
 description			Hadhramut
 unit				merc bedouin archers
-unit				merc bedouin archers
 unit				merc bedouin
 unit				merc bedouin
+unit				east peasant
 unit				east archer
 unit				east archer
 unit				east infantry
@@ -2091,8 +2091,8 @@ chance				0
 description			Lihyan
 unit				merc bedouin archers
 unit				merc bedouin
-unit				merc arab cavalry
-unit				merc arab cavalry
+unit				merc bedouin
+unit				east peasant
 unit				east archer
 unit				east archer
 unit				east infantry
@@ -2105,7 +2105,7 @@ description			Maka
 unit				merc bedouin archers
 unit				merc arab cavalry
 unit				merc arab cavalry
-unit				east archer
+unit				east peasant
 unit				east archer
 unit				east archer
 unit				east infantry
@@ -2117,7 +2117,7 @@ chance				0
 description			Gerrhan
 unit				merc arab cavalry
 unit				merc arab cavalry
-unit				east archer
+unit				east peasant
 unit				east archer
 unit				east archer
 unit				east infantry
@@ -2130,11 +2130,11 @@ chance				0
 description			Qedarite
 unit				merc bedouin archers
 unit				merc bedouin archers
-unit				merc bedouin archers
 unit				merc bedouin
 unit				merc bedouin
 unit				merc arab cavalry
 unit				merc arab cavalry
+unit				east peasant
 unit				eastern rebel general
 
 rebel_type 			TerraIncognita		//numidia

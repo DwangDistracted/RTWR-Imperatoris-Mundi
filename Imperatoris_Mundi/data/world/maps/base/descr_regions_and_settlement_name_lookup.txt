@@ -420,6 +420,14 @@ Qataban
 Myrrhifera
 Hadhramut_Occidentalis
 Hadhramut_Orientalis
+Taifa
+Cinaedocolpitis
+Arabia_Ad_Sinus
+Iathrippa
+Hegra
+Arabia_Relicta
+Arabia_Petrea
+Sinai
 
 Eblania
 Coriondia
@@ -843,6 +851,14 @@ Firai
 Yathill
 Shabwa
 Thialematt
+Makarabah
+Baitus
+Raunathou_Kome
+Ausara
+Dedan
+Madiama
+Reqemo
+Nuweiba
 
 Libyae_Interior
 toggle_fow

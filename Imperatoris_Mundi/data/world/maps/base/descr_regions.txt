@@ -3860,6 +3860,87 @@ Hadhramut_Orientalis
 	5
 	1
 
+;Western Arabia
+Taifa
+	Makarabah
+	parthia
+	Hadhramut
+	244 244 85
+	none
+	5
+	1
+	;36, wild_animals, 2, wine, 2, camels, 1
+
+Cinaedocolpitis
+	Baitus
+	parthia
+	Hadhramut
+	95 132 7
+	none
+	5
+	3
+	;44, incense, 2, purple_dye, 1, camels, 2, silver, 1
+
+Arabia_Ad_Sinus
+	Raunathou_Kome
+	parthia
+	Hadhramut
+	211 76 116
+	none
+	5
+	1
+	;29, incense, 1, marble, 1, camels, 1
+
+Iathrippa
+	Ausara
+	parthia
+	Hadhramut
+	71 21 153
+	none
+	5
+	0
+	;41, incense, 2, furs, 2, hides, 3, camels, 3
+
+Hegra
+	Dedan
+	parthia
+	Hadhramut
+	211 189 48
+	none
+	5
+	2
+	;33, hides, 2, silver, 1, textiles, 1, camels, 1
+
+Arabia_Relicta
+	Madiama
+	carthage
+	Nabataeans
+	249 27 249
+	none
+	5
+	0
+	;42, glass, 1, incense, 1, camels, 2, hides, 3
+
+Arabia_Petrea
+	Reqemo
+	carthage
+	Nabataeans
+	234 221 77
+	none
+	5
+	3
+	;53, textiles, 2, marble, 3, lead, 2
+
+Sinai
+	Nuweiba
+	carthage
+	Nabataeans
+	180 214 12
+	none
+	5
+	0
+	;41, glass, 1, silver, 2, camels, 1, marble, 1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

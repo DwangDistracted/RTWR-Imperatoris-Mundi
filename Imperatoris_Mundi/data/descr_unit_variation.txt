@@ -5282,6 +5282,110 @@ region
 			distribution 90
 		}
 	}
+	Taifa
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Cinaedocolpitis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Arabia_Ad_Sinus
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Iathrippa
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Hegra
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Arabia_Relicta
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Arabia_Petrea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Sinai
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
 	Berserk
 	{
 
