@@ -3979,7 +3979,7 @@ Mons_Imaus
 	0
 
 Taklamakan_Desertum
-	dune
+	not_east_turkestan
 	parthia
 	TerraIncognita
 	234 129 37
@@ -3992,6 +3992,15 @@ Barbaria_Interior
 	egypt
 	TerraIncognita
 	180 76 67
+	none
+	5
+	0
+
+Arabia_Deserta
+	nothing_but_oil
+	parthia
+	TerraIncognita
+	0 128 0
 	none
 	5
 	0
@@ -4056,15 +4065,6 @@ Tempr17
 	romans_julii
 	Latins
 	0 255 255
-	none
-	5
-	5
-
-Tempr18
-	Temp18
-	romans_julii
-	Latins
-	0 128 0
 	none
 	5
 	5

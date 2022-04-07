@@ -14533,6 +14533,16 @@ settlement
 	plan_set default_set
 	faction_creator egypt
 }
+settlement
+{
+	level village
+	region Arabia_Deserta
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
 
 ; TEMP
 settlement
@@ -14569,16 +14579,6 @@ settlement
 {
 	level village
 	region Tempr17
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr18
 
 	year_founded 0
 	population 400

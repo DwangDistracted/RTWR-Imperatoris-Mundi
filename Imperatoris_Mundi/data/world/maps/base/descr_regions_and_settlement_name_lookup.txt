@@ -873,10 +873,13 @@ Mons_Imaus
 i_see_you
 
 Taklamakan_Desertum
-dune
+not_east_turkestan
 
 Barbaria_Interior
 somalian_pirates_weeee
+
+Arabia_Deserta
+nothing_but_oil
 
 Tempr0
 Tempr9
@@ -885,7 +888,6 @@ Tempr14
 Tempr15
 Tempr16
 Tempr17
-Tempr18
 Temp0
 Temp9
 Temp11
@@ -893,4 +895,3 @@ Temp14
 Temp15
 Temp16
 Temp17
-Temp18
