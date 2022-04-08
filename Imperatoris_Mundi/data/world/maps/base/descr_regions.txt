@@ -3933,6 +3933,64 @@ Sinai
 	5
 	0
 
+;Eastern Arabia
+Omanitis_Orientalis
+	Kryptos_Limen
+	parthia
+	Maka
+	252 196 218
+	none
+	5
+	1
+	;40, incense, 1, wild_animals, 1, copper, 1, camels, 1
+
+Omanitis_Occidentalis
+	Omana
+	parthia
+	Maka
+	98 12 137
+	none
+	5
+	2
+	;70, pottery, 1, camels, 3, hides, 1, gold, 1
+
+Gerrha_Orientalis
+	Gerrha
+	parthia
+	Gerrhan
+	144 37 232
+	none
+	5
+	2
+	;37, camels, 2, purple_dye, 2, incense, 1
+
+Tylos_Insula
+	Tylos
+	parthia
+	Gerrhan
+	77 209 180
+	none
+	5
+	2
+	;27, textiles, 3, glass, 1
+
+Gerrha_Occidentalis
+	Teredon
+	parthia
+	Gerrhan
+	255 130 175
+	none
+	5
+	2
+	;37, camels, 2, purple_dye, 2, incense, 1
+
+;Central Arabia
+;Dumatha
+;	Dumah
+
+;Arabia_Magna
+;	Alata
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

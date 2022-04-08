@@ -428,6 +428,11 @@ Hegra
 Arabia_Relicta
 Arabia_Petrea
 Sinai
+Omanitis_Orientalis
+Omanitis_Occidentalis
+Gerrha_Orientalis
+Tylos_Insula
+Gerrha_Occidentalis
 
 Eblania
 Coriondia
@@ -859,6 +864,11 @@ Dedan
 Madiama
 Reqemo
 Nuweiba
+Kryptos_Limen
+Omana
+Gerrha
+Tylos
+Teredon
 
 Libyae_Interior
 toggle_fow

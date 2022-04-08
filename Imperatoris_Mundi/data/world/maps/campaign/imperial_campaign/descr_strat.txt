@@ -14535,6 +14535,62 @@ settlement
 	}
 }
 
+; EASTERN ARABIA
+settlement
+{
+	level village
+	region Omanitis_Orientalis
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Omanitis_Occidentalis
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Gerrha_Orientalis
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Tylos_Insula
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Gerrha_Occidentalis
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -15957,7 +16013,7 @@ unit		greek cavalry				exp 6 armour 0 weapon_lvl 0
 
 ; SICILY
 ;Siculia
-character	sub_faction greek_cities, Hicetaon, general, age 20, , x 137, y 127
+character	sub_faction greek_cities, Hicetaon, general, age 20, , x 136, y 126
 army
 unit		generic rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
