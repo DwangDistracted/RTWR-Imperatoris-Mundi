@@ -2370,6 +2370,59 @@ resource slaves, 1, 330, 62
 resource incense, 4, 332, 63
 resource camels, 1, 343, 75
 
+;Taifa
+resource slaves, 1, 275, 76
+resource wild_animals, 2, 271, 83
+resource wine, 2, 280, 73
+resource camels, 1, 290, 66
+
+;Cinaedocolpitis
+resource slaves, 1, 291, 59
+resource incense, 2, 285, 61
+resource purple_dye, 1, 272, 60
+resource camels, 2, 267, 76
+resource silver, 1, 286, 63
+
+;Arabia_Ad_Sinus
+resource slaves, 1, 255, 90
+resource incense, 1, 250, 94
+resource marble, 1, 258, 86
+resource camels, 1, 265, 83
+
+;Iathrippa
+resource slaves, 1, 262, 94
+resource incense, 2, 263, 90
+resource purple_dye, 2, 267, 88
+resource hides, 3, 264, 97
+resource camels, 3, 266, 92
+
+;Hegra
+resource slaves, 1, 259, 97
+resource hides, 2, 261, 99
+resource silver, 1, 256, 94
+resource textiles, 1, 253, 97
+resource camels, 1, 254, 100
+
+;Arabia_Relicta
+resource slaves, 1, 242, 104
+resource glass, 1, 246, 98
+resource incense, 1, 248, 101
+resource hides, 3, 244, 101
+resource camels, 2, 239, 103
+
+;Arabia_Petrea
+resource slaves, 1, 237, 110
+resource textiles, 2, 235, 112
+resource marble, 3, 239, 112
+resource lead, 2, 239, 109
+
+;Sinai
+resource slaves, 1, 234, 105
+resource silver, 2, 233, 100
+resource glass, 1, 229, 106
+resource marble, 1, 231, 104
+resource camels, 1, 231, 108
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -19015,6 +19068,100 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
 ; WEST ARABIA
+;Cinaedocolpitis
+character	sub_faction parthia, Umamaita, general, age 20, , x 290, y 59
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Taifa
+character	sub_faction parthia, Upadarma, general, age 20, , x 274, y 77
+army
+unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Iathrippa
+character	sub_faction parthia, Uvaxshtra, general, age 20, , x 261, y 93
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
+
+;Hegra
+character	sub_faction parthia, Vahauka, general, age 20, , x 258, y 96
+army
+unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Arabia_Ad_Sinus
+character	sub_faction parthia, Vahumisa, general, age 20, , x 254, y 91
+army
+unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Arabia_Relicta
+character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 241, y 104
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
+
+;Arabia_Petrea
+character	sub_faction parthia, Vahyazdata, general, age 20, , x 237, y 111
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Sinai
+character	sub_faction parthia, Vaumisa, general, age 20, , x 235, y 105
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
