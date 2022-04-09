@@ -892,7 +892,9 @@ category			peasant_revolt
 chance				0
 description			Syrians
 unit				east horse archer
+unit				east heavy cavalry
 unit				east peasant
+unit				east archer
 unit				east archer
 unit				east infantry
 unit				east infantry

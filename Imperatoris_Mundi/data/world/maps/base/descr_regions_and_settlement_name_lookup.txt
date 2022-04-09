@@ -441,6 +441,12 @@ Judea
 Peraea
 Decapolis
 Phoeniciae_Meridionalis
+Coele_Syria
+Phoeniciae_Septentrionalis
+Apamene
+Palmyrene
+Syria
+Commagene
 
 Eblania
 Coriondia
@@ -885,6 +891,12 @@ Hierosolyma
 Dibon
 Gadara
 Tyros
+Damaskos
+Tripolis
+Emesa
+Palmyra
+Antiocheia
+Nisibyn
 
 Libyae_Interior
 toggle_fow

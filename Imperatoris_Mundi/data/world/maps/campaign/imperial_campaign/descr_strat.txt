@@ -1904,7 +1904,7 @@ resource iron, 1, 286, 214
 ;Scythia_Ultima
 resource slaves, 1, 290, 200
 resource textiles, 2, 289, 196
-resource silver, 1, 294, 204
+resource silver, 1, 294, 203
 
 ;Scythia_Pontica
 resource slaves, 1, 302, 190
@@ -2502,6 +2502,49 @@ resource glass, 4, 232, 127
 resource wine, 4, 233, 124
 resource purple_dyes, 2, 232, 132
 resource grain, 1, 232, 123
+
+;Coele_Syria
+resource slaves, 1, 240, 131
+resource pottery, 2, 237, 132
+resource grain, 2, 240, 132
+resource glass, 1, 237, 131
+resource camels, 1, 238, 136
+resource iron, 2, 241, 134
+
+;Phoeniciae_Septentrionalis
+resource slaves, 1, 233, 135
+resource textiles, 3, 230, 140
+resource incense, 1, 233, 139
+resource wine, 1, 233, 136
+
+;Apamene
+resource slaves, 1, 238, 141
+resource wine, 2, 240, 143
+resource grain, 2, 235, 139
+resource glass, 1, 234, 141
+resource timber, 6, 235, 137
+
+;Palmyrene
+resource slaves, 1, 245, 136
+resource marble, 2, 246, 141
+resource grain, 1, 243, 137
+resource wild_animals, 2, 237, 131
+resource camels, 3, 247, 135
+resource incense, 1, 244, 134
+
+;Syria
+resource slaves, 1, 232, 145
+resource olive_oil, 3, 237, 146
+resource grain, 3, 234, 143
+resource glass, 1, 232, 142
+resource incense, 1, 236, 143
+
+;Commagene
+resource slaves, 1, 233, 151
+resource olive_oil, 2, 232, 150
+resource grain, 3, 234, 148
+resource pottery, 1, 236, 154
+resource iron, 1, 232, 153
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -7011,6 +7054,7 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 character	Wah, admiral, age 29, , x 210, y 108
 army
 unit		naval triremes				exp 0 armour 0 weapon_lvl 0
+unit		naval triremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
@@ -7111,13 +7155,216 @@ denari	3000
 
 settlement
 {
-	level village
-	region Tempr14
+	level large_town
+	region Syria
 
 	year_founded 0
-	population 400
+	population 5150
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Commagene
+
+	year_founded 0
+	population 9700
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Palmyrene
+
+	year_founded 0
+	population 3200
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level large_town
+	region Apamene
+
+	year_founded 0
+	population 4500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Coele_Syria
+
+	year_founded 0
+	population 4450
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Phoeniciae_Septentrionalis
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -7155,7 +7402,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms+1
+		type hinterland_farms farms
 	}
 	building
 	{
@@ -7163,38 +7410,51 @@ settlement
 	}
 }
 
-character	Antiochus, named character, leader, age 60, , x 5, y 1
+character	Antiochus, named character, leader, age 60, , x 235, y 144
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2
 ancillaries heroic_saviour
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek silver shield pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 5 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 5 armour 0 weapon_lvl 0
+unit		merc cilician pirate				exp 0 armour 0 weapon_lvl 0
+unit		merc peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek royal cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek elephant cataphract				exp 1 armour 0 weapon_lvl 0
 
 character	Aristarchus, named character, heir, age 40, , x 5, y 2
 traits Aesthetic 2 , GoodAdministrator 2 , Intelligent 3 , Embezzler 1
 ancillaries exotic_slave, biographer
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Alexander, named character, age 30, , x 5, y 3
+character	Alexander, named character, age 30, , x 231, y 144
 traits GoodAdministrator 2 , Intelligent 1
 ancillaries desert_scout
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Demetrius, named character, age 26, , x 5, y 4
 traits Intelligent 2 , Energetic 1
@@ -7202,23 +7462,52 @@ ancillaries mentor
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Achaeus of Hippus, general, age 20, , x 232, y 129
 army
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 239, y 131
+army
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 244, y 136
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 236, y 140
+army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Molon, general, age 20, , x 5, y 6
+character	Molon, general, age 20, , x 232, y 136
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Euthydemus, admiral, age 20, , x 5, y 7
+character	Molon, general, age 20, , x 235, y 151
 army
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Euthydemus, admiral, age 20, , x 230, y 138
+army
+unit		naval triremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 character	Philip, spy, age 20, , x 5, y 8
@@ -15108,6 +15397,16 @@ settlement
 {
 	level village
 	region Tempr9
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
+settlement
+{
+	level village
+	region Tempr14
 
 	year_founded 0
 	population 400

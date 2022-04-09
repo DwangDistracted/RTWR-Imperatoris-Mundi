@@ -5558,6 +5558,114 @@ region
 			distribution 10
 		}
 	}
+	Coele_Syria
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Phoeniciae_Septentrionalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Apamene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Palmyrene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Syria
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Commagene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
 	Berserk
 	{
 

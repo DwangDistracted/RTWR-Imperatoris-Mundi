@@ -3371,7 +3371,7 @@ Delta_Occidentalis
 	76 206 87
 	none
 	5
-	18
+	14
 
 Delta_Orientalis
 	Leontopolis
@@ -3380,7 +3380,7 @@ Delta_Orientalis
 	239 59 68
 	none
 	5
-	20
+	15
 
 Aegyptis
 	Memphis
@@ -3389,7 +3389,7 @@ Aegyptis
 	249 213 67
 	none
 	5
-	16
+	12
 
 Saracena
 	Bubastis
@@ -4052,6 +4052,61 @@ Phoeniciae_Meridionalis
 	none
 	5
 	5
+
+;Syria
+Coele_Syria
+	Damaskos
+	parthia
+	Syrians
+	244 222 168
+	none
+	5
+	2
+
+Phoeniciae_Septentrionalis
+	Tripolis
+	carthage
+	Phoenicians
+	185 161 237
+	none
+	5
+	2
+
+Apamene
+	Emesa
+	parthia
+	Syrians
+	255 240 188
+	none
+	5
+	2
+
+Palmyrene
+	Palmyra
+	parthia
+	Palmyrans
+	236 201 255
+	none
+	5
+	0
+
+Syria
+	Antiocheia
+	seleucid
+	Syrians
+	242 130 113
+	none
+	5
+	4
+
+Commagene
+	Nisibyn
+	parthia
+	Syrians
+	252 239 121
+	none
+	5
+	6
 
 ;Terra Incognita
 Libyae_Interior
