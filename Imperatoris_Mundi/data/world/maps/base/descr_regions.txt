@@ -4108,6 +4108,81 @@ Commagene
 	5
 	6
 
+;Assyria
+Osroene
+	Adma
+	parthia
+	Syrians
+	148 247 179
+	none
+	5
+	4
+
+Coruene
+	Chlomaron
+	armenia
+	Assyrian
+	252 241 181
+	none
+	5
+	2
+
+Mesopotamia
+	Antiocheia_Mygdonias
+	parthia
+	Assyrian
+	168 13 67
+	sparta
+	5
+	2
+
+Assyria
+	Ninos
+	parthia
+	Assyrian
+	71 31 150
+	none
+	5
+	4
+
+Apolloniatos
+	Kainai
+	parthia
+	Assyrian
+	255 233 35
+	none
+	5
+	7
+
+Adiabene
+	Arbela
+	parthia
+	Assyrian
+	234 39 25
+	none
+	5
+	3
+
+Garamaea
+	Chala
+	parthia
+	Assyrian
+	167 191 11
+	none
+	5
+	2
+
+;Babylonia
+Aramaea
+	Doura_Europos
+	parthia
+	Qedarite
+	230 103 234
+	none
+	5
+	0
+	;26, marble, 2, camels, 1, wild_animals, 2, hides, 3
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

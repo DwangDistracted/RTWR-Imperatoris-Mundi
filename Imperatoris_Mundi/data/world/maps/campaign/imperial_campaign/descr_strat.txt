@@ -2546,6 +2546,59 @@ resource grain, 3, 234, 148
 resource pottery, 1, 236, 154
 resource iron, 1, 232, 153
 
+;Osroene
+resource slaves, 1, 241, 151
+resource wild_animals, 2, 244, 148
+resource grain, 2, 243, 153
+resource pottery, 1, 240, 145
+resource glass, 1, 237, 150
+
+;Coruene
+resource slaves, 1, 252, 159
+resource grain, 2, 246, 157
+resource hides, 2, 252, 156
+resource marble, 1, 257, 157
+
+;Mesopotamia
+resource slaves, 1, 250, 152
+resource wild_animals, 3, 250, 148
+resource grain, 2, 246, 153
+resource pottery, 1, 254, 151
+resource camels, 2, 256, 146
+
+;Assyria
+resource slaves, 1, 260, 149
+resource grain, 2, 264, 151
+resource incense, 2, 257, 153
+resource wild_animals, 1, 262, 154
+resource copper, 2, 258, 156
+
+;Apolloniatos
+resource slaves, 1, 266, 147
+resource grain, 2, 264, 144
+resource pottery, 2, 269, 143
+resource wild_animals, 2, 261, 144
+resource elephants, 1, 267, 141
+
+;Adiabene
+resource slaves, 1, 269, 153
+resource glass, 2, 271, 151
+resource purple_dye, 1, 269, 148
+resource hides, 2, 265, 152
+
+;Garamaea
+resource slaves, 1, 274, 148
+resource hides, 3, 271, 151
+resource marble, 2, 275, 150
+resource wild_animals, 2, 272, 145
+
+;Aramaea
+resource slaves, 1, 260, 143
+resource hides, 3, 252, 143
+resource marble, 2, 255, 137
+resource wild_animals, 2, 261, 137
+resource camels, 1, 253, 137
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -6302,6 +6355,7 @@ settlement
 	}
 }
 
+; LOWER EGYPT
 settlement
 {
 	level large_city
@@ -6427,6 +6481,7 @@ settlement
 	}
 }
 
+; UPPER EGYPT
 settlement
 {
 	level city
@@ -6548,6 +6603,7 @@ settlement
 	}
 }
 
+; SAHARA + WESTERN DESERT
 settlement
 {
 	level town
@@ -6735,6 +6791,7 @@ settlement
 	}
 }
 
+; LEVANT
 settlement
 {
 	level large_town
@@ -7153,6 +7210,245 @@ relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
 faction	seleucid, balanced_stalin
 denari	3000
 
+; BABYLONIA
+settlement
+{
+	level town
+	region Aramaea
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+; ASSYRIA
+settlement
+{
+	level large_town
+	region Osroene
+
+	year_founded 0
+	population 5600
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Coruene
+
+	year_founded 0
+	population 5100
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mesopotamia
+
+	year_founded 0
+	population 4300
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Assyria
+
+	year_founded 0
+	population 4450
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Apolloniatos
+
+	year_founded 0
+	population 4300
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Adiabene
+
+	year_founded 0
+	population 5300
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Garamaea
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; SYRIA
 settlement
 {
 	level large_town
@@ -7229,10 +7525,6 @@ settlement
 	{
 		type hinterland_farms farms
 	}
-	building
-	{
-		type hinterland_roads paved_roads
-	}
 }
 
 settlement
@@ -7274,10 +7566,6 @@ settlement
 	building
 	{
 		type defenses stone_wall
-	}
-	building
-	{
-		type equestrian stables
 	}
 	building
 	{
@@ -7447,6 +7735,58 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
+character	Demetrius, named character, age 26, , x 5, y 4
+traits Intelligent 2 , Energetic 1
+ancillaries mentor
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+; ASSYRIA
+character	Molon, general, age 20, , x 240, y 152
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 251, y 158
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 252, y 153
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 261, y 150
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 257, y 139
+army
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 265, y 147
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 268, y 152
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 276, y 146
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+; SYRIA
 character	Alexander, named character, age 30, , x 231, y 144
 traits GoodAdministrator 2 , Intelligent 1
 ancillaries desert_scout
@@ -7454,14 +7794,6 @@ army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-
-character	Demetrius, named character, age 26, , x 5, y 4
-traits Intelligent 2 , Energetic 1
-ancillaries mentor
-army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Achaeus of Hippus, general, age 20, , x 232, y 129

@@ -5666,6 +5666,150 @@ region
 			distribution 20
 		}
 	}
+	Osroene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Coruene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Mesopotamia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Assyria
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Apolloniatos
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Adiabene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Garamaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Aramaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
 	Berserk
 	{
 

@@ -447,6 +447,14 @@ Apamene
 Palmyrene
 Syria
 Commagene
+Osroene
+Coruene
+Mesopotamia
+Assyria
+Apolloniatos
+Adiabene
+Garamaea
+Aramaea
 
 Eblania
 Coriondia
@@ -897,6 +905,14 @@ Emesa
 Palmyra
 Antiocheia
 Nisibyn
+Adma
+Chlomaron
+Antiocheia_Mygdonias
+Ninos
+Kainai
+Arbela
+Chala
+Doura_Europos
 
 Libyae_Interior
 toggle_fow

@@ -891,7 +891,7 @@ rebel_type 			Syrians		//Seleucid
 category			peasant_revolt 
 chance				0
 description			Syrians
-unit				east horse archer
+unit				east heavy cavalry
 unit				east heavy cavalry
 unit				east peasant
 unit				east archer
@@ -1048,7 +1048,7 @@ unit				numidian javelinmen
 unit				numidian javelinmen
 unit				carthaginian general's cavalry early
 
-rebel_type 			Palmyrans	//armenia
+rebel_type 			Palmyrans	//parthia
 category			peasant_revolt 
 chance				0
 description			Palmyrans
@@ -2151,6 +2151,32 @@ unit				rebel judaean zealots
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek general's guard cavalry early
+
+rebel_type 			Assyrian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Assyrian
+unit				east heavy cavalry
+unit				east heavy cavalry
+unit				east archer
+unit				east archer
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				eastern rebel general
+
+rebel_type 			Babylonian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Babylonian
+unit				east heavy cavalry
+unit				east heavy cavalry
+unit				east archer
+unit				east archer
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				eastern rebel general
 
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
