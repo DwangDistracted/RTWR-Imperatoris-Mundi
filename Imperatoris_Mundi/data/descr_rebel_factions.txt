@@ -955,7 +955,7 @@ unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek hoplite
-unit				generic rebel general
+unit				greek general's guard cavalry early
 
 rebel_type 			Aetolians	//greek_cities
 category			peasant_revolt 
@@ -1072,7 +1072,7 @@ unit				greek hoplite
 unit				merc cilician pirate
 unit				greek general's guard cavalry early
 
-rebel_type 			Phoenicians	//seleucids
+rebel_type 			Phoenicians	//carthage
 category			peasant_revolt 
 chance				0
 description			Phoenicians
@@ -1163,7 +1163,7 @@ unit				greek hoplite militia
 unit				greek hoplite
 unit				greek general's guard cavalry early
 
-rebel_type 			Judaeans	//parthia
+rebel_type 			Judaeans	//carthage
 category			peasant_revolt 
 chance				6
 description			Judaeans
@@ -1176,7 +1176,7 @@ unit				rebel judaean zealots
 unit				rebel judaean zealots
 unit				eastern rebel general
 
-rebel_type 			Gaetuli		//Numidia
+rebel_type 			Gaetuli		//numidia
 category			peasant_revolt 
 chance				3
 description			Gaetuli
@@ -2136,6 +2136,19 @@ unit				merc arab cavalry
 unit				merc arab cavalry
 unit				east peasant
 unit				eastern rebel general
+
+rebel_type 			Decapoliote		//seleucids
+category			peasant_revolt 
+chance				0
+description			Decapoliote
+unit				carthaginian cavalry
+unit				greek peasant
+unit				east archer
+unit				east archer
+unit				rebel judaean zealots
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
 
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt

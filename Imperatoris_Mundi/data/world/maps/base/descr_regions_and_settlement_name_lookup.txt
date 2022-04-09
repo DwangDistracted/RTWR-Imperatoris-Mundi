@@ -435,6 +435,12 @@ Tylos_Insula
 Gerrha_Occidentalis
 Dumatha
 Arabia_Magna
+Rhicocorura
+Philistia
+Judea
+Peraea
+Decapolis
+Phoeniciae_Meridionalis
 
 Eblania
 Coriondia
@@ -873,6 +879,12 @@ Tylos
 Teredon
 Dumah
 Alata
+Pilousion
+Gaza
+Hierosolyma
+Dibon
+Gadara
+Tyros
 
 Libyae_Interior
 toggle_fow

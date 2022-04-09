@@ -3998,6 +3998,61 @@ Arabia_Magna
 	5
 	0
 
+;God's Country
+Rhicocorura
+	Pilousion
+	egypt
+	Egyptian
+	188 188 188
+	none
+	5
+	2
+
+Philistia
+	Gaza
+	carthage
+	Judaeans
+	252 150 148
+	none
+	5
+	4
+
+Judea
+	Hierosolyma
+	carthage
+	Judaeans
+	252 250 123
+	none
+	5
+	6
+
+Peraea
+	Dibon
+	carthage
+	Judaeans
+	117 234 148
+	none
+	5
+	3
+
+Decapolis
+	Gadara
+	seleucid
+	Decapoliote
+	190 139 237
+	none
+	5
+	4
+
+Phoeniciae_Meridionalis
+	Tyros
+	carthage
+	Phoenicians
+	237 106 121
+	none
+	5
+	5
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

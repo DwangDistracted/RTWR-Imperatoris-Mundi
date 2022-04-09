@@ -5450,6 +5450,114 @@ region
 			distribution 100
 		}
 	}
+	Rhicocorura
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Philistia
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Judea
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Peraea
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Decapolis
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Phoeniciae_Meridionalis
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
 	Berserk
 	{
 

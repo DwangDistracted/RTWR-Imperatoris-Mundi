@@ -2466,6 +2466,43 @@ resource glass, 1, 287, 77
 resource incense, 2, 293, 96
 resource camels, 2, 297, 84
 
+;Rhicocorura
+resource slaves, 1, 227, 111
+resource grain, 3, 225, 110
+resource textiles, 2, 228, 112
+
+;Philistia
+resource slaves, 1, 232, 116
+resource wine, 3, 232, 118
+resource incense, 1, 230, 114
+
+;Judea
+resource slaves, 1, 233, 120
+resource timber, 3, 234, 117
+resource wine, 2, 234, 122
+resource pottery, 2, 236, 121
+
+;Peraea
+resource slaves, 1, 238, 118
+resource hides, 4, 236, 115
+resource textiles, 4, 238, 121
+resource lead, 1, 238, 114
+
+;Decapolis
+resource slaves, 1, 235, 127
+resource textiles, 3, 238, 124
+resource lead, 1, 240, 127
+resource grain, 1, 241, 123
+resource glass, 1, 235, 123
+resource camels, 1, 243, 126
+
+;Phoeniciae_Meridionalis
+resource slaves, 1, 232, 131
+resource glass, 4, 232, 127
+resource wine, 4, 233, 124
+resource purple_dyes, 2, 232, 132
+resource grain, 1, 232, 123
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -6655,7 +6692,174 @@ settlement
 	}
 }
 
-character	Hekhemmut, named character, leader, age 55, , x 213, y 107
+settlement
+{
+	level large_town
+	region Rhicocorura
+
+	year_founded 0
+	population 4900
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Philistia
+
+	year_founded 0
+	population 3750
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Judea
+
+	year_founded 0
+	population 7650
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Peraea
+
+	year_founded 0
+	population 2700
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Decapolis
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	Hekhemmut, named character, leader, age 55, , x 218, y 104
 traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
 ancillaries librarian, master_embalmer
 army
@@ -6665,18 +6869,20 @@ unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
-unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer elite				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
+unit		egyptian archer				exp 0 armour 0 weapon_lvl 0
 unit		egyptian cleruch				exp 0 armour 0 weapon_lvl 0
 unit		egyptian cleruch				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian cavalry				exp 1 armour 0 weapon_lvl 0
 unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
-unit		egyptian chariot archer				exp 1 armour 0 weapon_lvl 0
+unit		merc elephants				exp 1 armour 0 weapon_lvl 0
 
 character	Khnumhoptep, named character, heir, age 40, , x 211, y 108
 traits StrategicSkill 2 , NaturalMilitarySkill 1 , PublicFaith 3
@@ -6686,7 +6892,7 @@ unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
-character	Ptahhotep, named character, age 35, , x 2, y 4
+character	Ptahhotep, named character, age 35, , x 1, y 1
 traits GoodCommander 1 , PublicFaith 2 , MathematicsSkill 3 , Embezzler 1
 ancillaries mathematician
 army
@@ -6705,12 +6911,15 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
-character	Neferet, general, age 20, , x 2, y 6
+character	Neferet, general, age 20, , x 236, y 125
 army
+unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
 character	Nakhrankh, general, age 20, , x 235, y 84
 army
@@ -6774,11 +6983,30 @@ character	Pamiu, general, age 20, , x 218, y 74
 army
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Miwsher, general, age 20, , x 2, y 8
+character	Miwsher, general, age 20, , x 234, y 119
+army
+unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+
+character	Ahmose, general, age 20, , x 237, y 118
 army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Ahmose, general, age 20, , x 231, y 116
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0	
+
+character	Pamiu, general, age 20, , x 224, y 112
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 
 character	Wah, admiral, age 29, , x 210, y 108
 army
@@ -6788,11 +7016,11 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character	Khu, spy, age 20, , x 2, y 10
+character	Khu, spy, age 20, , x 236, y 135
 traits GoodSpy 3
 ancillaries poisoner
 
-character	Nakhti, diplomat, age 20, , x 2, y 11
+character	Nakhti, diplomat, age 20, , x 213, y 105
 traits GoodDiplomat 2
 
 character_record		Ahmose, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
@@ -6892,6 +7120,49 @@ settlement
 	faction_creator romans_julii
 }
 
+settlement
+{
+	level city
+	region Phoeniciae_Meridionalis
+
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	Antiochus, named character, leader, age 60, , x 5, y 1
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2
 ancillaries heroic_saviour
@@ -6934,11 +7205,11 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Achaeus of Hippus, general, age 20, , x 5, y 5
+character	Achaeus of Hippus, general, age 20, , x 232, y 129
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 5, y 6
 army
