@@ -3942,7 +3942,6 @@ Omanitis_Orientalis
 	none
 	5
 	1
-	;40, incense, 1, wild_animals, 1, copper, 1, camels, 1
 
 Omanitis_Occidentalis
 	Omana
@@ -3952,7 +3951,6 @@ Omanitis_Occidentalis
 	none
 	5
 	2
-	;70, pottery, 1, camels, 3, hides, 1, gold, 1
 
 Gerrha_Orientalis
 	Gerrha
@@ -3962,7 +3960,6 @@ Gerrha_Orientalis
 	none
 	5
 	2
-	;37, camels, 2, purple_dye, 2, incense, 1
 
 Tylos_Insula
 	Tylos
@@ -3972,7 +3969,6 @@ Tylos_Insula
 	none
 	5
 	2
-	;27, textiles, 3, glass, 1
 
 Gerrha_Occidentalis
 	Teredon
@@ -3982,14 +3978,25 @@ Gerrha_Occidentalis
 	none
 	5
 	2
-	;37, camels, 2, purple_dye, 2, incense, 1
 
 ;Central Arabia
-;Dumatha
-;	Dumah
+Dumatha
+	Dumah
+	parthia
+	Qedarite
+	160 20 27
+	none
+	5
+	1
 
-;Arabia_Magna
-;	Alata
+Arabia_Magna
+	Alata
+	parthia
+	Qedarite
+	204 180 6
+	none
+	5
+	0
 
 ;Terra Incognita
 Libyae_Interior

@@ -5386,6 +5386,70 @@ region
 			distribution 10
 		}
 	}
+	Omanitis_Orientalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Omanitis_Occidentalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Gerrha_Orientalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Tylos_Insula
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Gerrha_Occidentalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Dumatha
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Arabia_Magna
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Arabia_Deserta
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
 	Berserk
 	{
 

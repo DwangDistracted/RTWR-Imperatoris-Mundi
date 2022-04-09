@@ -433,6 +433,8 @@ Omanitis_Occidentalis
 Gerrha_Orientalis
 Tylos_Insula
 Gerrha_Occidentalis
+Dumatha
+Arabia_Magna
 
 Eblania
 Coriondia
@@ -869,6 +871,8 @@ Omana
 Gerrha
 Tylos
 Teredon
+Dumah
+Alata
 
 Libyae_Interior
 toggle_fow

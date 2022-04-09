@@ -2423,6 +2423,49 @@ resource glass, 1, 229, 106
 resource marble, 1, 231, 104
 resource camels, 1, 231, 108
 
+;Omanitis_Orientalis
+resource slaves, 1, 352, 107
+resource incense, 1, 355, 95
+resource wild_animals, 1, 348, 101
+resource copper, 1, 352, 103
+resource camels, 1, 350, 97
+
+;Omanitis_Occidentalis
+resource slaves, 1, 341, 108
+resource pottery, 1, 342, 105
+resource hides, 1, 332, 105
+resource gold, 1, 337, 113
+resource camels, 3, 328, 100
+
+;Gerrha_Orientalis
+resource slaves, 1, 312, 105
+resource purple_dye, 2, 316, 106
+resource incense, 1, 319, 101
+resource camels, 2, 305, 110
+
+;Tylos_Insula
+resource slaves, 1, 313, 109
+resource glass, 1, 311, 111
+resource textiles, 3, 311, 110
+
+;Gerrha_Occidentalis
+resource slaves, 1, 295, 120
+resource camels, 2, 299, 115
+resource purple_dye, 2, 297, 118
+resource incense, 1, 291, 122
+
+;Dumatha
+resource slaves, 1, 266, 117
+resource wild_animals, 1, 267, 103
+resource grain, 2, 265, 113
+resource camels, 2, 250, 116
+
+;Arabia_Magna
+resource slaves, 1, 291, 104
+resource glass, 1, 287, 77
+resource incense, 2, 293, 96
+resource camels, 2, 297, 84
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -2430,6 +2473,7 @@ resource slaves, 1, 392, 225
 resource slaves, 1, 459, 193
 resource slaves, 1, 427, 222
 resource slaves, 1, 314, 4
+resource slaves, 1, 314, 80
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of sound emitters section <<<<
@@ -14538,55 +14582,190 @@ settlement
 ; EASTERN ARABIA
 settlement
 {
-	level village
+	level large_town
 	region Omanitis_Orientalis
 
 	year_founded 0
-	population 400
+	population 2000
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Omanitis_Occidentalis
 
 	year_founded 0
-	population 400
+	population 3500
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Gerrha_Orientalis
 
 	year_founded 0
-	population 400
+	population 1850
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Tylos_Insula
 
 	year_founded 0
-	population 400
+	population 1350
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level town
+	region Gerrha_Occidentalis
+
+	year_founded 0
+	population 1850
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+; CENTRAL ARABIA
+settlement
+{
+	level town
+	region Dumatha
+
+	year_founded 0
+	population 1100
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type market trader
+	}
 }
 
 settlement
 {
 	level village
-	region Gerrha_Occidentalis
+	region Arabia_Magna
 
 	year_founded 0
-	population 400
+	population 750
 	plan_set default_set
 	faction_creator parthia
 }
@@ -19219,6 +19398,90 @@ unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
+; EASTERN ARABIA
+;Omanitis_Orientalis
+character	sub_faction parthia, Vayaspara, general, age 20, , x 351, y 107
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Omanitis_Occidentalis
+character	sub_faction parthia, Vindarna, general, age 20, , x 343, y 107
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Gerrha_Orientalis
+character	sub_faction parthia, Vishtaspa, general, age 20, , x 311, y 106
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Tylos_Insula
+character	sub_faction parthia, Xanthos, general, age 20, , x 312, y 110
+army
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+;Gerrha_Occidentalis
+character	sub_faction parthia, Xerxes, general, age 20, , x 293, y 121
+army
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+; EASTERN ARABIA
+;Dumatha
+character	sub_faction parthia, Xeus, general, age 20, , x 267, y 114
+army
+unit		merc arab cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 6 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
+
+;Arabia_Magna
+character	sub_faction parthia, Xshathrita, general, age 20, , x 291, y 100
+army
+unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3
 army
@@ -19243,6 +19506,10 @@ unit		east infantry				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Akhaenniut, general, age 20, , x 308, y 5
 army
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction parthia, Zoroaster, general, age 20, , x 316, y 81
+army
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of diplomacy section <<<<
