@@ -455,6 +455,12 @@ Apolloniatos
 Adiabene
 Garamaea
 Aramaea
+Babylonia
+Sittacene
+Sumer
+Chaldaea
+Characene
+Susiana
 
 Eblania
 Coriondia
@@ -903,7 +909,7 @@ Damaskos
 Tripolis
 Emesa
 Palmyra
-Antiocheia
+Antiocheia_he_epi_Orontou
 Nisibyn
 Adma
 Chlomaron
@@ -913,6 +919,12 @@ Kainai
 Arbela
 Chala
 Doura_Europos
+Babylon
+Seleukeia
+Orchoi
+Apameia_Tigridos
+Alexandreia_Sousianis
+Seleukeia_Eulaios
 
 Libyae_Interior
 toggle_fow
@@ -941,11 +953,9 @@ Tempr11
 Tempr14
 Tempr15
 Tempr16
-Tempr17
 Temp0
 Temp9
 Temp11
 Temp14
 Temp15
 Temp16
-Temp17

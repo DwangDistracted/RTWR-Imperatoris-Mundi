@@ -5810,6 +5810,114 @@ region
 			distribution 35
 		}
 	}
+	Babylonia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Sittacene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Sumer
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Chaldaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Characene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Susiana
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
 	Berserk
 	{
 

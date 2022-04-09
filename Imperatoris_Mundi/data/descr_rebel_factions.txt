@@ -991,7 +991,9 @@ chance				0
 description			Elamites
 unit				east horse archer
 unit				east heavy cavalry
+unit				east heavy cavalry
 unit				east peasant
+unit				east archer
 unit				east archer
 unit				east infantry
 unit				eastern rebel general
@@ -2169,6 +2171,19 @@ rebel_type 			Babylonian		//Parthia
 category			peasant_revolt 
 chance				0
 description			Babylonian
+unit				east heavy cavalry
+unit				east heavy cavalry
+unit				east archer
+unit				east archer
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek hoplite
+unit				eastern rebel general
+
+rebel_type 			Sumerian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Sumerian
 unit				east heavy cavalry
 unit				east heavy cavalry
 unit				east archer

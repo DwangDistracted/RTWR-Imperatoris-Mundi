@@ -42,7 +42,7 @@ landmark	pharos	209,	106
 landmark	colossus	194,	134
 ;landmark	temple	157,	53
 landmark	statue	164,	133
-;landmark	gardens	237,	46
+landmark	gardens	270,	135
 ;landmark	mausoleum	160,	50
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2528,7 +2528,7 @@ resource timber, 6, 235, 137
 resource slaves, 1, 245, 136
 resource marble, 2, 246, 141
 resource grain, 1, 243, 137
-resource wild_animals, 2, 237, 131
+resource wild_animals, 2, 244, 144
 resource camels, 3, 247, 135
 resource incense, 1, 244, 134
 
@@ -2588,9 +2588,9 @@ resource hides, 2, 265, 152
 
 ;Garamaea
 resource slaves, 1, 274, 148
-resource hides, 3, 271, 151
+resource hides, 3, 273, 147
 resource marble, 2, 275, 150
-resource wild_animals, 2, 272, 145
+resource wild_animals, 2, 277, 144
 
 ;Aramaea
 resource slaves, 1, 260, 143
@@ -2598,6 +2598,46 @@ resource hides, 3, 252, 143
 resource marble, 2, 255, 137
 resource wild_animals, 2, 261, 137
 resource camels, 1, 253, 137
+
+;Babylonia
+resource slaves, 1, 274, 132
+resource grain, 3, 269, 138
+resource glass, 1, 271, 132
+resource camels, 1, 268, 131
+resource hides, 3, 267, 134
+
+;Sittacene
+resource slaves, 1, 273, 141
+resource grain, 3, 275, 141
+resource glass, 3, 277, 134
+resource textiles, 3, 274, 137
+resource elephants, 1, 274, 143
+
+;Sumer
+resource slaves, 1, 283, 131
+resource grain, 3, 277, 130
+resource wine, 3, 279, 128
+resource hides, 1, 285, 127
+resource lead, 1, 280, 127
+
+;Chaldaea
+resource slaves, 1, 283, 136
+resource grain, 4, 279, 133
+resource wine, 2, 277, 138
+resource hides, 2, 280, 139
+
+;Characene
+resource slaves, 1, 292, 130
+resource incense, 2, 290, 125
+resource pottery, 1, 287, 131
+resource textiles, 1, 295, 129
+
+;Susiana
+resource slaves, 1, 293, 136
+resource hides, 3, 295, 137
+resource wild_animals, 2, 289, 136
+resource pottery, 1, 285, 136
+resource camels, 1, 296, 133
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -7210,6 +7250,53 @@ relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
 faction	seleucid, balanced_stalin
 denari	3000
 
+settlement
+{
+	level city
+	region Sittacene
+
+	year_founded 0
+	population 11100
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks army_barracks
+	}
+	building
+	{
+		type equestrian hippodrome
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type academic scriptorium
+	}
+	building
+	{
+		type health aqueduct
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
 ; BABYLONIA
 settlement
 {
@@ -7227,6 +7314,205 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level city
+	region Babylonia
+
+	year_founded 0
+	population 9000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic scriptorium
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level city
+	region Sumer
+
+	year_founded 0
+	population 6750
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Chaldaea
+
+	year_founded 0
+	population 4600
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Characene
+
+	year_founded 0
+	population 4400
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Susiana
+
+	year_founded 0
+	population 6750
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -7608,6 +7894,10 @@ settlement
 	}
 	building
 	{
+		type smith smiths_workshop
+	}
+	building
+	{
 		type hinterland_farms farms+1
 	}
 	building
@@ -7723,18 +8013,48 @@ unit		greek medium cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek elephant cataphract				exp 1 armour 0 weapon_lvl 0
 
-character	Aristarchus, named character, heir, age 40, , x 5, y 2
+; BABYLONIA
+character	Aristarchus, named character, heir, age 40, , x 272, y 140
 traits Aesthetic 2 , GoodAdministrator 2 , Intelligent 3 , Embezzler 1
 ancillaries exotic_slave, biographer
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
+character	Molon, general, age 20, , x 273, y 134
+army
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 281, y 135
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 282, y 130
+army
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 291, y 130
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 292, y 137
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+; PARTHIA
 character	Demetrius, named character, age 26, , x 5, y 4
 traits Intelligent 2 , Energetic 1
 ancillaries mentor
@@ -15759,16 +16079,6 @@ settlement
 {
 	level village
 	region Tempr16
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr17
 
 	year_founded 0
 	population 400

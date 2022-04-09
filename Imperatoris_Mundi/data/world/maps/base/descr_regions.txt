@@ -4091,7 +4091,7 @@ Palmyrene
 	0
 
 Syria
-	Antiocheia
+	Antiocheia_he_epi_Orontou
 	seleucid
 	Syrians
 	242 130 113
@@ -4181,7 +4181,60 @@ Aramaea
 	none
 	5
 	0
-	;26, marble, 2, camels, 1, wild_animals, 2, hides, 3
+
+Babylonia
+	Babylon
+	parthia
+	Babylonian
+	191 221 93
+	none
+	5
+	12
+
+Sittacene
+	Seleukeia
+	seleucid
+	Babylonian
+	206 24 42
+	none
+	5
+	18
+
+Sumer
+	Orchoi
+	parthia
+	Sumerian
+	211 229 45
+	none
+	5
+	8
+
+Chaldaea
+	Apameia_Tigridos
+	parthia
+	Babylonian
+	157 88 216
+	none
+	5
+	9
+
+Characene
+	Alexandreia_Sousianis
+	parthia
+	Babylonian
+	47 16 124
+	none
+	5
+	4
+
+Susiana
+	Seleukeia_Eulaios
+	parthia
+	Elamites
+	196 66 118
+	none
+	5
+	3
 
 ;Terra Incognita
 Libyae_Interior
@@ -4298,15 +4351,6 @@ Tempr16
 	romans_julii
 	Latins
 	96 160 64
-	none
-	5
-	5
-
-Tempr17
-	Temp17
-	romans_julii
-	Latins
-	0 255 255
 	none
 	5
 	5
