@@ -3004,7 +3004,7 @@ region
 			distribution 60
 		}
 	}
-	Scythia
+	Scythia_Minor
 	{
 		variant
 		{
@@ -5438,7 +5438,7 @@ region
 	{
 		variant
 		{
-			ethnicity arabic
+			ethnicity berber
 			distribution 100
 		}
 	}
@@ -5918,12 +5918,318 @@ region
 			distribution 35
 		}
 	}
+
+;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
 
 		variant
 		{
 			ethnicity berserker
+			distribution 100
+		}
+	}
+	Brittania_Superior
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Central_Gaul
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Germania_Superior
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Dacia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Taraconenis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Thrace
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Numidia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Nubia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Baliares
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Sardinia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Africa
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 30
+		}
+	}
+	Colchis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Pontus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Cappadocia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+	}
+	Cilicia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+	}
+	Elymais
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Media
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Nile_Delta
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Macedonia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Rhodos
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Campania
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Lycia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Arabia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Phoenicia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Judaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Celtiberia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Illyria
+	{
+		variant
+		{
+			ethnicity mediterranean
 			distribution 100
 		}
 	}

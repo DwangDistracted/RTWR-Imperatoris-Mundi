@@ -1290,7 +1290,7 @@ resource slaves, 1, 180, 171
 resource pottery, 3, 179, 168
 resource grain, 2, 177, 170
 
-;Scythia
+;Scythia_Minor
 resource slaves, 1, 181, 180
 resource grain, 3, 179, 181
 resource hides, 3, 181, 174
@@ -5883,7 +5883,7 @@ settlement
 settlement
 {
 	level large_town
-	region Scythia
+	region Scythia_Minor
 
 	year_founded 0
 	population 4000
@@ -8162,10 +8162,10 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character	Philip, spy, age 20, , x 5, y 8
+character	Philip, spy, age 20, , x 234, y 120
 traits GoodSpy 2
 
-character	Attalus, diplomat, age 20, , x 5, y 9
+character	Attalus, diplomat, age 20, , x 273, y 141
 traits GoodDiplomat 3
 
 character_record		Cleitos, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader

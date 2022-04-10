@@ -5,13 +5,13 @@ dimensions
 }
 heights
 {
-    min_sea_height  -1610.984
-    max_land_height  6000.000
+    min_sea_height  -610.984
+    max_land_height  5000.000
 }
 roughness
 {
     min  50.000
-    max  200.000
+    max  100.000
 }
 fractal
 {

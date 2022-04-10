@@ -237,7 +237,7 @@ Saldensia
 Moesia
 Triballia
 Crobyzoia
-Scythia
+Scythia_Minor
 Haemimontus
 Thracia
 Rhodope

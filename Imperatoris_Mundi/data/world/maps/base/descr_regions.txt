@@ -2171,7 +2171,7 @@ Crobyzoia
 	5
 	5
 
-Scythia
+Scythia_Minor
 	Istros
 	thrace
 	Moesian
