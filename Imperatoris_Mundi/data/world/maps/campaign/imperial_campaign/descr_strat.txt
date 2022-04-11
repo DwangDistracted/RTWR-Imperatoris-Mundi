@@ -2639,6 +2639,42 @@ resource wild_animals, 2, 289, 136
 resource pottery, 1, 285, 136
 resource camels, 1, 296, 133
 
+;Bithynia_Inferioris
+resource slaves, 1, 193, 157
+resource textiles, 3, 190, 154
+resource olive_oil, 2, 196, 161
+resource grain, 2, 192, 160
+
+;Mysia_Inferioris
+resource slaves, 1, 186, 155
+resource marble, 2, 188, 153
+resource copper, 2, 184, 152
+
+;Troad
+resource slaves, 1, 180, 150
+resource iron, 2, 182, 149
+resource textiles, 1, 183, 152
+resource purple_dye, 1, 181, 146
+
+;Mysia_Superioris
+resource slaves, 1, 187, 149
+resource wine, 4, 188, 146
+resource glass, 2, 192, 151
+resource grain, 3, 192, 148
+
+;Ionia
+resource slaves, 1, 189, 143
+resource marble, 3, 182, 142
+resource glass, 2, 186, 139
+resource textiles, 3, 189, 139
+
+;Caria
+resource slaves, 1, 192, 137
+resource purple_dye, 3, 195, 139
+resource olive_oil, 3, 193, 141
+resource wine, 3, 197, 143
+resource marble, 2, 196, 140
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -6999,6 +7035,82 @@ settlement
 	}
 }
 
+; AEGEAN ANATOLIA
+settlement
+{
+	level city
+	region Ionia
+
+	year_founded 0
+	population 6550
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Caria
+
+	year_founded 0
+	population 5350
+	plan_set default_set
+	faction_creator seleucid
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+
 character	Hekhemmut, named character, leader, age 55, , x 218, y 104
 traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
 ancillaries librarian, master_embalmer
@@ -7032,7 +7144,7 @@ unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
-character	Ptahhotep, named character, age 35, , x 1, y 1
+character	Ptahhotep, named character, age 35, , x 2, y 1
 traits GoodCommander 1 , PublicFaith 2 , MathematicsSkill 3 , Embezzler 1
 ancillaries mathematician
 army
@@ -7147,6 +7259,20 @@ unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 character	Pamiu, general, age 20, , x 224, y 112
 army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+
+character	Miwsher, general, age 20, , x 188, y 141
+army
+unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+
+character	Miwsher, general, age 20, , x 192, y 138
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
 character	Wah, admiral, age 29, , x 210, y 108
 army
@@ -12333,7 +12459,7 @@ settlement
 	}
 	building
 	{
-		type defenses stone_wall
+		type defenses wooden_wall
 	}
 	building
 	{
@@ -15989,6 +16115,163 @@ settlement
 	population 750
 	plan_set default_set
 	faction_creator parthia
+}
+
+; AEGEAN ANATOLIA
+settlement
+{
+	level city
+	region Bithynia_Inferioris
+
+	year_founded 0
+	population 7300
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mysia_Inferioris
+
+	year_founded 0
+	population 3400
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Troad
+
+	year_founded 0
+	population 5800
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level city
+	region Mysia_Superioris
+
+	year_founded 0
+	population 7450
+	plan_set default_set
+	faction_creator thrace
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks city_barracks
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type health baths
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 ; TERRA INCOGNITA
@@ -20690,6 +20973,75 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
+
+; AEGEAN ANATOLIA
+character	sub_faction greek_cities, Attalos, general, age 20, , x 186, y 147
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc bastarnae				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc rhodian slingers				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Priam, general, age 20, , x 181, y 152
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc rhodian slingers				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Krokinos, general, age 20, , x 187, y 154
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Menekrates, general, age 20, , x 195, y 158
+army
+unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek heavy peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc rhodian slingers				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3

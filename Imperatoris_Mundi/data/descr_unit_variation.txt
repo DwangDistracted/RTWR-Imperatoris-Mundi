@@ -5438,7 +5438,7 @@ region
 	{
 		variant
 		{
-			ethnicity berber
+			ethnicity arabic
 			distribution 100
 		}
 	}
@@ -5918,7 +5918,84 @@ region
 			distribution 35
 		}
 	}
-
+	Bithynia_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Mysia_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Troad
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Mysia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Ionia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Caria
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

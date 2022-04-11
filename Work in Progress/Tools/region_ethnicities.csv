@@ -27,7 +27,7 @@ Coastal Illyria,caucasiandark;20;caucasian;10;mediterranean;70,Histria;Libernia;
 Inland Illyria,caucasiandark;30;caucasian;20;mediterranean;50,Daorsia;Deuria
 Pannonia,caucasiandark;90;caucasian;10,Latobicia;Cataria;Varciania;Pannonia_Prima;Carnuntia;Quadia;Valeria;Hercuniatia;Pannonia_Secunda
 Dacia,caucasian;100,Albocensia;Iazygia;Cotinia;Costobocia;Potulatensia;Porolissensis;Apulensis;Malvensis;Getia;Roxolania
-Moesia,caucasiandark;30;caucasian;10;mediterranean;60,Tricornensia;Dindaria;Dardania;Picensia;Saldensia;Moesia;Crobyzoia;Scythia
+Moesia,caucasiandark;30;caucasian;10;mediterranean;60,Tricornensia;Dindaria;Dardania;Picensia;Saldensia;Moesia;Crobyzoia;Scythia_Minor
 Celtic Balkans,caucasiandark;60;caucasian;20;mediterranean;20,Scordiscia;Triballia
 Thrace,caucasiandark;10;caucasian;10;mediterranean;80,Haemimontus;Thracia;Rhodope;Propontis;Europa;Paeonia
 Hellas,mediterranean;100,Odomantike;Chalkidiki;Emathia;Pelagonia;Thessalia;Illyria_Graeca;Epirus;Aetolia;Boeotia;Attica;Euboea;Achaea;Arcadia;Laconia;Sporades;Crete
@@ -64,3 +64,4 @@ Southern Levant, arabic;70;mediterranean;20;egyptian;10,Rhicocorura;Philistia;Ju
 Syria,arabic;40;mediterranean;40;caucasiandark;20,Coele_Syria;Phoeniciae_Septentrionalis;Apamene;Palmyrene;Syria;Commagene
 Assyria,arabic;40;mediterranean;25;caucasiandark;35,Osroene;Coruene;Mesopotamia;Assyria;Apolloniatos;Adiabene;Garamaea
 Babylonia,arabic;50;mediterranean;15;caucasiandark;35,Aramaea;Babylonia;Sittacene;Sumer;Chaldaea;Characene;Susiana
+Aegean Anatolia,mediterranean;85;caucasiandark;15,Bithynia_Inferioris;Mysia_Inferioris;Troad;Mysia_Superioris;Ionia;Caria
