@@ -40,10 +40,10 @@ pirate_spawn_value 10
 landmark	pyramids_and_sphinx	217,	99
 landmark	pharos	209,	106
 landmark	colossus	194,	134
-;landmark	temple	157,	53
+landmark	temple	189,	141
 landmark	statue	164,	133
 landmark	gardens	270,	135
-;landmark	mausoleum	160,	50
+landmark	mausoleum	193,	138
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of resources section <<<<   ! sorted by region !

@@ -518,7 +518,7 @@ unit				barb infantry slave
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
-rebel_type 			Bosphorans	//greek_cities
+rebel_type 			Bosphorans	//thrace
 category			peasant_revolt 
 chance				0
 description			Bosphorans
@@ -531,7 +531,7 @@ unit				greek hoplite militia
 unit				greek hoplite
 unit				greek general's guard cavalry early
 
-rebel_type 			Chersonian	//greek_cities
+rebel_type 			Chersonian	//thrace
 category			peasant_revolt 
 chance				0
 description			Chersonian
@@ -544,7 +544,7 @@ unit				greek hoplite militia
 unit				greek hoplite
 unit				greek general's guard cavalry early
 
-rebel_type 			Byzantine	//greek_cities
+rebel_type 			Byzantine	//thrace
 category			peasant_revolt 
 chance				0
 description			Byzantine
@@ -946,7 +946,7 @@ unit				merc samnite
 unit				merc samnite
 unit				generic rebel general
 
-rebel_type 			Ionians		//seleucids
+rebel_type 			Ionians		//greek_cities
 category			peasant_revolt 
 chance				0
 description			Ionians
@@ -2192,6 +2192,32 @@ unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek hoplite
 unit				eastern rebel general
+
+rebel_type 			Pergamene	//thrace
+category			peasant_revolt 
+chance				0
+description			Pergamene
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				merc thracian
+unit				greek hoplite militia
+unit				greek hoplite
+unit				greek general's guard cavalry early
+
+rebel_type 			Carian		//greek_cities
+category			peasant_revolt 
+chance				0
+description			Carian
+unit				greek cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
 
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt

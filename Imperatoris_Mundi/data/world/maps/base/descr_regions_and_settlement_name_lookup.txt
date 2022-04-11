@@ -461,6 +461,12 @@ Sumer
 Chaldaea
 Characene
 Susiana
+Bithynia_Inferioris
+Mysia_Inferioris
+Troad
+Mysia_Superioris
+Ionia
+Caria
 
 Eblania
 Coriondia
@@ -925,6 +931,12 @@ Orchoi
 Apameia_Tigridos
 Alexandreia_Sousianis
 Seleukeia_Eulaios
+Nicomedia
+Kysikos
+Ilion
+Pergamon
+Ephesos
+Halikarnassos
 
 Libyae_Interior
 toggle_fow
@@ -939,7 +951,7 @@ Mons_Imaus
 i_see_you
 
 Taklamakan_Desertum
-not_east_turkestan
+taiwan_numba_one
 
 Barbaria_Interior
 somalian_pirates_weeee

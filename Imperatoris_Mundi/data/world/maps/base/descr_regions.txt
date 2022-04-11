@@ -4236,6 +4236,67 @@ Susiana
 	5
 	3
 
+;Aegean Anatolia
+Bithynia_Inferioris
+	Nicomedia
+	thrace
+	Bithynians
+	203 145 247
+	none
+	5
+	5
+	;42+28+25+30+21, shipwright, trader, textiles, 3, olive_oil, 2, grain, 2
+
+Mysia_Inferioris
+	Kysikos
+	thrace
+	Pergamene
+	103 136 145
+	none
+	5
+	2
+	;20+48, no port, marble, 2, copper, 2
+
+Troad
+	Ilion
+	thrace
+	Pergamene
+	5 89 94
+	none
+	5
+	5
+	;37+120-41, port, trader, textiles, 1, purple_dye, 1, iron, 2
+
+Mysia_Superioris
+	Pergamon
+	thrace
+	Pergamene
+	158 216 119
+	none
+	5
+	4
+	;108+41, port, baths, academy, wine, 4, glass, 2, grain, 3
+
+Ionia
+	Ephesos
+	greek_cities
+	Ionians
+	179 150 204
+	none
+	5
+	5
+	;104+27, glass, 2, textiles, 3, marble, 3
+
+Caria
+	Halikarnassos
+	greek_cities
+	Carian
+	206 113 181
+	none
+	5
+	2
+	;28+65+14, purple_dye, 3, textiles, 3, olive_oil, 3, marble, 2, wine, 3
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -4274,7 +4335,7 @@ Mons_Imaus
 	0
 
 Taklamakan_Desertum
-	not_east_turkestan
+	taiwan_numba_one
 	parthia
 	TerraIncognita
 	234 129 37
