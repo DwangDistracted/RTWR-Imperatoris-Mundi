@@ -4134,7 +4134,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -4177,7 +4177,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -4380,7 +4380,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -4466,7 +4466,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses wooden_wall
 	}
 	building
 	{
@@ -4501,7 +4501,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -4532,7 +4532,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses wooden_wall
 	}
 	building
 	{
@@ -5567,7 +5567,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -5598,7 +5598,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -5740,7 +5740,7 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
 
-character	Euenus, named character, age 27, , x 169, y 135
+character	Euenus, named character, age 27, , x 171, y 140
 traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 2
 ancillaries treasurer
 army
@@ -5783,7 +5783,7 @@ army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
 
-character	Aeaces, general, age 20, , x 171, y 140
+character	Aeaces, general, age 20, , x 169, y 135
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
@@ -6282,7 +6282,7 @@ denari	3000
 settlement
 {
 	level village
-	region Tempr0
+	region Tempr11
 
 	year_founded 0
 	population 400
@@ -7187,7 +7187,7 @@ denari	3000
 settlement
 {
 	level village
-	region Tempr11
+	region Tempr0
 
 	year_founded 0
 	population 400
@@ -7290,6 +7290,30 @@ settlement
 	building
 	{
 		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+; ARIANA
+settlement
+{
+	level large_town
+	region Sarmagana
+
+	year_founded 0
+	population 2350
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 	building
 	{
@@ -7525,7 +7549,7 @@ settlement
 	year_founded 0
 	population 5600
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_villa
@@ -7595,7 +7619,7 @@ settlement
 	year_founded 0
 	population 4300
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_villa
@@ -7622,7 +7646,7 @@ settlement
 	year_founded 0
 	population 4450
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_villa
@@ -7657,7 +7681,7 @@ settlement
 	year_founded 0
 	population 4300
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_villa
@@ -7786,7 +7810,7 @@ settlement
 	year_founded 0
 	population 9700
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_palace
@@ -7821,7 +7845,7 @@ settlement
 	year_founded 0
 	population 3200
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_villa
@@ -7844,7 +7868,7 @@ settlement
 	year_founded 0
 	population 4500
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_villa
@@ -7875,7 +7899,7 @@ settlement
 	year_founded 0
 	population 4450
 	plan_set default_set
-	faction_creator parthia
+	faction_creator armenia
 	building
 	{
 		type core_building governors_villa
@@ -12160,7 +12184,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -12203,7 +12227,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -12309,7 +12333,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -12459,7 +12483,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -14157,29 +14181,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Sarmagana
-
-	year_founded 0
-	population 2350
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
 	level town
 	region Attene
 
@@ -14247,6 +14248,10 @@ settlement
 	{
 		type hinterland_farms farms+2
 	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
 }
 
 settlement
@@ -14285,6 +14290,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -19799,18 +19808,6 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-
-;Sarmagana
-character	sub_faction parthia, Hydarnes, general, age 20, , x 344, y 173
-army
-unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0

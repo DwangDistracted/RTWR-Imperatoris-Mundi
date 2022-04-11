@@ -4056,7 +4056,7 @@ Phoeniciae_Meridionalis
 ;Syria
 Coele_Syria
 	Damaskos
-	parthia
+	armenia
 	Syrians
 	244 222 168
 	none
@@ -4074,7 +4074,7 @@ Phoeniciae_Septentrionalis
 
 Apamene
 	Emesa
-	parthia
+	armenia
 	Syrians
 	255 240 188
 	none
@@ -4083,7 +4083,7 @@ Apamene
 
 Palmyrene
 	Palmyra
-	parthia
+	armenia
 	Palmyrans
 	236 201 255
 	none
@@ -4101,7 +4101,7 @@ Syria
 
 Commagene
 	Nisibyn
-	parthia
+	armenia
 	Syrians
 	252 239 121
 	none
@@ -4111,7 +4111,7 @@ Commagene
 ;Assyria
 Osroene
 	Adma
-	parthia
+	armenia
 	Syrians
 	148 247 179
 	none
@@ -4129,7 +4129,7 @@ Coruene
 
 Mesopotamia
 	Antiocheia_Mygdonias
-	parthia
+	armenia
 	Assyrian
 	168 13 67
 	sparta
@@ -4138,7 +4138,7 @@ Mesopotamia
 
 Assyria
 	Ninos
-	parthia
+	armenia
 	Assyrian
 	71 31 150
 	none
@@ -4147,7 +4147,7 @@ Assyria
 
 Apolloniatos
 	Kainai
-	parthia
+	armenia
 	Assyrian
 	255 233 35
 	none
