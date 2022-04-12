@@ -6139,6 +6139,114 @@ region
 			distribution 25
 		}
 	}
+	Isauria
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Lycaonia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Tyanitis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Saravene
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Galatia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Phrygia_Maoris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

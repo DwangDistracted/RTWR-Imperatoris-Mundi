@@ -812,7 +812,7 @@ unit				greek hoplite militia
 unit				merc thracian
 unit				greek general's guard cavalry early
 
-rebel_type 			Bithynians	//Macedon
+rebel_type 			Bithynians	//thrace
 category			peasant_revolt 
 chance				0
 description			Bithynians
@@ -843,8 +843,11 @@ category			peasant_revolt
 chance				0
 description			Cappadocians
 unit				east heavy cavalry
+unit				east heavy cavalry
+unit				east heavy cavalry
 unit				east peasant
 unit				east archer
+unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
@@ -915,7 +918,7 @@ unit				greek general's guard cavalry early
 
 rebel_type 			Cilicians	//Seleucid
 category			peasant_revolt 
-chance				6
+chance				0
 description			Cilicians
 unit				east heavy cavalry
 unit				merc cilician pirate
@@ -2251,11 +2254,24 @@ unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek general's guard cavalry early
 
-rebel_type 			Phrygian		//Seleucid
+rebel_type 			Phrygian		//pontus
 category			peasant_revolt 
 chance				0
 description			Phrygian
 unit				east heavy cavalry
+unit				east heavy cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				eastern rebel general
+
+rebel_type 			Lycaonian		//pontus
+category			peasant_revolt 
+chance				0
+description			Lycaonian
+unit				greek medium cavalry
 unit				east heavy cavalry
 unit				greek peasant
 unit				greek peltast

@@ -4393,6 +4393,61 @@ Bithynia_Superioris
 	1
 	;64, grain, 2, timber, 4
 
+;Central Anatolia
+Isauria
+	Laranda
+	pontus
+	Lycaonian
+	59 198 92
+	none
+	5
+	4
+
+Lycaonia
+	Ikonion
+	pontus
+	Lycaonian
+	107 72 69
+	none
+	5
+	10
+
+Tyanitis
+	Tyana
+	pontus
+	Cappadocians
+	112 37 70
+	none
+	5
+	6
+
+Saravene
+	Pteria
+	pontus
+	Cappadocians
+	186 106 183
+	none
+	5
+	6
+
+Galatia
+	Ankyra
+	gauls
+	Galatians
+	137 168 26
+	none
+	5
+	5
+
+Phrygia_Maoris
+	Gordion
+	gauls
+	Galatians
+	124 112 124
+	none
+	5
+	5
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

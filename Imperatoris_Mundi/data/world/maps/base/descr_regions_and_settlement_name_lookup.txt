@@ -478,6 +478,12 @@ Pisidia
 Phrygia_Parorea
 Phyrgia_Minoris
 Bithynia_Superioris
+Isauria
+Lycaonia
+Tyanitis
+Saravene
+Galatia
+Phrygia_Maoris
 
 Eblania
 Coriondia
@@ -959,6 +965,12 @@ Sagalassos
 Synnada
 Dorylaion
 Kabia
+Laranda
+Ikonion
+Tyana
+Pteria
+Ankyra
+Gordion
 
 Libyae_Interior
 toggle_fow
