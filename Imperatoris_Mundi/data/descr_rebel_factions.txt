@@ -74,7 +74,7 @@ unit				rebel amazon chariots
 unit				rebel amazon chariots
 unit				rebel amazon chariots
 unit				rebel amazon chariots
-unit				eastern rebel general
+unit				greek general's guard cavalry early
 
 rebel_type 			Saka		//Scythians
 category			peasant_revolt 
@@ -917,7 +917,13 @@ rebel_type 			Cilicians	//Seleucid
 category			peasant_revolt 
 chance				6
 description			Cilicians
+unit				east heavy cavalry
 unit				merc cilician pirate
+unit				merc cilician pirate
+unit				merc cilician pirate
+unit				merc cilician pirate
+unit				greek hoplite militia
+unit				greek hoplite militia
 unit				generic rebel general
 
 rebel_type 			Thessalians	//Macedon
@@ -1011,7 +1017,7 @@ unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek general's guard cavalry early
 
-rebel_type 			Lycians		//Macedon
+rebel_type 			Lycians		//Seleucid
 category			peasant_revolt 
 chance				0
 description			Lycians
@@ -1070,10 +1076,10 @@ description			Cypriots
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
+unit				merc cilician pirate
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek hoplite
-unit				merc cilician pirate
 unit				greek general's guard cavalry early
 
 rebel_type 			Phoenicians	//carthage
@@ -2218,6 +2224,45 @@ unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
 unit				greek general's guard cavalry early
+
+rebel_type 			Pamphylian		//Seleucid
+category			peasant_revolt 
+chance				0
+description			Pamphylian
+unit				greek cavalry
+unit				greek medium cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				merc cilician pirate
+unit				greek general's guard cavalry early
+
+rebel_type 			Lydian		//Seleucid
+category			peasant_revolt 
+chance				0
+description			Lydian
+unit				east heavy cavalry
+unit				greek medium cavalry
+unit				greek medium cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				greek general's guard cavalry early
+
+rebel_type 			Phrygian		//Seleucid
+category			peasant_revolt 
+chance				0
+description			Phrygian
+unit				east heavy cavalry
+unit				east heavy cavalry
+unit				greek peasant
+unit				greek peltast
+unit				greek heavy peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				eastern rebel general
 
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt

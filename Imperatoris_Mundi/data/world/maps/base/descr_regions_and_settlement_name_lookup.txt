@@ -467,6 +467,17 @@ Troad
 Mysia_Superioris
 Ionia
 Caria
+Lycia
+Pamphylia
+Cilicia_Trachea
+Cilicia_Pedias
+Cyprus
+Lydia
+Phrygia_Ripensis
+Pisidia
+Phrygia_Parorea
+Phyrgia_Minoris
+Bithynia_Superioris
 
 Eblania
 Coriondia
@@ -937,6 +948,17 @@ Ilion
 Pergamon
 Ephesos
 Halikarnassos
+Xanthos
+Sidi
+Tarsos
+Anazarbos
+Salamis
+Sardeis
+Kolossai
+Sagalassos
+Synnada
+Dorylaion
+Kabia
 
 Libyae_Interior
 toggle_fow

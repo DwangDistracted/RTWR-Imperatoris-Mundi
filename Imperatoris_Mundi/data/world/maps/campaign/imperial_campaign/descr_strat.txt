@@ -2379,7 +2379,7 @@ resource camels, 1, 290, 66
 ;Cinaedocolpitis
 resource slaves, 1, 291, 59
 resource incense, 2, 285, 61
-resource purple_dye, 1, 272, 60
+resource purple_dye, 1, 272, 73
 resource camels, 2, 267, 76
 resource silver, 1, 286, 63
 
@@ -2564,7 +2564,7 @@ resource slaves, 1, 250, 152
 resource wild_animals, 3, 250, 148
 resource grain, 2, 246, 153
 resource pottery, 1, 254, 151
-resource camels, 2, 256, 146
+resource camels, 2, 251, 150
 
 ;Assyria
 resource slaves, 1, 260, 149
@@ -2674,6 +2674,71 @@ resource purple_dye, 3, 195, 139
 resource olive_oil, 3, 193, 141
 resource wine, 3, 197, 143
 resource marble, 2, 196, 140
+
+;Lycia
+resource slaves, 1, 197, 137
+resource glass, 2, 203, 136
+resource marble, 2, 201, 140
+
+;Pamphylia
+resource slaves, 1, 209, 142
+resource textiles, 3, 204, 140
+resource timber, 3, 206, 142
+resource purple_dyes, 2, 211, 144
+
+;Cilicia_Trachea
+resource slaves, 1, 222, 145
+resource lead, 3, 221, 146
+resource timber, 5, 224, 150
+resource wine, 1, 218, 140
+
+;Cilicia_Pedias
+resource slaves, 1, 225, 150
+resource olive_oil, 3, 225, 148
+resource iron, 2, 229, 150
+resource wine, 1, 227, 147
+
+;Cyprus
+resource slaves, 1, 220, 134
+resource olive_oil, 3, 216, 132
+resource copper, 4, 219, 132
+resource glass, 1, 223, 137
+
+;Lydia
+resource slaves, 1, 193, 146
+resource wine, 4, 194, 148
+resource textiles, 2, 189, 145
+resource copper, 2, 194, 144
+resource gold, 1, 192, 143
+
+;Phrygia_Ripensis
+resource slaves, 1, 198, 147
+resource timber, 3, 197, 148
+resource textiles, 3, 195, 148
+resource iron, 2, 201, 146
+
+;Pisidia
+resource slaves, 1, 201, 142
+resource wine, 3, 206, 145
+resource incense, 1, 199, 143
+resource iron, 1, 203, 145
+
+;Phrygia_Parorea
+resource slaves, 1, 201, 149
+resource timber, 5, 204, 151
+resource textiles, 3, 206, 151
+resource grain, 2, 208, 149
+
+;Phyrgia_Minoris
+resource slaves, 1, 199, 151
+resource timber, 4, 198, 152
+resource hides, 3, 196, 151
+resource grain, 1, 201, 151
+
+;Bithynia_Superioris
+resource slaves, 1, 198, 155
+resource timber, 4, 203, 157
+resource grain, 2, 198, 157
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -7110,6 +7175,119 @@ settlement
 	}
 }
 
+; SOUTHERN ANATOLIA
+settlement
+{
+	level large_town
+	region Cyprus
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Pamphylia
+
+	year_founded 0
+	population 5100
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Lycia
+
+	year_founded 0
+	population 4825
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
 
 character	Hekhemmut, named character, leader, age 55, , x 218, y 104
 traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2
@@ -7144,15 +7322,20 @@ unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 
-character	Ptahhotep, named character, age 35, , x 2, y 1
+character	Ptahhotep, named character, age 35, , x 208, y 141
 traits GoodCommander 1 , PublicFaith 2 , MathematicsSkill 3 , Embezzler 1
 ancillaries mathematician
 army
 unit		egyptian general's bodyguard early				exp 1 armour 0 weapon_lvl 0
+unit		egyptian nile infantry				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 4 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 4 armour 0 weapon_lvl 0
 unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
 unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian cavalry				exp 4 armour 0 weapon_lvl 0
 
 character	Kiya, named character, age 28, , x 228, y 90
 traits NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 1
@@ -7272,13 +7455,34 @@ character	Miwsher, general, age 20, , x 192, y 138
 army
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian slingers				exp 0 armour 0 weapon_lvl 0
+
+character	Miwsher, general, age 20, , x 199, y 136
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Miwsher, general, age 20, , x 222, y 134
+army
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
+unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Wah, admiral, age 29, , x 210, y 108
 army
 unit		naval triremes				exp 0 armour 0 weapon_lvl 0
 unit		naval triremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+
+character	Miwsher, admiral, age 29, , x 206, y 139
+army
+unit		naval triremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
@@ -7436,6 +7640,261 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+; WESTERN ANATOLIA
+settlement
+{
+	level large_town
+	region Lydia
+
+	year_founded 0
+	population 5800
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Phrygia_Ripensis
+
+	year_founded 0
+	population 5250
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Pisidia
+
+	year_founded 0
+	population 4650
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Phrygia_Parorea
+
+	year_founded 0
+	population 4550
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Phyrgia_Minoris
+
+	year_founded 0
+	population 5100
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; SOUTHERN ANATOLIA
+settlement
+{
+	level city
+	region Cilicia_Pedias
+
+	year_founded 0
+	population 8000
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Cilicia_Trachea
+
+	year_founded 0
+	population 4700
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
 	}
 	building
 	{
@@ -8303,6 +8762,60 @@ army
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+; WESTERN ANATOLIA
+character	Molon, general, age 20, , x 191, y 145
+army
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek medium cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 198, y 145
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 202, y 143
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 `armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 203, y 149
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 199, y 153
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+; SOUTHERN ANATOLIA
+character	Molon, general, age 20, , x 227, y 149
+army
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc cilician pirate				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 223, y 147
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc cilician pirate				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Euthydemus, admiral, age 20, , x 230, y 138
@@ -16274,6 +16787,30 @@ settlement
 	}
 }
 
+; WESTERN ANATOLIA
+settlement
+{
+	level large_town
+	region Bithynia_Superioris
+
+	year_founded 0
+	population 3200
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -21041,6 +21578,20 @@ unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc rhodian slingers				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+; WESTERN ANATOLIA
+character	sub_faction pontus, Akas, general, age 20, , x 196, y 155
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		greek peltast				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA

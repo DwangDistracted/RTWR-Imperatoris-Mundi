@@ -4291,6 +4291,108 @@ Caria
 	5
 	2
 
+;Southern Anatolia
+Lycia
+	Xanthos
+	greek_cities
+	Lycians
+	10 153 105
+	none
+	5
+	1
+
+Pamphylia
+	Sidi
+	greek_cities
+	Pamphylian
+	130 19 45
+	none
+	5
+	4
+
+Cilicia_Trachea
+	Tarsos
+	armenia
+	Cilicians
+	112 88 40
+	none
+	5
+	2
+
+Cilicia_Pedias
+	Anazarbos
+	armenia
+	Cilicians
+	61 66 57
+	none
+	5
+	6
+
+Cyprus
+	Salamis
+	greek_cities
+	Cypriots
+	135 123 35
+	none
+	5
+	3
+
+;Western Anatolia
+Lydia
+	Sardeis
+	pontus
+	Lydian
+	90 105 147
+	none
+	5
+	6
+
+Phrygia_Ripensis
+	Kolossai
+	pontus
+	Phrygian
+	175 156 147
+	none
+	5
+	4
+
+Pisidia
+	Sagalassos
+	pontus
+	Pamphylian
+	54 25 66
+	none
+	5
+	1
+
+Phrygia_Parorea
+	Synnada
+	pontus
+	Phrygian
+	66 181 48
+	none
+	5
+	4
+
+Phyrgia_Minoris
+	Dorylaion
+	pontus
+	Phrygian
+	244 209 190
+	none
+	5
+	3
+
+Bithynia_Superioris
+	Kabia
+	pontus
+	Bithynians
+	188 57 239
+	none
+	5
+	1
+	;64, grain, 2, timber, 4
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

@@ -5996,6 +5996,149 @@ region
 			distribution 15
 		}
 	}
+	Lycia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Pamphylia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Cilicia_Trachea
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Cilicia_Pedias
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Cyprus
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Lydia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Phrygia_Ripensis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Pisidia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Phrygia_Parorea
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Phyrgia_Minoris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Bithynia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
@@ -6242,22 +6385,6 @@ region
 		}
 	}
 	Rhodos
-	{
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
-	Campania
-	{
-		variant
-		{
-			ethnicity mediterranean
-			distribution 100
-		}
-	}
-	Lycia
 	{
 		variant
 		{
