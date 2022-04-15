@@ -484,6 +484,13 @@ Tyanitis
 Saravene
 Galatia
 Phrygia_Maoris
+Mariandynia
+Paphlagonia_Superioris
+Paphlagonia_Inferioris
+Iris_Inferioris
+Iris_Superioris
+Helenopontus
+Paryadres
 
 Eblania
 Coriondia
@@ -971,6 +978,13 @@ Tyana
 Pteria
 Ankyra
 Gordion
+Irakleia_Pontiki
+Gangra
+Sinope
+Amaseia
+Komana_Pontike
+Amisos
+Trapezous
 
 Libyae_Interior
 toggle_fow

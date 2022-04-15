@@ -4448,6 +4448,70 @@ Phrygia_Maoris
 	5
 	5
 
+;Northern Anatolia
+Mariandynia
+	Irakleia_Pontiki
+	pontus
+	Paphlagonians
+	68 37 43
+	none
+	5
+	1
+
+Paphlagonia_Superioris
+	Gangra
+	pontus
+	Paphlagonians
+	41 28 58
+	none
+	5
+	2
+
+Paphlagonia_Inferioris
+	Sinope
+	pontus
+	Paphlagonians
+	158 102 25
+	none
+	5
+	2
+
+Iris_Inferioris
+	Amaseia
+	pontus
+	Cappadocians
+	145 183 154
+	none
+	5
+	1
+
+Iris_Superioris
+	Komana_Pontike
+	pontus
+	Cappadocians
+	52 211 137
+	none
+	5
+	1
+
+Helenopontus
+	Amisos
+	pontus
+	Trapezuntine
+	202 119 216
+	none
+	5
+	2
+
+Paryadres
+	Trapezous
+	pontus
+	Trapezuntine
+	122 111 114
+	none
+	5
+	1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

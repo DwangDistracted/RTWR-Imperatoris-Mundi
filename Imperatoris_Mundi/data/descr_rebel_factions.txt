@@ -714,11 +714,11 @@ chance				0
 description			Paphlagonians
 unit				east heavy cavalry
 unit				east peasant
-unit				east peasant
 unit				east archer
 unit				east archer
 unit				east infantry
-unit				east infantry
+unit				greek hoplite militia
+unit				greek hoplite militia
 unit				eastern rebel general
 
 rebel_type 			Paionians	//Macedon
@@ -2277,6 +2277,19 @@ unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
 unit				greek heavy peltast
+unit				greek hoplite militia
+unit				eastern rebel general
+
+rebel_type 			Trapezuntine		//pontus
+category			peasant_revolt 
+chance				0
+description			Trapezuntine
+unit				east heavy cavalry
+unit				greek peasant
+unit				east archer
+unit				greek heavy peltast
+unit				greek heavy peltast
+unit				greek hoplite militia
 unit				greek hoplite militia
 unit				eastern rebel general
 

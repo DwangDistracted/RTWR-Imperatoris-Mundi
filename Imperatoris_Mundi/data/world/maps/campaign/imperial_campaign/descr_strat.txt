@@ -2777,6 +2777,45 @@ resource grain, 2, 205, 153
 resource hides, 3, 209, 152
 resource silver, 1, 206, 154
 
+;Mariandynia
+resource slaves, 1, 202, 165
+resource pottery, 2, 203, 167
+resource iron, 1, 201, 161
+resource textiles, 1, 205, 165
+
+;Paphlagonia_Superioris
+resource slaves, 1, 209, 163
+resource timber, 6, 207, 164
+resource pottery, 2, 206, 161
+resource hides, 2, 213, 164
+
+;Paphlagonia_Inferioris
+resource slaves, 1, 214, 171
+resource olive_oil, 3, 207, 167
+resource textiles, 2, 210, 168
+
+;Iris_Inferioris
+resource slaves, 1, 221, 166
+resource hides, 2, 216, 165
+resource gold, 2, 218, 167
+resource grain, 3, 219, 163
+
+;Iris_Superioris
+resource slaves, 1, 225, 165
+resource textiles, 3, 223, 162
+resource iron, 2, 227, 164
+
+;Helenopontus
+resource slaves, 1, 222, 168
+resource timber, 3, 224, 170
+resource wine, 2, 216, 169d
+
+;Paryadres
+resource slaves, 1, 235, 170
+resource marble, 3, 228, 168
+resource timber, 1, 231, 169
+resource textiles, 1, 237, 172
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -3524,7 +3563,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -3594,6 +3633,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
 	}
 	building
 	{
@@ -4035,6 +4078,10 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+	building
+	{
+		type barracks muster_field
+	}
 }
 
 settlement
@@ -4053,6 +4100,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -5099,7 +5150,7 @@ settlement
 	}
 	building
 	{
-		type missiles practice_field
+		type barracks muster_field
 	}
 	building
 	{
@@ -5269,7 +5320,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -5293,6 +5344,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
 	}
 	building
 	{
@@ -5422,6 +5477,14 @@ settlement
 	}
 	building
 	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
 		type hinterland_farms farms
 	}
 }
@@ -5468,6 +5531,10 @@ settlement
 	}
 	building
 	{
+		type barracks muster_field
+	}
+	building
+	{
 		type equestrian stables
 	}
 }
@@ -5491,7 +5558,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -5971,7 +6038,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses wooden_wall
 	}
 	building
 	{
@@ -5980,6 +6047,10 @@ settlement
 	building
 	{
 		type missiles practice_field
+	}
+	building
+	{
+		type market trader
 	}
 	building
 	{
@@ -6003,6 +6074,10 @@ settlement
 	building
 	{
 		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
 	}
 	building
 	{
@@ -6037,7 +6112,11 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market trader
 	}
 	building
 	{
@@ -7549,20 +7628,114 @@ relative 	Ptahhotep, 	Satsobek,		Arsinoe,	Tanutamun,	end
 relative 	Kiya, 	Pedibastet,		Heruben,	end
 
 faction	pontus, trader_napoleon
-denari	3000
+denari	5000
 
 settlement
 {
-	level village
-	region Tempr0
+	level large_town
+	region Iris_Inferioris
 
 	year_founded 0
-	population 400
+	population 4850
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
 }
 
-character	Mithradates, named character, leader, age 60, , x 4, y 1
+settlement
+{
+	level large_town
+	region Iris_Superioris
+
+	year_founded 0
+	population 4100
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Helenopontus
+
+	year_founded 0
+	population 1850
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+character	Mithradates, named character, leader, age 60, , x 221, y 165
 traits GoodCommander 2 , PublicFaith 1 , Intelligent 2
 ancillaries aged_retainer, chief_eunuch
 army
@@ -7573,7 +7746,7 @@ unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
 
-character	Pharnaces, named character, heir, age 40, , x 4, y 2
+character	Pharnaces, named character, heir, age 40, , x 224, y 164
 traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , GoodCavalryGeneral 1
 ancillaries famous_courtesan, foodtaster
 army
@@ -7582,7 +7755,7 @@ unit		east cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 
-character	Herakles, named character, age 30, , x 4, y 3
+character	Herakles, named character, age 30, , x 220, y 170
 traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , MathematicsSkill 3
 ancillaries freeman_clerk, merchant
 army
@@ -7590,13 +7763,13 @@ unit		eastern rebel general				exp 1 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Synges, spy, age 20, , x 4, y 4
+character	Synges, spy, age 20, , x 215, y 161
 traits GoodSpy 4
 
-character	Sauromates, diplomat, age 20, , x 4, y 5
+character	Sauromates, diplomat, age 20, , x 220, y 164
 traits GoodDiplomat 4
 
-character	Ariobarzanes, admiral, age 20, , x 4, y 6
+character	Ariobarzanes, admiral, age 20, , x 221, y 170
 army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
@@ -7615,7 +7788,7 @@ relative 	Pharnaces, 	Pythodoris,		Dynamis,	Gepaepyris,	Paerisades,	end
 relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
 
 faction	seleucid, balanced_stalin
-denari	3000
+denari	2000
 
 settlement
 {
@@ -17074,6 +17247,152 @@ settlement
 	}
 }
 
+; NORTHERN ANATOLIA
+settlement
+{
+	level large_town
+	region Mariandynia
+
+	year_founded 0
+	population 4900
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+settlement
+{
+	level large_town
+	region Paphlagonia_Superioris
+
+	year_founded 0
+	population 4250
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+settlement
+{
+	level large_town
+	region Paphlagonia_Inferioris
+
+	year_founded 0
+	population 3700
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+settlement
+{
+	level large_town
+	region Paryadres
+
+	year_founded 0
+	population 4050
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -17137,6 +17456,16 @@ settlement
 }
 
 ; TEMP
+settlement
+{
+	level village
+	region Tempr0
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator romans_julii
+}
 settlement
 {
 	level village
@@ -21900,6 +22229,69 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+; NORTHERN ANATOLIA
+character	sub_faction pontus, Asander, general, age 20, , x 201, y 163
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction pontus, Asander, general, age 20, , x 211, y 163
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction pontus, Aspurgus, general, age 20, , x 213, y 170
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction pontus, Cotys, general, age 20, , x 233, y 171
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 

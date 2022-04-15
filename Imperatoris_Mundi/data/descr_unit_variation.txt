@@ -6247,6 +6247,132 @@ region
 			distribution 15
 		}
 	}
+	Mariandynia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paphlagonia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paphlagonia_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Iris_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Iris_Supeioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Helenopontus
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paryadres
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
