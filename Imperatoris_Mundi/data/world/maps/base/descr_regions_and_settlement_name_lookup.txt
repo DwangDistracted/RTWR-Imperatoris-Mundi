@@ -498,6 +498,14 @@ Armenia_Maioris
 Armenia_Minoris
 Armenia_Superioris
 Sophene
+Tarawn
+Vaspurakan
+Syracene
+Soducene
+Ayrarat
+Parsatunik
+Syunik
+Artsakh
 
 Eblania
 Coriondia
@@ -999,6 +1007,14 @@ Kamisa
 Ani
 Baiberdon
 Arsamosata
+Ashtishat
+Tushpa
+Armavir
+Nvarsak
+Artashat
+Zarawak
+Nakhchevan
+Sotk
 
 Libyae_Interior
 toggle_fow
@@ -1013,7 +1029,7 @@ Mons_Imaus
 i_see_you
 
 Taklamakan_Desertum
-taiwan_numba_one
+melonville
 
 Barbaria_Interior
 somalian_pirates_weeee

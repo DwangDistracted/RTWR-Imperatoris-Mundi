@@ -476,7 +476,7 @@ resource purple_dye, 1, 120, 203
 ;Lugia
 resource slaves, 1, 130, 208
 resource grain, 2, 133, 205
-resource tin, 1, 129, 199
+resource tin, 3, 129, 199
 
 ;Vangionia
 resource slaves, 1, 92, 180
@@ -1918,7 +1918,7 @@ resource silver, 1, 305, 186
 resource textiles, 1, 308, 191
 
 ;Massagetica
-resource slaves, 1 313, 196
+resource slaves, 1, 313, 196
 resource gold, 1, 322, 197
 resource incense, 2, 308, 197
 resource wild_animals, 1, 313, 202
@@ -2500,7 +2500,7 @@ resource camels, 1, 243, 126
 resource slaves, 1, 232, 131
 resource glass, 4, 232, 127
 resource wine, 4, 233, 124
-resource purple_dyes, 2, 232, 132
+resource purple_dye, 2, 232, 132
 resource grain, 1, 232, 123
 
 ;Coele_Syria
@@ -2684,7 +2684,7 @@ resource marble, 2, 201, 140
 resource slaves, 1, 209, 142
 resource textiles, 3, 204, 140
 resource timber, 3, 206, 142
-resource purple_dyes, 2, 211, 144
+resource purple_dye, 2, 210, 141
 
 ;Cilicia_Trachea
 resource slaves, 1, 222, 145
@@ -2844,7 +2844,7 @@ resource pottery, 2, 237, 167
 resource hides, 2, 233, 164
 
 ;Armenia_Superioris
-resource slaves, 1, 235, 164
+resource slaves, 1, 239, 170
 resource marble, 2, 240, 167
 resource hides, 2, 244, 167
 
@@ -2852,6 +2852,51 @@ resource hides, 2, 244, 167
 resource slaves, 1, 240, 158
 resource copper, 2, 243, 160
 resource hides, 2, 240, 163
+
+;Tarawn
+resource slaves, 1, 249, 168
+resource timber, 4, 251, 172
+resource wine, 2, 248, 172
+
+;Vaspurakan
+resource slaves, 1, 258, 166
+resource timber, 3, 259, 164
+resource marble, 2, 254, 167
+resource grain, 2, 249, 163
+
+;Syracene
+resource slaves, 1, 253, 174
+resource timber, 1, 253, 177
+resource hides, 2, 250, 175
+resource grain, 4, 256, 172
+
+;Soducene
+resource slaves, 1, 262, 170
+resource timber, 2, 257, 170
+resource hides, 2, 260, 169
+resource grain, 1, 260, 171
+
+;Ayrarat
+resource slaves, 1, 261, 174
+resource iron, 1, 263, 173
+resource timber, 2, 263, 177
+resource marble, 1, 257, 175
+
+;Parsatunik
+resource slaves, 1, 269, 167
+resource hides, 4, 268, 164
+resource grain, 2, 263, 166
+
+;Syunik
+resource slaves, 1, 264, 172
+resource copper, 2, 266, 170
+resource iron, 1, 267, 172
+
+;Artsakh
+resource slaves, 1, 269, 176
+resource hides, 2, 270, 174
+resource gold, 1, 266, 176
+resource iron, 1, 269, 170
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -4239,10 +4284,6 @@ settlement
 	}
 	building
 	{
-		type equestrian stables
-	}
-	building
-	{
 		type market market
 	}
 	building
@@ -4252,6 +4293,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -4278,7 +4323,7 @@ settlement
 	}
 	building
 	{
-		type missiles catapult_range
+		type missiles archery_range
 	}
 	building
 	{
@@ -4364,7 +4409,7 @@ settlement
 	}
 	building
 	{
-		type barracks militia_barracks
+		type barracks muster_field
 	}
 	building
 	{
@@ -5708,7 +5753,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -5822,6 +5867,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -6093,6 +6142,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -6127,6 +6180,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -6536,6 +6593,46 @@ denari	3000
 settlement
 {
 	level large_town
+	region Syracene
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+; EASTERN ANATOLIA
+settlement
+{
+	level large_town
 	region Melitene
 
 	year_founded 0
@@ -6590,6 +6687,7 @@ settlement
 		type hinterland_farms farms
 	}
 }
+
 settlement
 {
 	level large_town
@@ -6620,6 +6718,7 @@ settlement
 		type hinterland_farms farms
 	}
 }
+
 settlement
 {
 	level large_town
@@ -6650,6 +6749,7 @@ settlement
 		type hinterland_farms farms
 	}
 }
+
 settlement
 {
 	level large_town
@@ -6681,34 +6781,230 @@ settlement
 	}
 }
 
-character	Artaxias, named character, leader, age 60, , x 3, y 1
+; ARMENIA
+settlement
+{
+	level large_town
+	region Tarawn
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Vaspurakan
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Soducene
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Ayrarat
+
+	year_founded 0
+	population 5850
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level town
+	region Parsatunik
+
+	year_founded 0
+	population 1700
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Syunik
+
+	year_founded 0
+	population 3450
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Artsakh
+
+	year_founded 0
+	population 2050
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_mines mines
+	}
+}
+
+character	Artaxias, named character, leader, age 60, , x 255, y 174
 traits GoodCommander 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1
 ancillaries chief_eunuch
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 0 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Rusa, named character, heir, age 35, , x 3, y 2
+character	Rusa, named character, heir, age 35, , x 261, y 173
 traits GoodCommander 1 , PublicFaith 1 , Intelligent 2
 ancillaries galloper
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east heavy infantry				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east cataphract archer				exp 0 armour 0 weapon_lvl 0
 
-character	Aramu, named character, age 30, , x 3, y 3
+character	Aramu, named character, age 30, , x 264, y 171
 traits Intelligent 2 , MathematicsSkill 1 , Drink 1
 ancillaries freeman_clerk, drinking_companion
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 
 character	Artashes, named character, age 18, , x 239, y 159
@@ -6732,19 +7028,47 @@ unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Menua, general, age 18, , x 236, y 165
 army
+unit		east hillmen				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 
 character	Menua, general, age 18, , x 238, y 168
 army
+unit		east hillmen				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Prusias, spy, age 20, , x 3, y 4
+character	Menua, general, age 18, , x 257, y 164
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 250, y 166
+army
+unit		east hillmen				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 267, y 175
+army
+unit		east hillmen				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 262, y 168
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 265, y 167
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Prusias, spy, age 20, , x 248, y 159
 traits GoodSpy 4
 ancillaries courtesan
 
-character	Menua, diplomat, age 20, , x 3, y 5
+character	Menua, diplomat, age 20, , x 254, y 175
 traits GoodDiplomat 3
 
 character_record		Zipoetes, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
@@ -6811,7 +7135,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -6859,7 +7183,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
+		type hinterland_roads paved_roads
 	}
 }
 
@@ -7861,6 +8185,10 @@ settlement
 	building
 	{
 		type market market
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 	building
 	{
@@ -17459,7 +17787,7 @@ settlement
 	year_founded 0
 	population 4900
 	plan_set default_set
-	faction_creator pontus
+	faction_creator greek_cities
 	building
 	{
 		type core_building governors_villa

@@ -596,19 +596,6 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
-rebel_type 			Suppani	//Armenia
-category			peasant_revolt 
-chance				0
-description			Suppani
-unit				east horse archer
-unit				east heavy cavalry
-unit				east peasant
-unit				east archer
-unit				east archer
-unit				east infantry
-unit				east infantry
-unit				eastern rebel general
-
 rebel_type 			Medes		//Parthians
 category			peasant_revolt 
 chance				0
@@ -2307,6 +2294,45 @@ unit				greek heavy peltast
 unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite militia
+unit				eastern rebel general
+
+rebel_type 			Suppani	//Armenia
+category			peasant_revolt 
+chance				0
+description			Suppani
+unit				east horse archer
+unit				east heavy cavalry
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Urartian	//Armenia
+category			peasant_revolt 
+chance				0
+description			Urartian
+unit				east horse archer
+unit				east heavy cavalry
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Alarodian	//Armenia
+category			peasant_revolt 
+chance				0
+description			Alarodian
+unit				east horse archer
+unit				east heavy cavalry
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
 unit				eastern rebel general
 
 rebel_type 			TerraIncognita		//numidia

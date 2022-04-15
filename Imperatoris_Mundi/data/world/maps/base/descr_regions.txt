@@ -4574,6 +4574,79 @@ Sophene
 	255 0 0
 	none
 	5
+	3
+
+;Armenia
+Tarawn
+	Ashtishat
+	armenia
+	Urartian
+	27 96 19
+	none
+	5
+	3
+
+Vaspurakan
+	Tushpa
+	armenia
+	Urartian
+	86 74 64
+	none
+	5
+	2
+
+Syracene
+	Armavir
+	armenia
+	Urartian
+	123 209 167	
+	none
+	5
+	5
+
+Soducene
+	Nvarsak
+	armenia
+	Urartian
+	147 7 21
+	none
+	5
+	2
+
+Ayrarat
+	Artashat
+	armenia
+	Alarodian
+	142 142 142
+	none
+	5
+	5
+
+Parsatunik
+	Zarawak
+	armenia
+	Alarodian
+	89 102 124
+	none
+	5
+	3
+
+Syunik
+	Nakhchevan
+	armenia
+	Alarodian
+	165 64 89
+	none
+	5
+	2
+
+Artsakh
+	Sotk
+	armenia
+	Alarodian
+	152 137 211
+	none
+	5
 	1
 
 ;Terra Incognita
@@ -4614,7 +4687,7 @@ Mons_Imaus
 	0
 
 Taklamakan_Desertum
-	taiwan_numba_one
+	melonville
 	parthia
 	TerraIncognita
 	234 129 37

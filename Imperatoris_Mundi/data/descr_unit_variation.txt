@@ -6499,6 +6499,110 @@ region
 			distribution 15
 		}
 	}
+	Tarawn
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Vaspurakan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Syracene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Soducene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Ayrarat
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Parsatunik
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Syunik
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Artsakh
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
