@@ -491,6 +491,13 @@ Iris_Inferioris
 Iris_Superioris
 Helenopontus
 Paryadres
+Cappadocia
+Cataonia
+Melitene
+Armenia_Maioris
+Armenia_Minoris
+Armenia_Superioris
+Sophene
 
 Eblania
 Coriondia
@@ -985,6 +992,13 @@ Amaseia
 Komana_Pontike
 Amisos
 Trapezous
+Mazaka
+Komana_Ierapolis
+Militia
+Kamisa
+Ani
+Baiberdon
+Arsamosata
 
 Libyae_Interior
 toggle_fow
@@ -1007,13 +1021,11 @@ somalian_pirates_weeee
 Arabia_Deserta
 nothing_but_oil
 
-Tempr0
 Tempr9
 Tempr11
 Tempr14
 Tempr15
 Tempr16
-Temp0
 Temp9
 Temp11
 Temp14

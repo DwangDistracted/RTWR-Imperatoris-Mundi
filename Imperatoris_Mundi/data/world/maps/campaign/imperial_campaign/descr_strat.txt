@@ -2816,6 +2816,43 @@ resource marble, 3, 228, 168
 resource timber, 1, 231, 169
 resource textiles, 1, 237, 172
 
+;Cappadocia
+resource slaves, 1, 222, 155
+resource iron, 3, 225, 153
+resource hides, 2, 227, 159
+resource pottery, 1, 223, 153
+
+;Cataonia
+resource slaves, 1, 229, 154
+resource textiles, 3, 226, 154
+resource wild_animals, 3, 227, 152
+
+;Melitene
+resource slaves, 1, 231, 157
+resource textiles, 2, 233, 159
+resource hides, 3, 231, 157
+
+;Armenia_Maioris
+resource slaves, 1, 230, 162
+resource timber, 2, 229, 160
+resource hides, 2, 233, 161
+resource grain, 1, 232, 163
+
+;Armenia_Minoris
+resource slaves, 1, 235, 164
+resource pottery, 2, 237, 167
+resource hides, 2, 233, 164
+
+;Armenia_Superioris
+resource slaves, 1, 235, 164
+resource marble, 2, 240, 167
+resource hides, 2, 244, 167
+
+;Sophene
+resource slaves, 1, 240, 158
+resource copper, 2, 243, 160
+resource hides, 2, 240, 163
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -6498,20 +6535,157 @@ denari	3000
 
 settlement
 {
-	level village
-	region Tempr11
+	level large_town
+	region Melitene
 
 	year_founded 0
-	population 400
+	population 4800
 	plan_set default_set
-	faction_creator romans_julii
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Armenia_Maioris
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level large_town
+	region Armenia_Minoris
+
+	year_founded 0
+	population 3100
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level large_town
+	region Armenia_Superioris
+
+	year_founded 0
+	population 3200
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level large_town
+	region Sophene
+
+	year_founded 0
+	population 2950
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 character	Artaxias, named character, leader, age 60, , x 3, y 1
 traits GoodCommander 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1
 ancillaries chief_eunuch
 army
-unit		eastern rebel general				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
@@ -6522,7 +6696,7 @@ character	Rusa, named character, heir, age 35, , x 3, y 2
 traits GoodCommander 1 , PublicFaith 1 , Intelligent 2
 ancillaries galloper
 army
-unit		eastern rebel general				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
@@ -6532,10 +6706,39 @@ character	Aramu, named character, age 30, , x 3, y 3
 traits Intelligent 2 , MathematicsSkill 1 , Drink 1
 ancillaries freeman_clerk, drinking_companion
 army
-unit		eastern rebel general				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Artashes, named character, age 18, , x 239, y 159
+traits Intelligent 3
+army
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 234, y 157
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 229, y 162
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 236, y 165
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
+
+character	Menua, general, age 18, , x 238, y 168
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Prusias, spy, age 20, , x 3, y 4
 traits GoodSpy 4
@@ -6554,7 +6757,7 @@ character_record		Pao, 	female, command 0, influence 0, management 0, subterfuge
 character_record		Arao, 	female, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
 character_record		Hurriya, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
 
-relative 	Artaxias, 	Erato,		Rusa,	Aramu,	Zipoetes,	end
+relative 	Artaxias, 	Erato,		Rusa,	Aramu,	Artashes,	Zipoetes,	end
 relative 	Rusa, 	Karo,		Arao,	Aram,	Sarduri,	end
 relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
@@ -7739,7 +7942,7 @@ character	Mithradates, named character, leader, age 60, , x 221, y 165
 traits GoodCommander 2 , PublicFaith 1 , Intelligent 2
 ancillaries aged_retainer, chief_eunuch
 army
-unit		eastern rebel general				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -7750,7 +7953,7 @@ character	Pharnaces, named character, heir, age 40, , x 224, y 164
 traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , GoodCavalryGeneral 1
 ancillaries famous_courtesan, foodtaster
 army
-unit		eastern rebel general				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
@@ -7759,7 +7962,7 @@ character	Herakles, named character, age 30, , x 220, y 170
 traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , MathematicsSkill 3
 ancillaries freeman_clerk, merchant
 army
-unit		eastern rebel general				exp 1 armour 0 weapon_lvl 0
+unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -17393,6 +17596,76 @@ settlement
 	}
 }
 
+; EASTERN ANATOLIA
+settlement
+{
+	level large_town
+	region Cappadocia
+
+	year_founded 0
+	population 4600
+	plan_set default_set
+	faction_creator pontus
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+settlement
+{
+	level large_town
+	region Cataonia
+
+	year_founded 0
+	population 5050
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -17459,7 +17732,7 @@ settlement
 settlement
 {
 	level village
-	region Tempr0
+	region Tempr9
 
 	year_founded 0
 	population 400
@@ -17469,7 +17742,7 @@ settlement
 settlement
 {
 	level village
-	region Tempr9
+	region Tempr11
 
 	year_founded 0
 	population 400
@@ -22104,6 +22377,7 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
 ; AEGEAN ANATOLIA
+;Mysia_Superioris
 character	sub_faction greek_cities, Attalos, general, age 20, , x 186, y 147
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -22123,6 +22397,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Troad
 character	sub_faction greek_cities, Priam, general, age 20, , x 181, y 152
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -22140,6 +22415,7 @@ unit		merc rhodian slingers				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Mysia_Inferioris
 character	sub_faction greek_cities, Krokinos, general, age 20, , x 187, y 154
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -22153,6 +22429,7 @@ unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Bithynia_Inferioris
 character	sub_faction greek_cities, Menekrates, general, age 20, , x 195, y 158
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
@@ -22173,6 +22450,7 @@ unit		greek medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; WESTERN ANATOLIA
+;Bithynia_Superioris
 character	sub_faction pontus, Akas, general, age 20, , x 196, y 155
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -22187,6 +22465,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; CENTRAL ANATOLIA
+;Phrygia_Maoris
 character	sub_faction gauls, Lucco, general, age 20, , x 207, y 155
 army
 unit		barb chieftain cavalry early slave				exp 4 armour 0 weapon_lvl 0
@@ -22200,6 +22479,7 @@ unit		barb archer slave				exp 4 armour 0 weapon_lvl 0
 unit		barb noble cavalry slave				exp 4 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 4 armour 0 weapon_lvl 0
 
+;Galatia
 character	sub_faction gauls, Lugotorix, general, age 20, , x 210, y 157
 army
 unit		barb chieftain cavalry early slave				exp 6 armour 0 weapon_lvl 0
@@ -22215,12 +22495,13 @@ unit		barb noble cavalry slave				exp 6 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 6 armour 0 weapon_lvl 0
 unit		barb cavalry slave				exp 6 armour 0 weapon_lvl 0
 
+;Saravene
 character	sub_faction pontus, Ariobarzanes, general, age 20, , x 220, y 160
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		merc barbarian infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc barbarian infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -22233,14 +22514,15 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; NORTHERN ANATOLIA
+;Mariandynia
 character	sub_faction pontus, Asander, general, age 20, , x 201, y 163
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -22250,13 +22532,14 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Paphlagonia_Superioris
 character	sub_faction pontus, Asander, general, age 20, , x 211, y 163
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -22265,6 +22548,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Paphlagonia_Inferioris
 character	sub_faction pontus, Aspurgus, general, age 20, , x 213, y 170
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -22280,20 +22564,58 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 
+;Paryadres
 character	sub_faction pontus, Cotys, general, age 20, , x 233, y 171
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+; EASTERN ANATOLIA
+;Cappadocia
+character	sub_faction pontus, Dionysos, general, age 20, , x 224, y 156
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+;Cataonia
+character	sub_faction pontus, Dionysos, general, age 20, , x 228, y 154
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3

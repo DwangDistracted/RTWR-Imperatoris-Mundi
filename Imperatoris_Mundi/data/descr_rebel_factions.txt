@@ -588,8 +588,24 @@ category			peasant_revolt
 chance				0
 description			Colchians
 unit				east horse archer
-unit				east archer
 unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Suppani	//Armenia
+category			peasant_revolt 
+chance				0
+description			Suppani
+unit				east horse archer
+unit				east heavy cavalry
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 

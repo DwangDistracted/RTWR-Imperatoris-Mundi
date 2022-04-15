@@ -4512,6 +4512,70 @@ Paryadres
 	5
 	1
 
+;Eastern Anatolia
+Cappadocia
+	Mazaka
+	pontus
+	Cappadocians
+	188 28 140
+	none
+	5
+	3
+
+Cataonia
+	Komana_Ierapolis
+	armenia
+	Cappadocians
+	109 123 142
+	none
+	5
+	2
+
+Melitene
+	Militia
+	armenia
+	Suppani
+	43 147 14
+	none
+	5
+	1
+
+Armenia_Maioris
+	Kamisa
+	armenia
+	Suppani
+	234 108 4
+	none
+	5
+	1
+
+Armenia_Minoris
+	Ani
+	armenia
+	Suppani
+	65 89 45
+	none
+	5
+	2
+
+Armenia_Superioris
+	Baiberdon
+	armenia
+	Suppani
+	91 58 85
+	none
+	5
+	1
+
+Sophene
+	Arsamosata
+	armenia
+	Suppani
+	255 0 0
+	none
+	5
+	1
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -4577,15 +4641,6 @@ Arabia_Deserta
 	0
 
 ;Temporary
-Tempr0
-	Temp0
-	romans_julii
-	Latins
-	255 0 0
-	none
-	5
-	5
-
 Tempr9
 	Temp9
 	romans_julii

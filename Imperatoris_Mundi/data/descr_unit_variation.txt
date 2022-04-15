@@ -6373,6 +6373,132 @@ region
 			distribution 5
 		}
 	}
+	Cappadocia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Cataonia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Melitene
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Armenia_Maioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Armenia_Minoris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Armenia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Sophene
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
