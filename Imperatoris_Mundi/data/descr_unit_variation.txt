@@ -6675,6 +6675,71 @@ region
 			distribution 5
 		}
 	}
+	Gugark
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Iberia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Kahetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Arran
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Albania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

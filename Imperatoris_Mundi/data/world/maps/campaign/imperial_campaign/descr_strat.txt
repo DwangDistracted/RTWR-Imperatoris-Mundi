@@ -2921,6 +2921,35 @@ resource wine, 2, 248, 183
 resource grain, 2, 250, 184
 resource wild_animals, 2, 252, 185
 
+;Gugark
+resource slaves, 1, 255, 182
+resource iron, 3, 255, 179
+resource timber, 5, 257, 178
+
+;Iberia
+resource slaves, 1, 256, 184
+resource wine, 3, 254, 184
+resource grain, 2, 258, 183
+resource pottery, 2, 256, 186
+
+;Kahetia
+resource slaves, 1, 264, 181
+resource timber, 3, 265, 183
+resource wild_animals, 2, 260, 184
+resource iron, 1, 267, 182
+
+;Arran
+resource slaves, 1, 269, 177
+resource timber, 2, 267, 180
+resource wild_animals, 2, 260, 180
+resource hides, 2, 274, 176
+
+;Albania
+resource slaves, 1, 274, 181
+resource timber, 2, 276, 181
+resource wild_animals, 2, 272, 179
+resource incense, 1, 280, 182
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -18122,6 +18151,119 @@ settlement
 	}
 }
 
+; CAUCASIAN IBERIA
+settlement
+{
+	level large_town
+	region Gugark
+
+	year_founded 0
+	population 2650
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Iberia
+
+	year_founded 0
+	population 3650
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kahetia
+
+	year_founded 0
+	population 2300
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; ALBANIA
+settlement
+{
+	level large_town
+	region Arran
+
+	year_founded 0
+	population 2550
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Albania
+
+	year_founded 0
+	population 2450
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -23110,6 +23252,76 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction armenia, Waradsin, general, age 20, , x 248, y 185
 army
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+; CAUCASIAN IBERIA
+;Gugark
+character	sub_faction armenia, Prusias, general, age 20, , x 253, y 181
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Iberia
+character	sub_faction armenia, Rimsin, general, age 20, , x 258, y 184
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Kahetia
+character	sub_faction armenia, Liapos, general, age 20, , x 262, y 183
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+; ALBANIA
+;Arran
+character	sub_faction armenia, Artaxias, general, age 20, , x 270, y 177
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Kahetia
+character	sub_faction armenia, Arkha, general, age 20, , x 272, y 182
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0

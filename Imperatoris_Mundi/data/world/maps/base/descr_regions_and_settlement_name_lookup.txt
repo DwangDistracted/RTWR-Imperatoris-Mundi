@@ -510,6 +510,11 @@ Tayk
 Colchis
 Abasgoi
 Suaneti
+Gugark
+Iberia
+Kahetia
+Arran
+Albania
 
 Eblania
 Coriondia
@@ -1023,6 +1028,11 @@ Apsaros
 Phasis
 Dioskourias
 Kutaisi
+Sarapana
+Armazistsikhe
+Sagarejo
+Partaw
+Chabala
 
 Libyae_Interior
 toggle_fow

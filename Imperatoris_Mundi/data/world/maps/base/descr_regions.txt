@@ -4685,11 +4685,53 @@ Suaneti
 	none
 	5
 	3
-	;31, wine, 2, grain, 2, wild_animals, 2
 
 ;Caucasian Iberia
+Gugark
+	Sarapana
+	armenia
+	Iberian
+	48 95 109
+	none
+	5
+	1
+
+Iberia
+	Armazistsikhe
+	armenia
+	Iberian
+	130 163 162
+	none
+	5
+	5
+
+Kahetia
+	Sagarejo
+	armenia
+	Iberian
+	117 44 15
+	none
+	5
+	2
 
 ;Albania
+Arran
+	Partaw
+	armenia
+	Albanian
+	22 91 81
+	none
+	5
+	2
+
+Albania
+	Chabala
+	armenia
+	Albanian
+	104 53 78
+	none
+	5
+	3
 
 ;Terra Incognita
 Libyae_Interior
