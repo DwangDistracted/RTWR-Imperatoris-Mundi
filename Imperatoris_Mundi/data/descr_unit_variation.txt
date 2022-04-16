@@ -6745,12 +6745,12 @@ region
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasian
-			distribution 15
+			distribution 10
 		}
 	}
 	Media_Atropatene
@@ -6758,12 +6758,12 @@ region
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasian
-			distribution 15
+			distribution 10
 		}
 	}
 	Kadousioi
@@ -6771,12 +6771,12 @@ region
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasian
-			distribution 15
+			distribution 10
 		}
 	}
 	Paytankert
@@ -6784,12 +6784,138 @@ region
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
 			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Kossioi
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media_Magna
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media_Choromithrene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Amardioi
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Choarene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Gabiene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
 		}
 	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
@@ -6968,24 +7094,6 @@ region
 		}
 	}
 	Elymais
-	{
-		variant
-		{
-			ethnicity caucasiandark
-			distribution 70
-		}
-		variant
-		{
-			ethnicity caucasian
-			distribution 20
-		}
-		variant
-		{
-			ethnicity arabic
-			distribution 10
-		}
-	}
-	Media
 	{
 		variant
 		{

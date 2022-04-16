@@ -519,6 +519,14 @@ Parskahayk
 Media_Atropatene
 Kadousioi
 Paytankert
+Media
+Kossioi
+Media_Magna
+Media_Choromithrene
+Amardioi
+Choarene
+Gabiene
+Artacene
 
 Eblania
 Coriondia
@@ -1041,6 +1049,14 @@ Ormi
 Ganzak
 Miyana
 Talish
+Apahr
+Irakleia_Midias
+Ephiphaneia_Ektabana
+Choana
+Kuruschata
+Europos_Rhagai
+Aspadana
+Goziris
 
 Libyae_Interior
 toggle_fow

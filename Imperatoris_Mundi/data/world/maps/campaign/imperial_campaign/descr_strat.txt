@@ -2957,7 +2957,7 @@ resource hides, 2, 267, 159
 
 ;Media_Atropatene
 resource slaves, 1, 272, 160
-resource grain, 2, 271, 162
+resource grain, 2, 269, 156
 resource hides, 2, 274, 159
 
 ;Kadousioi
@@ -2966,11 +2966,59 @@ resource wild_animals, 2, 273, 166
 resource hides, 1, 280, 166
 resource marble, 1, 275, 166
 
-;Kadousioi
+;Paytankert
 resource slaves, 1, 277, 177
 resource grain, 2, 279, 175
 resource hides, 1, 274, 172
-resource wild_animals, 1, 275, 166
+resource wild_animals, 1, 277, 172
+
+;Media
+resource slaves, 1, 275, 157
+resource wine, 2, 281, 157
+resource hides, 2, 275, 154
+
+;Amardioi
+resource slaves, 1, 283, 166
+resource silk, 1, 286, 164
+resource incense, 1, 281, 161
+resource grain, 3, 283, 158
+
+;Kossioi
+resource slaves, 1, 277, 152
+resource marble, 2, 281, 251
+resource grain, 2, 280, 153
+
+;Media_Magna
+resource slaves, 1, 286, 149
+resource glass, 3, 290, 147
+resource iron, 2, 294, 145
+resource gold, 1, 287, 151
+resource grain, 1, 292, 151
+
+;Media_Choromithrene
+resource slaves, 1, 288, 157
+resource textiles, 2, 282, 154
+resource furs, 1, 284, 155
+resource camels, 1, 290, 156
+
+;Choarene
+resource slaves, 1, 293, 158
+resource pottery, 4, 290, 160
+resource wine, 2, 298, 158
+resource camels, 2, 292, 155
+
+;Gabiene
+resource slaves, 1, 297, 148
+resource marble, 2, 297, 151
+resource glass, 1, 302, 147
+resource camels, 1, 295, 151
+resource wine, 1, 302, 144
+
+;Artacene
+resource slaves, 1, 301, 156
+resource copper, 1, 301, 152
+resource purple_dye, 2, 296, 155
+resource camels, 1, 305, 154
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -6576,7 +6624,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -8442,6 +8490,209 @@ settlement
 	}
 }
 
+; MEDIA
+settlement
+{
+	level large_town
+	region Kossioi
+
+	year_founded 0
+	population 5700
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type health sewers
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Media_Magna
+
+	year_founded 0
+	population 6950
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type health baths
+	}
+	building
+	{
+		type hinterland_farms farms+2
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Media_Choromithrene
+
+	year_founded 0
+	population 5650
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Choarene
+
+	year_founded 0
+	population 6300
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type health baths
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Gabiene
+
+	year_founded 0
+	population 4100
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type health sewers
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level town
+	region Artacene
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
 ; ARIANA
 settlement
 {
@@ -9588,14 +9839,45 @@ unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-; PARTHIA
-character	Demetrius, named character, age 26, , x 5, y 4
+; MEDIA
+character	Demetrius, named character, age 26, , x 285, y 149
 traits Intelligent 2 , Energetic 1
 ancillaries mentor
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 279, y 153
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 287, y 155
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 301, y 154
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 293, y 159
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 298, y 147
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+; PARTHIA
+
+; ARIANA
+character	Molon, general, age 20, , x 344, y 173
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
 ; ASSYRIA
 character	Molon, general, age 20, , x 240, y 152
@@ -18295,7 +18577,7 @@ settlement
 	year_founded 0
 	population 2800
 	plan_set default_set
-	faction_creator armenia
+	faction_creator parthia
 	building
 	{
 		type core_building governors_villa
@@ -18314,7 +18596,7 @@ settlement
 	year_founded 0
 	population 2300
 	plan_set default_set
-	faction_creator armenia
+	faction_creator parthia
 	building
 	{
 		type core_building governors_villa
@@ -18345,7 +18627,7 @@ settlement
 	year_founded 0
 	population 4250
 	plan_set default_set
-	faction_creator armenia
+	faction_creator parthia
 	building
 	{
 		type core_building governors_villa
@@ -18376,7 +18658,7 @@ settlement
 	year_founded 0
 	population 2350
 	plan_set default_set
-	faction_creator armenia
+	faction_creator parthia
 	building
 	{
 		type core_building governors_villa
@@ -18384,6 +18666,73 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+}
+
+; MEDIA
+settlement
+{
+	level large_town
+	region Media
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Amardioi
+
+	year_founded 0
+	population 7250
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms+1
 	}
 }
 
@@ -22677,7 +23026,7 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Rameses, general, age 20, , x 274, y 34
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
@@ -22695,7 +23044,7 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Tutankhemwy, general, age 20, , x 272, y 26
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
@@ -22711,8 +23060,8 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Amunmose, general, age 20, , x 261, y 26
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
+unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -22935,7 +23284,7 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Uvaxshtra, general, age 20, , x 261, y 93
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -22947,7 +23296,7 @@ unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Vahauka, general, age 20, , x 258, y 96
 army
 unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -22959,8 +23308,8 @@ unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Vahumisa, general, age 20, , x 254, y 91
 army
 unit		merc bedouin archers				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
@@ -23454,6 +23803,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; ATROPATENE
+;Parskahayk
 character	sub_faction parthia, Arkha, general, age 20, , x 265, y 161
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -23467,6 +23817,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Media_Atropatene
 character	sub_faction parthia, Arkha, general, age 20, , x 271, y 159
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -23478,6 +23829,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Kadousioi
 character	sub_faction parthia, Arkha, general, age 20, , x 277, y 162
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -23493,6 +23845,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
+;Paytankert
 character	sub_faction parthia, Arkha, general, age 20, , x 277, y 176
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -23500,6 +23853,39 @@ unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+; MEDIA
+;Media
+character	sub_faction parthia, Arkha, general, age 20, , x 277, y 158
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Amardioi
+character	sub_faction parthia, Arkha, general, age 20, , x 285, y 166
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
