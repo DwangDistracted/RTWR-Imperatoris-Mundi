@@ -596,7 +596,7 @@ unit				east infantry
 unit				greek hoplite militia
 unit				eastern rebel general
 
-rebel_type 			Medes		//Parthians
+rebel_type 			Medes		//Parthia
 category			peasant_revolt 
 chance				0
 description			Medes
@@ -2363,7 +2363,7 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
-rebel_type 			Atropatene		//Parthians
+rebel_type 			Atropatene		//Parthia
 category			peasant_revolt 
 chance				0
 description			Atropatene
@@ -2373,6 +2373,32 @@ unit				east peasant
 unit				east archer
 unit				east archer
 unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Persian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Persian
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Parni		//Parthia
+category			peasant_revolt 
+chance				0
+description			Parni
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
 unit				east infantry
 unit				eastern rebel general
 

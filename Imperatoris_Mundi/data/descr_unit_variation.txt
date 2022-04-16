@@ -6918,6 +6918,150 @@ region
 			distribution 10
 		}
 	}
+	Artacene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Mardiane
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Taocene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Persis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media_Felix
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Paraetacene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Utia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Rudiane
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

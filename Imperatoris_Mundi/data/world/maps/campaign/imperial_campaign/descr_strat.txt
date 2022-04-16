@@ -3020,6 +3020,52 @@ resource copper, 1, 301, 152
 resource purple_dye, 2, 296, 155
 resource camels, 1, 305, 154
 
+;Mardiane
+resource slaves, 1, 303, 133
+resource grain, 3, 307, 129
+resource elephants, 1, 307, 133
+resource marble, 2, 299, 137
+
+;Taocene
+resource slaves, 1, 310, 128
+resource glass, 1, 313, 127
+resource grain, 1, 309, 126
+resource incense, 1, 314, 123
+resource camels, 2, 318, 123
+
+;Persis
+resource slaves, 1, 315, 135
+resource wine, 4, 313, 132
+resource glass, 2, 320, 132
+resource grain, 2, 317, 132
+resource elephants, 1, 317, 134
+
+;Media_Felix
+resource slaves, 1, 316, 141
+resource iron, 3, 321, 138
+resource incense, 1, 323, 142
+resource wine, 2, 317, 144
+resource camels, 1, 313, 144
+
+;Paraetacene
+resource slaves, 1, 312, 141
+resource tin, 1, 305, 142
+resource pottery, 1, 309, 142
+resource wild_animals, 1, 307, 144
+
+;Utia
+resource slaves, 1, 332, 128
+resource iron, 1, 334, 130
+resource tin, 2, 325, 130
+resource marble, 2, 325, 128
+resource camels, 1, 321, 126
+
+;Rudiane
+resource slaves, 1, 335, 121
+resource grain, 1, 327, 119
+resource silver, 2, 333, 124
+resource camels, 2, 330, 124
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -8649,7 +8695,7 @@ settlement
 	region Gabiene
 
 	year_founded 0
-	population 4100
+	population 3100
 	plan_set default_set
 	faction_creator parthia
 	building
@@ -8666,7 +8712,7 @@ settlement
 	}
 	building
 	{
-		type market market
+		type market trader
 	}
 	building
 	{
@@ -8690,6 +8736,196 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+}
+
+; PERSIA
+settlement
+{
+	level large_town
+	region Mardiane
+
+	year_founded 0
+	population 4900
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Taocene
+
+	year_founded 0
+	population 2750
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Persis
+
+	year_founded 0
+	population 5400
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type health baths
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Media_Felix
+
+	year_founded 0
+	population 3100
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Paraetacene
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Utia
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level town
+	region Rudiane
+
+	year_founded 0
+	population 1100
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -9848,7 +10084,7 @@ unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 279, y 153
 army
@@ -9872,7 +10108,40 @@ character	Molon, general, age 20, , x 298, y 147
 army
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
-; PARTHIA
+; PERSIA
+character	Molon, general, age 20, , x 305, y 131
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 315, y 132
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 310, y 129
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 318, y 140
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 311, y 139
+army
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 330, y 130
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 333, y 119
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 
 ; ARIANA
 character	Molon, general, age 20, , x 344, y 173

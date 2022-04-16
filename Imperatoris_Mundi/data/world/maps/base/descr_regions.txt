@@ -4843,6 +4843,73 @@ Artacene
 	5
 	0
 
+;Persia
+Mardiane
+	Margastana
+	parthia
+	Elamites
+	57 58 14
+	none
+	5
+	2
+
+Taocene
+	Tragoniki
+	parthia
+	Persian
+	191 154 141
+	none
+	5
+	1
+
+Persis
+	Persopolis
+	parthia
+	Persian
+	104 147 87
+	none
+	5
+	4
+
+Media_Felix
+	Artakana
+	parthia
+	Persian
+	174 170 181
+	none
+	5
+	1
+
+Paraetacene
+	Arbua
+	parthia
+	Persian
+	193 171 110
+	none
+	5
+	0
+
+Utia
+	Zetis
+	parthia
+	Persian
+	164 185 196
+	none
+	5
+	0
+	;50, iron, 1, tin, 2, marble, 2, camels, 1
+
+Rudiane
+; Rudiane in Imperator Rome is named Agdinitis
+	Organa
+	parthia
+	Persian
+	219 221 220
+	none
+	5
+	0
+	;22, silver, 2, grain, 1, camels, 2
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

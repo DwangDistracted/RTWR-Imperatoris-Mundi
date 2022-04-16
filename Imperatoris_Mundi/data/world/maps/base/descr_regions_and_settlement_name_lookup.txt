@@ -527,6 +527,13 @@ Amardioi
 Choarene
 Gabiene
 Artacene
+Mardiane
+Taocene
+Persis
+Media_Felix
+Paraetacene
+Utia
+Rudiane
 
 Eblania
 Coriondia
@@ -1057,6 +1064,13 @@ Kuruschata
 Europos_Rhagai
 Aspadana
 Goziris
+Margastana
+Tragoniki
+Persopolis
+Artakana
+Arbua
+Zetis
+Organa
 
 Libyae_Interior
 toggle_fow
