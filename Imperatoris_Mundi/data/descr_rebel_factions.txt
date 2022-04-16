@@ -2363,9 +2363,22 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Atropatene		//Parthians
+category			peasant_revolt 
+chance				0
+description			Atropatene
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
-chance				0
+chance				8
 description			TerraIncognita
 unit				cheat oliphants
 

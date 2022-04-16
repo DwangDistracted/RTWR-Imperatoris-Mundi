@@ -6740,6 +6740,58 @@ region
 			distribution 5
 		}
 	}
+	Parskahayk
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Media_Atropatene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Kadousioi
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Paytankert
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

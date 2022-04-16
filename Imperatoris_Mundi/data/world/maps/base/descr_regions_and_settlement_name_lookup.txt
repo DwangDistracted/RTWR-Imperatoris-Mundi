@@ -515,6 +515,10 @@ Iberia
 Kahetia
 Arran
 Albania
+Parskahayk
+Media_Atropatene
+Kadousioi
+Paytankert
 
 Eblania
 Coriondia
@@ -1033,6 +1037,10 @@ Armazistsikhe
 Sagarejo
 Partaw
 Chabala
+Ormi
+Ganzak
+Miyana
+Talish
 
 Libyae_Interior
 toggle_fow

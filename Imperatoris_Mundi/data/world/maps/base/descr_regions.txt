@@ -4733,6 +4733,43 @@ Albania
 	5
 	3
 
+;Atropatene
+Parskahayk
+	Ormi
+	parthia
+	Atropatene
+	205 211 33
+	none
+	5
+	6
+
+Media_Atropatene
+	Ganzak
+	parthia
+	Atropatene
+	68 81 70
+	none
+	5
+	6
+
+Kadousioi
+	Miyana
+	parthia
+	Atropatene
+	89 167 204
+	none
+	5
+	7
+
+Paytankert
+	Talish
+	parthia
+	Atropatene
+	179 221 159
+	none
+	5
+	6
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

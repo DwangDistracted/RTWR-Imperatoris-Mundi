@@ -2950,6 +2950,28 @@ resource timber, 2, 276, 181
 resource wild_animals, 2, 272, 179
 resource incense, 1, 280, 182
 
+;Parskahayk
+resource slaves, 1, 266, 162
+resource grain, 2, 263, 163
+resource hides, 2, 267, 159
+
+;Media_Atropatene
+resource slaves, 1, 272, 160
+resource grain, 2, 271, 162
+resource hides, 2, 274, 159
+
+;Kadousioi
+resource slaves, 1, 276, 162
+resource wild_animals, 2, 273, 166
+resource hides, 1, 280, 166
+resource marble, 1, 275, 166
+
+;Kadousioi
+resource slaves, 1, 277, 177
+resource grain, 2, 279, 175
+resource hides, 1, 274, 172
+resource wild_animals, 1, 275, 166
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -18264,6 +18286,107 @@ settlement
 	}
 }
 
+; ATROPATENE
+settlement
+{
+	level large_town
+	region Parskahayk
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Media_Atropatene
+
+	year_founded 0
+	population 2300
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Kadousioi
+
+	year_founded 0
+	population 4250
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Paytankert
+
+	year_founded 0
+	population 2350
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -23318,7 +23441,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
-;Kahetia
+;Albania
 character	sub_faction armenia, Arkha, general, age 20, , x 272, y 182
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
@@ -23328,6 +23451,57 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+; ATROPATENE
+character	sub_faction parthia, Arkha, general, age 20, , x 265, y 161
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction parthia, Arkha, general, age 20, , x 271, y 159
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction parthia, Arkha, general, age 20, , x 277, y 162
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+character	sub_faction parthia, Arkha, general, age 20, , x 277, y 176
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
