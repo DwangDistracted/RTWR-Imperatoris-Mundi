@@ -6603,6 +6603,78 @@ region
 			distribution 15
 		}
 	}
+	Tayk
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Colchis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Abasgoi
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Suaneti
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
@@ -6737,14 +6809,6 @@ region
 		{
 			ethnicity arabic
 			distribution 30
-		}
-	}
-	Colchis
-	{
-		variant
-		{
-			ethnicity caucasiandark
-			distribution 100
 		}
 	}
 	Pontus

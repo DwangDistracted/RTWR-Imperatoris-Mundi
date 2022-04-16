@@ -506,6 +506,10 @@ Ayrarat
 Parsatunik
 Syunik
 Artsakh
+Tayk
+Colchis
+Abasgoi
+Suaneti
 
 Eblania
 Coriondia
@@ -1015,6 +1019,10 @@ Artashat
 Zarawak
 Nakhchevan
 Sotk
+Apsaros
+Phasis
+Dioskourias
+Kutaisi
 
 Libyae_Interior
 toggle_fow

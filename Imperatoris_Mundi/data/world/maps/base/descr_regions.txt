@@ -4649,6 +4649,48 @@ Artsakh
 	5
 	1
 
+;Colchis
+Tayk
+	Apsaros
+	armenia
+	Colchians
+	244 93 216
+	none
+	5
+	4
+
+Colchis
+	Phasis
+	armenia
+	Colchians
+	6 163 110
+	none
+	5
+	3
+
+Abasgoi
+	Dioskourias
+	armenia
+	Colchians
+	0 128 128
+	none
+	5
+	0
+
+Suaneti
+	Kutaisi
+	armenia
+	Colchians
+	196 27 182
+	none
+	5
+	3
+	;31, wine, 2, grain, 2, wild_animals, 2
+
+;Caucasian Iberia
+
+;Albania
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -4719,15 +4761,6 @@ Tempr9
 	romans_julii
 	Latins
 	0 64 0
-	none
-	5
-	5
-
-Tempr11
-	Temp11
-	romans_julii
-	Latins
-	0 128 128
 	none
 	5
 	5

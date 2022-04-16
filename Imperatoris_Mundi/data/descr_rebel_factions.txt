@@ -591,9 +591,9 @@ unit				east horse archer
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
 unit				east infantry
 unit				east infantry
+unit				greek hoplite militia
 unit				eastern rebel general
 
 rebel_type 			Medes		//Parthians
@@ -602,8 +602,10 @@ chance				0
 description			Medes
 unit				east horse archer
 unit				east horse archer
-unit				east archer
 unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
@@ -2331,6 +2333,32 @@ unit				east heavy cavalry
 unit				east peasant
 unit				east archer
 unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Iberian	//Armenia
+category			peasant_revolt 
+chance				0
+description			Iberian
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Albanian	//Armenia
+category			peasant_revolt 
+chance				0
+description			Albanian
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
 unit				east infantry
 unit				east infantry
 unit				eastern rebel general

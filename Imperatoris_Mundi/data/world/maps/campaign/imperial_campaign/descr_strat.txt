@@ -2893,10 +2893,33 @@ resource copper, 2, 266, 170
 resource iron, 1, 267, 172
 
 ;Artsakh
-resource slaves, 1, 269, 176
+resource slaves, 1, 268, 174
 resource hides, 2, 270, 174
 resource gold, 1, 266, 176
 resource iron, 1, 269, 170
+
+;Tayk
+resource slaves, 1, 244, 177
+resource hides, 3, 245, 174
+resource timber, 2, 248, 180
+resource wine, 1, 247, 175
+
+;Colchis
+resource slaves, 1, 244, 183
+resource wine, 3, 246, 183
+resource textiles, 2, 244, 184
+resource copper, 1, 243, 185
+
+;Abasgoi
+resource slaves, 1, 236, 186
+resource wine, 4, 231, 187
+resource silver, 1, 240, 186
+
+;Suaneti
+resource slaves, 1, 249, 185
+resource wine, 2, 248, 183
+resource grain, 2, 250, 184
+resource wild_animals, 2, 252, 185
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -17106,10 +17129,6 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
-	building
-	{
-		type port_buildings port
-	}
 }
 
 settlement
@@ -17441,11 +17460,7 @@ settlement
 	}
 	building
 	{
-		type port_buildings port
-	}
-	building
-	{
-		type hinterland_farms farms+1
+		type hinterland_farms farms
 	}
 }
 
@@ -17994,6 +18009,119 @@ settlement
 	}
 }
 
+; COLCHIS
+settlement
+{
+	level large_town
+	region Tayk
+
+	year_founded 0
+	population 3100
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Colchis
+
+	year_founded 0
+	population 3550
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level town
+	region Abasgoi
+
+	year_founded 0
+	population 1850
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Suaneti
+
+	year_founded 0
+	population 1550
+	plan_set default_set
+	faction_creator armenia
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -18061,16 +18189,6 @@ settlement
 {
 	level village
 	region Tempr9
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr11
 
 	year_founded 0
 	population 400
@@ -22943,6 +23061,61 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;COLCHIS
+;Tayk
+character	sub_faction armenia, Zipoetes, general, age 20, , x 243, y 177
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Colchis
+character	sub_faction armenia, Atheas, general, age 20, , x 243, y 182
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Abasgoi
+character	sub_faction armenia, Skunxa, general, age 20, , x 238, y 185
+army
+unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Suaneti
+character	sub_faction armenia, Waradsin, general, age 20, , x 248, y 185
+army
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
