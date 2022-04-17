@@ -541,6 +541,13 @@ Parthia
 Tapuria
 Traxiane
 Desertum_Salinum
+Aria
+Pactya
+Sagartia
+Driangiana
+Carmania
+Tabiene
+Agdinitis
 
 Eblania
 Coriondia
@@ -1085,6 +1092,13 @@ Patigrabana
 Rhagaou
 Vishpauzatis
 Masina
+Alexandreia_Areios
+Alexandreia_Sakastenes
+Barda
+Bulya
+Alexandreia_Karmanias
+Kaoumata
+Armozeia
 
 Libyae_Interior
 toggle_fow

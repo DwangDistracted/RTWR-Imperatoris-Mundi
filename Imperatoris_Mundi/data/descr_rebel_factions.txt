@@ -2415,6 +2415,32 @@ unit				east archer
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Arian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Arian
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Carmanian		//Parthia
+category			peasant_revolt 
+chance				0
+description			Carmanian
+unit				east horse archer
+unit				east horse archer
+unit				east horse archer
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8

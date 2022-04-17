@@ -9188,6 +9188,83 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Aria
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Pactya
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Sagartia
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Driangiana
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Carmania
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Tabiene
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level village
+	region Agdinitis
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
 ; CENTRAL ANATOLIA
 settlement
 {

@@ -4899,7 +4899,6 @@ Utia
 	0
 
 Rudiane
-; Rudiane in Imperator Rome is named Agdinitis
 	Organa
 	parthia
 	Persian
@@ -4971,6 +4970,77 @@ Desertum_Salinum
 	none
 	5
 	4
+
+;Ariana
+Aria
+	Alexandreia_Areios
+	parthia
+	Arian
+	104 61 65
+	none
+	5
+	0
+	;66, gold, 1, marble, 2, wild_animals, 3
+
+Pactya
+	Alexandreia_Sakastenes
+	parthia
+	Arian
+	94 10 50
+	none
+	5
+	0
+	;31, glass, 1, textiles, 2, incense, 1
+
+Sagartia
+	Barda
+	parthia
+	Arian
+	232 213 199
+	none
+	5
+	1
+	;84, grain, 2, gold, 1, copper, 2
+
+Driangiana
+	Bulya
+	parthia
+	Carmanian
+	99 16 242
+	none
+	5
+	0
+	;56, gold, 1, camels, 2, incense, 1
+
+Carmania
+	Alexandreia_Karmanias
+	parthia
+	Carmanian
+	87 51 104
+	none
+	5
+	1
+	;82, furs, 3, camels, 1, elephants, 1, tin, 1
+
+Tabiene
+	Kaoumata
+	parthia
+	Parthian
+	206 216 130
+	none
+	5
+	0
+	;59, camels, 1, iron, 2, glass, 1, incense, 2
+
+Agdinitis
+	Armozeia
+	parthia
+	Carmanian
+	153 147 88
+	none
+	5
+	2
+	;75, incense, 1, elephants, 2, glass, 1, purple_dyes, 1, camels, 1
 
 ;Terra Incognita
 Libyae_Interior
