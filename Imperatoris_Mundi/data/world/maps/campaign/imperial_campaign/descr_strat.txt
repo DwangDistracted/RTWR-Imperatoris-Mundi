@@ -3043,7 +3043,7 @@ resource elephants, 1, 317, 134
 ;Media_Felix
 resource slaves, 1, 316, 141
 resource iron, 3, 321, 138
-resource incense, 1, 323, 142
+resource incense, 1, 314, 139
 resource wine, 2, 317, 144
 resource camels, 1, 313, 144
 
@@ -3055,7 +3055,7 @@ resource wild_animals, 1, 307, 144
 
 ;Utia
 resource slaves, 1, 332, 128
-resource iron, 1, 334, 130
+resource iron, 1, 332, 128
 resource tin, 2, 325, 130
 resource marble, 2, 325, 128
 resource camels, 1, 321, 126
@@ -3065,6 +3065,51 @@ resource slaves, 1, 335, 121
 resource grain, 1, 327, 119
 resource silver, 2, 333, 124
 resource camels, 2, 330, 124
+
+;Articene
+resource slaves, 1, 320, 144
+resource incense, 2, 327, 119
+resource gold, 1, 319, 147
+resource lead, 1, 324, 147
+resource camels, 1, 315, 147
+
+;Comisene
+resource slaves, 1, 309, 163
+resource grain, 3, 327, 119
+resource lead, 2, 312, 165
+resource incense, 1, 315, 168
+
+;Hyrcania
+resource slaves, 1, 304, 167
+resource incense, 2, 301, 165
+resource silk, 1, 310, 171
+resource purple_dye, 1, 308, 170
+
+;Parthia
+resource slaves, 1, 325, 173
+resource camels, 2, 315, 172
+resource lead, 1, 331, 170
+resource wine, 1, 311, 174
+resource incense, 1, 317, 176
+
+;Tapuria
+resource slaves, 1, 335, 173
+resource camels, 2, 337, 170
+resource grain, 2, 340, 169
+resource copper, 1, 330, 175
+
+;Traxiane
+resource slaves, 1, 321, 166
+resource hides, 3, 321, 170
+resource camels, 2, 324, 162
+resource furs, 2, 334, 165
+resource purple_dye, 1, 332, 167
+
+;Desertum_Salinum
+resource slaves, 1, 312, 154
+resource camels, 1, 313, 161
+resource incense, 1, 317, 157
+resource textiles, 1, 306, 157
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -6701,11 +6746,16 @@ unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 
-character	Ardumanish, named character, heir, age 40, , x 1, y 2
+character	Ardumanish, named character, heir, age 40, , x 318, y 173
 traits NaturalMilitarySkill 2 , PublicFaith 1 , GoodAdministrator 1 , GoodCavalryGeneral 2
 ancillaries galloper
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east hillmen				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cataphract				exp 0 armour 0 weapon_lvl 0
 unit		east persian cavalry				exp 0 armour 0 weapon_lvl 0
@@ -6725,11 +6775,14 @@ unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Phraotes, named character, age 30, , x 1, y 4
+character	Phraotes, named character, age 30, , x 337, y 176
 traits GoodAdministrator 2 , Intelligent 2 , GoodCavalryGeneral 1
 ancillaries merchant
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east persian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
@@ -8929,6 +8982,188 @@ settlement
 	}
 }
 
+; PARTHIA
+settlement
+{
+	level large_town
+	region Articene
+
+	year_founded 0
+	population 2900
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
+settlement
+{
+	level large_town
+	region Comisene
+
+	year_founded 0
+	population 2600
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Hyrcania
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level large_town
+	region Parthia
+
+	year_founded 0
+	population 5650
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tapuria
+
+	year_founded 0
+	population 3950
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Traxiane
+
+	year_founded 0
+	population 3700
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type health sewers
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level village
+	region Desertum_Salinum
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
 ; ARIANA
 settlement
 {
@@ -10135,13 +10370,46 @@ character	Molon, general, age 20, , x 311, y 139
 army
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Molon, general, age 20, , x 330, y 130
+character	Molon, general, age 20, , x 330, y 128
 army
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 333, y 119
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+; PARTHIA
+character	Molon, general, age 20, , x 339, y 172
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 323, y 172
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 320, y 168
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 309, y 166
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 304, y 168
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 314, y 154
+army
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 323, y 143
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
 ; ARIANA
 character	Molon, general, age 20, , x 344, y 173
@@ -19092,16 +19360,6 @@ settlement
 {
 	level village
 	region Tempr15
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr16
 
 	year_founded 0
 	population 400

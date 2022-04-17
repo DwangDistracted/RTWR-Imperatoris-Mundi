@@ -3209,7 +3209,7 @@ Massagetica
 Parnia
 	Abaskun
 	parthia
-	Dahae
+	Parni
 	247 169 145
 	none
 	5
@@ -3218,7 +3218,7 @@ Parnia
 Siracene
 	Gathar
 	parthia
-	Dahae
+	Parni
 	178 114 224
 	none
 	5
@@ -4897,7 +4897,6 @@ Utia
 	none
 	5
 	0
-	;50, iron, 1, tin, 2, marble, 2, camels, 1
 
 Rudiane
 ; Rudiane in Imperator Rome is named Agdinitis
@@ -4908,7 +4907,70 @@ Rudiane
 	none
 	5
 	0
-	;22, silver, 2, grain, 1, camels, 2
+
+;Parthia
+Articene
+	Chadormalou
+	parthia
+	Persian
+	173 219 166
+	none
+	5
+	0
+
+Comisene
+	Ekatompylos
+	parthia
+	Parthian
+	119 92 17
+	none
+	5
+	3
+
+Hyrcania
+	Samariane
+	parthia
+	Parthian
+	96 160 64
+	none
+	5
+	10
+
+Parthia
+	Patigrabana
+	parthia
+	Parthian
+	132 126 124
+	none
+	5
+	3
+
+Tapuria
+	Rhagaou
+	parthia
+	Parthian
+	39 53 34
+	none
+	5
+	4
+
+Traxiane
+	Vishpauzatis
+	parthia
+	Parthian
+	170 157 8
+	none
+	5
+	4
+
+Desertum_Salinum
+	Masina
+	parthia
+	Parthian
+	239 172 218
+	none
+	5
+	4
 
 ;Terra Incognita
 Libyae_Interior
@@ -4998,15 +5060,6 @@ Tempr15
 	romans_julii
 	Latins
 	124 11 72
-	none
-	5
-	5
-
-Tempr16
-	Temp16
-	romans_julii
-	Latins
-	96 160 64
 	none
 	5
 	5

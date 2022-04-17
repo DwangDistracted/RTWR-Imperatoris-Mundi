@@ -534,6 +534,13 @@ Media_Felix
 Paraetacene
 Utia
 Rudiane
+Articene
+Comisene
+Hyrcania
+Parthia
+Tapuria
+Traxiane
+Desertum_Salinum
 
 Eblania
 Coriondia
@@ -1071,6 +1078,13 @@ Artakana
 Arbua
 Zetis
 Organa
+Chadormalou
+Ekatompylos
+Samariane
+Patigrabana
+Rhagaou
+Vishpauzatis
+Masina
 
 Libyae_Interior
 toggle_fow
@@ -1097,9 +1111,7 @@ Tempr9
 Tempr11
 Tempr14
 Tempr15
-Tempr16
 Temp9
 Temp11
 Temp14
 Temp15
-Temp16

@@ -7062,6 +7062,132 @@ region
 			distribution 10
 		}
 	}
+	Articene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Comisene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Hyrcania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Parthia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Tapuria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Traxiane
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Desertum_Salinum
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
