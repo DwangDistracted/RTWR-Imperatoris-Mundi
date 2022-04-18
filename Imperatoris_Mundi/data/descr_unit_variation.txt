@@ -7188,6 +7188,205 @@ region
 			distribution 5
 		}
 	}
+	Aria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Pactya
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Sagartia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Driangiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Carmania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Tabiene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Agdinitis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Paropamisadae
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Sattagydia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Arachosia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paradene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Drangiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Gedrosia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

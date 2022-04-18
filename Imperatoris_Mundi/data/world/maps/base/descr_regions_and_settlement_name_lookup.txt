@@ -548,6 +548,12 @@ Driangiana
 Carmania
 Tabiene
 Agdinitis
+Paropamisadae
+Sattagydia
+Arachosia
+Paradene
+Drangiana
+Gedrosia
 
 Eblania
 Coriondia
@@ -1099,6 +1105,12 @@ Bulya
 Alexandreia_Karmanias
 Kaoumata
 Armozeia
+Alexandreia_Kaoukaso
+Alexandreia_Opiane
+Alexandreia_Arachosia
+Bandara
+Bitaxa
+Alexandreia_Rambhakias
 
 Libyae_Interior
 toggle_fow
@@ -1122,10 +1134,6 @@ Arabia_Deserta
 nothing_but_oil
 
 Tempr9
-Tempr11
 Tempr14
-Tempr15
 Temp9
-Temp11
 Temp14
-Temp15

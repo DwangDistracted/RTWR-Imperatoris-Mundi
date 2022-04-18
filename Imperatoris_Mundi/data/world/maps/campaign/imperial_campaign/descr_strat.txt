@@ -3111,6 +3111,94 @@ resource camels, 1, 313, 161
 resource incense, 1, 317, 157
 resource textiles, 1, 306, 157
 
+;Aria
+resource slaves, 1, 350, 160
+resource gold, 1, 348, 165
+resource marble, 2, 343, 154
+resource wild_animals, 3, 348, 154
+resource camels, 1, 340, 163
+
+;Pactya
+resource slaves, 1, 352, 141
+resource glass, 1, 360, 148
+resource textiles, 2, 359, 157
+resource incense, 1, 352, 147
+resource camels, 1, 357, 152
+
+;Sagartia
+resource slaves, 1, 343, 146
+resource grain, 2, 336, 145
+resource copper, 2, 334, 158
+resource gold, 1, 331, 149
+
+;Driangiana
+resource slaves, 1, 344, 133
+resource incense, 1, 345, 141
+resource camels, 2, 345, 137
+resource gold, 1, 337, 139
+
+;Carmania
+resource slaves, 1, 342, 130
+resource furs, 3, 337, 131
+resource camels, 1, 348, 127
+resource elephants, 1, 343, 126
+resource tin, 1, 354, 131
+
+;Tabiene
+resource slaves, 1, 329, 135
+resource iron, 2, 332, 138
+resource camels, 1, 327, 133
+resource incense, 2, 326, 136
+resource glass, 1, 335, 133
+
+;Agdinitis
+resource slaves, 1, 340, 125
+resource incense, 1, 340, 122
+resource elephants, 2, 335, 126
+resource glass, 1, 344, 118
+resource purple_dyes, 1, 349, 122
+resource camels, 1, 353, 120
+
+;Paropamisadae
+resource slaves, 1, 377, 180
+resource iron, 1, 368, 177
+resource gold, 2, 375, 183
+
+;Sattagydia
+resource slaves, 1, 375, 167
+resource marble, 3, 379, 170
+resource gold, 1, 378, 165
+resource silk, 1, 375, 163
+resource glass, 1, 377, 172
+
+;Arachosia
+resource slaves, 1, 370, 158
+resource incense, 1, 364, 154
+resource gold, 1, 375, 158
+resource marble, 1, 369, 160
+resource iron, 1, 373, 153
+resource camels, 1, 370, 151
+
+;Paradene
+resource slaves, 1, 369, 137
+resource tin, 2, 372, 135
+resource gold, 1, 375, 144
+resource incense, 1, 372, 144
+resource camels, 1, 365, 135
+
+;Drangiana
+resource slaves, 1, 366, 144
+resource incense, 1, 357, 144
+resource glass, 2, 364, 149
+resource textiles, 3, 362, 145
+resource camels, 1, 360, 139
+
+;Gedrosia
+resource slaves, 1, 364, 127
+resource grain, 2, 364, 123
+resource incense, 1, 358, 124
+resource camels, 2, 372, 128
+
 ;TerraIncognita
 resource slaves, 1, 51, 5
 resource slaves, 1, 233, 253
@@ -9190,79 +9278,159 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Aria
 
 	year_founded 0
-	population 550
+	population 3300
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Pactya
 
 	year_founded 0
-	population 550
+	population 2700
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Sagartia
 
 	year_founded 0
-	population 550
+	population 4200
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Driangiana
 
 	year_founded 0
-	population 550
+	population 2800
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Carmania
 
 	year_founded 0
-	population 550
+	population 4100
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Tabiene
 
 	year_founded 0
-	population 550
+	population 2950
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Agdinitis
 
 	year_founded 0
-	population 550
+	population 3750
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type health sewers
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 ; CENTRAL ANATOLIA
@@ -10454,6 +10622,7 @@ unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 333, y 119
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ; PARTHIA
 character	Molon, general, age 20, , x 339, y 172
@@ -10462,9 +10631,9 @@ unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 323, y 172
 army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 320, y 168
 army
@@ -10493,6 +10662,44 @@ character	Molon, general, age 20, , x 344, y 173
 army
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
+character	Molon, general, age 20, , x 347, y 163
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 354, y 147
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 341, y 146
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 346, y 132
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 340, y 129
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 330, y 134
+army
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Molon, general, age 20, , x 338, y 124
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+
 ; ASSYRIA
 character	Molon, general, age 20, , x 240, y 152
 army
@@ -10518,11 +10725,13 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 257, y 139
 army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 265, y 147
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 268, y 152
@@ -19350,6 +19559,157 @@ settlement
 	}
 }
 
+; ARACHOSIA
+settlement
+{
+	level large_town
+	region Paropamisadae
+
+	year_founded 0
+	population 4600
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sattagydia
+
+	year_founded 0
+	population 3850
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+settlement
+{
+	level large_town
+	region Arachosia
+
+	year_founded 0
+	population 3800
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level village
+	region Paradene
+
+	year_founded 0
+	population 550
+	plan_set default_set
+	faction_creator parthia
+}
+
+settlement
+{
+	level town
+	region Drangiana
+
+	year_founded 0
+	population 1050
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Gedrosia
+
+	year_founded 0
+	population 2300
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -19427,16 +19787,6 @@ settlement
 {
 	level village
 	region Tempr14
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
-}
-settlement
-{
-	level village
-	region Tempr15
 
 	year_founded 0
 	population 400
@@ -24408,7 +24758,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; ATROPATENE
 ;Parskahayk
-character	sub_faction parthia, Arkha, general, age 20, , x 265, y 161
+character	sub_faction parthia, Zoroaster, general, age 20, , x 265, y 161
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -24422,7 +24772,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Media_Atropatene
-character	sub_faction parthia, Arkha, general, age 20, , x 271, y 159
+character	sub_faction parthia, Zamolxis, general, age 20, , x 271, y 159
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -24434,7 +24784,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Kadousioi
-character	sub_faction parthia, Arkha, general, age 20, , x 277, y 162
+character	sub_faction parthia, Zircon, general, age 20, , x 277, y 162
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -24450,7 +24800,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Paytankert
-character	sub_faction parthia, Arkha, general, age 20, , x 277, y 176
+character	sub_faction parthia, Xshathrita, general, age 20, , x 277, y 176
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -24463,7 +24813,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; MEDIA
 ;Media
-character	sub_faction parthia, Arkha, general, age 20, , x 277, y 158
+character	sub_faction parthia, Xshayarshan, general, age 20, , x 277, y 158
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -24475,7 +24825,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Amardioi
-character	sub_faction parthia, Arkha, general, age 20, , x 285, y 166
+character	sub_faction parthia, Xeus, general, age 20, , x 285, y 166
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -24492,6 +24842,87 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+; ARACHOSIA
+;Paropamisadae
+character	sub_faction parthia, Vishtaspa, general, age 20, , x 378, y 178
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Sattagydia
+character	sub_faction parthia, Xanthos, general, age 20, , x 376, y 166
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Arachosia
+character	sub_faction parthia, Xerxes, general, age 20, , x 368, y 157
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Paradene
+character	sub_faction parthia, Vindarna, general, age 20, , x 371, y 140
+army
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Drangiana
+character	sub_faction parthia, Vayaspara, general, age 20, , x 366, y 147
+army
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+
+;Gedrosia
+character	sub_faction parthia, Vaumisa, general, age 20, , x 366, y 126
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
