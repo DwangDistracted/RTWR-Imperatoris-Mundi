@@ -3156,7 +3156,7 @@ resource slaves, 1, 340, 125
 resource incense, 1, 340, 122
 resource elephants, 2, 335, 126
 resource glass, 1, 344, 118
-resource purple_dyes, 1, 349, 122
+resource purple_dye, 1, 349, 122
 resource camels, 1, 353, 120
 
 ;Paropamisadae
