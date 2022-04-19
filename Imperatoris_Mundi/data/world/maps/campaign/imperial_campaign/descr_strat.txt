@@ -1,6 +1,6 @@
 ; Custom campaign script made by hand because I have no life
 
-campaign		imperial
+campaign		imperial_campaign
 playable
 	romans_julii
 	romans_brutii
