@@ -1506,7 +1506,7 @@ Phazania
 	221 203 6
 	none
 	5
-	2
+	1
 
 Garamantia_Citerior
 	Cydamus
@@ -1515,7 +1515,7 @@ Garamantia_Citerior
 	211 16 159
 	none
 	5
-	2
+	1
 
 Garamantia_Ulterior
 	Garama
@@ -1524,7 +1524,7 @@ Garamantia_Ulterior
 	165 165 165
 	none
 	5
-	4
+	3
 
 Agisymba
 	Magium
