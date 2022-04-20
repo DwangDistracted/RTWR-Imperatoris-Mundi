@@ -1,94 +1,75 @@
 romans_julii
-imperator
-short_campaign outlive_factions
-gauls
+hold_regions Roma Alesia Camulodunum Toletum Qart_Hadasht Athinai Thessaloniki Byzantion Trapezous Antiocheia Hierosolyma Alexandreia
+take_regions 250
 
 romans_brutii
-imperator
-short_campaign outlive_factions
-macedon greek_cities
+hold_regions Roma Alesia Camulodunum Toletum Qart_Hadasht Athinai Thessaloniki Byzantion Trapezous Antiocheia Hierosolyma Alexandreia
+take_regions 250
 
 romans_scipii
-imperator
-short_campaign outlive_factions
-carthage numidia
-
-macedon
-take_rome 
-short_campaign outlive_factions
-greek_cities thrace
-
-egypt
-take_rome 
-short_campaign outlive_factions
-seleucid armenia
-
-seleucid
-take_rome 
-short_campaign outlive_factions
-egypt
+hold_regions Roma Alesia Camulodunum Toletum Qart_Hadasht Athinai Thessaloniki Byzantion Trapezous Antiocheia Hierosolyma Alexandreia
+take_regions 250
 
 carthage
-take_rome 
-short_campaign outlive_factions
-romans_scipii spain
+hold_regions Qart_Hadasht Roma Massalia Emporion Toletum Agadir Iol Oyat Gortyna Rodos Salamis Tripolis Tyros Hierosolyma Gaza
+take_regions 100
 
-parthia
-take_rome 
-short_campaign outlive_factions
-seleucid armenia
+macedon
+hold_regions Seleukeia Ektabana Persopolis Antiocheia Pergamon Pella Athinai Hierosolyma Alexandreia Roma
+take_regions 150
 
-pontus
-take_rome 
-short_campaign outlive_factions
-armenia thrace
+egypt
+hold_regions Seleukeia Pachora Meroe Axum Antiocheia Pergamon Pella Athinai Hierosolyma Alexandreia
+take_regions 150
 
-gauls
-take_rome 
-short_campaign outlive_factions
-romans_julii romans_senate
-
-germans
-take_rome 
-short_campaign outlive_factions
-dacia scythia
-
-britons
-take_rome 
-short_campaign outlive_factions
-gauls
-
-armenia
-take_rome 
-short_campaign outlive_factions
 seleucid
-
-dacia
-take_rome 
-short_campaign outlive_factions
-macedon thrace
+hold_regions Seleukeia Ektabana Persopolis Baktra Antiocheia Pergamon Pella Athinai Hierosolyma Alexandreia
+take_regions 150
 
 greek_cities
-take_rome 
-short_campaign outlive_factions
-macedon thrace
-
-numidia
-take_rome 
-short_campaign outlive_factions
-carthage
-
-scythia
-take_rome 
-short_campaign outlive_factions
-dacia thrace
-
-spain
-take_rome 
-short_campaign outlive_factions
-carthage
+hold_regions Sparta Elis Korinthos Athinai Chalkis Thibai Thermos Larisa Passaron Apollonia Lychnidos Pella Thessaloniki Amphipolis Abdira Lysimacheia Byzantion Apollonia_Pontiki Odessos Istros Tyras Olbia Chersonisos Pantikapaion Phanagoreia Dioskourias Phasis Trapezous Amisos Nicomedia Kysikos Ilion Pergamon Ephesos Halikarnassos Xanthos Sidi Rodos Gortyna Salamis Kyrini Serapeion Syrakousai Messana Akragas Croton Taras Metapontum Canusium Capua Massalia Emporion Imeroskopeion
+take_regions 80
 
 thrace
-take_rome 
-short_campaign outlive_factions
-macedon
+hold_regions Byzantion Pella Buridava Athinai Trapezous Antiocheia Pergamon Taras Roma Syrakousai
+take_regions 150
+
+parthia
+hold_regions Babylon Ektabana Persopolis Baktra Armavir Antiocheia Adma Maracanda Andukan Gurganj
+take_regions 150
+
+armenia
+hold_regions Armavir Arsamosata Anazarbos Kutaisi Ektabana Persopolis Samariane Baktra Sinope Sardeis
+take_regions 150
+
+pontus
+hold_regions Amaseia Armavir Anazarbos Sinope Sardeis Pella Athinai Alexandreia Memphis Hierosolyma
+take_regions 150
+
+gauls
+hold_regions Alesia Gergovia Lutetia Camulodunum Eblania Toletum Ebora Mutina Budorgis Roma Singidunum Tylis Gordion Ankyra
+take_regions 150
+
+britons
+hold_regions Alesia Gergovia Lutetia Camulodunum Eblania Toletum Ebora Mutina Budorgis Roma Singidunum Tylis Gordion Ankyra
+take_regions 150
+
+spain
+hold_regions Alesia Gergovia Lutetia Camulodunum Eblania Toletum Ebora Mutina Roma Volubilis Qart_Hadasht
+take_regions 125
+
+germans
+hold_regions Treva Teutonia Rhugium Calisia Budorgis Bergium Mediolanum Roma Aduatuca Lutetia Burdigala Toletum Ebora Camulodunum
+take_regions 150
+
+dacia
+hold_regions Buridava Odessos Pella Athinai Singidunum Iazygiana Mutina Roma
+take_regions 125
+
+numidia
+hold_regions Kirta Qart_Hadasht Takapes Qartan Tinga Rutubis Garama Augila Memphis Reqemo Gerrha Raida Pachora Meroe Axum 
+take_regions 100
+
+scythia
+hold_regions Pasyris Pantikapaion Scyra Polondava Zhev Venedia Alanica Byzantion Tyana Kutaisi Armavir
+take_regions 100

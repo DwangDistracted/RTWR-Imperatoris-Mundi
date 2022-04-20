@@ -4091,7 +4091,7 @@ Palmyrene
 	0
 
 Syria
-	Antiocheia_he_epi_Orontou
+	Antiocheia
 	seleucid
 	Syrians
 	242 130 113
@@ -4129,7 +4129,7 @@ Coruene
 
 Mesopotamia
 	Antiocheia_Mygdonias
-	armenia
+	seleucid
 	Assyrian
 	168 13 67
 	sparta
@@ -4799,7 +4799,7 @@ Kossioi
 	1
 
 Media_Magna
-	Ephiphaneia_Ektabana
+	Ektabana
 	parthia
 	Medes
 	11 114 102

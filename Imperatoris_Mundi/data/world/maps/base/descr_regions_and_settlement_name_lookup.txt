@@ -1002,7 +1002,7 @@ Damaskos
 Tripolis
 Emesa
 Palmyra
-Antiocheia_he_epi_Orontou
+Antiocheia
 Nisibyn
 Adma
 Chlomaron
@@ -1078,7 +1078,7 @@ Miyana
 Talish
 Apahr
 Irakleia_Midias
-Ephiphaneia_Ektabana
+Ektabana
 Choana
 Kuruschata
 Europos_Rhagai
