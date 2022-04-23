@@ -47,6 +47,7 @@
 			;;multiplier for perceived distance from capital for calculating unrest
 			"capital distance multiplier": 0.75,
 		},
+
 		"settlement upgrade levels":
 		{
 			"village":
@@ -254,6 +255,89 @@
 		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
 		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
 		"ai assist under settlements": 0,
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+		},
 
 		;;settlement and wall models are now associated with settlement plans
 		;;to allow having unique models for settlements
@@ -353,6 +437,124 @@
 		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
 		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
 		"ai assist under settlements": 0,
+
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
 
 		;;settlement and wall models are now associated with settlement plans
 		;;to allow having unique models for settlements
@@ -455,6 +657,124 @@
 		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
 		"ai assist under settlements": 0,
 
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
+
 		;;settlement and wall models are now associated with settlement plans
 		;;to allow having unique models for settlements
 		"settlement icons":
@@ -556,6 +876,124 @@
 		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
 		"ai assist under settlements": 0,
 
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
+
 		;;settlement and wall models are now associated with settlement plans
 		;;to allow having unique models for settlements
 		"settlement icons":
@@ -656,6 +1094,124 @@
 		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
 		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
 		"ai assist under settlements": 0,
+
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
 
 		;;settlement and wall models are now associated with settlement plans
 		;;to allow having unique models for settlements
