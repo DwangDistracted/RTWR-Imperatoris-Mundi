@@ -3221,7 +3221,7 @@ faction	romans_senate, comfortable_stalin
 denari	10000
 settlement
 {
-	level large_city
+	level city
 	region Latium
 
 	year_founded 0
@@ -3230,7 +3230,7 @@ settlement
 	faction_creator romans_senate
 	building
 	{
-		type core_building proconsuls_palace
+		type core_building governors_palace
 	}
 	building
 	{
@@ -3238,27 +3238,27 @@ settlement
 	}
 	building
 	{
-		type barracks army_barracks
+		type barracks city_barracks
 	}
 	building
 	{
-		type equestrian hippodrome
+		type equestrian cavalry_barracks
 	}
 	building
 	{
-		type missiles catapult_range
+		type missiles archery_range
 	}
 	building
 	{
-		type smith smiths_workshop
+		type smith blacksmith
 	}
 	building
 	{
-		type market great_forum
+		type market forum
 	}
 	building
 	{
-		type amphitheatres urban_amphitheatre
+		type amphitheatres stone_amphitheatre
 	}
 	building
 	{
@@ -3274,7 +3274,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms+3
+		type hinterland_farms farms+2
 	}
 	building
 	{
@@ -3922,7 +3922,7 @@ relative 	Julianus Scipio, 	Antistia,		Flavius Scipio,	Lucius Scipio,	end
 relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
 
 faction	britons, trader_napoleon
-denari	5000
+denari	6000
 settlement
 {
 	level large_town
@@ -4096,7 +4096,7 @@ relative 	Prasutagus, 	Esselt,		Iseult,	Verica,	Wotecorix,	end
 relative 	Cynfawr, 	Eudaf,		Sennianus,	Drustan,	end
 
 faction	gauls, bureaucrat_napoleon
-denari	5000
+denari	6000
 settlement
 {
 	level large_town
@@ -4393,7 +4393,7 @@ relative 	Vindex, 	Keyne,		Meriadoc,	Verica,	end
 
 
 faction	germans, balanced_mao
-denari	5000
+denari	6000
 settlement
 {
 	level town
@@ -4577,7 +4577,7 @@ settlement
 	}
 	building
 	{
-		type barracks city_barracks
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -4589,7 +4589,11 @@ settlement
 	}
 	building
 	{
-		type port_buildings shipwright
+		type temple_of_victory temple_of_victory_temple
+	}
+	building
+	{
+		type port_buildings port
 	}
 	building
 	{
@@ -4774,9 +4778,9 @@ traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 2 , I
 ancillaries wrestler
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite spartan				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite spartan				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		greek peltast				exp 1 armour 0 weapon_lvl 0
 unit		greek peltast				exp 1 armour 0 weapon_lvl 0
 
@@ -4785,7 +4789,7 @@ traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1
 ancillaries mentor, poet
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite spartan				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite spartan				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
@@ -4880,7 +4884,7 @@ relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
 relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 
 faction	carthage, sailor_napoleon
-denari	5000
+denari	3000
 
 settlement
 {
@@ -5442,7 +5446,7 @@ relative 	Burrhus, 	Polymede,		Theages,	Theodekles,	Roxane,	end
 relative 	Theages, 	Xanthe,		end
 
 faction	numidia, comfortable_henry
-denari	5000
+denari	6000
 
 settlement
 {
@@ -5643,7 +5647,7 @@ relative 	Gisgo, 	Kahina,		Balhanno,	Pherusa,	end
 relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 
 faction	spain, fortified_mao
-denari	3000
+denari	6000
 
 settlement
 {
@@ -5835,7 +5839,7 @@ relative 	Lucco, 	Iseulta,		Leukon,	end
 relative 	Matugenus, 	Keynea,		Verica,	Avaros,	end
 
 faction	dacia, balanced_stalin
-denari	3000
+denari	6000
 
 settlement
 {
@@ -6009,7 +6013,7 @@ relative 	Vezina, 	Dana,		Cotiso,	Devnet,	Palacus,	end
 relative 	Scyles, 	Birkita,		Fallon,	Scylurus,	end
 
 faction	macedon, fortified_napoleon
-denari	2000
+denari	3000
 
 settlement
 {
@@ -6043,6 +6047,10 @@ settlement
 	building
 	{
 		type market forum
+	}
+	building
+	{
+		type academic academy
 	}
 	building
 	{
@@ -6094,6 +6102,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_mines mines
 	}
 }
 
@@ -6408,7 +6420,7 @@ relative 	Gyras, 	Alkmena,		Aloeus,	Abreas,	end
 relative 	Euenus, 	Pervica,		Caleope,	Deukalos,	end
 
 faction	thrace, sailor_napoleon
-denari	5000
+denari	6000
 
 settlement
 {
@@ -6625,7 +6637,7 @@ relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
 relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 faction	scythia, trader_smith
-denari	5000
+denari	10000
 
 settlement
 {
@@ -6897,7 +6909,7 @@ relative 	Ardumanish, 	Ariyamna,		Achaemenes,	Arses,	Bardiya,	end
 relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 
 faction	armenia, fortified_henry
-denari	3000
+denari	4000
 
 settlement
 {
@@ -7399,7 +7411,7 @@ denari	2000
 
 settlement
 {
-	level large_city
+	level city
 	region Delta_Occidentalis
 
 	year_founded 0
@@ -7408,11 +7420,11 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building proconsuls_palace
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses large_stone_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -7420,7 +7432,7 @@ settlement
 	}
 	building
 	{
-		type equestrian hippodrome
+		type equestrian cavalry_barracks
 	}
 	building
 	{
@@ -7440,7 +7452,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms+3
+		type hinterland_farms farms+2
 	}
 	building
 	{
@@ -7451,7 +7463,7 @@ settlement
 ; LOWER EGYPT
 settlement
 {
-	level large_city
+	level city
 	region Delta_Orientalis
 
 	year_founded 0
@@ -7460,7 +7472,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building proconsuls_palace
+		type core_building governors_palace
 	}
 	building
 	{
@@ -7498,7 +7510,7 @@ settlement
 
 settlement
 {
-	level large_city
+	level city
 	region Aegyptis
 
 	year_founded 0
@@ -7507,11 +7519,11 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building proconsuls_palace
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses large_stone_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -7519,7 +7531,7 @@ settlement
 	}
 	building
 	{
-		type missiles catapult_range
+		type missiles archery_range
 	}
 	building
 	{
@@ -8464,7 +8476,7 @@ relative 	Ptahhotep, 	Satsobek,		Arsinoe,	Tanutamun,	end
 relative 	Kiya, 	Pedibastet,		Heruben,	end
 
 faction	pontus, trader_napoleon
-denari	5000
+denari	10000
 
 settlement
 {
@@ -8580,26 +8592,40 @@ traits GoodCommander 2 , PublicFaith 1 , Intelligent 2
 ancillaries aged_retainer, chief_eunuch
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
-unit		east cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
 
-character	Pharnaces, named character, heir, age 40, , x 224, y 164
+character	Pharnaces, named character, heir, age 40, , x 218, y 165
 traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , GoodCavalryGeneral 1
 ancillaries famous_courtesan, foodtaster
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east cavalry				exp 0 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east hillmen				exp 0 armour 0 weapon_lvl 0
+unit		east hillmen				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east cappodocian cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east cavalry				exp 0 armour 0 weapon_lvl 0
+unit		east cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Herakles, named character, age 30, , x 220, y 170
+character	Herakles, named character, age 30, , x 224, y 164
 traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , MathematicsSkill 3
 ancillaries freeman_clerk, merchant
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Ariobarzanes, general, age 20, , x 220, y 170
+army
+unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -8649,11 +8675,11 @@ settlement
 	}
 	building
 	{
-		type barracks army_barracks
+		type barracks city_barracks
 	}
 	building
 	{
-		type equestrian hippodrome
+		type equestrian cavalry_barracks
 	}
 	building
 	{
@@ -8665,7 +8691,7 @@ settlement
 	}
 	building
 	{
-		type health aqueduct
+		type health baths
 	}
 	building
 	{
@@ -9563,7 +9589,7 @@ settlement
 	}
 	building
 	{
-		type equestrian cavalry_barracks
+		type equestrian stables
 	}
 	building
 	{
@@ -10271,7 +10297,7 @@ settlement
 	}
 	building
 	{
-		type hinterland_farms farms+2
+		type hinterland_farms farms+1
 	}
 	building
 	{
@@ -10765,11 +10791,11 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 239, y 131
 army
-unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 0 armour 1 weapon_lvl 1
+unit		greek hoplite militia				exp 0 armour 1 weapon_lvl 1
+unit		greek peltast				exp 0 armour 1 weapon_lvl 1
+unit		greek peltast				exp 0 armour 1 weapon_lvl 1
 
 character	Molon, general, age 20, , x 244, y 136
 army
