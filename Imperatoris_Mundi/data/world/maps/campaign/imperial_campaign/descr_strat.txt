@@ -843,14 +843,14 @@ resource grain, 1, 20, 3
 ;Ougarta
 resource slaves, 1, 73, 68
 resource lead, 1, 61, 74
-resource textiles, 1, 80, 65
+resource textiles, 1, 79, 66
 
 ;Leonum_Trahentium
 resource slaves, 1, 106, 44
 resource iron, 1, 118, 55
-resource copper, 2, 135, 23
+resource copper, 2, 113, 43
 
-;Nigritania
+;Nigritania`
 resource slaves, 1, 92, 6
 resource pottery, 2, 92, 2
 resource grain, 4, 95, 1
@@ -877,7 +877,7 @@ resource marble, 2, 120, 91
 ;Garamantia_Ulterior
 resource slaves, 1, 138, 73
 resource pottery, 3, 135, 66
-resource copper, 2, 127, 56
+resource copper, 2, 137, 59
 
 ;Phazania
 resource slaves, 1, 145, 75
@@ -2985,7 +2985,7 @@ resource grain, 3, 283, 158
 
 ;Kossioi
 resource slaves, 1, 277, 152
-resource marble, 2, 281, 251
+resource marble, 2, 281, 151
 resource grain, 2, 280, 153
 
 ;Media_Magna
@@ -3131,7 +3131,7 @@ resource grain, 2, 336, 145
 resource copper, 2, 334, 158
 resource gold, 1, 331, 149
 
-;Driangiana
+;Parsiene
 resource slaves, 1, 344, 133
 resource incense, 1, 345, 141
 resource camels, 2, 345, 137
@@ -6751,7 +6751,7 @@ relative 	Partatua, 	Afina,		Ziaelas,	Hestia,	end
 relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
 
 faction	parthia, balanced_genghis
-denari	5000
+denari	25000
 
 settlement
 {
@@ -6877,7 +6877,7 @@ unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 
-character	Otanes, diplomat, age 20, , x 1, y 5
+character	Otanes, diplomat, age 20, , x 306, y 176
 traits GoodDiplomat 3
 
 character	Skunxa, spy, age 20, , x 321, y 173
@@ -9344,7 +9344,7 @@ settlement
 settlement
 {
 	level large_town
-	region Driangiana
+	region Parsiene
 
 	year_founded 0
 	population 2800

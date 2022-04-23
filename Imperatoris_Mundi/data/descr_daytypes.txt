@@ -166,7 +166,7 @@ weatherevent sand_storm
 
 daytype	temperate_summer
 
-	climates		temperate_grassland_fertile temperate_grassland_infertile temperate_forest_open temperate_forest_deep swamp alpine
+	climates		temperate_grassland_fertile temperate_grassland_infertile temperate_forest_deep swamp alpine
 	seasons			summer 
 	weatherevents	calm 0.25, hazy 0.4, light_fog 0.15, rain_drizzle 0.15, rain_storm 0.05	
 	next_day		temperate_summer 1.0										
@@ -243,7 +243,7 @@ daytype	temperate_summer
 
 daytype	temperate_winter
 
-	climates		temperate_grassland_fertile temperate_grassland_infertile temperate_forest_open temperate_forest_deep swamp alpine
+	climates		temperate_grassland_fertile temperate_grassland_infertile temperate_forest_deep swamp alpine
 	seasons			winter
 	weatherevents	calm 0.25, hazy 0.25, snow_falling 0.5
 	next_day		temperate_winter 1.0										
@@ -614,6 +614,160 @@ daytype	desert_summer
 		sunlight		0.9		0.8		0.6		
 		moonlight		0.2		0.25	0.5			0.75	0.1		0.2
 		haze_colour		0.0		0.0		0.0
+		cloud_colour	0		0		0			0		0		0
+
+daytype	jungle_summer_wet
+
+	climates		temperate_forest_open
+	seasons			summer 
+	weatherevents	calm 0.05, hazy 0.05, light_fog 0.20, rain_drizzle 0.35, rain_storm 0.25, jeffs_brain 0.10
+	next_day		jungle_summer_wet 1.0										
+
+; night
+	event 
+		time			0
+	
+		sun_colour		1		.9	0.5
+		sunlight		1		1		1
+		moonlight		0.7		0.65	1			0.75	0.1		0.2
+		haze_colour		0.15	0.15	0.15
+		cloud_colour	0		0		0			0		0		0
+
+; sunrise
+	event
+		time			7
+
+		sun_colour		1		.9	0.5
+		sunlight			1		.9	0.5
+		moonlight			0.5		0.5		1			0.75	0.1		0.2
+		haze_colour		0.5		0.5		0.5
+		cloud_colour		1		1		0.8			1		1		1
+
+; straight after sunrise
+	event
+		time			8
+
+		sun_colour		1.0		1.0		1.0
+		sunlight		1.0		1.0		1.0
+		moonlight		.5		.5		1			0.75	0.1		0.2
+		haze_colour		0.8		0.8		0.8
+		cloud_colour	1		1		1			1		1		1
+
+; midday
+	event
+		time			12
+
+		sun_colour		1.0		1.0		1.0
+		sunlight		1.0		1.0		1.0
+		moonlight		.5		.5		1			0.75	0.1		0.2
+		haze_colour		0.8		0.8		1	
+		cloud_colour	1		1		1			1		1		1
+
+;afternoon
+	event
+		time			16
+
+		sun_colour		1.0		1.0		0.8
+		sunlight		1.0		1.0		0.8
+		moonlight		.5		.5		1			0.75	0.1		0.2
+		haze_colour		0.8		0.8		0.8
+		cloud_colour	1		1		1			1		1		1
+
+; sun going down
+	event 
+		time			18
+	
+		sun_colour		1.0		0.6		0.6
+		sunlight		1.0		0.6		0.6
+		moonlight		.7		.65		1			0.75	0.1		0.2
+		haze_colour		0.65	0.7		0.75
+		cloud_colour	1		1.0		1.0			1.0		0.6		0.6
+
+; night
+	event 
+		time			21
+	
+		sun_colour		1		1		1
+		sunlight		1		1		1
+		moonlight		.7		.65		1			0.75	0.1		0.2
+		haze_colour		0.15	0.15	0.15
+		cloud_colour	0		0		0			0		0		0
+
+daytype	jungle_winter_dry
+
+	climates		temperate_forest_open
+	seasons			winter 
+	weatherevents	calm 0.60, hazy 0.20, light_fog 0.15, rain_drizzle 0.05	
+	next_day		jungle_winter_dry 1.0										
+
+; night
+	event 
+		time			0
+	
+		sun_colour		1		.9	0.5
+		sunlight		1		1		1
+		moonlight		0.7		0.65	1			0.75	0.1		0.2
+		haze_colour		0.15	0.15	0.15
+		cloud_colour	0		0		0			0		0		0
+
+; sunrise
+	event
+		time			7
+
+		sun_colour		1		.9	0.5
+		sunlight			1		.9	0.5
+		moonlight			0.5		0.5		1			0.75	0.1		0.2
+		haze_colour		0.5		0.5		0.5
+		cloud_colour		1		1		0.8			1		1		1
+
+; straight after sunrise
+	event
+		time			8
+
+		sun_colour		1.0		1.0		1.0
+		sunlight		1.0		1.0		1.0
+		moonlight		.5		.5		1			0.75	0.1		0.2
+		haze_colour		0.8		0.8		0.8
+		cloud_colour	1		1		1			1		1		1
+
+; midday
+	event
+		time			12
+
+		sun_colour		1.0		1.0		1.0
+		sunlight		1.0		1.0		1.0
+		moonlight		.5		.5		1			0.75	0.1		0.2
+		haze_colour		0.8		0.8		1	
+		cloud_colour	1		1		1			1		1		1
+
+;afternoon
+	event
+		time			16
+
+		sun_colour		1.0		1.0		0.8
+		sunlight		1.0		1.0		0.8
+		moonlight		.5		.5		1			0.75	0.1		0.2
+		haze_colour		0.8		0.8		0.8
+		cloud_colour	1		1		1			1		1		1
+
+; sun going down
+	event 
+		time			18
+	
+		sun_colour		1.0		0.6		0.6
+		sunlight		1.0		0.6		0.6
+		moonlight		.7		.65		1			0.75	0.1		0.2
+		haze_colour		0.65	0.7		0.75
+		cloud_colour	1		1.0		1.0			1.0		0.6		0.6
+
+; night
+	event 
+		time			21
+	
+		sun_colour		1		1		1
+		sunlight		1		1		1
+		moonlight		.7		.65		1			0.75	0.1		0.2
+		haze_colour		0.15	0.15	0.15
 		cloud_colour	0		0		0			0		0		0
 
 daytype	sound_test

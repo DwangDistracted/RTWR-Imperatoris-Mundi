@@ -380,14 +380,19 @@ climate temperate_forest_open
 		texture data/feral_textures/temperate_grassland_fertile_sprites
 		ground_type grass_short
 		{
-			scale	1.125
-			sprite	grass1_c_basecolor		50
-			sprite	grass1_b_basecolor		50
-			sprite	grass2_b_basecolor		50
+			scale	1.5
+			sprite	grass1_c_basecolor		250
+			sprite	grass1_b_basecolor		250
+			sprite	grass2_b_basecolor		250
+			sprite	flower1_a_basecolor		1
+			sprite	flower2_a_basecolor		1
 		}
 		ground_type grass_long
 		{
-			scale	1.5
+			scale	2.25
+			sprite	flower1_b_basecolor		2
+			sprite	flower3_a_basecolor		1
+			sprite	flower2_a_basecolor		2
 			sprite	grass1_a_basecolor		300
 			sprite	grass2_a_basecolor		250
 			sprite	grass2_c_basecolor		200
@@ -395,13 +400,20 @@ climate temperate_forest_open
 			sprite	plant1_a_basecolor		50
 			sprite	plant3_basecolor		50
 		}
-		ground_type scrub_dense
+		ground_type forest_dense
 		{
 			scale	1.5
+			sprite	flower3_a_basecolor		1
+		}
+		ground_type scrub_dense
+		{
+			scale	3.0
 			sprite	grass1_a_basecolor		100
 			sprite	grass2_a_basecolor		100
 			sprite	grass2_c_basecolor		100
 			sprite	grass2_d_basecolor		100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
 			sprite	grass1_c_basecolor		100
 			sprite	grass1_b_basecolor		100
 			sprite	grass2_b_basecolor		100
