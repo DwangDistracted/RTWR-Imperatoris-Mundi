@@ -22,3 +22,8 @@ POOL_NAME,UNIT,EXP,COST,REPLENISH_LOW,REPLENISH_HIGH,MAX,INITIAL
 ,merc barbarian cavalry,,500,,,,
 ,merc elephants,,2690,,,,
 ,cheat oliphants,,6000,,,,
+,rebel amazon chariots,,780,,,,
+,rebel judaean zealots,,490,,,,
+Amazonia,rebel amazon chariots,0,780,0.01,0.04,2,1
+Hibernia,merc barbarian infantry,0,480,0.1,0.17,4,2
+Hibernia,merc barbarian cavalry,0,480,0.05,0.1,1,0
