@@ -1743,11 +1743,13 @@ resource pottery, 1, 417, 231
 resource grain, 2, 422, 233
 resource copper, 1, 423, 237
 resource silk, 1, 425, 235
+resource camels, 1, 418, 229
 
 ;Calmadana
 resource slaves, 1, 444, 220
 resource grain, 1, 453, 232
 resource hides, 2, 441, 220
+resource camels, 2, 447, 225
 
 ;Gumo
 resource slaves, 1, 414, 228
@@ -1761,6 +1763,7 @@ resource slaves, 1, 394, 214
 resource silk, 2, 396, 210
 resource incense, 2, 400, 209
 resource grain, 2, 398, 212
+resource camels, 1, 404, 213
 
 ;Gosthana
 resource slaves, 1, 412, 207
@@ -1773,6 +1776,7 @@ resource slaves, 1, 428, 208
 resource silver, 2, 425, 203
 resource incense, 1, 432, 211
 resource grain, 1, 420, 207
+resource camels, 1, 423, 207
 
 ;Paelex_Porta
 resource slaves, 1, 476, 244
@@ -1856,6 +1860,7 @@ resource slaves, 1, 350, 212
 resource grain, 2, 354, 209
 resource textiles, 3, 348, 217
 resource lead, 1, 347, 213
+resource camels, 2, 350, 214
 
 ;Sogdiana_Deserta
 resource slaves, 1, 344, 207
@@ -1867,6 +1872,7 @@ resource slaves, 1, 341, 198
 resource grain, 2, 342, 194
 resource gold, 1, 341, 200
 resource wine, 1, 344, 200
+resource camels, 1, 342, 197`
 
 ;Oxia_Deserta
 resource slaves, 1, 322, 214
@@ -1922,6 +1928,7 @@ resource slaves, 1, 313, 196
 resource gold, 1, 322, 197
 resource incense, 2, 308, 197
 resource wild_animals, 1, 313, 202
+resource camels, 1, 314, 198
 
 ;Parnia
 resource slaves, 1, 306, 174
@@ -1958,6 +1965,7 @@ resource marble, 2, 364, 183
 resource iron, 1, 360, 183
 resource grain, 3, 358, 186
 resource gold, 2, 362, 181
+resource elephants, 3, 362, 187`
 
 ;Chomaria
 resource slaves, 1, 353, 181
@@ -3855,7 +3863,7 @@ settlement
 	}
 }
 
-character	Cornelius Scipio, named character, leader, age 54, , x 136, y 127
+character	Cornelius Scipio, named character, leader, age 54, , x 137, y 127
 traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1
 ancillaries aged_retainer
 army
