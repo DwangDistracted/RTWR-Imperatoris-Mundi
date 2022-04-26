@@ -1780,7 +1780,7 @@ resource camels, 1, 423, 207
 
 ;Paelex_Porta
 resource slaves, 1, 476, 244
-resource copper, 1, 482, 250
+resource tin, 1, 482, 250
 resource grain, 1, 472, 244
 resource iron, 4, 478, 241
 
@@ -1790,7 +1790,7 @@ resource gold, 6, 497, 244
 resource furs, 4, 506, 242
 resource iron, 5, 493, 244
 resource silk, 10, 507, 252
-resource copper, 4, 502, 254
+resource tin, 4, 502, 254
 resource incense, 6, 503, 249
 
 ;Serica_Asmiraii
@@ -1802,7 +1802,7 @@ resource hides, 2, 491, 224
 ;Serica_Coconorum
 resource slaves, 1, 505, 234
 resource furs, 2, 505, 238
-resource copper, 1, 507, 227
+resource tin, 1, 507, 227
 resource iron, 1, 508, 235
 
 ;Issedonia
