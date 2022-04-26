@@ -7387,6 +7387,150 @@ region
 			distribution 5
 		}
 	}
+	Gandhara
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Kasmira
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Glausae
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Hydaspes
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Madra
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Panchanada
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Sibae
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Trigata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

@@ -2467,6 +2467,84 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Gandhara		//Indian
+category			peasant_revolt 
+chance				0
+description			Gandhara
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Asvaka		//Indian
+category			peasant_revolt 
+chance				0
+description			Asvaka
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Taxilan		//Indian
+category			peasant_revolt 
+chance				0
+description			Taxilan
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Indo_Greek		//Indian
+category			peasant_revolt 
+chance				0
+description			Indo_Greek
+unit				east peasant
+unit				greek medium cavalry
+unit				east archer
+unit				east archer
+unit				greek heavy peltast
+unit				greek hoplite militia
+unit				greek hoplite
+unit				eastern rebel general
+
+rebel_type 			Purus		//Indian
+category			peasant_revolt 
+chance				0
+description			Purus
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Yaudheya		//Indian
+category			peasant_revolt 
+chance				0
+description			Yaudheya
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8

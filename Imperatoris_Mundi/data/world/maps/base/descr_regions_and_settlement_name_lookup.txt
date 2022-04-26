@@ -554,6 +554,14 @@ Arachosia
 Paradene
 Drangiana
 Gedrosia
+Gandhara
+Kasmira
+Glausae
+Hydaspes
+Madra
+Panchanada
+Sibae
+Trigata
 
 Eblania
 Coriondia
@@ -1111,6 +1119,14 @@ Alexandreia_Arachosia
 Bandara
 Bitaxa
 Alexandreia_Rambhakias
+Pushkalavati
+Embadina
+Taksasila
+Nicaea
+Madra
+Malloi
+Mulasthanapura
+Jalandhara
 
 Libyae_Interior
 toggle_fow
