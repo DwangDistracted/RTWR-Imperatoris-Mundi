@@ -562,6 +562,14 @@ Madra
 Panchanada
 Sibae
 Trigata
+Sivi
+India_Alba
+Patala_Sindhu
+Prasiane
+Saranga
+Patalene
+Aporapa
+Sauvira
 
 Eblania
 Coriondia
@@ -1123,10 +1131,18 @@ Pushkalavati
 Embadina
 Taksasila
 Nicaea
-Madra
+Sagada
 Malloi
 Mulasthanapura
-Jalandhara
+Alexandreia_Hyphasis
+Alexandreia_Indus
+Artoarta
+Singhapura
+Sindo
+Alexandreia_Orietai
+Patala
+Roruka
+Parabali
 
 Libyae_Interior
 toggle_fow

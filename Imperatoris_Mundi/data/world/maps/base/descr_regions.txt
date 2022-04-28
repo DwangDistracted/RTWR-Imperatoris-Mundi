@@ -5099,7 +5099,6 @@ Gandhara
 	none
 	5
 	2
-	;84+35, baths incense, 1, textiles, 2, pottery, 2, copper, 3
 
 Kasmira
 	Embadina
@@ -5108,8 +5107,7 @@ Kasmira
 	42 52 61
 	none
 	5
-	0
-	;72+15+6, incense, 2, grain, 1, marble, 3, glass, 2
+	1
 
 Glausae
 	Taksasila
@@ -5119,7 +5117,6 @@ Glausae
 	none
 	5
 	4
-	;120, academy, baths, market, elephants, 1, textiles, 2, grain, 2, copper, 1
 
 Hydaspes
 	Nicaea
@@ -5128,18 +5125,17 @@ Hydaspes
 	2 84 73
 	none
 	5
-	1
-	;54, timber, 3, glass, 1, elephants, 1
+	2
+
 
 Madra
-	Madra
+	Sagada
 	parthia;india
 	Purus
 	99 0 22
 	none
 	5
 	10
-	;76+39, elephants, 3, silk, 1, grain, 3
 
 Panchanada
 	Malloi
@@ -5149,7 +5145,6 @@ Panchanada
 	none
 	5
 	9
-	;83+7+19, grain, 3, silk, 2, camels, 1
 
 Sibae
 	Mulasthanapura
@@ -5159,17 +5154,89 @@ Sibae
 	none
 	5
 	4
-	;74, textiles, 2, grain, 2, camels, 1
 
 Trigata
-	Jalandhara
+	Alexandreia_Hyphasis
 	parthia;india
 	Yaudheya
 	140 60 69
 	none
 	5
 	6
-	;149, grain, 2, textiles, 2, camels, 1, copper, 1
+
+Sivi
+	Alexandreia_Indus
+	parthia;india
+	Sivi
+	216 134 142
+	none
+	5
+	6
+
+;Hindu Caucasus
+India_Alba
+	Artoarta
+	parthia
+	Arachosian
+	141 211 176
+	none
+	5
+	1
+
+Patala_Sindhu
+	Singhapura
+	parthia;india
+	Sauviran
+	179 242 62
+	none
+	5
+	2
+
+Prasiane
+	Sindo
+	parthia;india
+	Sauviran
+	88 91 75
+	none
+	5
+	4
+
+Saranga
+	Alexandreia_Orietai
+	seleucid
+	Arachosian
+	96 137 97
+	none
+	5
+	1
+
+;Sindh
+Patalene
+	Patala
+	parthia;india
+	Patalene
+	252 135 85
+	none
+	5
+	8
+
+Aporapa
+	Roruka
+	parthia;india
+	Sauviran
+	64 153 99
+	none
+	5
+	6
+
+Sauvira
+	Parabali
+	parthia;india
+	Sauviran
+	99 226 104
+	none
+	5
+	5
 
 ;Terra Incognita
 Libyae_Interior

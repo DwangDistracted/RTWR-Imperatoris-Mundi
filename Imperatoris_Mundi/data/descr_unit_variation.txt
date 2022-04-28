@@ -7392,7 +7392,7 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
@@ -7402,7 +7402,7 @@ region
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 15
 		}
 	}
 	Kasmira
@@ -7410,7 +7410,7 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
@@ -7420,7 +7420,7 @@ region
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 15
 		}
 	}
 	Glausae
@@ -7428,7 +7428,7 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
@@ -7438,7 +7438,7 @@ region
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 15
 		}
 	}
 	Hydaspes
@@ -7446,7 +7446,7 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
@@ -7456,7 +7456,7 @@ region
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 15
 		}
 	}
 	Madra
@@ -7464,7 +7464,7 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
@@ -7474,7 +7474,7 @@ region
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 15
 		}
 	}
 	Panchanada
@@ -7482,7 +7482,7 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
@@ -7492,7 +7492,7 @@ region
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 15
 		}
 	}
 	Sibae
@@ -7500,7 +7500,7 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
@@ -7510,7 +7510,7 @@ region
 		variant
 		{
 			ethnicity mediterranean
-			distribution 10
+			distribution 15
 		}
 	}
 	Trigata
@@ -7518,12 +7518,176 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 70
+			distribution 65
 		}
 		variant
 		{
 			ethnicity caucasiandark
 			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Sivi
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	India_Alba
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Patala_Sindhu
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Prasiane
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Saranga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Patalene
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Aporapa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Sauvira
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
 		}
 		variant
 		{

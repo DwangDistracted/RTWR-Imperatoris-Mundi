@@ -2545,6 +2545,45 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Sivi		//Indian
+category			peasant_revolt 
+chance				0
+description			Sivi
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				greek hoplite militia
+unit				greek hoplite militia
+unit				eastern rebel general
+
+rebel_type 			Sauviran		//Indian
+category			peasant_revolt 
+chance				0
+description			Sauviran
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Patalene		//Indian
+category			peasant_revolt 
+chance				0
+description			Patalene
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8
