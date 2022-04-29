@@ -7700,12 +7700,12 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 15
+			distribution 10
 		}
 	}
 	Abhira
@@ -7713,12 +7713,12 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 15
+			distribution 10
 		}
 	}
 	Deserta_Indica
@@ -7726,12 +7726,12 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 15
+			distribution 10
 		}
 	}
 	Saurashtra_Meridionalis
@@ -7739,12 +7739,12 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 15
+			distribution 10
 		}
 	}
 	Saurashtra_Centralis
@@ -7752,12 +7752,12 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 15
+			distribution 10
 		}
 	}
 	Saurashtra_Septentrionalis
@@ -7765,12 +7765,12 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 15
+			distribution 10
 		}
 	}
 	Maru
@@ -7778,12 +7778,90 @@ region
 		variant
 		{
 			ethnicity indian
-			distribution 85
+			distribution 90
 		}
 		variant
 		{
 			ethnicity caucasiandark
-			distribution 15
+			distribution 10
+		}
+	}
+	Aparanta
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Sahyadri_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Sahyadri_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Mulaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Vindhya
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Anupa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
 		}
 	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========

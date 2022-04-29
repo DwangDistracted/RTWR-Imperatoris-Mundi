@@ -1154,7 +1154,7 @@ Elimia
 	3
 
 ;West Mediterranean Islands
-Sardinia_Australis
+Sardinia_Meridionalis
 	Karalis
 	carthage
 	SardoPunic
@@ -1163,7 +1163,7 @@ Sardinia_Australis
 	5
 	9
 
-Sardinia_Borealis
+Sardinia_Septentrionalis
 	Olbia_Rasna
 	carthage
 	SardoPunic
@@ -5282,7 +5282,7 @@ Saurashtra_Centralis
 	38 175 59
 	none
 	5
-	6
+	7
 
 Saurashtra_Septentrionalis
 	Mehsana
@@ -5301,6 +5301,61 @@ Maru
 	none
 	5
 	2
+
+;Aparanta
+Aparanta
+	Minnagara
+	parthia;india
+	Aparanta
+	71 49 20
+	none
+	5
+	6
+
+Sahyadri_Septentrionalis
+	Nasikya
+	parthia;india
+	Aparanta
+	117 113 91
+	none
+	5
+	4
+
+Sahyadri_Meridionalis
+	Malvan
+	parthia;india
+	Aparanta
+	242 194 75
+	none
+	5
+	4
+
+Mulaka
+	Pattithana
+	parthia;india
+	Mulaka
+	187 237 175
+	none
+	5
+	7
+
+Vindhya
+	Tapia
+	parthia;india
+	Dandaka
+	196 226 45
+	none
+	5
+	3
+
+Anupa
+	Mahismati
+	parthia;india
+	Avanti
+	193 75 46
+	none
+	5
+	4
 
 ;Terra Incognita
 Libyae_Interior

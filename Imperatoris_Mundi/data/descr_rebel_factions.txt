@@ -2623,6 +2623,45 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Aparanta		//Indian
+category			peasant_revolt 
+chance				0
+description			Aparanta
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Mulaka		//Indian
+category			peasant_revolt 
+chance				0
+description			Mulaka
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Dandaka		//Indian
+category			peasant_revolt 
+chance				0
+description			Dandaka
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8

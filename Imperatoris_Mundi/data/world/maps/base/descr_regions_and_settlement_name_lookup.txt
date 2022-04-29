@@ -124,8 +124,8 @@ Syracuse
 Sicania
 Corsica
 Elimia
-Sardinia_Australis
-Sardinia_Borealis
+Sardinia_Meridionalis
+Sardinia_Septentrionalis
 Balearides
 Carthago
 Zeugitana
@@ -577,6 +577,12 @@ Saurashtra_Meridionalis
 Saurashtra_Centralis
 Saurashtra_Septentrionalis
 Maru
+Aparanta
+Sahyadri_Septentrionalis
+Sahyadri_Meridionalis
+Mulaka
+Vindhya
+Anupa
 
 Eblania
 Coriondia
@@ -1157,6 +1163,12 @@ Prabhasa
 Kheta
 Mehsana
 Abuyya
+Minnagara
+Nasikya
+Malvan
+Pattithana
+Tapia
+Mahismati
 
 Libyae_Interior
 toggle_fow
