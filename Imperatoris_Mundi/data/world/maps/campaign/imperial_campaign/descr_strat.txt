@@ -3356,7 +3356,7 @@ resource lead, 3, 416, 128
 resource slaves, 1, 421, 120
 resource incense, 1, 422, 113
 resource iron, 1, 427, 113
-resource silver, 1, 424, 109
+resource gold, 1, 424, 109
 resource elephants, 1, 424, 116
 
 ;Sahyadri_Septentrionalis
@@ -3392,6 +3392,49 @@ resource incense, 2, 428, 119
 resource timber, 3, 438, 123
 resource wild_animals, 2, 431, 118
 resource grain, 1, 435, 123
+
+;Anartta
+resource slaves, 1, 419, 130
+resource textiles, 2, 427, 123
+resource pottery, 1, 416, 124
+resource wild_animals, 1, 421, 125
+
+;Avanti_Meridionalis
+resource slaves, 1, 430, 128
+resource textiles, 5, 434, 125
+resource grain, 2, 430, 131
+resource incense, 1, 434, 129
+
+;Avanti_Septentrionalis
+resource slaves, 1, 424, 136Anupa
+resource pottery, 1, 424, 130
+resource grain, 2, 432, 135
+resource hides, 2, 429, 136
+resource elephants, 3, 421, 134
+
+;Dasarna
+resource slaves, 1, 439, 134
+resource wild_animals, 3, 437, 136
+resource timber, 2, 439, 140
+resource elephants, 2, 433, 136
+
+;Dahala
+resource slaves, 1, 443, 126
+resource glass, 1, 439, 126
+resource incense, 1, 444, 130
+resource elephants, 3, 447, 131
+
+;Matsya
+resource slaves, 1, 423, 141
+resource glass, 1, 420, 143
+resource copper, 2, 424, 148
+resource marble, 3, 426, 141
+
+;Shurasena
+resource slaves, 1, 430, 142
+resource glass, 1, 431, 138
+resource purple_dye, 2, 430, 147
+resource timber, 3, 434, 146
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -20925,6 +20968,252 @@ settlement
 	}
 }
 
+; AVANTI
+settlement
+{
+	level city
+	region Anartta
+
+	year_founded 0
+	population 6250
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level city
+	region Avanti_Meridionalis
+
+	year_founded 0
+	population 13350
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type academic academy
+	}
+	;building
+	;{
+	;	type health baths
+	;}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level city
+	region Avanti_Septentrionalis
+
+	year_founded 0
+	population 6500
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Dasarna
+
+	year_founded 0
+	population 6250
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
+settlement
+{
+	level town
+	region Dahala
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level city
+	region Matsya
+
+	year_founded 0
+	population 8150
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Shurasena
+
+	year_founded 0
+	population 8350
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+1
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -26616,6 +26905,137 @@ character	sub_faction parthia, Gaubaruva, general, age 20, , x 432, y 121
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+; AVANTI
+;Anartta
+character	sub_faction parthia, Datuvahya, general, age 20, , x 420, y 128
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Avanti_Meridionalis
+character	sub_faction parthia, Gaubaruva, general, age 20, , x 432, y 127
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Avanti_Septentrionalis
+character	sub_faction parthia, Datuvahya, general, age 20, , x 425, y 134
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Dasarna
+character	sub_faction parthia, Datuvahya, general, age 20, , x 437, y 133
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Dahala
+character	sub_faction parthia, Datuvahya, general, age 20, , x 443, y 128
+army
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Matsya
+character	sub_faction parthia, Datuvahya, general, age 20, , x 423, y 145
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Shurasena
+character	sub_faction parthia, Datuvahya, general, age 20, , x 432, y 143
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0

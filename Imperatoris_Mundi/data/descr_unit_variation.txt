@@ -7864,6 +7864,62 @@ region
 			distribution 5
 		}
 	}
+	Anartta
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Avanti_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Avanti_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Dasarna
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Dahala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Matsya
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Shurasena
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{

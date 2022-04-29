@@ -5357,6 +5357,70 @@ Anupa
 	5
 	4
 
+;Avanti
+Anartta
+	Devnimori
+	parthia;india
+	Avanti
+	237 37 217
+	none
+	5
+	5
+
+Avanti_Meridionalis
+	Ujjayini
+	parthia;india
+	Avanti
+	214 174 64
+	none
+	5
+	13
+
+Avanti_Septentrionalis
+	Madhyamika
+	parthia;india
+	Avanti
+	255 169 145
+	none
+	5
+	5
+
+Dasarna
+	Vidisha
+	parthia;india
+	Avanti
+	23 58 33
+	none
+	5
+	2
+
+Dahala
+	Chauragarh
+	parthia;india
+	Avanti
+	191 80 216
+	none
+	5
+	0
+
+Matsya
+	Viratanagara
+	parthia;india
+	Matsya
+	170 160 167
+	none
+	5
+	5
+
+Shurasena
+	Sripatha
+	parthia;india
+	Shurasena
+	95 124 59
+	none
+	5
+	2
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow

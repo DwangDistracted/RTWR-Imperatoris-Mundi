@@ -583,6 +583,13 @@ Sahyadri_Meridionalis
 Mulaka
 Vindhya
 Anupa
+Anartta
+Avanti_Meridionalis
+Avanti_Septentrionalis
+Dasarna
+Dahala
+Matsya
+Shurasena
 
 Eblania
 Coriondia
@@ -1169,6 +1176,13 @@ Malvan
 Pattithana
 Tapia
 Mahismati
+Devnimori
+Ujjayini
+Madhyamika
+Vidisha
+Chauragarh
+Viratanagara
+Sripatha
 
 Libyae_Interior
 toggle_fow

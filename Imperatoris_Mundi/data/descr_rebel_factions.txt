@@ -2662,6 +2662,32 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Matsya		//Indian
+category			peasant_revolt 
+chance				0
+description			Matsya
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Shurasena		//Indian
+category			peasant_revolt 
+chance				0
+description			Shurasena
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8
