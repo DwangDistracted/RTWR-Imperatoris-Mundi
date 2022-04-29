@@ -5238,6 +5238,70 @@ Sauvira
 	5
 	5
 
+;Maru
+Kaccha
+	Maltecoria
+	parthia;india
+	Kaccha
+	122 44 130
+	none
+	5
+	3
+
+Abhira
+	Detta
+	parthia;india
+	Kaccha
+	137 147 81
+	none
+	5
+	1
+
+Deserta_Indica
+	Dadrewa
+	parthia;india
+	Kaccha
+	135 123 110
+	none
+	5
+	0
+
+Saurashtra_Meridionalis
+	Prabhasa
+	parthia;india
+	Saurastra
+	165 67 152
+	none
+	5
+	6
+
+Saurashtra_Centralis
+	Kheta
+	parthia;india
+	Saurastra
+	38 175 59
+	none
+	5
+	6
+
+Saurashtra_Septentrionalis
+	Mehsana
+	parthia;india
+	Saurastra
+	158 156 157
+	none
+	5
+	2
+
+Maru
+	Abuyya
+	parthia;india
+	Avanti
+	57 99 40
+	none
+	5
+	2
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -5275,7 +5339,7 @@ Mons_Imaus
 	5
 	0
 
-Taklamakan_Desertum
+Deserta_Serica
 	melonville
 	parthia
 	TerraIncognita

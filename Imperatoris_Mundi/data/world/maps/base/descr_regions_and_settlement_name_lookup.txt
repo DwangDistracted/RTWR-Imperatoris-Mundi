@@ -570,6 +570,13 @@ Saranga
 Patalene
 Aporapa
 Sauvira
+Kaccha
+Abhira
+Deserta_Indica
+Saurashtra_Meridionalis
+Saurashtra_Centralis
+Saurashtra_Septentrionalis
+Maru
 
 Eblania
 Coriondia
@@ -1143,6 +1150,13 @@ Alexandreia_Orietai
 Patala
 Roruka
 Parabali
+Maltecoria
+Detta
+Dadrewa
+Prabhasa
+Kheta
+Mehsana
+Abuyya
 
 Libyae_Interior
 toggle_fow
@@ -1156,7 +1170,7 @@ monk_town
 Mons_Imaus
 i_see_you
 
-Taklamakan_Desertum
+Deserta_Serica
 melonville
 
 Barbaria_Interior

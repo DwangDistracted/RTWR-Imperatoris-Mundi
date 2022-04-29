@@ -2584,6 +2584,45 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Kaccha		//Indian
+category			peasant_revolt 
+chance				0
+description			Kaccha
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Saurastra		//Indian
+category			peasant_revolt 
+chance				0
+description			Saurastra
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Avanti		//Indian
+category			peasant_revolt 
+chance				0
+description			Avanti
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8

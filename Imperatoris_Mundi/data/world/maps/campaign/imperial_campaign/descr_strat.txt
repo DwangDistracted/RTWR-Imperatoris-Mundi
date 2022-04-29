@@ -3076,7 +3076,7 @@ resource camels, 2, 330, 124
 
 ;Articene
 resource slaves, 1, 320, 144
-resource incense, 2, 327, 119
+resource incense, 2, 328, 140
 resource gold, 1, 319, 147
 resource lead, 1, 324, 147
 resource camels, 1, 315, 147
@@ -3309,6 +3309,48 @@ resource elephants, 1, 394, 142
 resource pottery, 1, 396, 148
 resource textiles, 1, 397, 150
 resource camels, 1, 400, 147
+
+;Kaccha
+resource slaves, 1, 397, 121
+resource elephants, 1, 400, 122
+resource furs, 2, 405, 121
+resource grain, 3, 402, 119
+
+;Abhira
+resource slaves, 1, 403, 124
+resource camels, 1, 399, 125
+resource textiles, 1, 406, 126
+resource wild_animals, 1, 402, 127
+
+;Deserta_Indica
+resource slaves, 1, 399, 130
+resource camels, 2, 405, 135
+resource hides, 1, 403, 130
+
+;Saurashtra_Meridionalis
+resource slaves, 1, 410, 114
+resource purple_dye, 2, 407, 113
+resource textiles, 2, 415, 115
+resource furs, 2, 405, 115
+
+;Saurashtra_Centralis
+resource slaves, 1, 417, 120
+resource glass, 1, 415, 122
+resource incense, 1, 414, 117
+resource hides, 2, 411, 118
+resource elephants, 3, 407, 117
+
+;Saurashtra_Septentrionalis
+resource slaves, 1, 410, 123
+resource grain, 2, 414, 123
+resource textiles, 2, 409, 121
+
+;Maru
+resource slaves, 1, 415, 131
+resource camels, 1, 411, 134
+resource incense, 2, 411, 130
+resource wild_animals, 2, 416, 136
+resource lead, 3, 416, 128
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -10769,7 +10811,6 @@ unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 323, y 172
 army
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 320, y 168
@@ -10783,7 +10824,6 @@ unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 304, y 168
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 314, y 154
@@ -10812,7 +10852,6 @@ unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 341, y 146
 army
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 346, y 132
@@ -10822,7 +10861,6 @@ unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 340, y 129
 army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -10834,7 +10872,6 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 338, y 124
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 
 ; ASSYRIA
@@ -20231,7 +20268,7 @@ settlement
 	year_founded 0
 	population 1850
 	plan_set default_set
-	faction_creator parthia
+	faction_creator parthia;india
 	building
 	{
 		type core_building governors_house
@@ -20254,7 +20291,7 @@ settlement
 	year_founded 0
 	population 2950
 	plan_set default_set
-	faction_creator parthia
+	faction_creator parthia;india
 	building
 	{
 		type core_building governors_villa
@@ -20265,7 +20302,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type market trader
 	}
 	building
 	{
@@ -20281,7 +20318,7 @@ settlement
 	year_founded 0
 	population 1450
 	plan_set default_set
-	faction_creator parthia
+	faction_creator parthia;india
 	building
 	{
 		type core_building governors_house
@@ -20305,7 +20342,7 @@ settlement
 	year_founded 0
 	population 6000
 	plan_set default_set
-	faction_creator parthia
+	faction_creator parthia;india
 	building
 	{
 		type core_building governors_palace
@@ -20352,14 +20389,14 @@ settlement
 	year_founded 0
 	population 3000
 	plan_set default_set
-	faction_creator parthia
+	faction_creator parthia;india
 	building
 	{
 		type core_building governors_villa
 	}
 	building
 	{
-		type defenses stone_wall
+		type defenses wooden_wall
 	}
 	building
 	{
@@ -20387,10 +20424,38 @@ settlement
 	year_founded 0
 	population 1950
 	plan_set default_set
-	faction_creator parthia
+	faction_creator parthia;india
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+; MARU
+settlement
+{
+	level large_town
+	region Kaccha
+
+	year_founded 0
+	population 2650
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_villa
 	}
 	building
 	{
@@ -20398,11 +20463,197 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
 	}
 	building
 	{
 		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Abhira
+
+	year_founded 0
+	population 3050
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level village
+	region Deserta_Indica
+
+	year_founded 0
+	population 600
+	plan_set default_set
+	faction_creator parthia;india
+}
+
+settlement
+{
+	level large_town
+	region Saurashtra_Meridionalis
+
+	year_founded 0
+	population 4950
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Saurashtra_Centralis
+
+	year_founded 0
+	population 6200
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Saurashtra_Septentrionalis
+
+	year_founded 0
+	population 2200
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level city
+	region Maru
+
+	year_founded 0
+	population 6650
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms+2
 	}
 }
 
@@ -20441,6 +20692,16 @@ settlement
 {
 	level village
 	region Mons_Imaus
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator parthia
+}
+settlement
+{
+	level village
+	region Deserta_Serica
 
 	year_founded 0
 	population 400
@@ -25861,7 +26122,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 ;Sauvira
 character	sub_faction parthia, Vahumisa, general, age 20, , x 394, y 145
 army
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -25869,6 +26130,113 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+; MARU
+;Kaccha
+character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 398, y 120
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+;Abhira
+character	sub_faction parthia, Vahyazdata, general, age 20, , x 405, y 125
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+;Deserta_Indica
+character	sub_faction parthia, Vaumisa, general, age 20, , x 398, y 128
+army
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+
+;Saurashtra_Meridionalis
+character	sub_faction parthia, Vayaspara, general, age 20, , x 410, y 111
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+;Saurashtra_Centralis
+character	sub_faction parthia, Vindarna, general, age 20, , x 418, y 121
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Saurashtra_Septentrionalis
+character	sub_faction parthia, Vishtaspa, general, age 20, , x 411, y 122
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+
+;Maru
+character	sub_faction parthia, Vindarna, general, age 20, , x 413, y 132
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA
 character	sub_faction numidia, Zeno, general, age 20, , x 47, y 3

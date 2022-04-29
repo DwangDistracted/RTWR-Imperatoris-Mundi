@@ -7695,6 +7695,97 @@ region
 			distribution 10
 		}
 	}
+	Kaccha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Abhira
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Deserta_Indica
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Saurashtra_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Saurashtra_Centralis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Saurashtra_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Maru
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
