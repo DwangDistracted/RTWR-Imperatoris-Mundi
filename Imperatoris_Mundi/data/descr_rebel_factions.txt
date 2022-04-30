@@ -2688,6 +2688,279 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Kuru		//Indian
+category			peasant_revolt 
+chance				0
+description			Kuru
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Pancala		//Indian
+category			peasant_revolt 
+chance				0
+description			Pancala
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Cedi		//Indian
+category			peasant_revolt 
+chance				0
+description			Cedi
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Kosola		//Indian
+category			peasant_revolt 
+chance				0
+description			Kosola
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Kasi		//Indian
+category			peasant_revolt 
+chance				0
+description			Kasi
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Malla		//Indian
+category			peasant_revolt 
+chance				0
+description			Malla
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Vidarbha		//Indian
+category			peasant_revolt 
+chance				0
+description			Vidarbha
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Pulinda		//Indian
+category			peasant_revolt 
+chance				0
+description			Pulinda
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Asmaka		//Indian
+category			peasant_revolt 
+chance				0
+description			Asmaka
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Savara		//Indian
+category			peasant_revolt 
+chance				0
+description			Savara
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Andhra		//Indian
+category			peasant_revolt 
+chance				0
+description			Andhra
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Kalinga		//Indian
+category			peasant_revolt 
+chance				0
+description			Kalinga
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Suhma		//Indian
+category			peasant_revolt 
+chance				0
+description			Suhma
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Vrji		//Indian
+category			peasant_revolt 
+chance				0
+description			Vrji
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Magadha		//Indian
+category			peasant_revolt 
+chance				0
+description			Magadha
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Anga		//Indian
+category			peasant_revolt 
+chance				0
+description			Anga
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Radha		//Indian
+category			peasant_revolt 
+chance				0
+description			Radha
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Vanga		//Indian
+category			peasant_revolt 
+chance				0
+description			Vanga
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Pundra		//Indian
+category			peasant_revolt 
+chance				0
+description			Pundra
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Samatata		//Indian
+category			peasant_revolt 
+chance				0
+description			Samatata
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Kamarupa		//Indian
+category			peasant_revolt 
+chance				0
+description			Kamarupa
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8

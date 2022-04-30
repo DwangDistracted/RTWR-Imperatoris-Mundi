@@ -5421,6 +5421,243 @@ Shurasena
 	5
 	2
 
+;Madhyadesa
+Kamyaka
+	Salwa
+	parthia;india
+	Yaudheya
+	181 129 226
+	none
+	5
+	4
+
+Bahudhanyaka
+	Sthanisvara
+	parthia;india
+	Yaudheya
+	46 249 27
+	none
+	5
+	6
+
+Kuru
+	Indraprastha
+	parthia;india
+	Kuru
+	119 46 13
+	none
+	5
+	16
+
+Pancala
+	Kanyakubja
+	parthia;india
+	Pancala
+	186 140 120
+	none
+	5
+	14
+
+Turvashas
+	Ahicchatra
+	parthia;india
+	Pancala
+	44 73 22
+	none
+	5
+	3
+
+Cedi_Occidentalis
+	Erakaccha
+	parthia;india
+	Cedi
+	136 82 216
+	none
+	5
+	2
+
+Cedi_Orientalis
+	Suktimati
+	parthia;india
+	Cedi
+	186 171 180
+	none
+	5
+	4
+
+Kosala
+	Ayodhya
+	parthia;india
+	Kosola
+	249 7 213
+	none
+	5
+	12
+
+Kasi
+	Varanasi
+	parthia;india
+	Kasi
+	196 175 113
+	none
+	5
+	16
+
+Malla
+	Kusinagara
+	parthia;india
+	Malla
+	75 63 114
+	none
+	5
+	8
+
+;Vindhyaprstha
+Dakshina_Kosala
+	Pali
+	parthia;india
+	Pulinda
+	89 117 93
+	none
+	5
+	4
+
+Mahendragiri
+	Atavi
+	parthia;india
+	Savara
+	242 191 121
+	none
+	5
+	0
+
+Kalinga
+	Samapa
+	parthia;india
+	Kalinga
+	68 16 7
+	none
+	5
+	4
+
+Radha
+	Caritra
+	parthia;india
+	Suhma
+	202 190 244
+	none
+	5
+	4
+
+Andhra
+	Andhapura
+	parthia;india
+	Andhra
+	181 103 144
+	none
+	5
+	4
+
+Asmaka
+	Paudanyapura
+	parthia;india
+	Asmaka
+	76 68 76
+	none
+	5
+	4
+
+Vidarbha
+	Indur
+	parthia;india
+	Vidarbha
+	201 48 34
+	none
+	5
+	6
+
+Fanindrapura
+	Bhaddavati
+	parthia;india
+	Vidarbha
+	94 74 51
+	none
+	5
+	2
+
+;Pracya
+Magadha
+	Pataliputra
+	parthia;india
+	Magadha
+	206 101 157
+	none
+	5
+	11
+
+Anga
+	Karnasuvarna
+	parthia;india
+	Anga
+	43 25 32
+	none
+	5
+	3
+
+Vanga
+	Barisol
+	parthia;india
+	Vanga
+	242 14 63
+	none
+	5
+	2
+
+Pundra
+	Varendra
+	parthia;india
+	Pundra
+	144 145 68
+	none
+	5
+	16
+
+Vrji
+	Vaisali
+	parthia;india
+	Vrji
+	18 38 16
+	none
+	5
+	8
+
+Kamata
+	Bhargaya
+	parthia;india
+	Kamarupa
+	209 175 6
+	none
+	5
+	2
+
+Kamarupa
+	Gramera
+	parthia;india
+	Kamarupa
+	65 71 38
+	none
+	5
+	2
+
+Samatata
+	Karmanta
+	parthia;india
+	Samatata
+	236 0 140
+	none
+	5
+	4
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -5486,20 +5723,11 @@ Arabia_Deserta
 	0
 
 ;Temporary
-Tempr9
-	Temp9
-	romans_julii
-	Latins
-	0 64 0
-	none
-	5
-	5
-
 Tempr14
 	Temp14
 	romans_julii
 	Latins
-	236 0 140
+	0 64 0
 	none
 	5
 	5

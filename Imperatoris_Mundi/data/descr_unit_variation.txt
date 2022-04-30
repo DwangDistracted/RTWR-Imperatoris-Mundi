@@ -7920,6 +7920,214 @@ region
 			distribution 100
 		}
 	}
+	Kamyaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Bahudhanyaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kuru
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Pancala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Turvashas
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Cedi_Occidentalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Cedi_Orientalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kosala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kasi
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Malla
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Dakshina_Kosala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Mahendragiri
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kalinga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Radha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Andhra
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Asmaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Vidarbha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Fanindrapura
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Magadha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Anga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Vanga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Pundra
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Vrji
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kamata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kamarupa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Samatata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
