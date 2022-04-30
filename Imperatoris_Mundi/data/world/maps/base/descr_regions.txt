@@ -5394,7 +5394,7 @@ Avanti_Meridionalis
 	214 174 64
 	none
 	5
-	13
+	9
 
 Avanti_Septentrionalis
 	Madhyamika
@@ -5467,7 +5467,7 @@ Kuru
 	119 46 13
 	none
 	5
-	16
+	12
 
 Pancala
 	Kanyakubja
@@ -5476,7 +5476,7 @@ Pancala
 	186 140 120
 	none
 	5
-	14
+	11
 
 Turvashas
 	Ahicchatra
@@ -5512,7 +5512,7 @@ Kosala
 	249 7 213
 	none
 	5
-	12
+	10
 
 Kasi
 	Varanasi
@@ -5521,7 +5521,7 @@ Kasi
 	196 175 113
 	none
 	5
-	16
+	12
 
 Malla
 	Kusinagara
@@ -5640,7 +5640,7 @@ Pundra
 	144 145 68
 	none
 	5
-	16
+	12
 
 Vrji
 	Vaisali
@@ -5733,6 +5733,79 @@ Mahismandala_Meridionalis
 	5
 	3
 
+;Dravida
+Sriparvata
+	Yerraguddi
+	parthia;india
+	Andhra
+	183 109 25
+	none
+	5
+	2
+
+Tondainadu_Septentrionalis
+	Tirumala
+	parthia;india
+	Chola
+	249 169 249
+	none
+	5
+	3
+
+Tondainadu_Meridionalis
+	Mayurasattapattinam
+	parthia;india
+	Chola
+	148 239 151
+	none
+	5
+	5
+
+Koda
+	Urayur
+	parthia;india
+	Chola
+	219 221 148
+	none
+	5
+	14
+
+Malayas
+	Madurai
+	parthia;india
+	Pandya
+	85 158 72
+	none
+	5
+	11
+
+Pandiya
+	Koti
+	parthia;india
+	Pandya
+	76 81 58
+	none
+	5
+	15
+
+Tambapamni_Septentrionalis
+	Anuradhapura
+	parthia;india
+	Tamraparni
+	155 68 60
+	none
+	5
+	8
+
+Tambapamni_Meridionalis
+	Kalyani
+	parthia;india
+	Tamraparni
+	0 64 0
+	none
+	5
+	3
+
 ;Terra Incognita
 Libyae_Interior
 	toggle_fow
@@ -5796,13 +5869,3 @@ Arabia_Deserta
 	none
 	5
 	0
-
-;Temporary
-Tempr14
-	Temp14
-	romans_julii
-	Latins
-	0 64 0
-	none
-	5
-	5

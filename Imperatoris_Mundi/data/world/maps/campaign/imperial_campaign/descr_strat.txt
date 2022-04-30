@@ -850,7 +850,7 @@ resource slaves, 1, 106, 44
 resource iron, 1, 118, 55
 resource copper, 2, 113, 43
 
-;Nigritania`
+;Nigritania
 resource slaves, 1, 92, 6
 resource pottery, 2, 92, 2
 resource grain, 4, 95, 1
@@ -1872,7 +1872,7 @@ resource slaves, 1, 341, 198
 resource grain, 2, 342, 194
 resource gold, 1, 341, 200
 resource wine, 1, 344, 200
-resource camels, 1, 342, 197`
+resource camels, 1, 342, 197
 
 ;Oxia_Deserta
 resource slaves, 1, 322, 214
@@ -1965,7 +1965,7 @@ resource marble, 2, 364, 183
 resource iron, 1, 360, 183
 resource grain, 3, 358, 186
 resource gold, 2, 362, 181
-resource elephants, 3, 362, 187`
+resource elephants, 3, 362, 187
 
 ;Chomaria
 resource slaves, 1, 353, 181
@@ -3667,6 +3667,60 @@ resource timber, 3, 456, 84
 resource wild_animals, 2, 455, 89
 resource elephants, 1, 459, 82
 resource gold, 1, 457, 76
+
+;Sriparvata
+resource slaves, 1, 458, 92
+resource glass, 2, 462, 101
+resource wild_animals, 1, 460, 94
+resource elephants, 1, 456, 96
+resource gold, 1, 459, 100
+
+;Tondainadu_Septentrionalis
+resource slaves, 1, 462, 89
+resource marble, 3, 459, 89
+resource furs, 3, 461, 84
+resource elephants, 1, 459, 86
+resource iron, 1, 460, 89
+
+;Tondainadu_Meridionalis
+resource slaves, 1, 466, 84
+resource incense, 1, 465, 79
+resource hides, 1, 467, 82
+resource purple_dye, 1, 464, 82
+resource elephants, 1, 462, 81
+
+;Koda
+resource slaves, 1, 464, 74
+resource grain, 3, 466, 75
+resource gold, 1, 459, 75
+resource glass, 1, 467, 77
+resource elephants, 1, 462, 76
+
+;Malayas
+resource slaves, 1, 462, 70
+resource glass, 3, 460, 68
+resource textiles, 3, 462, 72
+resource marble, 2, 458, 69
+resource copper, 1, 456, 72
+
+;Pandiya
+resource slaves, 1, 463, 68
+resource iron, 1, 461, 63
+resource glass, 1, 467, 65
+resource amber, 1, 466, 70
+
+;Tambapamni_Septentrionalis
+resource slaves, 1, 473, 63
+resource incense, 3, 472, 69
+resource amber, 1, 475, 67
+resource wild_animals, 1, 473, 61
+resource elephants, 1, 477, 62
+
+;Tambapamni_Meridionalis
+resource slaves, 1, 476, 54
+resource incense, 2, 483, 58
+resource glass, 3, 479, 53
+resource elephants, 1, 480, 55
 
 ;TerraIncognita
 resource slaves, 1, 51, 5
@@ -11347,7 +11401,7 @@ army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc barbarian infantry				exp 0 `armour 0 weapon_lvl 0
+unit		merc barbarian infantry				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -22760,6 +22814,323 @@ settlement
 	}
 }
 
+; DRAVIDA
+settlement
+{
+	level large_town
+	region Sriparvata
+
+	year_founded 0
+	population 5150
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Tondainadu_Septentrionalis
+
+	year_founded 0
+	population 6900
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Tondainadu_Meridionalis
+
+	year_founded 0
+	population 8300
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Koda
+
+	year_founded 0
+	population 11550
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Malayas
+
+	year_founded 0
+	population 11500
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian cavalry_barracks
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Pandiya
+
+	year_founded 0
+	population 8500
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type port_buildings shipwright
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level city
+	region Tambapamni_Septentrionalis
+
+	year_founded 0
+	population 7050
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type smith smiths_workshop
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Tambapamni_Meridionalis
+
+	year_founded 0
+	population 3650
+	plan_set default_set
+	faction_creator parthia;india
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 ; TERRA INCOGNITA
 settlement
 {
@@ -22830,18 +23201,6 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator parthia
-}
-
-; TEMP
-settlement
-{
-	level village
-	region Tempr14
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator romans_julii
 }
 
 ; AMAZONS
@@ -29022,7 +29381,7 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Haxamanish, general, age 20, , x 483, y 148
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29044,7 +29403,7 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Jahangir, general, age 20, , x 496, y 145
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
@@ -29058,7 +29417,7 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Taxmaspada, general, age 20, , x 490, y 149
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29078,7 +29437,7 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Uvaxshtra, general, age 20, , x 467, y 155
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29098,7 +29457,7 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Vahauka, general, age 20, , x 488, y 164
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29114,7 +29473,7 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Vahumisa, general, age 20, , x 498, y 164
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29132,7 +29491,7 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 497, y 148
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29150,10 +29509,10 @@ unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ; KARNATA
 ;Gomanta
-character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 442, y 83
+character	sub_faction parthia, Vahyazdata, general, age 20, , x 442, y 83
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29170,10 +29529,10 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Satiyaputa_Septentrionalis
-character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 449, y 75
+character	sub_faction parthia, Vaumisa, general, age 20, , x 449, y 75
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29188,10 +29547,10 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Satiyaputa_Meridionalis
-character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 452, y 69
+character	sub_faction parthia, Vayaspara, general, age 20, , x 452, y 69
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29206,10 +29565,10 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Keralaputa
-character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 456, y 66
+character	sub_faction parthia, Vindarna, general, age 20, , x 456, y 66
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29228,10 +29587,10 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Mahismandala_Septentrionalis
-character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 451, y 80
+character	sub_faction parthia, Vishtaspa, general, age 20, , x 451, y 80
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29248,10 +29607,10 @@ unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Mahismandala_Meridionalis
-character	sub_faction parthia, Vahyavishdapaya, general, age 20, , x 454, y 78
+character	sub_faction parthia, Xshathrita, general, age 20, , x 454, y 78
 army
 unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 6 armour 0 weapon_lvl 0`
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
 unit		east infantry				exp 6 armour 0 weapon_lvl 0
@@ -29267,6 +29626,171 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+; DRAVIDA
+;Sriparvata
+character	sub_faction parthia, Xshayarshan, general, age 20, , x 457, y 94
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Tondainadu_Septentrionalis
+character	sub_faction parthia, Artavardiya, general, age 20, , x 463, y 88
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Tondainadu_Meridionalis
+character	sub_faction parthia, Darayavahu, general, age 20, , x 467, y 84
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Koda
+character	sub_faction parthia, Datuvahya, general, age 20, , x 463, y 74
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Malayas
+character	sub_faction parthia, Jahangir, general, age 20, , x 461, y 69
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Pandiya
+character	sub_faction parthia, Taxmaspada, general, age 20, , x 465, y 67
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Tambapamni_Septentrionalis
+character	sub_faction parthia, Uvaxshtra, general, age 20, , x 475, y 64
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc elephants				exp 2 armour 0 weapon_lvl 0
+
+;Tambapamni_Meridionalis
+character	sub_faction parthia, Vahumisa, general, age 20, , x 476, y 56
+army
+unit		eastern rebel general				exp 2 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east infantry				exp 6 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ; TERRA INCOGNITA

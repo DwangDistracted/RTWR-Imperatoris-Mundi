@@ -3013,6 +3013,45 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Chola		//Indian
+category			peasant_revolt 
+chance				0
+description			Chola
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Pandya		//Indian
+category			peasant_revolt 
+chance				0
+description			Pandya
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Tamraparni		//Indian
+category			peasant_revolt 
+chance				0
+description			Tamraparni
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			TerraIncognita		//numidia
 category			peasant_revolt
 chance				8

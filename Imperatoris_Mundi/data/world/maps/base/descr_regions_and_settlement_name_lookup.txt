@@ -624,6 +624,14 @@ Satiyaputa_Meridionalis
 Keralaputa
 Mahismandala_Septentrionalis
 Mahismandala_Meridionalis
+Sriparvata
+Tondainadu_Septentrionalis
+Tondainadu_Meridionalis
+Koda
+Malayas
+Pandiya
+Tambapamni_Septentrionalis
+Tambapamni_Meridionalis
 
 Eblania
 Coriondia
@@ -1251,6 +1259,14 @@ Koreoura
 Vanci
 Belgola
 Mahisha
+Yerraguddi
+Tirumala
+Mayurasattapattinam
+Urayur
+Madurai
+Koti
+Anuradhapura
+Kalyani
 
 Libyae_Interior
 toggle_fow
@@ -1272,6 +1288,3 @@ somalian_pirates_weeee
 
 Arabia_Deserta
 nothing_but_oil
-
-Tempr14
-Temp14

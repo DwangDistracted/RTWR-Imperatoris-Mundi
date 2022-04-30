@@ -8176,6 +8176,70 @@ region
 			distribution 100
 		}
 	}
+	Sriparvata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tondainadu_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tondainadu_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Koda
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Malayas
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Pandiya
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tambapamni_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tambapamni_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
