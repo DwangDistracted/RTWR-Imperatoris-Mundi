@@ -2948,10 +2948,62 @@ unit				east infantry
 unit				east infantry
 unit				eastern rebel general
 
+rebel_type 			Kuntala		//Indian
+category			peasant_revolt 
+chance				0
+description			Kuntala
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
 rebel_type 			Kamarupa		//Indian
 category			peasant_revolt 
 chance				0
 description			Kamarupa
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Sattyaputra		//Indian
+category			peasant_revolt 
+chance				0
+description			Sattyaputra
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Mahisha		//Indian
+category			peasant_revolt 
+chance				0
+description			Mahisha
+unit				east peasant
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east archer
+unit				east infantry
+unit				east infantry
+unit				eastern rebel general
+
+rebel_type 			Chera		//Indian
+category			peasant_revolt 
+chance				0
+description			Chera
 unit				east peasant
 unit				east archer
 unit				east archer

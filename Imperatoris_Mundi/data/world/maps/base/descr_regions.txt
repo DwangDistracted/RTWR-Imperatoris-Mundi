@@ -5183,7 +5183,7 @@ India_Alba
 	5
 	1
 
-Patala_Sindhu
+Oxydracae
 	Singhapura
 	parthia;india
 	Sauviran
@@ -5356,6 +5356,26 @@ Anupa
 	none
 	5
 	4
+
+Asika
+	Kalyani_Asika
+	parthia;india
+	Kuntala
+	73 31 8
+	none
+	5
+	8
+	;128+12, textiles, 4, copper, 1, gold, 1, elephants, 1
+
+Kuntala
+	Raichur
+	parthia;india
+	Kuntala
+	145 252 78
+	none
+	5
+	9
+	;187, furs, 3, purple_dye, 3, glass, 1, elephants, 3
 
 ;Avanti
 Anartta
@@ -5657,6 +5677,61 @@ Samatata
 	none
 	5
 	4
+
+;Karnata
+Gomanta
+	Vanavasi
+	parthia;india
+	Sattyaputra
+	137 72 77
+	none
+	5
+	3
+
+Satiyaputa_Septentrionalis
+	Ganga
+	parthia;india
+	Sattyaputra
+	142 113 94
+	none
+	5
+	2
+
+Satiyaputa_Meridionalis
+	Koreoura
+	parthia;india
+	Sattyaputra
+	143 112 229
+	none
+	5
+	2
+
+Keralaputa
+	Vanci
+	parthia;india
+	Chera
+	160 178 99
+	none
+	5
+	4
+
+Mahismandala_Septentrionalis
+	Belgola
+	parthia;india
+	Mahisha
+	56 17 47
+	none
+	5
+	6
+
+Mahismandala_Meridionalis
+	Mahisha
+	parthia;india
+	Mahisha
+	119 109 83
+	none
+	5
+	3
 
 ;Terra Incognita
 Libyae_Interior

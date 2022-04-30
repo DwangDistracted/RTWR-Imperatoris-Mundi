@@ -564,7 +564,7 @@ Sibae
 Trigata
 Sivi
 India_Alba
-Patala_Sindhu
+Oxydracae
 Prasiane
 Saranga
 Patalene
@@ -583,6 +583,8 @@ Sahyadri_Meridionalis
 Mulaka
 Vindhya
 Anupa
+Asika
+Kuntala
 Anartta
 Avanti_Meridionalis
 Avanti_Septentrionalis
@@ -616,6 +618,12 @@ Vrji
 Kamata
 Kamarupa
 Samatata
+Gomanta
+Satiyaputa_Septentrionalis
+Satiyaputa_Meridionalis
+Keralaputa
+Mahismandala_Septentrionalis
+Mahismandala_Meridionalis
 
 Eblania
 Coriondia
@@ -1202,6 +1210,8 @@ Malvan
 Pattithana
 Tapia
 Mahismati
+Kalyani_Asika
+Raichur
 Devnimori
 Ujjayini
 Madhyamika
@@ -1235,6 +1245,12 @@ Vaisali
 Bhargaya
 Gramera
 Karmanta
+Vanavasi
+Ganga
+Koreoura
+Vanci
+Belgola
+Mahisha
 
 Libyae_Interior
 toggle_fow

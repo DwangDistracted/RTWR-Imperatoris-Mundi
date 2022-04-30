@@ -8128,6 +8128,54 @@ region
 			distribution 100
 		}
 	}
+	Gomanta
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Satiyaputa_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Satiyaputa_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Keralaputa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Mahismandala_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Mahismandala_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
 ;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
 	Berserk
 	{
