@@ -2,6 +2,8 @@
 import csv
 import math
 
+COST_PER_XP = 15
+
 class MercUnitEntry:
     def __init__(self, unit_name, xp, cost, replenish_low, replenish_high, max_pool, initial):
         self.name = unit_name
@@ -12,8 +14,48 @@ class MercUnitEntry:
         self.max_pool = max_pool
         self.initial = initial
 
+def importUnitCosts():
+    unit_costs = {}
+    costsCSV = open(r"mercenary_costs.csv", "r")
+    csvreader = csv.reader(costsCSV)
+    header = next(csvreader)
+    for row in csvreader:
+        unitName = row[0]
+        unitCost = int(row[1])
+        if not unitCost:
+            print("FATAL: No cost for Unit '{0}' provided.".format(unitName))
+            quit()
+        unit_costs[unitName] = unitCost
+    costsCSV.close()
+    return unit_costs
+
+def importUnitGrades():
+    unit_grades = {}
+    gradesCSV = open(r"mercenary_replenish_rate.csv", "r")
+    csvreader = csv.reader(gradesCSV)
+    header = next(csvreader)
+    for row in csvreader:
+        grade = row[0]
+        unitReplenishLow = float(row[1])
+        if not unitReplenishLow or (unitReplenishLow < 0.00) or math.isclose(0.00, unitReplenishLow):
+            print("FATAL: Invalid low replenishment for Grade '{0}'".format(grade))
+            quit()
+        unitReplenishHigh = float(row[2])
+        if not unitReplenishHigh or (unitReplenishHigh < unitReplenishLow):
+            unitReplenishHigh = unitReplenishLow
+            print("WARNING: Grade '{0}' has invalid high replenishment. Defaulting to same as low.".format(grade))
+
+        unit_grades[grade] = (unitReplenishLow, unitReplenishHigh)
+
+    gradesCSV.close()
+    return unit_grades
+
 def importPoolRegions():
     pool_regions = {}
+    regionNamesFile = open(r"region_names.txt", "r")
+    regionNames = regionNamesFile.read().split('\n')
+    regionNamesFile.close()
+
     regionsCSV = open(r"mercenary_regions.csv", "r")
     csvreader = csv.reader(regionsCSV)
     header = next(csvreader)
@@ -28,13 +70,18 @@ def importPoolRegions():
         if not poolRegions or poolRegions[0] == '':
             print("FATAL: Pool {0} has no regions".format(poolName))
             quit()
-        
+
+        for region in poolRegions:
+            if not region in regionNames and region != '':
+                print("FATAL: Region {0} does not exist".format(region))
+                quit()
+
         pool_regions[poolName]=poolRegions
-    
+
     regionsCSV.close()
     return pool_regions
 
-def importPoolUnits(pool_regions):
+def importPoolUnits(unit_grades, unit_costs, pool_regions):
     pool_units = {}
     unitsCSV = open(r"mercenary_units.csv", "r")
     csvreader = csv.reader(unitsCSV)
@@ -45,33 +92,31 @@ def importPoolUnits(pool_regions):
         if not poolName or not poolName in pool_regions:
             print("WARNING: Unknown Pool '{0}'. Skipping Unit Entry for unit {1}...".format(poolName, unitName))
             continue
-        if not unitName:
-            print("FATAL: No unit name provided for entry in pool '{0}'".format(poolName))
+        if not unitName or not unitName in unit_costs:
+            print("FATAL: Invalid unit name '{1}' provided for entry in pool '{0}'".format(poolName, unitName))
             quit()
         
-        unitXP = row[2]
-        if not unitXP:
+        unitXP = int(row[2])
+        if not unitXP and unitXP != 0:
             unitXP = 0
             print("WARNING: Pool '{0}' Unit '{1}' has no XP data. Defaulting to 0.".format(poolName, unitName))
-        unitCost = row[3]
+        unitCost = unit_costs[unitName] + (COST_PER_XP * unitXP)
         if not unitCost:
-            print("FATAL: No cost for Unit '{0}' provided in pool '{1}'".format(unitName, poolName))
+            print("FATAL: No cost for Unit '{0}' provided.".format(unitName))
             quit()
 
-        unitReplenishLow = float(row[4])
-        if not unitReplenishLow or (unitReplenishLow < 0.00) or math.isclose(0.00, unitReplenishLow):
-            print("FATAL: Invalid low replenishment for Unit '{0}' provided in pool '{1}'".format(unitName, poolName))
+        unitGrade = row[3]
+        if not unitGrade:
+            print("FATAL: No grade for Unit '{0}' provided in pool '{1}'".format(unitName, poolName))
             quit()
-        unitReplenishHigh = float(row[5])
-        if not unitReplenishHigh or (unitReplenishHigh < unitReplenishLow):
-            unitReplenishHigh = unitReplenishLow
-            print("WARNING: Pool '{0}' Unit '{1}' has invalid high replenishment. Defaulting to same as low.".format(poolName, unitName))
+        unitReplenishLow = unit_grades[unitGrade][0]
+        unitReplenishHigh = unit_grades[unitGrade][1]
 
-        unitMaxNumber = int(row[6])
+        unitMaxNumber = int(row[4])
         if not unitMaxNumber:
             print("FATAL: Invalid max number for Unit '{0}' provided in pool '{1}'".format(unitName, poolName))
             quit()
-        unitInitialNumber = int(row[7])
+        unitInitialNumber = int(row[5])
         if unitInitialNumber is None or (unitInitialNumber > unitMaxNumber):
             unitInitialNumber = unitMaxNumber
             print("WARNING: Pool '{0}' Unit '{1}' has invalid initial number. Defaulting to same as max.".format(poolName, unitName))
@@ -85,10 +130,14 @@ def importPoolUnits(pool_regions):
     unitsCSV.close()
     return pool_units
 
+# merc unit grades
+unit_grades = importUnitGrades()
+# merc unit costs
+unit_costs = importUnitCosts()
 # pool - regions
 pool_regions = importPoolRegions()
 # pool - units
-pool_units=importPoolUnits(pool_regions)
+pool_units=importPoolUnits(unit_grades, unit_costs, pool_regions)
 
 descrFile = open(r"descr_mercenaries.txt", "w")
 for pool in pool_regions:

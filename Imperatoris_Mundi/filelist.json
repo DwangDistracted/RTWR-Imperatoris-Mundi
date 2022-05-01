@@ -1,5 +1,13 @@
 [
 	{
+		"filename": "data\/data_controlled_features.json",
+		"checksum": 1290870500
+	},
+	{
+		"filename": "data\/data_controlled_variables.json",
+		"checksum": 3107537030
+	},
+	{
 		"filename": "data\/descr_aerial_map_tile_models.txt",
 		"checksum": 572242310
 	},
@@ -12,20 +20,28 @@
 		"checksum": 1160972198
 	},
 	{
+		"filename": "data\/descr_cultures.txt",
+		"checksum": 312230795
+	},
+	{
 		"filename": "data\/descr_daytypes.txt",
-		"checksum": 2651613257
+		"checksum": 506419958
 	},
 	{
 		"filename": "data\/descr_rebel_factions.txt",
-		"checksum": 1978574917
+		"checksum": 2761670317
 	},
 	{
 		"filename": "data\/descr_unit_variation.txt",
-		"checksum": 519406593
+		"checksum": 3637100743
 	},
 	{
 		"filename": "data\/feral_descr_grass_usage.txt",
-		"checksum": 3411630588
+		"checksum": 1566379464
+	},
+	{
+		"filename": "data\/major_event_scripts\/marian_reforms_trigger.txt",
+		"checksum": 1038113222
 	},
 	{
 		"filename": "data\/terrain\/aerial_map\/tile_models\/river_a\/river_a.cas",
@@ -1008,6 +1024,18 @@
 		"checksum": 2291801253
 	},
 	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/black.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/coastline.cas",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/coastline_1.cas",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/frame\/frame.cas",
 		"checksum": "Blacklisted"
 	},
@@ -1489,6 +1517,486 @@
 	},
 	{
 		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/120_material.tga.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/001_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/002_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/003_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/004_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/005_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/006_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/007_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/008_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/009_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/010_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/011_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/012_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/013_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/014_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/015_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/016_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/017_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/018_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/019_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/020_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/021_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/022_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/023_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/024_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/025_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/026_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/027_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/028_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/029_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/030_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/031_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/032_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/033_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/034_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/035_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/036_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/037_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/038_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/039_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/040_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/041_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/042_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/043_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/044_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/045_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/046_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/047_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/048_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/049_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/050_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/051_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/052_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/053_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/054_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/055_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/056_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/057_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/058_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/059_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/060_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/061_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/062_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/063_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/064_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/065_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/066_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/067_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/068_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/069_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/070_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/071_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/072_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/073_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/074_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/075_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/076_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/077_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/078_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/079_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/080_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/081_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/082_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/083_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/084_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/085_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/086_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/087_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/088_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/089_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/090_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/091_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/092_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/093_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/094_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/095_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/096_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/097_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/098_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/099_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/100_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/101_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/102_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/103_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/104_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/105_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/106_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/107_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/108_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/109_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/110_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/111_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/112_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/113_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/114_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/115_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/116_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/117_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/118_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/119_material.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/terrain\/campaign\/imperial_campaign\/materials\/ddsfiles\/120_material.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -1977,11 +2485,11 @@
 	},
 	{
 		"filename": "data\/text\/imperial_campaign_regions_and_settlement_names.txt",
-		"checksum": 3963276728
+		"checksum": 830588720
 	},
 	{
 		"filename": "data\/text\/rebel_faction_descr.txt",
-		"checksum": 2240345810
+		"checksum": 519115394
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_disasters.txt",
@@ -1989,15 +2497,15 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions.txt",
-		"checksum": 3883202363
+		"checksum": 4219626762
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 2475584576
+		"checksum": 376017072
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
-		"checksum": 2063094782
+		"checksum": 93385824
 	},
 	{
 		"filename": "data\/world\/maps\/base\/map_climates.tga",
@@ -2041,18 +2549,30 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_events.txt",
-		"checksum": 4072297599
+		"checksum": 2328126608
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
-		"checksum": 0
+		"checksum": 2269089937
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1401715421
+		"checksum": 1111136915
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
+		"checksum": 2565335060
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/disasters.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/feral_map.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/feral_map_winter.tga.dds",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -2061,6 +2581,86 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/feral_radar_map_winter.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_armenia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_britons.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_carthage.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_dacia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_egypt.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gauls.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germans.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_greek_cities.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_macedon.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_numidia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_parthia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_pontus.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_brutii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_julii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_scipii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_senate.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_scythia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_seleucid.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_spain.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_thrace.tga",
 		"checksum": "Blacklisted"
 	}
 ]
