@@ -37,7 +37,7 @@
 	},
 	{
 		"filename": "data\/feral_descr_grass_usage.txt",
-		"checksum": 1566379464
+		"checksum": 3008433467
 	},
 	{
 		"filename": "data\/major_event_scripts\/marian_reforms_trigger.txt",
@@ -2501,7 +2501,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_regions_and_settlement_name_lookup.txt",
-		"checksum": 376017072
+		"checksum": 1715680860
 	},
 	{
 		"filename": "data\/world\/maps\/base\/descr_terrain.txt",
@@ -2548,16 +2548,20 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/world\/maps\/base\/water_surface.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_events.txt",
 		"checksum": 2328126608
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
-		"checksum": 2269089937
+		"checksum": 1245630201
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1111136915
+		"checksum": 3295547499
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",

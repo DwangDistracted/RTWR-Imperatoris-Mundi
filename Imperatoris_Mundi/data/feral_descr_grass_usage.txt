@@ -329,7 +329,7 @@ climate temperate_grassland_infertile
 	}
 }
 
-climate temperate_forest_open
+climate temperate_forest_open ; Used as Jungle
 {
 	summer
 	{

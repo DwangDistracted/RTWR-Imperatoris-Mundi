@@ -97,7 +97,7 @@ resource marble, 1, 31, 208
 
 ;Brigantia
 resource slaves, 1, 40, 200
-resource marble, 2, 32, 201
+resource marble, 2, 32, 202
 resource iron, 1, 40, 202
 
 ;Coritania
@@ -137,7 +137,7 @@ resource silver, 1, 39, 180
 resource timber, 2, 35, 175
 resource lead, 3, 36, 179
 resource tin, 4, 35, 178
-resource copper, 2, 32, 174
+resource copper, 2, 31, 174
 
 ;Dobunnia
 resource slaves, 1, 41, 187
@@ -147,7 +147,7 @@ resource lead, 1, 45, 192
 
 ;Demetia
 resource slaves, 1, 38, 184
-resource gold, 2, 33, 186
+resource gold, 2, 32, 186
 resource lead, 3, 35, 186
 
 ;Ordovicia
@@ -11181,7 +11181,6 @@ unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 323, y 172
 army
 unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 320, y 168
 army
