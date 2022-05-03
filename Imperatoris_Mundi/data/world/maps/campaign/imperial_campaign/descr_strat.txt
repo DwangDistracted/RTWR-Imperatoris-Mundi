@@ -23277,9 +23277,9 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 ;Caledonia
 character	sub_faction britons, Barita, general, age 20, , x 21, y 220
 army
-unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb druids slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
