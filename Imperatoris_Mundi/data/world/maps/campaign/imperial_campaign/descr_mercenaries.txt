@@ -1,8 +1,4 @@
 
-pool Amazonia
-	regions Hyperboria
-	unit rebel amazon chariots,			exp 0 cost 780 replenish 0.01 - 0.03 max 2 initial 0
-
 pool Hibernia
 	regions Hibernia_Septentrionalis Hibernia_Orientalis Hibernia_Meridionalis Hibernia_Occidentalis
 	unit merc barbarian infantry,			exp 0 cost 480 replenish 0.12 - 0.25 max 1 initial 1
@@ -999,7 +995,6 @@ pool Holy Land
 	regions Rhicocorura Philistia Judea Peraea
 	unit merc rhodian slingers,			exp 0 cost 470 replenish 0.08 - 0.12 max 1 initial 0
 	unit merc bedouin,			exp 0 cost 470 replenish 0.1 - 0.17 max 1 initial 0
-	unit rebel judaean zealots,			exp 0 cost 490 replenish 0.01 - 0.03 max 1 initial 0
 	unit merc greek hoplites,			exp 0 cost 550 replenish 0.1 - 0.17 max 1 initial 1
 	unit merc arab cavalry,			exp 0 cost 480 replenish 0.1 - 0.17 max 1 initial 1
 	unit merc peltast,			exp 0 cost 330 replenish 0.12 - 0.25 max 2 initial 2
