@@ -11,3 +11,4 @@ Changelog:
 Known Issues:
 * There is no lack of money, leading to significant AI stack spam
 * Balance between factions is wonky
+* Islands do not show up in the minimap correctly

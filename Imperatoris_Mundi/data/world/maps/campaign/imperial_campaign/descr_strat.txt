@@ -3127,7 +3127,7 @@ resource wild_animals, 3, 348, 154
 resource camels, 1, 340, 163
 
 ;Pactya
-resource slaves, 1, 352, 141
+resource slaves, 1, 356, 148
 resource glass, 1, 360, 148
 resource textiles, 2, 359, 157
 resource incense, 1, 352, 147
@@ -3380,8 +3380,8 @@ resource purple_dye, 1, 440, 108
 resource elephants, 1, 436, 105
 
 ;Vindhya
-resource slaves, 1, 435, 108
-resource lead, 2, 440, 121
+resource slaves, 1, 438, 118
+resource lead, 2, 440, 120
 resource grain, 3, 441, 117
 resource hides, 3, 436, 114
 resource elephants, 2, 432, 112
