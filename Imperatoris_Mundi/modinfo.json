@@ -1,12 +1,14 @@
 {
 	"Description": "Based off the map of Paradox Interactive's Imperator Rome, conquer your way from Britannia to the far reaches of the Indus.",
-	"Mod Name": "Imperatoris Mundi",
-	"Preview Image": "Imperatoris Mundi.png",
+	"Mod Name": "Imperatoris Mundi: Campaign Map Overhaul",
+	"Preview Image": "previewimage.png",
 	"Supports Alex": false,
 	"Supports BI": false,
 	"Supports Rome": true,
 	"Tags": [
-		"Campaign"
+		"Campaign",
+		"Map"
 	],
-	"Visibility": 0
+	"Visibility": 2,
+	"Workshop ID": 0
 }
