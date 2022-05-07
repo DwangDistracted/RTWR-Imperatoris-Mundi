@@ -18501,7 +18501,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
