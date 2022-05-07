@@ -9863,7 +9863,7 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 }
 
@@ -13884,7 +13884,7 @@ settlement
 	region Furtunatae_Insulae
 
 	year_founded 0
-	population 300
+	population 400
 	plan_set default_set
 	faction_creator numidia
 }
@@ -13895,7 +13895,7 @@ settlement
 	region Cerne
 
 	year_founded 0
-	population 275
+	population 400
 	plan_set default_set
 	faction_creator numidia
 }
