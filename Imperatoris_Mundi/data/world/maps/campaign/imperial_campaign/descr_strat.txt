@@ -7757,7 +7757,7 @@ settlement
 	faction_creator armenia
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_house
 	}
 	building
 	{

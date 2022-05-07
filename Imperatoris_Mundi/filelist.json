@@ -2580,6 +2580,10 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/world\/maps\/base\/map_ground_types_visual.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/world\/maps\/base\/map_heights.tga",
 		"checksum": "Blacklisted"
 	},
@@ -2617,7 +2621,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 360350882
+		"checksum": 2614902234
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
