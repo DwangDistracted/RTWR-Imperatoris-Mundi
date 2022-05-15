@@ -18956,7 +18956,7 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -18987,7 +18987,7 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -19018,7 +19018,7 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -21893,7 +21893,7 @@ settlement
 	faction_creator parthia;india
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
